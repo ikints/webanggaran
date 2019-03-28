@@ -1,0 +1,30 @@
+/**---------------------
+* Custom CSS
+* Bandung 28 Maret 2019
+*----------------------
+*/
+
+/*--------------------
+* Header 
+*--------------------
+*/
+
+.top-head{
+	background-color: #1c628b;
+	color: #fff;
+	padding: 25px 0;
+}
+
+.top-head .logo{
+	width: 100px;
+}
+
+.top-head .user{
+	margin-top: 30px;
+	padding-left: 170px;
+}
+
+.top-head .user i{
+	font-size: 35px;
+	font-weight: bold;
+}
