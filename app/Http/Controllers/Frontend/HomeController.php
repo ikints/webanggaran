@@ -13,7 +13,7 @@ class HomeController extends Controller
     private $cerror = 'error';
     private $title 	= 'Home';
     
-  /*== Index page ==*/
+    /*== Index page ==*/
 	public function index() 
 	{
 
@@ -27,5 +27,20 @@ class HomeController extends Controller
     return view($datapage[ 'content_view' ], $datapage);
 
 	}
+
+    /*== Dashboard page ==*/
+    public function dashboard() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "frontend.$this->ctrl.dashboard";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
 
 }

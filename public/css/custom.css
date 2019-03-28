@@ -10,21 +10,53 @@
 */
 
 .top-head{
-	background-color: #1c628b;
+	background-color: #1e94da;
 	color: #fff;
-	padding: 25px 0;
+	padding: 15px 0;
 }
 
 .top-head .logo{
-	width: 100px;
-}
-
-.top-head .user{
-	margin-top: 30px;
-	padding-left: 170px;
+	width: 60px;
+	float: right;
 }
 
 .top-head .user i{
-	font-size: 35px;
+	font-size: 40px;
 	font-weight: bold;
+}
+
+.top-head .user-padding {
+	padding-top: 5px;
+}
+
+.top-head .a-mon {
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.top-head .k-per {
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+/*--------------------
+* Padding 
+*--------------------
+*/
+
+.padding-bottom-20 {
+
+	padding-bottom: 20px;
+}
+
+.padding-bottom-50 {
+
+	padding-bottom: 50px;
 }

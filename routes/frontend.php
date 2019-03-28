@@ -14,3 +14,4 @@
 
 /* Home */
 Route::get('/', 'Frontend\HomeController@index');
+Route::get('/dashboard', 'Frontend\HomeController@dashboard');

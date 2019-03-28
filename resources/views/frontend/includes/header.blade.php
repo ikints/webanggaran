@@ -1,15 +1,25 @@
 <div class="top-head">
     <div class="container">
       <div class="row">
-        <div class="col-md-3 text-center">
-          <a href="#" title="Kementerian Pertahanan"><img class="img-responsive logo" src="{{ URL('public/images/') }}/logo-kemhan.png"/>
+        <div class="col-md-7 pull-left">
+          <div class="row">
+            <div class="col-md-2 text-left nopadding">
+              <a href="#" title="Kementerian Pertahanan"><img class="img-responsive logo" src="{{ URL('public/images/') }}/logo.png"/>
           </a>
+            </div>
+            <div class="col-md-10 text-left user-padding">
+              <span class="a-mon">Aplikasi Monitoring Pelaksanaan Anggaran</span><br>
+              <span class="k-per">Kementerian Pertahanan Republik Indonesia</span>
+            </div>
+          </div>
         </div>
-        <div class="col-md-6 col-sm-4">
-          
-        </div>
-        <div class="col-md-3 user">
-          <span><i class="fa fa-user"></i> Hi, User</span>
+        <div class="col-md-5 pull-right user-padding">
+          <div class="row">
+            <div class="col-md-10 text-right nopadding">
+              <span>Kementerian Pertahanan <br>User : User 1 </span>
+            </div>
+            <div class="col-md-2 text-left user"><i class="fa fa-user"></i></div>
+          </div>
         </div>
       </div>
     </div>
@@ -19,7 +29,7 @@
     <nav class="navbar navbar-static-top">
       <div class="container">
         <div class="navbar-header">
-          <a href="#" class="navbar-brand">Dashboard</a>
+          <a href="{{ URL('dashboard') }}" class="navbar-brand">Dashboard</a>
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
             <i class="fa fa-bars"></i>
           </button>
@@ -28,20 +38,11 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Link</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-                <li class="divider"></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
+            <li class="active"><a href="#">Anggaran</a></li>
+            <li><a href="#">Perubahan Anggaran</a></li>
+            <li><a href="#">Realisasi Anggaran</a></li>
+            <li><a href="#">Laporan</a></li>
+            <li><a href="#">Logout</a></li>
           </ul>
         </div>
         <!-- /.navbar-collapse -->
