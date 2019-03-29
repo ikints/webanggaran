@@ -44,8 +44,8 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Laporan <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="{{ URL('laporan') }}">Pelaksanaan Anggaran Belanja Pegawai</a></li>
-                <li><a href="{{ URL('laporan') }}">Pelaksanaan Anggaran Belanja Barang</a></li>
+                <li><a href="{{ URL('laporan-anggaran-belanja-pegawai') }}">Pelaksanaan Anggaran Belanja Pegawai</a></li>
+                <li><a href="{{ URL('laporan-anggaran-belanja-barang') }}">Pelaksanaan Anggaran Belanja Barang</a></li>
                 <li><a href="{{ URL('laporan') }}">Pelaksanaan Anggaran Belanja Modal</a></li>
                 <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Barang dan Jasa</a></li>
                 <li><a href="{{ URL('laporan') }}">Perkembangan Pembangunan dan Pengembangan Fasilitas</a></li>
