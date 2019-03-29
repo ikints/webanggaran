@@ -60,3 +60,64 @@
 
 	padding-bottom: 50px;
 }
+
+/*--------------------
+* Login 
+*--------------------
+*/
+
+.skin-blue .login-wrapper, .login-page-wrapper{
+	background-color: #6b9cff;
+}
+
+.login-wrapper {
+    height: 100%;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.login-box-kemhan{
+	width: 460px;
+    margin: 7% auto;
+}
+
+.login-box-body-page{
+	background: #fff;
+    padding: 20px;
+    border-top: 0;
+    color: #666;
+    width: 350px;
+    margin:0 auto;
+}
+
+.login-logo{
+	width: 100px;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+
+.login-box-msg{
+	font-size: 24px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.login-label{
+	margin-bottom: 20px;
+}
+
+.login-label .a-mon {
+	font-size: 18px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.login-label .k-per {
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #fff;
+}

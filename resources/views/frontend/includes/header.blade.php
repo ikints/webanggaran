@@ -42,7 +42,7 @@
             <li><a href="#">Perubahan Anggaran</a></li>
             <li><a href="#">Realisasi Anggaran</a></li>
             <li><a href="#">Laporan</a></li>
-            <li><a href="#">Logout</a></li>
+            <li><a href="{{ URL('/') }}">Logout</a></li>
           </ul>
         </div>
         <!-- /.navbar-collapse -->
