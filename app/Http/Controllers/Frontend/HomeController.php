@@ -43,4 +43,49 @@ class HomeController extends Controller
 
     }
 
+    /*== Anggaran page ==*/
+    public function anggaran() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "frontend.$this->ctrl.rinciananggaran";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    /*== Anggaran Detail page ==*/
+    public function anggaran_detail() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "frontend.$this->ctrl.rinciananggarandetail";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    /*== Anggaran page ==*/
+    public function input_anggaran() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "frontend.$this->ctrl.input-anggaran";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
 }

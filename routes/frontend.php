@@ -14,4 +14,9 @@
 
 /* Home */
 Route::get('/', 'Frontend\HomeController@index');
-Route::get('/dashboard', 'Frontend\HomeController@dashboard');
+Route::get('dashboard', 'Frontend\HomeController@dashboard');
+Route::get('anggaran', 'Frontend\HomeController@anggaran');
+Route::get('rincian-anggaran', 'Frontend\HomeController@anggaran');
+Route::get('rincian-anggaran-detail', 'Frontend\HomeController@anggaran_detail');
+//
+Route::get('input-anggaran', 'Frontend\HomeController@input_anggaran');

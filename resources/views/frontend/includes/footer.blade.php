@@ -1,10 +1,7 @@
   <footer class="main-footer">
-    <div class="container">
-      <div class="pull-right hidden-xs">
-        <b>Version</b> 1.0.0
-      </div>
-      <strong>Copyright &copy; 2019</strong> All rights
-      reserved.
+    <div class="container text-center">
+      <strong>Copyright &copy; 2019</strong> All rights reserved <br>
+      Kementerian Pertahanan Republik Indonesia 
     </div>
     <!-- /.container -->
   </footer>

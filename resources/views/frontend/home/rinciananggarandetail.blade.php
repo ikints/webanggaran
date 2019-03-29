@@ -18,13 +18,14 @@
         <div class="box">
             <div class="box-header padding-bottom-50">
               <h4 class="box-title">Rincian Anggaran</h4><br>
-              <h3 class="box-title">Kementerian Pertahanan Republik Indonesia</h3><br>
+              <h3 class="box-title">012.22 - Markas Besar TNI AD</h3><br>
               <h3 class="box-title">Tahun 2019</h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-      			    <div class="padding-bottom-20">
-        			  	<a href="{{ URL('input-anggaran') }}" class="btn btn-xs btn-success"><i class="fa fa-plus"></i> Input Anggaran</a>
+                <div class="padding-bottom-20">
+                  <a href="{{ URL('anggaran') }}" class="btn btn-xs btn-success"><i class="fa fa-list"></i> Anggaran Kementerian</a>
+                  <a href="{{ URL('input-anggaran') }}" class="btn btn-xs btn-success"><i class="fa fa-plus"></i> Input Anggaran</a>
                 </div>
                 <table id="tablelist" class="table table-bordered table-striped">
                   <thead>
@@ -45,7 +46,7 @@
                   </thead>
                   <tbody>
                   <tr>
-                    <td><a href="{{ URL('rincian-anggaran-detail') }}">012.22 - Markas Besar TNI AD</a></td>
+                    <td>012.22 - Markas Besar TNI AD</td>
                     <td>28.920.991.912</td>
                     <td>2.908.765.12</td>
                     <td>8.980.889.321</td>
@@ -53,6 +54,16 @@
                     <td>6.980.778.126</td>
                     <td>0</td>
                     <td>47.980.120.223</td>
+                  </tr>
+                  <tr>
+                    <td>012.22.14 - Program dukungan kesiapan matra darat</td>
+                    <td>2.920.991.912</td>
+                    <td>1.908.765.12</td>
+                    <td>980.889.321</td>
+                    <td>0</td>
+                    <td>5.980.778.126</td>
+                    <td>0</td>
+                    <td>17.980.120.223</td>
                   </tr>
                 </tbody>
               </table>

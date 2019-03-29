@@ -38,10 +38,23 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Anggaran</a></li>
-            <li><a href="#">Perubahan Anggaran</a></li>
-            <li><a href="#">Realisasi Anggaran</a></li>
-            <li><a href="#">Laporan</a></li>
+            <li class="active"><a href="{{ URL('anggaran') }}">Anggaran</a></li>
+            <li><a href="{{ URL('perubahan-anggaran') }}">Perubahan Anggaran</a></li>
+            <li><a href="{{ URL('realisasi-anggaran') }}">Realisasi Anggaran</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Laporan <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="{{ URL('laporan') }}">Pelaksanaan Anggaran Belanja Pegawai</a></li>
+                <li><a href="{{ URL('laporan') }}">Pelaksanaan Anggaran Belanja Barang</a></li>
+                <li><a href="{{ URL('laporan') }}">Pelaksanaan Anggaran Belanja Modal</a></li>
+                <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Barang dan Jasa</a></li>
+                <li><a href="{{ URL('laporan') }}">Perkembangan Pembangunan dan Pengembangan Fasilitas</a></li>
+                <li><a href="{{ URL('laporan') }}">Perkembangan Kegiatan Prioritas</a></li>
+                <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Alutsista</a></li>
+                <li><a href="{{ URL('laporan') }}">Penerimaan Hibah Dalam Negeri</a></li>
+                <li><a href="{{ URL('laporan') }}">Pendapatan Negara</a></li>
+              </ul>
+            </li>
             <li><a href="{{ URL('/') }}">Logout</a></li>
           </ul>
         </div>
