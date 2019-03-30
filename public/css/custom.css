@@ -10,7 +10,7 @@
 */
 
 .top-head{
-	background-color: #1e94da;
+	background-color: #2980b9;
 	color: #fff;
 	padding: 15px 0;
 }
@@ -30,13 +30,13 @@
 }
 
 .top-head .a-mon {
-	font-size: 20px;
+	font-size: 17px;
 	font-weight: 400;
 	text-transform: uppercase;
 }
 
 .top-head .k-per {
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: 400;
 	text-transform: uppercase;
 }
@@ -116,7 +116,9 @@
 */
 
 .skin-blue .login-wrapper, .login-page-wrapper{
-	background-color: #6b9cff;
+	/*background-color: #6b9cff;*/
+
+	background-color: #2980b9;
 }
 
 .login-wrapper {
@@ -127,7 +129,7 @@
 }
 
 .login-box-kemhan{
-	width: 460px;
+	width: 600px;
     margin: 7% auto;
 }
 
@@ -141,10 +143,10 @@
 }
 
 .login-logo{
-	width: 100px;
+	width: 130px;
 	display: block;
 	margin: 0 auto;
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 }
 
 .login-box-msg{
@@ -158,14 +160,14 @@
 }
 
 .login-label .a-mon {
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 400;
 	text-transform: uppercase;
 	color: #fff;
 }
 
 .login-label .k-per {
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 400;
 	text-transform: uppercase;
 	color: #fff;
