@@ -29,3 +29,5 @@ Route::get('input-anggaran', 'Frontend\HomeController@input_anggaran');
 //Laporan
 Route::get('laporan-anggaran-belanja-pegawai', 'Frontend\HomeController@laporan_pelaksanaan_abp');
 Route::get('laporan-rincian-anggaran-belanja-pegawai', 'Frontend\HomeController@laporan_rincian_abp');
+Route::get('laporan-anggaran-belanja-modal', 'Frontend\HomeController@laporan_belanja_modal');
+Route::get('laporan-rincian-belanja-modal', 'Frontend\HomeController@laporan_rincian_modal');
