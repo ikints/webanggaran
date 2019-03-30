@@ -21,7 +21,7 @@
     <div class="login-box-body-page">
       <p class="login-box-msg">Login</p>
 
-      <form action="{{ URL('dashboard') }}" method="get">
+      <form action="{{ URL('tahun-anggaran') }}" method="get">
         <div class="form-group has-feedback">
           <input type="text" class="form-control" placeholder="Username">
           <span class="glyphicon glyphicon-user form-control-feedback"></span>
