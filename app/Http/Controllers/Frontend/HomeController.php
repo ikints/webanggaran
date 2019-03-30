@@ -208,4 +208,34 @@ class HomeController extends Controller
 
     }
 
+/*== Laporan Belanja Modal page ==*/
+    public function laporan_belanja_modal() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "frontend.$this->ctrl.laporan-belanja-modal";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    /*== Laporan Result Belanja Modal page ==*/
+    public function laporan_rincian_modal() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "frontend.$this->ctrl.laporan-rincian-belanja-modal";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
 }
