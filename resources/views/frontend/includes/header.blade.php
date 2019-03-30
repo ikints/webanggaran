@@ -46,7 +46,8 @@
               <ul class="dropdown-menu" role="menu">
                 <li><a href="{{ URL('laporan-anggaran-belanja-pegawai') }}">Pelaksanaan Anggaran Belanja Pegawai</a></li>
                 <li><a href="{{ URL('laporan-anggaran-belanja-barang') }}">Pelaksanaan Anggaran Belanja Barang</a></li>
-                <li><a href="{{ URL('laporan') }}">Pelaksanaan Anggaran Belanja Modal</a></li>
+                <li><a href="{{ URL('laporan-anggaran-belanja-modal') }}">Pelaksanaan Anggaran Belanja Modal</a>
+                </li>
                 <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Barang dan Jasa</a></li>
                 <li><a href="{{ URL('laporan') }}">Perkembangan Pembangunan dan Pengembangan Fasilitas</a></li>
                 <li><a href="{{ URL('laporan') }}">Perkembangan Kegiatan Prioritas</a></li>
