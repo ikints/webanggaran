@@ -13,7 +13,7 @@
           </a>
     </div>
     <div class="login-label text-center">
-      <span class="a-mon">Aplikasi Monitoring Pelaksanaan Anggaran</span><br>
+      <span class="a-mon">Sistem Monitoring Administrasi Pelaksanaan Anggaran</span><br>
       <span class="k-per">Kementerian Pertahanan Republik Indonesia</span>
     </div>
 
@@ -23,8 +23,8 @@
 
       <form action="{{ URL('dashboard') }}" method="get">
         <div class="form-group has-feedback">
-          <input type="email" class="form-control" placeholder="Email">
-          <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+          <input type="text" class="form-control" placeholder="Username">
+          <span class="glyphicon glyphicon-user form-control-feedback"></span>
         </div>
         <div class="form-group has-feedback">
           <input type="password" class="form-control" placeholder="Password">
