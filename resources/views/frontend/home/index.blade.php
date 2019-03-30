@@ -21,7 +21,7 @@
     <div class="login-box-body-page">
       <p class="login-box-msg">Login</p>
 
-      <form action="{{ URL('dashboard') }}" method="get">
+      <form action="{{ URL('tahun-anggaran') }}" method="get">
         <div class="form-group has-feedback">
           <input type="email" class="form-control" placeholder="Email">
           <span class="glyphicon glyphicon-envelope form-control-feedback"></span>

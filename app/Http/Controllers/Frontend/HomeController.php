@@ -28,6 +28,51 @@ class HomeController extends Controller
 
 	}
 
+    /*== Tahun Anggaran page ==*/
+    public function tahun_anggaran() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "frontend.$this->ctrl.tahun-anggaran";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    /*== Tahun Anggaran Baru page ==*/
+    public function tahun_anggaran_baru() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "frontend.$this->ctrl.tahun-anggaran-baru";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    /*== Tambah Sumber Anggaran page ==*/
+    public function tambah_sumber_anggaran() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "frontend.$this->ctrl.tambah-sumber-anggaran";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
     /*== Dashboard page ==*/
     public function dashboard() 
     {
