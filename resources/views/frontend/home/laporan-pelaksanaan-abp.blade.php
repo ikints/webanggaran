@@ -30,6 +30,18 @@
 			                  <div class="col-sm-4">
 			                    <select class="form-control">
 			                    	<option>--Pilih Bulan--</option>
+			                    	<option>Januari</option>
+			                    	<option>Februari</option>
+			                    	<option>Maret</option>
+			                    	<option>April</option>
+			                    	<option>Mei</option>
+			                    	<option>Juni</option>
+			                    	<option>Juli</option>
+			                    	<option>Agustus</option>
+			                    	<option>September</option>
+			                    	<option>Oktober</option>
+			                    	<option>November</option>
+			                    	<option>Desember</option>
 			                    </select>
 			                  </div>
 			                  <div class="col-sm-4">
