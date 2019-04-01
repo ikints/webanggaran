@@ -93,15 +93,13 @@
         </div>
         <!-- ./col -->
       </div>
-	</section>
-	<!-- Main content -->
-    <section class="content">
+
       <!-- Small boxes (Stat box) -->
       <div class="row">
         <div class="col-lg-5 col-xs-6">
           <div class="box box-solid">
             <div class="box-header with-border">
-              <h3 class="box-title">Penyerapan Anggaran Persatuan Kerja</h3>
+              <h3 class="box-title">Anggaran Persatuan Kerja</h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
@@ -139,11 +137,8 @@
           </div>
           <!-- /.box -->
         </div>
-    	</div>
-    </section>
-    <!-- Main content -->
-    <section class="content">
-      <!-- Small boxes (Stat box) -->
+      </div>
+
       <div class="row">
         <div class="col-lg-3 col-xs-6">
           <div class="box box-solid">
@@ -173,17 +168,17 @@
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-            	<ol>
-	                <li>Satuan Kerja I</li>
-	                <li>Satuan Kerja II</li>
-	                <li>Satuan Kerja III</li>
-	                <li>Satuan Kerja IV</li>
-	                <li>Satuan Kerja V</li>
-	                <li>Satuan Kerja VI</li>
-	                <li>Satuan Kerja VII</li>
-	                <li>Satuan Kerja VIII</li>
-	                <li>Satuan Kerja IX</li>
-	            </ol>
+              <ol>
+                  <li>Satuan Kerja I</li>
+                  <li>Satuan Kerja II</li>
+                  <li>Satuan Kerja III</li>
+                  <li>Satuan Kerja IV</li>
+                  <li>Satuan Kerja V</li>
+                  <li>Satuan Kerja VI</li>
+                  <li>Satuan Kerja VII</li>
+                  <li>Satuan Kerja VIII</li>
+                  <li>Satuan Kerja IX</li>
+              </ol>
             </div>
           </div>
           <!-- /.box -->
@@ -195,20 +190,21 @@
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-            	<div class="row">
-	                <div class="col-md-12">
-	                  <div class="chart-responsive">
-	                    <div id="PenyerapanAnggaran5TahunTerakhir" style="height: 210px"></div>
-	                  </div>
-	                  <!-- ./chart-responsive -->
-	                </div>
-	              </div>
+              <div class="row">
+                  <div class="col-md-12">
+                    <div class="chart-responsive">
+                      <div id="PenyerapanAnggaran5TahunTerakhir" style="height: 210px"></div>
+                    </div>
+                    <!-- ./chart-responsive -->
+                  </div>
+                </div>
             </div>
           </div>
           <!-- /.box -->
         </div>
-    	</div>
-    </section>	
+      </div>
+
+	</section>
 </div>
 </div>
 @endsection
