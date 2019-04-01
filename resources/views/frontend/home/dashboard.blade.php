@@ -53,7 +53,7 @@
         <div class="col-lg-3 col-xs-6">
           <div class="box box-solid">
             <div class="box-header with-border">
-              <h3 class="box-title">Penyerapan Anggaran Per-Jenis</h3>
+              <h3 class="box-title">Anggaran Per-Jenis</h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
@@ -99,7 +99,7 @@
         <div class="col-lg-5 col-xs-6">
           <div class="box box-solid">
             <div class="box-header with-border">
-              <h3 class="box-title">Anggaran Persatuan Kerja</h3>
+              <h3 class="box-title">Penyerapan Anggaran Persatuan Kerja</h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
