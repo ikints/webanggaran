@@ -17,6 +17,8 @@ Route::get('/', 'Frontend\HomeController@index');
 Route::get('tahun-anggaran', 'Frontend\HomeController@tahun_anggaran');
 Route::get('tahun-anggaran-baru', 'Frontend\HomeController@tahun_anggaran_baru');
 Route::get('tambah-sumber-anggaran', 'Frontend\HomeController@tambah_sumber_anggaran');
+Route::get('tambah-upload-pendapatan', 'Frontend\HomeController@tambah_upload_pendapatan');
+Route::get('buat-anggaran-selesai', 'Frontend\HomeController@buat_anggaran_selesai');
 Route::get('dashboard', 'Frontend\HomeController@dashboard');
 Route::get('anggaran', 'Frontend\HomeController@anggaran');
 Route::get('rincian-anggaran', 'Frontend\HomeController@anggaran');

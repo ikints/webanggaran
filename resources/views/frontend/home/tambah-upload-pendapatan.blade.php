@@ -15,17 +15,17 @@
           </div>
           <div class="box-header">
           	<p>
-            	Upload Anggaran
+            	Upload Target Pendapatan
             </p>
           </div>
           <div class="box-body">
           	<div class="row">
 		        <div class="col-md-5 col-md-offset-4">
-		        	<span class="text-green">Langkah 2 dari 3</span>
+		        	<span class="text-green">Langkah 3 dari 3</span>
 		            <div class="box-body margin-bottom-50 margin-top-10 box-form-rounded">
 
 		            <!-- /.box --><!-- form start -->
-			            <form class="form" method="get" action="tambah-upload-pendapatan">
+			            <form class="form" method="get" action="buat-anggaran-selesai">
 			              <div class="box-body">
 			                <div class="form-group">
 			                  <label for="inputEmail3">File</label>

@@ -73,6 +73,36 @@ class HomeController extends Controller
 
     }
 
+    /*== Tambah Upload Pendapatan page ==*/
+    public function tambah_upload_pendapatan() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "frontend.$this->ctrl.tambah-upload-pendapatan";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    /*== Buat Anggaran Selesai page ==*/
+    public function buat_anggaran_selesai() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "frontend.$this->ctrl.buat-anggaran-selesai";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
     /*== Dashboard page ==*/
     public function dashboard() 
     {

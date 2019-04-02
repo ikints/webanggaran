@@ -11,7 +11,7 @@
 
       	<div class="box box-default">
           <div class="box-header with-border">
-            <h3 class="box-title">Tahun Anggaran Baru</h3>
+            <h3 class="box-title">Buat Anggaran Baru</h3>
           </div>
           <div class="box-header">
           	<p>
@@ -21,18 +21,15 @@
           <div class="box-body">
           	<div class="row">
 		        <div class="col-md-5 col-md-offset-4">
-		        	
+		        	<span class="text-green">Langkah 1 dari 3</span>
 		            <div class="box-body margin-bottom-50 margin-top-10 box-form-rounded">
 
 		            <!-- /.box --><!-- form start -->
-			            <form class="form-horizontal" action="tambah-sumber-anggaran" method="get">
+			            <form class="form" action="tambah-sumber-anggaran" method="get">
 			              <div class="box-body">
 			                <div class="form-group">
-			                  <label for="inputEmail3" class="col-sm-3 control-label">Tahun</label>
-
-			                  <div class="col-sm-3">
-			                    <input type="text" class="form-control" id="inputEmail3" placeholder="Tahun">
-			                  </div>
+			                  <label for="inputEmail3">Tahun Anggaran</label>
+			                  <input type="text" class="form-control" id="inputEmail3" placeholder="Tahun Anggaran">
 			                </div>
 			              </div>
 			              <!-- /.box-body -->
