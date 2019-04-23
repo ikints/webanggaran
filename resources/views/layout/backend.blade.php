@@ -7,10 +7,14 @@
 
 </head>	
 <body class="hold-transition skin-blue layout-top-nav">
-<div class="login-wrapper">
+<div class="wrapper">
+		<!-- header -->
+		@include('backend.includes.header')
 
 		@yield('content')
 
+		<!-- footer --> 
+		@include('backend.includes.footer')
 
 </div>
 

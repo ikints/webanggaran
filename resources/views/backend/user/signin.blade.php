@@ -21,14 +21,24 @@
     <div class="login-box-body-page">
       <p class="login-box-msg">Login</p>
 
-      <form action="{{ URL('tahun-anggaran') }}" method="get">
+      <form action='{{URL("/cms/user/signin")}}' method="POST">
+        {{ csrf_field() }}
         <div class="form-group has-feedback">
-          <input type="text" class="form-control" placeholder="Username">
+          <input type="text" name="username" class="form-control" placeholder="Username">
           <span class="glyphicon glyphicon-user form-control-feedback"></span>
         </div>
         <div class="form-group has-feedback">
-          <input type="password" class="form-control" placeholder="Password">
+          <input type="password" name="password" class="form-control" placeholder="Password">
           <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+        </div>
+        <div class="form-group has-feedback">
+          <select name="level" class="form-control">
+            <option value="">Pilih Level User</option>
+            <option value="1">Kemhan</option>
+            <option value="2">Unit Organisasi</option>
+            <option value="3">Kotama</option>
+            <option value="4">Satuan Kerja</option>
+          </select>
         </div>
         <div class="row">
           <div class="col-xs-8">

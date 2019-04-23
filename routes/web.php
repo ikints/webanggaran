@@ -12,7 +12,7 @@
 */
 
 /*---- Frontend routes ----- */
-include(base_path('routes/frontend.php'));
+//include(base_path('routes/frontend.php'));
 
 /*---- Backend routes ----- */
 include(base_path('routes/backend.php'));
