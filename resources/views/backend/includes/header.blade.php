@@ -50,7 +50,26 @@
                       <a href="{{ URL('cms/dashboard') }}" class="navbar-brand">Dashboard</a>
                       @break
                   @case(2)
-                      <a href="{{ URL('cms/uo/dashboard') }}" class="navbar-brand">Dashboard</a>
+
+                    @switch(Session::get('username'))
+                      @case('kemhan_uo')
+                          <a href="{{ URL('cms/kemhan/uo/dashboard') }}" class="navbar-brand">Dashboard</a>
+                        @break
+                      @case('mabes_tni_uo')
+                          <a href="{{ URL('cms/mabes-tni/uo/dashboard') }}" class="navbar-brand">Dashboard</a>
+                        @break
+                      @case('tni_ad_uo')
+                          <a href="{{ URL('cms/tni-ad/uo/dashboard') }}" class="navbar-brand">Dashboard</a>
+                        @break
+                      @case('tni_au_uo')
+                          <a href="{{ URL('cms/tni-au/uo/dashboard') }}" class="navbar-brand">Dashboard</a>
+                        @break
+                      @case('tni_al_uo')
+                          <a href="{{ URL('cms/tni-al/uo/dashboard') }}" class="navbar-brand">Dashboard</a>
+                        @break
+                    @endswitch
+
+                      
                       @break
                   @case(3)
                       <a href="{{ URL('cms/kotama/dashboard') }}" class="navbar-brand">Dashboard</a>
@@ -70,7 +89,6 @@
             <!-- Menu Kemhan -->
             @if(Session::get('level') == 1)
             <li class="active"><a href="{{ URL('cms/anggaran') }}">Anggaran</a></li>
-            <li><a href="{{ URL('cms/perubahan-anggaran') }}">Perubahan Anggaran</a></li>
             <li><a href="{{ URL('cms/revisi-anggaran') }}">Revisi Anggaran</a></li>
             <li><a href="{{ URL('cms/realisasi-anggaran') }}">Realisasi Anggaran</a></li>
             <li class="dropdown">
@@ -90,15 +108,17 @@
             </li>
             <li><a href="{{ URL('cms/signout') }}">Logout</a></li>
             @elseif (Session::get('level') == 2)
-            <li class="active"><a href="{{ URL('cms/uo/anggaran') }}">Anggaran Unit Organisasi</a></li>
-            <li><a href="{{ URL('cms/uo/perubahan-anggaran') }}">Perubahan Anggaran</a></li>
-            <li><a href="{{ URL('cms/uo/realisasi-anggaran') }}">Realisasi Anggaran</a></li>
+                
+              @switch(Session::get('username'))
+                  @case('kemhan_uo')
+            <li class="active"><a href="{{ URL('cms/kemhan/uo/anggaran') }}">Anggaran Unit Organisasi</a></li>
+            <li><a href="{{ URL('cms/kemhan/uo/realisasi-anggaran') }}">Realisasi Anggaran</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Laporan <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="{{ URL('cms/uo/laporan-anggaran-belanja-pegawai') }}">Pelaksanaan Anggaran Belanja Pegawai</a></li>
-                <li><a href="{{ URL('cms/uo/laporan-anggaran-belanja-barang') }}">Pelaksanaan Anggaran Belanja Barang</a></li>
-                <li><a href="{{ URL('cms/uo/laporan-anggaran-belanja-modal') }}">Pelaksanaan Anggaran Belanja Modal</a>
+                <li><a href="{{ URL('cms/kemhan/uo/laporan-anggaran-belanja-pegawai') }}">Pelaksanaan Anggaran Belanja Pegawai</a></li>
+                <li><a href="{{ URL('cms/kemhan/uo/laporan-anggaran-belanja-barang') }}">Pelaksanaan Anggaran Belanja Barang</a></li>
+                <li><a href="{{ URL('cms/kemhan/uo/laporan-anggaran-belanja-modal') }}">Pelaksanaan Anggaran Belanja Modal</a>
                 </li>
                 <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Barang dan Jasa</a></li>
                 <li><a href="{{ URL('laporan') }}">Perkembangan Pembangunan dan Pengembangan Fasilitas</a></li>
@@ -109,9 +129,91 @@
               </ul>
             </li>
             <li><a href="{{ URL('cms/signout') }}">Logout</a></li>
+                      @break
+                  @case('mabes_tni_uo')
+            <li class="active"><a href="{{ URL('cms/mabes-tni/uo/anggaran') }}">Anggaran Unit Organisasi</a></li>
+            <li><a href="{{ URL('cms/mabes-tni/uo/realisasi-anggaran') }}">Realisasi Anggaran</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Laporan <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="{{ URL('cms/mabes-tni/uo/laporan-anggaran-belanja-pegawai') }}">Pelaksanaan Anggaran Belanja Pegawai</a></li>
+                <li><a href="{{ URL('cms/mabes-tni/uo/laporan-anggaran-belanja-barang') }}">Pelaksanaan Anggaran Belanja Barang</a></li>
+                <li><a href="{{ URL('cms/mabes-tni/uo/laporan-anggaran-belanja-modal') }}">Pelaksanaan Anggaran Belanja Modal</a>
+                </li>
+                <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Barang dan Jasa</a></li>
+                <li><a href="{{ URL('laporan') }}">Perkembangan Pembangunan dan Pengembangan Fasilitas</a></li>
+                <li><a href="{{ URL('laporan') }}">Perkembangan Kegiatan Prioritas</a></li>
+                <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Alutsista</a></li>
+                <li><a href="{{ URL('laporan') }}">Penerimaan Hibah Dalam Negeri</a></li>
+                <li><a href="{{ URL('laporan') }}">Pendapatan Negara</a></li>
+              </ul>
+            </li>
+            <li><a href="{{ URL('cms/signout') }}">Logout</a></li>
+                      @break
+                  @case('tni_ad_uo')
+            <li class="active"><a href="{{ URL('cms/tni-ad/uo/anggaran') }}">Anggaran Unit Organisasi</a></li>
+            <li><a href="{{ URL('cms/tni-ad/uo/realisasi-anggaran') }}">Realisasi Anggaran</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Laporan <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="{{ URL('cms/tni-ad/uo/laporan-anggaran-belanja-pegawai') }}">Pelaksanaan Anggaran Belanja Pegawai</a></li>
+                <li><a href="{{ URL('cms/tni-ad/uo/laporan-anggaran-belanja-barang') }}">Pelaksanaan Anggaran Belanja Barang</a></li>
+                <li><a href="{{ URL('cms/tni-ad/uo/laporan-anggaran-belanja-modal') }}">Pelaksanaan Anggaran Belanja Modal</a>
+                </li>
+                <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Barang dan Jasa</a></li>
+                <li><a href="{{ URL('laporan') }}">Perkembangan Pembangunan dan Pengembangan Fasilitas</a></li>
+                <li><a href="{{ URL('laporan') }}">Perkembangan Kegiatan Prioritas</a></li>
+                <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Alutsista</a></li>
+                <li><a href="{{ URL('laporan') }}">Penerimaan Hibah Dalam Negeri</a></li>
+                <li><a href="{{ URL('laporan') }}">Pendapatan Negara</a></li>
+              </ul>
+            </li>
+            <li><a href="{{ URL('cms/signout') }}">Logout</a></li>
+                      @break
+                  @case('tni_au_uo')
+            <li class="active"><a href="{{ URL('cms/tni-au/uo/anggaran') }}">Anggaran Unit Organisasi</a></li>
+            <li><a href="{{ URL('cms/tni-au/uo/realisasi-anggaran') }}">Realisasi Anggaran</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Laporan <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="{{ URL('cms/tni-au/uo/laporan-anggaran-belanja-pegawai') }}">Pelaksanaan Anggaran Belanja Pegawai</a></li>
+                <li><a href="{{ URL('cms/tni-au/uo/laporan-anggaran-belanja-barang') }}">Pelaksanaan Anggaran Belanja Barang</a></li>
+                <li><a href="{{ URL('cms/tni-au/uo/laporan-anggaran-belanja-modal') }}">Pelaksanaan Anggaran Belanja Modal</a>
+                </li>
+                <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Barang dan Jasa</a></li>
+                <li><a href="{{ URL('laporan') }}">Perkembangan Pembangunan dan Pengembangan Fasilitas</a></li>
+                <li><a href="{{ URL('laporan') }}">Perkembangan Kegiatan Prioritas</a></li>
+                <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Alutsista</a></li>
+                <li><a href="{{ URL('laporan') }}">Penerimaan Hibah Dalam Negeri</a></li>
+                <li><a href="{{ URL('laporan') }}">Pendapatan Negara</a></li>
+              </ul>
+            </li>
+            <li><a href="{{ URL('cms/signout') }}">Logout</a></li>
+                      @break
+                  @case('tni_al_uo')
+            <li class="active"><a href="{{ URL('cms/tni-al/uo/anggaran') }}">Anggaran Unit Organisasi</a></li>
+            <li><a href="{{ URL('cms/tni-al/uo/realisasi-anggaran') }}">Realisasi Anggaran</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Laporan <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="{{ URL('cms/tni-al/uo/laporan-anggaran-belanja-pegawai') }}">Pelaksanaan Anggaran Belanja Pegawai</a></li>
+                <li><a href="{{ URL('cms/tni-al/uo/laporan-anggaran-belanja-barang') }}">Pelaksanaan Anggaran Belanja Barang</a></li>
+                <li><a href="{{ URL('cms/tni-al/uo/laporan-anggaran-belanja-modal') }}">Pelaksanaan Anggaran Belanja Modal</a>
+                </li>
+                <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Barang dan Jasa</a></li>
+                <li><a href="{{ URL('laporan') }}">Perkembangan Pembangunan dan Pengembangan Fasilitas</a></li>
+                <li><a href="{{ URL('laporan') }}">Perkembangan Kegiatan Prioritas</a></li>
+                <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Alutsista</a></li>
+                <li><a href="{{ URL('laporan') }}">Penerimaan Hibah Dalam Negeri</a></li>
+                <li><a href="{{ URL('laporan') }}">Pendapatan Negara</a></li>
+              </ul>
+            </li>
+            <li><a href="{{ URL('cms/signout') }}">Logout</a></li>
+                      @break
+              @endswitch  
+
             @elseif (Session::get('level') == 3)
             <li class="active"><a href="{{ URL('cms/kotama/anggaran') }}">Anggaran Kotama</a></li>
-            <li><a href="{{ URL('cms/kotama/perubahan-anggaran') }}">Perubahan Anggaran</a></li>
             <li><a href="{{ URL('cms/kotama/realisasi-anggaran') }}">Realisasi Anggaran</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Laporan <span class="caret"></span></a>
@@ -131,7 +233,6 @@
             <li><a href="{{ URL('cms/signout') }}">Logout</a></li>
             @elseif (Session::get('level') == 4)
             <li class="active"><a href="{{ URL('cms/satker/anggaran') }}">Anggaran Satuan Kerja</a></li>
-            <li><a href="{{ URL('cms/satker/perubahan-anggaran') }}">Perubahan Anggaran</a></li>
             <li><a href="{{ URL('cms/satker/realisasi-anggaran') }}">Realisasi Anggaran</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Laporan <span class="caret"></span></a>

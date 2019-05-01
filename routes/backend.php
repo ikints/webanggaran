@@ -48,29 +48,128 @@ Route::group(['middleware' => 'ValidateKemhan'], function () {
 
 Route::group(['middleware' => 'ValidateUO'], function () {
 
-	/* UO */
-    Route::get('cms/uo/tahun-anggaran', 'Backend\UOController@tahun_anggaran');
-	Route::get('cms/uo/tahun-anggaran-baru', 'Backend\UOController@tahun_anggaran_baru');
-	Route::get('cms/uo/tambah-sumber-anggaran', 'Backend\UOController@tambah_sumber_anggaran');
-	Route::get('cms/uo/tambah-upload-pendapatan', 'Backend\UOController@tambah_upload_pendapatan');
-	Route::get('cms/uo/buat-anggaran-selesai', 'Backend\UOController@buat_anggaran_selesai');
-	Route::get('cms/uo/dashboard', 'Backend\UOController@dashboard');
-	Route::get('cms/uo/anggaran', 'Backend\UOController@anggaran');
-	Route::get('cms/uo/rincian-anggaran', 'Backend\UOController@anggaran');
-	Route::get('cms/uo/rincian-anggaran-detail', 'Backend\UOController@anggaran_detail');
-	Route::get('cms/uo/realisasi-anggaran', 'Backend\UOController@realisasi_anggaran');
-	Route::get('cms/uo/realisasi-anggaran-detail', 'Backend\UOController@realisasi_anggaran_detail');
-	Route::get('cms/uo/tambah-realisasi-anggaran', 'Backend\UOController@tambah_realisasi_anggaran');
+	/* Kemhan UO */
+    Route::get('cms/kemhan/uo/tahun-anggaran', 'Backend\UOController@tahun_anggaran');
+	Route::get('cms/kemhan/uo/tahun-anggaran-baru', 'Backend\UOController@tahun_anggaran_baru');
+	Route::get('cms/kemhan/uo/tambah-sumber-anggaran', 'Backend\UOController@tambah_sumber_anggaran');
+	Route::get('cms/kemhan/uo/tambah-upload-pendapatan', 'Backend\UOController@tambah_upload_pendapatan');
+	Route::get('cms/kemhan/uo/buat-anggaran-selesai', 'Backend\UOController@buat_anggaran_selesai');
+	Route::get('cms/kemhan/uo/dashboard', 'Backend\UOController@dashboard');
+	Route::get('cms/kemhan/uo/anggaran', 'Backend\UOController@anggaran');
+	Route::get('cms/kemhan/uo/rincian-anggaran', 'Backend\UOController@anggaran');
+	Route::get('cms/kemhan/uo/rincian-anggaran-detail', 'Backend\UOController@anggaran_detail');
+	Route::get('cms/kemhan/uo/realisasi-anggaran', 'Backend\UOController@realisasi_anggaran');
+	Route::get('cms/kemhan/uo/realisasi-anggaran-detail', 'Backend\UOController@realisasi_anggaran_detail');
+	Route::get('cms/kemhan/uo/tambah-realisasi-anggaran', 'Backend\UOController@tambah_realisasi_anggaran');
 	//
-	Route::get('cms/uo/input-anggaran', 'Backend\UOController@input_anggaran');
+	Route::get('cms/kemhan/uo/input-anggaran', 'Backend\UOController@input_anggaran');
 	//Laporan
-	Route::get('cms/uo/laporan-anggaran-belanja-pegawai', 'Backend\UOController@laporan_pelaksanaan_abp');
-	Route::post('cms/uo/laporan-rincian-anggaran-belanja-pegawai', 'Backend\UOController@laporan_rincian_abp');
-	Route::get('cms/uo/laporan-anggaran-belanja-modal', 'Backend\UOController@laporan_belanja_modal');
-	Route::post('cms/uo/laporan-rincian-belanja-modal', 'Backend\UOController@laporan_rincian_modal');
+	Route::get('cms/kemhan/uo/laporan-anggaran-belanja-pegawai', 'Backend\UOController@laporan_pelaksanaan_abp');
+	Route::post('cms/kemhan/uo/laporan-rincian-anggaran-belanja-pegawai', 'Backend\UOController@laporan_rincian_abp');
+	Route::get('cms/kemhan/uo/laporan-anggaran-belanja-modal', 'Backend\UOController@laporan_belanja_modal');
+	Route::post('cms/kemhan/uo/laporan-rincian-belanja-modal', 'Backend\UOController@laporan_rincian_modal');
 
 	//Signout
-	Route::get('cms/uo/signout', 'Backend\UOController@signout');
+	Route::get('cms/kemhan/uo/signout', 'Backend\UOController@signout');
+
+	/* Mabes TNI */
+	Route::get('cms/mabes-tni/uo/tahun-anggaran', 'Backend\MabesTniUOController@tahun_anggaran');
+	Route::get('cms/mabes-tni/uo/tahun-anggaran-baru', 'Backend\MabesTniUOController@tahun_anggaran_baru');
+	Route::get('cms/mabes-tni/uo/tambah-sumber-anggaran', 'Backend\MabesTniUOController@tambah_sumber_anggaran');
+	Route::get('cms/mabes-tni/uo/tambah-upload-pendapatan', 'Backend\MabesTniUOController@tambah_upload_pendapatan');
+	Route::get('cms/mabes-tni/uo/buat-anggaran-selesai', 'Backend\MabesTniUOController@buat_anggaran_selesai');
+	Route::get('cms/mabes-tni/uo/dashboard', 'Backend\MabesTniUOController@dashboard');
+	Route::get('cms/mabes-tni/uo/anggaran', 'Backend\MabesTniUOController@anggaran');
+	Route::get('cms/mabes-tni/uo/rincian-anggaran', 'Backend\MabesTniUOController@anggaran');
+	Route::get('cms/mabes-tni/uo/rincian-anggaran-detail', 'Backend\MabesTniUOController@anggaran_detail');
+	Route::get('cms/mabes-tni/uo/realisasi-anggaran', 'Backend\MabesTniUOController@realisasi_anggaran');
+	Route::get('cms/mabes-tni/uo/realisasi-anggaran-detail', 'Backend\MabesTniUOController@realisasi_anggaran_detail');
+	Route::get('cms/mabes-tni/uo/tambah-realisasi-anggaran', 'Backend\MabesTniUOController@tambah_realisasi_anggaran');
+	//
+	Route::get('cms/mabes-tni/uo/input-anggaran', 'Backend\MabesTniUOController@input_anggaran');
+	//Laporan
+	Route::get('cms/mabes-tni/uo/laporan-anggaran-belanja-pegawai', 'Backend\MabesTniUOController@laporan_pelaksanaan_abp');
+	Route::post('cms/mabes-tni/uo/laporan-rincian-anggaran-belanja-pegawai', 'Backend\MabesTniUOController@laporan_rincian_abp');
+	Route::get('cms/mabes-tni/uo/laporan-anggaran-belanja-modal', 'Backend\MabesTniUOController@laporan_belanja_modal');
+	Route::post('cms/mabes-tni/uo/laporan-rincian-belanja-modal', 'Backend\MabesTniUOController@laporan_rincian_modal');
+
+	//Signout
+	Route::get('cms/mabes-tni/uo/signout', 'Backend\MabesTniUOController@signout');
+
+	/* TNI AD */
+	Route::get('cms/tni-ad/uo/tahun-anggaran', 'Backend\TniADUOController@tahun_anggaran');
+	Route::get('cms/tni-ad/uo/tahun-anggaran-baru', 'Backend\TniADUOController@tahun_anggaran_baru');
+	Route::get('cms/tni-ad/uo/tambah-sumber-anggaran', 'Backend\TniADUOController@tambah_sumber_anggaran');
+	Route::get('cms/tni-ad/uo/tambah-upload-pendapatan', 'Backend\TniADUOController@tambah_upload_pendapatan');
+	Route::get('cms/tni-ad/uo/buat-anggaran-selesai', 'Backend\TniADUOController@buat_anggaran_selesai');
+	Route::get('cms/tni-ad/uo/dashboard', 'Backend\TniADUOController@dashboard');
+	Route::get('cms/tni-ad/uo/anggaran', 'Backend\TniADUOController@anggaran');
+	Route::get('cms/tni-ad/uo/rincian-anggaran', 'Backend\TniADUOController@anggaran');
+	Route::get('cms/tni-ad/uo/rincian-anggaran-detail', 'Backend\TniADUOController@anggaran_detail');
+	Route::get('cms/tni-ad/uo/realisasi-anggaran', 'Backend\TniADUOController@realisasi_anggaran');
+	Route::get('cms/tni-ad/uo/realisasi-anggaran-detail', 'Backend\TniADUOController@realisasi_anggaran_detail');
+	Route::get('cms/tni-ad/uo/tambah-realisasi-anggaran', 'Backend\TniADUOController@tambah_realisasi_anggaran');
+	//
+	Route::get('cms/tni-ad/uo/input-anggaran', 'Backend\TniADUOController@input_anggaran');
+	//Laporan
+	Route::get('cms/tni-ad/uo/laporan-anggaran-belanja-pegawai', 'Backend\TniADUOController@laporan_pelaksanaan_abp');
+	Route::post('cms/tni-ad/uo/laporan-rincian-anggaran-belanja-pegawai', 'Backend\TniADUOController@laporan_rincian_abp');
+	Route::get('cms/tni-ad/uo/laporan-anggaran-belanja-modal', 'Backend\TniADUOController@laporan_belanja_modal');
+	Route::post('cms/tni-ad/uo/laporan-rincian-belanja-modal', 'Backend\TniADUOController@laporan_rincian_modal');
+
+	//Signout
+	Route::get('cms/tni-ad/uo/signout', 'Backend\TniADUOController@signout');
+
+
+	/* TNI AU */
+	Route::get('cms/tni-au/uo/tahun-anggaran', 'Backend\TniAUUOController@tahun_anggaran');
+	Route::get('cms/tni-au/uo/tahun-anggaran-baru', 'Backend\TniAUUOController@tahun_anggaran_baru');
+	Route::get('cms/tni-au/uo/tambah-sumber-anggaran', 'Backend\TniAUUOController@tambah_sumber_anggaran');
+	Route::get('cms/tni-au/uo/tambah-upload-pendapatan', 'Backend\TniAUUOController@tambah_upload_pendapatan');
+	Route::get('cms/tni-au/uo/buat-anggaran-selesai', 'Backend\TniAUUOController@buat_anggaran_selesai');
+	Route::get('cms/tni-au/uo/dashboard', 'Backend\TniAUUOController@dashboard');
+	Route::get('cms/tni-au/uo/anggaran', 'Backend\TniAUUOController@anggaran');
+	Route::get('cms/tni-au/uo/rincian-anggaran', 'Backend\TniAUUOController@anggaran');
+	Route::get('cms/tni-au/uo/rincian-anggaran-detail', 'Backend\TniAUUOController@anggaran_detail');
+	Route::get('cms/tni-au/uo/realisasi-anggaran', 'Backend\TniAUUOController@realisasi_anggaran');
+	Route::get('cms/tni-au/uo/realisasi-anggaran-detail', 'Backend\TniAUUOController@realisasi_anggaran_detail');
+	Route::get('cms/tni-au/uo/tambah-realisasi-anggaran', 'Backend\TniAUUOController@tambah_realisasi_anggaran');
+	//
+	Route::get('cms/tni-au/uo/input-anggaran', 'Backend\TniAUUOController@input_anggaran');
+	//Laporan
+	Route::get('cms/tni-au/uo/laporan-anggaran-belanja-pegawai', 'Backend\TniAUUOController@laporan_pelaksanaan_abp');
+	Route::post('cms/tni-au/uo/laporan-rincian-anggaran-belanja-pegawai', 'Backend\TniAUUOController@laporan_rincian_abp');
+	Route::get('cms/tni-au/uo/laporan-anggaran-belanja-modal', 'Backend\TniAUUOController@laporan_belanja_modal');
+	Route::post('cms/tni-au/uo/laporan-rincian-belanja-modal', 'Backend\TniAUUOController@laporan_rincian_modal');
+
+	//Signout
+	Route::get('cms/tni-au/uo/signout', 'Backend\TniAUUOController@signout');
+
+	/* TNI AL */
+	Route::get('cms/tni-al/uo/tahun-anggaran', 'Backend\TniALUOController@tahun_anggaran');
+	Route::get('cms/tni-al/uo/tahun-anggaran-baru', 'Backend\TniALUOController@tahun_anggaran_baru');
+	Route::get('cms/tni-al/uo/tambah-sumber-anggaran', 'Backend\TniALUOController@tambah_sumber_anggaran');
+	Route::get('cms/tni-al/uo/tambah-upload-pendapatan', 'Backend\TniALUOController@tambah_upload_pendapatan');
+	Route::get('cms/tni-al/uo/buat-anggaran-selesai', 'Backend\TniALUOController@buat_anggaran_selesai');
+	Route::get('cms/tni-al/uo/dashboard', 'Backend\TniALUOController@dashboard');
+	Route::get('cms/tni-al/uo/anggaran', 'Backend\TniALUOController@anggaran');
+	Route::get('cms/tni-al/uo/rincian-anggaran', 'Backend\TniALUOController@anggaran');
+	Route::get('cms/tni-al/uo/rincian-anggaran-detail', 'Backend\TniALUOController@anggaran_detail');
+	Route::get('cms/tni-al/uo/realisasi-anggaran', 'Backend\TniALUOController@realisasi_anggaran');
+	Route::get('cms/tni-al/uo/realisasi-anggaran-detail', 'Backend\TniALUOController@realisasi_anggaran_detail');
+	Route::get('cms/tni-al/uo/tambah-realisasi-anggaran', 'Backend\TniALUOController@tambah_realisasi_anggaran');
+	//
+	Route::get('cms/tni-al/uo/input-anggaran', 'Backend\TniALUOController@input_anggaran');
+	//Laporan
+	Route::get('cms/tni-al/uo/laporan-anggaran-belanja-pegawai', 'Backend\TniALUOController@laporan_pelaksanaan_abp');
+	Route::post('cms/tni-al/uo/laporan-rincian-anggaran-belanja-pegawai', 'Backend\TniALUOController@laporan_rincian_abp');
+	Route::get('cms/tni-al/uo/laporan-anggaran-belanja-modal', 'Backend\TniALUOController@laporan_belanja_modal');
+	Route::post('cms/tni-al/uo/laporan-rincian-belanja-modal', 'Backend\TniALUOController@laporan_rincian_modal');
+
+	//Signout
+	Route::get('cms/tni-al/uo/signout', 'Backend\TniALUOController@signout');
+
+
 
 });
 

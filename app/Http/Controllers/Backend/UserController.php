@@ -50,35 +50,77 @@ class UserController extends Controller
 
 			$username = $request->get('username');
 			$password = $request->get('password');
-			$level	  = $request->get('level');
 
-	        if($username != '' && $password != '' && $level != ''){
+	        if($username != '' && $password != ''){
 	          
 	           Session::put('name',$username);
 
-	           switch($level){
-					case '1' : 
+	           switch($username){
+	           		//Kemhan (Admin)
+					case 'kemhan_admin' : 
 						Session::put('loginKemhan',TRUE); 
-						Session::put('status_user','Kemhan');
-						Session::put('level', $level);
+						Session::put('status_user','Kementerian Pertahanan Admin');
+						Session::put('level', 1);
+						Session::put('username', $username);
 						return redirect('/cms/tahun-anggaran')->with('success','Signin Berhasil');
 					break;
-					case '2' : 
+
+					//UO
+					case 'kemhan_uo' : 
 						Session::put('loginUO',TRUE); 
-						Session::put('status_user','Unit Organisasi');
-						Session::put('level', $level);
-						return redirect('/cms/uo/tahun-anggaran')->with('success','Signin Berhasil');
+						Session::put('status_user','Unit Organisasi Kementerian Pertahanan');
+						Session::put('level', 2);
+						Session::put('username', $username);
+						return redirect('/cms/kemhan/uo/tahun-anggaran')->with('success','Signin Berhasil');
 					break;
-					case '3' : 
+
+					case 'mabes_tni_uo' : 
+						Session::put('loginUO',TRUE); 
+						Session::put('status_user','Unit Organisasi Mabes TNI');
+						Session::put('level', 2);
+						Session::put('username', $username);
+						return redirect('/cms/mabes-tni/uo/tahun-anggaran')->with('success','Signin Berhasil');
+					break;
+
+					case 'tni_ad_uo' : 
+						Session::put('loginUO',TRUE); 
+						Session::put('status_user','Unit Organisasi TNI AD');
+						Session::put('level', 2);
+						Session::put('username', $username);
+						return redirect('/cms/tni-ad/uo/tahun-anggaran')->with('success','Signin Berhasil');
+					break;
+
+					case 'tni_au_uo' : 
+						Session::put('loginUO',TRUE); 
+						Session::put('status_user','Unit Organisasi TNI AU');
+						Session::put('level', 2);
+						Session::put('username', $username);
+						return redirect('/cms/tni-au/uo/tahun-anggaran')->with('success','Signin Berhasil');
+					break;
+
+					case 'tni_al_uo' : 
+						Session::put('loginUO',TRUE); 
+						Session::put('status_user','Unit Organisasi TNI AL');
+						Session::put('level', 2);
+						Session::put('username', $username);
+						return redirect('/cms/tni-al/uo/tahun-anggaran')->with('success','Signin Berhasil');
+					break;
+
+					//Kotama
+					case 'kotama' : 
 						Session::put('loginKotama',TRUE); 
 						Session::put('status_user','Kotama');
-						Session::put('level', $level);
+						Session::put('level', 3);
+						Session::put('username', $username);
 						return redirect('/cms/kotama/tahun-anggaran')->with('success','Signin Berhasil');
 					break;
-					case '4' : 
+
+					//SatKer
+					case 'satker' : 
 						Session::put('loginSatKer',TRUE); 
 						Session::put('status_user','Satuan Kerja');
-						Session::put('level', $level);
+						Session::put('level', 4);
+						Session::put('username', $username);
 						return redirect('/cms/satker/tahun-anggaran')->with('success','Signin Berhasil');
 					break;
 				}

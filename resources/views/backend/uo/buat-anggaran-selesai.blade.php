@@ -32,7 +32,7 @@
 		            	</p>
 		            
 		            </p>	
-		            <a href="{{ URL('dashboard') }}" class="btn btn-success">Selesai</a>
+		            <a href="{{ URL('cms/kemhan/uo/dashboard') }}" class="btn btn-success">Selesai</a>
 		              
 		            </div>
 		            <!-- /.box-body -->

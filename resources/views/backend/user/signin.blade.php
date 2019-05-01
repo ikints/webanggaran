@@ -31,15 +31,6 @@
           <input type="password" name="password" class="form-control" placeholder="Password">
           <span class="glyphicon glyphicon-lock form-control-feedback"></span>
         </div>
-        <div class="form-group has-feedback">
-          <select name="level" class="form-control">
-            <option value="">Pilih Level User</option>
-            <option value="1">Kemhan</option>
-            <option value="2">Unit Organisasi</option>
-            <option value="3">Kotama</option>
-            <option value="4">Satuan Kerja</option>
-          </select>
-        </div>
         <div class="row">
           <div class="col-xs-8">
             <div class="checkbox icheck">
