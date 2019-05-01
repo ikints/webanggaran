@@ -254,6 +254,37 @@ class UOController extends Controller
 
     }
 
+
+    /*== Laporan Belanja Barang page ==*/
+    public function laporan_belanja_barang() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan-belanja-barang";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    /*== Laporan Result Belanja Barang page ==*/
+    public function laporan_rincian_barang() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan-rincian-belanja-barang";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
     /*== Signout Action ==*/
     public function signout(Request $request) 
     {

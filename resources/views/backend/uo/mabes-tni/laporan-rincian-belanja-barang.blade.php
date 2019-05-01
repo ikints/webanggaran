@@ -17,7 +17,7 @@
         
         <div class="box">
             <div class="box-header padding-bottom-10 text-center">
-              <h4 class="box-title report-title">Laporan Pelaksanaan Anggaran Belanja Pegawai</h4><br>
+              <h4 class="box-title report-title">LAPORAN PELAKSANAAN ANGGARAN BELANJA BARANG</h4><br>
               <h3 class="box-title report-title">{{Session::get('status_user')}}</h3><br>
               <h3 class="box-title report-title">PERIODE 1 JANUARI S.D. 31 MARET 2019</h3>
             </div>
@@ -69,284 +69,283 @@
                     <td>3</td>
                     <td>4</td>
                     <td>5</td>
-                    <td>6</td>                
+                    <td>6</td>              
                   </tr>
                   </thead>
                   <tbody>
                   <tr>
                     <td>521111</td>
                     <td>Belanja Keperluan Perkantoran</td>
-                    <td>23679574000</td>
-                    <td>2509964519</td>
-                    <td>21169609481</td>
-                    <td>10.60</td>
+                    <td>6379710000</td>
+                    <td>117342889</td>
+                    <td>6262367111</td>
+                    <td>1.84</td>
+                  </tr>
+                  <tr>
+                    <td>521112</td>
+                    <td>Belanja pengadaan bahan makanan</td>
+                    <td>3551830000</td>
+                    <td>505489000</td>
+                    <td>3046341000</td>
+                    <td>14.23</td>
                   </tr>
                   <tr>
                     <td>521113</td>
                     <td>Belanja Penambah Daya Tahan Tubuh</td>
-                    <td>81765269000</td>
-                    <td>430893750</td>
-                    <td>81334375250</td>
-                    <td>0.53</td>
+                    <td>16412710000</td>
+                    <td>2477133000</td>
+                    <td>13935577000</td>
+                    <td>15.09</td>
+                  </tr>
+                  <tr>
+                    <td>521114</td>
+                    <td>Belanja pengiriman surat dinas pos pusat</td>
+                    <td>41925000</td>
+                    <td>0</td>
+                    <td>41925000</td>
+                    <td>0.00</td>
                   </tr>
                   <tr>
                     <td>521115</td>
                     <td>Honor Operasional Satuan Kerja</td>
-                    <td>1794470000</td>
-                    <td>54500000</td>
-                    <td>1739970000</td>
-                    <td>3.04</td>
-                  </tr>
-                  <tr>
-                    <td>521116</td>
-                    <td>Belanja Keperluan Perkantoran Atase Pertahanan Luar Negeri</td>
-                    <td>89944262000</td>
-                    <td>20507569443</td>
-                    <td>69436692557</td>
-                    <td>22.80</td>
+                    <td>62472129000</td>
+                    <td>12247752148</td>
+                    <td>50224376852</td>
+                    <td>19.61</td>
                   </tr>
                   <tr>
                     <td>521119</td>
                     <td>Belanja Barang Operasional Lainnya</td>
-                    <td>554617137000</td>
-                    <td>111568324011</td>
-                    <td>443048812989</td>
-                    <td>20.12</td>
+                    <td>186799346000</td>
+                    <td>21745693511</td>
+                    <td>165053652489</td>
+                    <td>11.64</td>
                   </tr>
                   <tr>
                     <td>521211</td>
                     <td>Belanja Bahan</td>
-                    <td>1184168678000</td>
-                    <td>196223164583</td>
-                    <td>987945513417</td>
-                    <td>16.57</td>
+                    <td>270161171000</td>
+                    <td>20357338385</td>
+                    <td>249803832615</td>
+                    <td>7.54</td>
                   </tr>
                   <tr>
                     <td>521213</td>
                     <td>Honor Output Kegiatan</td>
-                    <td>277854167000</td>
-                    <td>36249353920</td>
-                    <td>241604813080</td>
-                    <td>13.05</td>
+                    <td>58064625000</td>
+                    <td>6689526500</td>
+                    <td>51375098500</td>
+                    <td>11.52</td>
                   </tr>
                   <tr>
                     <td>521219</td>
                     <td>Belanja Barang Non Operasional Lainnya</td>
-                    <td>1762705009000</td>
-                    <td>74991680460</td>
-                    <td>1687713328540</td>
-                    <td>4.25</td>
+                    <td>155271469000</td>
+                    <td>3303317842</td>
+                    <td>151968151158</td>
+                    <td>2.13</td>
                   </tr>
                   <tr>
                     <td>521811</td>
                     <td>Belanja Barang Persediaan Barang Konsumsi</td>
-                    <td>14200109000</td>
-                    <td>1465948675</td>
-                    <td>12734160325</td>
-                    <td>10.32</td>
+                    <td>58282700000</td>
+                    <td>8208620494</td>
+                    <td>50074079506</td>
+                    <td>14.08</td>
                   </tr>
                   <tr>
                     <td>521812</td>
                     <td>Belanja Barang Persediaan Amunisi</td>
-                    <td>261519333000</td>
+                    <td>197740000000</td>
                     <td>0</td>
-                    <td>261519333000</td>
+                    <td>197740000000</td>
                     <td>0.00</td>
                   </tr>
                   <tr>
                     <td>522111</td>
                     <td>Belanja Langganan Listrik</td>
-                    <td>57074659000</td>
-                    <td>0</td>
-                    <td>57074659000</td>
-                    <td>0.00</td>
+                    <td>25200938000</td>
+                    <td>5460704165</td>
+                    <td>19740233835</td>
+                    <td>21.67</td>
                   </tr>
                   <tr>
                     <td>522112</td>
                     <td>Belanja Langganan Telepon</td>
-                    <td>6380111000</td>
-                    <td>0</td>
-                    <td>6380111000</td>
-                    <td>0.00</td>
+                    <td>31367392000</td>
+                    <td>23845675</td>
+                    <td>31343546325</td>
+                    <td>0.08</td>
                   </tr>
                   <tr>
                     <td>522113</td>
                     <td>Belanja Langganan Air</td>
-                    <td>7915244000</td>
-                    <td>4837160000</td>
-                    <td>3078084000</td>
-                    <td>61.11</td>
+                    <td>2231013000</td>
+                    <td>694447000</td>
+                    <td>1536566000</td>
+                    <td>31.13</td>
                   </tr>
                   <tr>
                     <td>522119</td>
                     <td>Belanja Langganan Daya dan Jasa Lainnya</td>
-                    <td>40196138000</td>
-                    <td>0</td>
-                    <td>40196138000</td>
-                    <td>0.00</td>
+                    <td>745685000</td>
+                    <td>44006000</td>
+                    <td>701679000</td>
+                    <td>5.90</td>
+                  </tr>
+                  <tr>
+                    <td>522131</td>
+                    <td>Belanja Jasa Konsultan</td>
+                    <td>64636468000</td>
+                    <td>1078924000</td>
+                    <td>63557544000</td>
+                    <td>1.67</td>
                   </tr>
                   <tr>
                     <td>522141</td>
                     <td>Belanja Sewa</td>
-                    <td>30610190000</td>
-                    <td>5756988000</td>
-                    <td>24853202000</td>
-                    <td>18.81</td>
+                    <td>20237928000</td>
+                    <td>762898000</td>
+                    <td>19475030000</td>
+                    <td>3.77</td>
                   </tr>
                   <tr>
                     <td>522151</td>
                     <td>Belanja Jasa Profesi</td>
-                    <td>1366250000</td>
-                    <td>95000000</td>
-                    <td>1271250000</td>
-                    <td>6.95</td>
+                    <td>12663290000</td>
+                    <td>1740075000</td>
+                    <td>10923215000</td>
+                    <td>13.74</td>
+                  </tr>
+                  <tr>
+                    <td>522191</td>
+                    <td>Beban Jasa Lainnya</td>
+                    <td>25489054000</td>
+                    <td>1293193389</td>
+                    <td>24195860611</td>
+                    <td>5.07</td>
                   </tr>
                   <tr>
                     <td>523111</td>
                     <td>Beban Pemeliharaan Gedung dan Bangunan</td>
-                    <td>41537052000</td>
-                    <td>1998800646</td>
-                    <td>39538251354</td>
-                    <td>4.81</td>
-                  </tr>
-                  <tr>
-                    <td>523119</td>
-                    <td>Beban Pemeliharaan Gedung dan Bangunan Lainnya</td>
-                    <td>40601916000</td>
-                    <td>2030553000</td>
-                    <td>38571363000</td>
-                    <td>5.00</td>
+                    <td>39738327000</td>
+                    <td>1344650607</td>
+                    <td>38393676393</td>
+                    <td>3.38</td>
                   </tr>
                   <tr>
                     <td>523121</td>
                     <td>Beban Pemeliharaan Peralatan dan Mesin</td>
-                    <td>122793008000</td>
-                    <td>8994630346</td>
-                    <td>113798377654</td>
-                    <td>7.33</td>
+                    <td>83275153000</td>
+                    <td>4005948054</td>
+                    <td>79269204946</td>
+                    <td>4.81</td>
                   </tr>
                   <tr>
                     <td>523122</td>
                     <td>Beban Bahan Bakar Minyak dan Pelumas (BMP) dan Pelumas Khusus Non Pertamina</td>
-                    <td>668380015000</td>
+                    <td>24970000000</td>
                     <td>0</td>
-                    <td>668380015000</td>
+                    <td>24970000000</td>
                     <td>0.00</td>
                   </tr>
                   <tr>
-                    <td>523123</td>
-                    <td>Belanja Barang Persediaan Pemeliharaan Peralatan dan Mesin</td>
-                    <td>28100000000</td>
+                    <td>523133</td>
+                    <td>Beban Pemeliharaan Jaringan</td>
+                    <td>5558096000</td>
                     <td>0</td>
-                    <td>28100000000</td>
-                    <td>0.00</td>
-                  </tr>
-                  <tr>
-                    <td>523129</td>
-                    <td>Beban Pemeliharaan Peralatan dan Mesin Lainnya</td>
-                    <td>39055543000</td>
-                    <td>323500000</td>
-                    <td>38732043000</td>
-                    <td>0.83</td>
-                  </tr>
-                  <tr>
-                    <td>523131</td>
-                    <td>Beban Pemeliharaan Jalan dan Jembatan</td>
-                    <td>256965000</td>
-                    <td>0</td>
-                    <td>256965000</td>
-                    <td>0.00</td>
-                  </tr>
-                  <tr>
-                    <td>523191</td>
-                    <td>Belanja Barang Persediaan Pemeliharaan Lainnya</td>
-                    <td>900000000</td>
-                    <td>0</td>
-                    <td>900000000</td>
+                    <td>5558096000</td>
                     <td>0.00</td>
                   </tr>
                   <tr>
                     <td>523199</td>
                     <td>Beban Pemeliharaan Lainnya</td>
-                    <td>20579200000</td>
-                    <td>1293211500</td>
-                    <td>19285988500</td>
-                    <td>6.28</td>
+                    <td>23223000</td>
+                    <td>12623000</td>
+                    <td>10600000</td>
+                    <td>54.36</td>
                   </tr>
                   <tr>
                     <td>524111</td>
                     <td>Beban Perjalanan Dinas Biasa</td>
-                    <td>145281408000</td>
-                    <td>11549523635</td>
-                    <td>133731884365</td>
-                    <td>7.95</td>
+                    <td>81104977000</td>
+                    <td>12126565942</td>
+                    <td>68978411058</td>
+                    <td>14.95</td>
                   </tr>
                   <tr>
                     <td>524113</td>
                     <td>Beban Perjalanan Dinas Dalam Kota</td>
-                    <td>1837306000</td>
-                    <td>287550000</td>
-                    <td>1549756000</td>
-                    <td>15.65</td>
+                    <td>7967070000</td>
+                    <td>1372490000</td>
+                    <td>6594580000</td>
+                    <td>17.23</td>
                   </tr>
                   <tr>
                     <td>524114</td>
                     <td>Beban Perjalanan Dinas Paket Meeting Dalam Kota</td>
-                    <td>3302884000</td>
-                    <td>679990000</td>
-                    <td>2622894000</td>
-                    <td>20.59</td>
+                    <td>17393760000</td>
+                    <td>3108602000</td>
+                    <td>14285158000</td>
+                    <td>17.87</td>
                   </tr>
                   <tr>
                     <td>524119</td>
                     <td>Beban Perjalanan Dinas Paket Meeting Luar Kota</td>
-                    <td>3619824000</td>
-                    <td>0</td>
-                    <td>3619824000</td>
-                    <td>0.00</td>
+                    <td>18239158000</td>
+                    <td>2493956000</td>
+                    <td>15745202000</td>
+                    <td>13.67</td>
                   </tr>
                   <tr>
                     <td>524211</td>
                     <td>Beban Perjalanan Dinas Biasa - Luar Negeri</td>
-                    <td>20457834000</td>
-                    <td>232082672</td>
-                    <td>20225751328</td>
-                    <td>1.13</td>
-                  </tr>
-                  <tr>
-                    <td>524212</td>
-                    <td>Beban Perjalanan Dinas Tetap - Luar Negeri</td>
-                    <td>35021955000</td>
-                    <td>2398118000</td>
-                    <td>32623837000</td>
-                    <td>6.85</td>
+                    <td>35740548000</td>
+                    <td>7341361918</td>
+                    <td>28399186082</td>
+                    <td>20.54</td>
                   </tr>
                   <tr>
                     <td>524219</td>
                     <td>Beban Perjalanan Dinas Lainnya - Luar Negeri</td>
-                    <td>12059473000</td>
-                    <td>1621390240</td>
-                    <td>10438082760</td>
-                    <td>13.44</td>
+                    <td>29014831000</td>
+                    <td>3474752774</td>
+                    <td>25540078226</td>
+                    <td>11.98</td>
+                  </tr>
+                  <tr>
+                    <td>526112</td>
+                    <td>Beban Peralatan Dan Mesin Untuk Diserahkan Kepada Masyarakat/Pemda</td>
+                    <td>1928254000</td>
+                    <td>0</td>
+                    <td>1928254000</td>
+                    <td>0.00</td>
                   </tr>
                   <tr>
                     <td>526115</td>
                     <td>Beban Barang Fisik Lainnya Untuk Diserahkan Kepada Masyarakat/Pemda</td>
-                    <td>26844088000</td>
-                    <td>355320000</td>
-                    <td>26488768000</td>
-                    <td>1.32</td>
+                    <td>525099000</td>
+                    <td>1199869000</td>
+                    <td>-674770000</td>
+                    <td>228.50</td>
                   </tr>
-                  
+                  <tr>
+                    <td>526311</td>
+                    <td>Beban Barang Bantuan Lainnya Untuk Diserahkan Kepada Masyarakat/Pemda</td>
+                    <td>5948229000</td>
+                    <td>530639800</td>
+                    <td>5417589200</td>
+                    <td>8.92</td>
+                  </tr>
                 </tbody>
                 <tfoot>
                   <tr>
                     <td></td>
                     <td>TOTAL</td>
-                    <td>5606419071000</td>
-                    <td>486455217400</td>
-                    <td>5119963853600</td>
-                    <td>8.68</td>
+                    <td>1549176108000</td>
+                    <td>123761766093</td>
+                    <td>1425414341907</td>
+                    <td>7.99</td>
                   </tr>
                 </tfoot>
               </table>

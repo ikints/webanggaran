@@ -1,4 +1,4 @@
-@extends('layout.frontend')
+@extends('layout.backend')
 
 @section('extra-css')
 <!-- DataTables -->
@@ -16,10 +16,12 @@
       <section class="content">
         
         <div class="box">
-            <div class="box-header padding-bottom-50 text-center">
-              <h4 class="box-title">LAPORAN PELAKSANAAN</h4><br>
-              <h3 class="box-title">ANGGARAN BELANJA MODAL</h3>
+            <div class="box-header padding-bottom-10 text-center">
+              <h4 class="box-title report-title">LAPORAN PELAKSANAAN ANGGARAN BELANJA MODAL</h4><br>
+              <h3 class="box-title report-title">{{Session::get('status_user')}}</h3><br>
+              <h3 class="box-title report-title">PERIODE 1 JANUARI S.D. 31 MARET 2019</h3>
             </div>
+
             <!-- /.box-header -->
             <div class="box-body">
               <div class="box box-solid">
@@ -56,11 +58,9 @@
                   <thead>
                   <tr>
                     <th>KODE</th>
-                    <th class="text-center">PROGRAM/KEGIATAN/OUTPUT/SUB OUTPUT/<br>KOMPONEN/SUB KOMPONEN/AKUN/DETAIL</th>
-                    <th>VOLUME</th>
-                    <th>HARGA SATUAN</th>
-                    <th>ALOKASI</th>
-                    <th>REALISASI</th>
+                    <th class="text-center">NAMA AKUN</th>
+                    <th>ALOKASI DIPA</th>
+                    <th>REALISASI SPAN</th>
                     <th>SISA</th>
                     <th>%</th>
                   </tr>
@@ -71,33 +71,92 @@
                     <td>4</td>
                     <td>5</td>
                     <td>6</td>
-                    <td>7</td>
-                    <td>8</td>                 
                   </tr>
                   </thead>
                   <tbody>
                   <tr>
-                    <td>5111</td>
-                    <td>Belanja Gaji dan Tunjangan PNS</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>                 
-                  </tr>
-                  <tr>
-                    <td>5113</td>
-                    <td>Belanja Gaji dan Tunjangan Pejabat Negara</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>                 
-                  </tr>
-                  
+                            <td>532111</td>
+                            <td>Belanja Modal Peralatan dan Mesin</td>
+                            <td>1449625560000</td>
+                            <td>4849009260</td>
+                            <td>1444776550740</td>
+                            <td>0.33</td>
+                          </tr>
+                          <tr>
+                            <td>532113</td>
+                            <td>Belanja Modal Upah Tenaga Kerja dan Honor Pengelola Teknis Peralatan dan Mesin</td>
+                            <td>59611000</td>
+                            <td>0</td>
+                            <td>59611000</td>
+                            <td>0.00</td>
+                          </tr>
+                          <tr>
+                            <td>532115</td>
+                            <td>Belanja Modal Perencanaan dan Pengawasan Peralatan dan Mesin</td>
+                            <td>9688000</td>
+                            <td>0</td>
+                            <td>9688000</td>
+                            <td>0.00</td>
+                          </tr>
+                          <tr>
+                            <td>533111</td>
+                            <td>Belanja Modal Gedung dan Bangunan</td>
+                            <td>1044845746000</td>
+                            <td>25403022000</td>
+                            <td>1019442724000</td>
+                            <td>2.43</td>
+                          </tr>
+                          <tr>
+                            <td>533121</td>
+                            <td>Belanja Penambahan Nilai Gedung dan Bangunan</td>
+                            <td>86987901000</td>
+                            <td>1961185000</td>
+                            <td>85026716000</td>
+                            <td>2.25</td>
+                          </tr>
+                          <tr>
+                            <td>536111</td>
+                            <td>Belanja Modal Lainnya</td>
+                            <td>152733048000</td>
+                            <td>0</td>
+                            <td>152733048000</td>
+                            <td>0.00</td>
+                          </tr>
+                          <tr>
+                            <td>536121</td>
+                            <td>Belanja Penambahan Nilai Aset Tetap Lainnya dan/atau Aset Lainnya</td>
+                            <td>175208000</td>
+                            <td>0</td>
+                            <td>175208000</td>
+                            <td>0.00</td>
+                          </tr>
+                          <tr>
+                            <td>537112</td>
+                            <td>Belanja Modal Peralatan dan Mesin</td>
+                            <td>7963279000</td>
+                            <td>0</td>
+                            <td>7963279000</td>
+                            <td>0.00</td>
+                          </tr>
+                          <tr>
+                            <td>537113</td>
+                            <td>Belanja Modal Gedung dan Bangunan</td>
+                            <td>8354271000</td>
+                            <td>0</td>
+                            <td>8354271000</td>
+                            <td>0.00</td>
+                          </tr>
                 </tbody>
+                <tfoot>
+                  <tr>
+                            <td></td>
+                            <td>TOTAL</td>
+                            <td>2750754312000</td>
+                            <td>32213216260</td>
+                            <td>2718541095740</td>
+                            <td>1.17</td>
+                          </tr>
+                </tfoot>
               </table>
             </div>
         </div>

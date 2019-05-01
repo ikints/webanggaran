@@ -68,6 +68,8 @@ Route::group(['middleware' => 'ValidateUO'], function () {
 	Route::post('cms/kemhan/uo/laporan-rincian-anggaran-belanja-pegawai', 'Backend\UOController@laporan_rincian_abp');
 	Route::get('cms/kemhan/uo/laporan-anggaran-belanja-modal', 'Backend\UOController@laporan_belanja_modal');
 	Route::post('cms/kemhan/uo/laporan-rincian-belanja-modal', 'Backend\UOController@laporan_rincian_modal');
+	Route::get('cms/kemhan/uo/laporan-anggaran-belanja-barang', 'Backend\UOController@laporan_belanja_barang');
+	Route::post('cms/kemhan/uo/laporan-rincian-belanja-barang', 'Backend\UOController@laporan_rincian_barang');
 
 	//Signout
 	Route::get('cms/kemhan/uo/signout', 'Backend\UOController@signout');
@@ -92,6 +94,8 @@ Route::group(['middleware' => 'ValidateUO'], function () {
 	Route::post('cms/mabes-tni/uo/laporan-rincian-anggaran-belanja-pegawai', 'Backend\MabesTniUOController@laporan_rincian_abp');
 	Route::get('cms/mabes-tni/uo/laporan-anggaran-belanja-modal', 'Backend\MabesTniUOController@laporan_belanja_modal');
 	Route::post('cms/mabes-tni/uo/laporan-rincian-belanja-modal', 'Backend\MabesTniUOController@laporan_rincian_modal');
+	Route::get('cms/mabes-tni/uo/laporan-anggaran-belanja-barang', 'Backend\MabesTniUOController@laporan_belanja_barang');
+	Route::post('cms/mabes-tni/uo/laporan-rincian-belanja-barang', 'Backend\MabesTniUOController@laporan_rincian_barang');
 
 	//Signout
 	Route::get('cms/mabes-tni/uo/signout', 'Backend\MabesTniUOController@signout');
@@ -116,6 +120,8 @@ Route::group(['middleware' => 'ValidateUO'], function () {
 	Route::post('cms/tni-ad/uo/laporan-rincian-anggaran-belanja-pegawai', 'Backend\TniADUOController@laporan_rincian_abp');
 	Route::get('cms/tni-ad/uo/laporan-anggaran-belanja-modal', 'Backend\TniADUOController@laporan_belanja_modal');
 	Route::post('cms/tni-ad/uo/laporan-rincian-belanja-modal', 'Backend\TniADUOController@laporan_rincian_modal');
+	Route::get('cms/tni-ad/uo/laporan-anggaran-belanja-barang', 'Backend\TniADUOController@laporan_belanja_barang');
+	Route::post('cms/tni-ad/uo/laporan-rincian-belanja-barang', 'Backend\TniADUOController@laporan_rincian_barang');
 
 	//Signout
 	Route::get('cms/tni-ad/uo/signout', 'Backend\TniADUOController@signout');
@@ -141,6 +147,8 @@ Route::group(['middleware' => 'ValidateUO'], function () {
 	Route::post('cms/tni-au/uo/laporan-rincian-anggaran-belanja-pegawai', 'Backend\TniAUUOController@laporan_rincian_abp');
 	Route::get('cms/tni-au/uo/laporan-anggaran-belanja-modal', 'Backend\TniAUUOController@laporan_belanja_modal');
 	Route::post('cms/tni-au/uo/laporan-rincian-belanja-modal', 'Backend\TniAUUOController@laporan_rincian_modal');
+	Route::get('cms/tni-au/uo/laporan-anggaran-belanja-barang', 'Backend\TniAUUOController@laporan_belanja_barang');
+	Route::post('cms/tni-au/uo/laporan-rincian-belanja-barang', 'Backend\TniAUUOController@laporan_rincian_barang');
 
 	//Signout
 	Route::get('cms/tni-au/uo/signout', 'Backend\TniAUUOController@signout');
@@ -165,6 +173,8 @@ Route::group(['middleware' => 'ValidateUO'], function () {
 	Route::post('cms/tni-al/uo/laporan-rincian-anggaran-belanja-pegawai', 'Backend\TniALUOController@laporan_rincian_abp');
 	Route::get('cms/tni-al/uo/laporan-anggaran-belanja-modal', 'Backend\TniALUOController@laporan_belanja_modal');
 	Route::post('cms/tni-al/uo/laporan-rincian-belanja-modal', 'Backend\TniALUOController@laporan_rincian_modal');
+	Route::get('cms/tni-al/uo/laporan-anggaran-belanja-barang', 'Backend\TniALUOController@laporan_belanja_barang');
+	Route::post('cms/tni-al/uo/laporan-rincian-belanja-barang', 'Backend\TniALUOController@laporan_rincian_barang');
 
 	//Signout
 	Route::get('cms/tni-al/uo/signout', 'Backend\TniALUOController@signout');

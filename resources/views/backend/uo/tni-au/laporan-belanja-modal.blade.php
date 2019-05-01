@@ -21,7 +21,8 @@
 		            <div class="box-body margin-bottom-50 margin-top-10 box-form-rounded">
 
 		            	<!-- form start -->
-			            <form class="form-horizontal" method="get" action="laporan-rincian-belanja-modal">
+			            <form class="form-horizontal" method="post" action="laporan-rincian-belanja-modal">
+			              {{ csrf_field() }}
 			              <div class="box-body">
 
 			                <div class="form-group">

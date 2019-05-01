@@ -12,7 +12,7 @@
       	<div class="box box-default">
           <div class="box-header with-border text-center">
             <h3 class="box-title">LAPORAN PELAKSANAAN</h3><br>
-            <h3 class="box-title">ANGGARAN BELANJA PEGAWAI</h3><br>
+            <h3 class="box-title">ANGGARAN BELANJA BARANG</h3><br>
             <h3 class="box-title">KEMENTERIAN PERTAHANAN REPUBLIK INDONESIA</h3><br>
           </div>
           <div class="box-body">
@@ -21,8 +21,8 @@
 		            <div class="box-body margin-bottom-50 margin-top-10 box-form-rounded">
 
 		            	<!-- form start -->
-			            <form class="form-horizontal" method="post" action="laporan-rincian-anggaran-belanja-pegawai">
-			              {{ csrf_field() }}
+			            <form class="form-horizontal" method="post" action="laporan-rincian-belanja-modal">
+			            {{ csrf_field() }}
 			              <div class="box-body">
 
 			                <div class="form-group">
@@ -61,13 +61,12 @@
 			                    <input type="text" class="form-control" id="inputEmail3">
 			                  </div>
 			                </div>
-
 			                <div class="form-group">
-			                  <label for="inputEmail3" class="col-sm-3 control-label">Satuan Kerja</label>
+			                  <label for="inputEmail3" class="col-sm-3 control-label">Unit Organisasi</label>
 
 			                  <div class="col-sm-9">
 			                    <select class="form-control">
-			                    	<option>--Pilih Satuan Kerja--</option>
+			                    	<option>--Pilih Unit Organisasi--</option>
 			                    </select>
 			                  </div>
 			                </div>
@@ -77,6 +76,15 @@
 			                  <div class="col-sm-9">
 			                    <select class="form-control">
 			                    	<option>--Pilih Kotama--</option>
+			                    </select>
+			                  </div>
+			                </div>
+			                <div class="form-group">
+			                  <label for="inputEmail3" class="col-sm-3 control-label">Satuan Kerja</label>
+
+			                  <div class="col-sm-9">
+			                    <select class="form-control">
+			                    	<option>--Pilih Satuan Kerja--</option>
 			                    </select>
 			                  </div>
 			                </div>

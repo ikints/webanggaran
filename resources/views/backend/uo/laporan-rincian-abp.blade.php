@@ -30,7 +30,7 @@
                       <div class="box-body">
                         <table class="table table-border">
                           <tr>
-                            <td>Unit Organisasi</td><td>: 22 - TNI AD</td>
+                            <td>Unit Organisasi</td><td>: 22 - {{Session::get('status_user')}}</td>
                           </tr>
                           <tr>
                             <td>Kotama</td><td>: 08 - Kodam III/SILIWANGI</td>
@@ -59,7 +59,7 @@
                     <th>KODE</th>
                     <th class="text-center">NAMA AKUN</th>
                     <th>ALOKASI DIPA</th>
-                    <th>REALISASI</th>
+                    <th>REALISASI SPAN</th>
                     <th>SISA</th>
                     <th>%</th>
                   </tr>

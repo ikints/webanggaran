@@ -1,4 +1,4 @@
-@extends('layout.frontend')
+@extends('layout.backend')
 
 @section('extra-css')
 <!-- DataTables -->
@@ -16,9 +16,10 @@
       <section class="content">
         
         <div class="box">
-            <div class="box-header padding-bottom-50 text-center">
-              <h4 class="box-title">LAPORAN PELAKSANAAN</h4><br>
-              <h3 class="box-title">ANGGARAN BELANJA MODAL</h3>
+            <div class="box-header padding-bottom-10 text-center">
+              <h4 class="box-title report-title">LAPORAN PELAKSANAAN ANGGARAN BELANJA MODAL</h4><br>
+              <h3 class="box-title report-title">{{Session::get('status_user')}}</h3><br>
+              <h3 class="box-title report-title">PERIODE 1 JANUARI S.D. 31 MARET 2019</h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
@@ -26,10 +27,10 @@
                 <div class="box-body">
                   <div class="row">
                   <div class="col-md-4">
-                      <div class="box-body margin-bottom-20 margin-top-10">
+                      <div class="box-body">
                         <table class="table table-border">
                           <tr>
-                            <td>Unit Organisasi</td><td>: 22 - TNI AD</td>
+                            <td>Unit Organisasi</td><td>: 22 - {{Session::get('status_user')}}</td>
                           </tr>
                           <tr>
                             <td>Kotama</td><td>: 08 - Kodam III/SILIWANGI</td>
@@ -56,11 +57,9 @@
                   <thead>
                   <tr>
                     <th>KODE</th>
-                    <th class="text-center">PROGRAM/KEGIATAN/OUTPUT/SUB OUTPUT/<br>KOMPONEN/SUB KOMPONEN/AKUN/DETAIL</th>
-                    <th>VOLUME</th>
-                    <th>HARGA SATUAN</th>
-                    <th>ALOKASI</th>
-                    <th>REALISASI</th>
+                    <th class="text-center">NAMA AKUN</th>
+                    <th>ALOKASI DIPA</th>
+                    <th>REALISASI SPAN</th>
                     <th>SISA</th>
                     <th>%</th>
                   </tr>
@@ -70,34 +69,86 @@
                     <td>3</td>
                     <td>4</td>
                     <td>5</td>
-                    <td>6</td>
-                    <td>7</td>
-                    <td>8</td>                 
+                    <td>6</td>             
                   </tr>
                   </thead>
                   <tbody>
                   <tr>
-                    <td>5111</td>
-                    <td>Belanja Gaji dan Tunjangan PNS</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>                 
+                    <td>531111</td>
+                    <td>Belanja Modal Tanah</td>
+                    <td>4730364000</td>
+                    <td>0</td>
+                    <td>4730364000</td>
+                    <td>0.00</td>
                   </tr>
                   <tr>
-                    <td>5113</td>
-                    <td>Belanja Gaji dan Tunjangan Pejabat Negara</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>                 
+                    <td>532111</td>
+                    <td>Belanja Modal Peralatan dan Mesin</td>
+                    <td>17482144336000</td>
+                    <td>22938149860</td>
+                    <td>17459206186140</td>
+                    <td>0.13</td>
+                  </tr>
+                  <tr>
+                    <td>533111</td>
+                    <td>Belanja Modal Gedung dan Bangunan</td>
+                    <td>417128893000</td>
+                    <td>14706158119</td>
+                    <td>402422734881</td>
+                    <td>3.53</td>
+                  </tr>
+                  <tr>
+                    <td>533113</td>
+                    <td>Belanja Modal Upah Tenaga Kerja dan Honor Pengelola Teknis Gedung dan Bangunan</td>
+                    <td>578834000</td>
+                    <td>0</td>
+                    <td>578834000</td>
+                    <td>0.00</td>
+                  </tr>
+                  <tr>
+                    <td>533115</td>
+                    <td>Belanja Modal Perencanaan dan Pengawasan Gedung dan Bangunan</td>
+                    <td>1711451000</td>
+                    <td>0</td>
+                    <td>1711451000</td>
+                    <td>0.00</td>
+                  </tr>
+                  <tr>
+                    <td>533117</td>
+                    <td>Belanja Modal Pengosongan dan Pembongkaran Bangunan Lama, Gedung dan Bangunan</td>
+                    <td>5872131000</td>
+                    <td>289199750</td>
+                    <td>5582931250</td>
+                    <td>4.92</td>
+                  </tr>
+                  <tr>
+                    <td>534111</td>
+                    <td>Belanja Modal Jalan dan Jembatan</td>
+                    <td>186000000000</td>
+                    <td>1106607500</td>
+                    <td>184893392500</td>
+                    <td>0.59</td>
+                  </tr>
+                  <tr>
+                    <td>536111</td>
+                    <td>Belanja Modal Lainnya</td>
+                    <td>69083677000</td>
+                    <td>6235291434</td>
+                    <td>62848385566</td>
+                    <td>9.03</td>
                   </tr>
                   
                 </tbody>
+                <tfoot>
+                  <tr>
+                    <td></td>
+                    <td>TOTAL</td>
+                    <td>18167249686000</td>
+                    <td>45275406663</td>
+                    <td>18121974279337</td>
+                    <td>0.25</td>
+                  </tr>
+                </tfoot>
               </table>
             </div>
         </div>
@@ -120,7 +171,14 @@
 <!-- page script -->
 <script>
   $(function () {
-    $('#tablelist').DataTable();
+    $('#tablelist').DataTable(
+
+        {
+          "searching": false,
+          "bLengthChange": false,
+        }
+
+      );
   })
 </script>
 @endsection
