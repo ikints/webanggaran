@@ -24,8 +24,8 @@
             <!-- /.box-header -->
             <div class="box-body">
                 <div class="padding-bottom-20">
-                  <a href="{{ URL('cms/uo/anggaran') }}" class="btn btn-xs btn-success"><i class="fa fa-list"></i> Anggaran Kementerian</a>
-                  <a href="{{ URL('cms/uo/input-anggaran') }}" class="btn btn-xs btn-success"><i class="fa fa-plus"></i> Input Anggaran</a>
+                  <a href="{{ URL('cms/tni-al/uo/anggaran') }}" class="btn btn-xs btn-success"><i class="fa fa-list"></i> Anggaran Kementerian</a>
+                  <a href="{{ URL('cms/tni-al/uo/input-anggaran') }}" class="btn btn-xs btn-success"><i class="fa fa-plus"></i> Input Anggaran</a>
                 </div>
                 <table id="tablelist" class="table table-bordered table-striped">
                   <thead>

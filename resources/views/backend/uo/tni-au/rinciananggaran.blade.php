@@ -24,7 +24,7 @@
             <!-- /.box-header -->
             <div class="box-body">
       			    <div class="padding-bottom-20">
-        			  	<a href="{{ URL('cms/uo/input-anggaran') }}" class="btn btn-xs btn-success"><i class="fa fa-plus"></i> Input Anggaran</a>
+        			  	<a href="{{ URL('cms/tni-au/uo/input-anggaran') }}" class="btn btn-xs btn-success"><i class="fa fa-plus"></i> Input Anggaran</a>
                 </div>
                 <table id="tablelist" class="table table-bordered table-striped">
                   <thead>
@@ -45,7 +45,7 @@
                   </thead>
                   <tbody>
                   <tr>
-                    <td><a href="{{ URL('cms/uo/rincian-anggaran-detail') }}">012.22 - Markas Besar TNI AD</a></td>
+                    <td><a href="{{ URL('cms/tni-au/uo/rincian-anggaran-detail') }}">012.22 - Markas Besar TNI AD</a></td>
                     <td>28.920.991.912</td>
                     <td>2.908.765.12</td>
                     <td>8.980.889.321</td>

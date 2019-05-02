@@ -16,7 +16,7 @@
           <div class="box-body">
           	<div class="row">
 		        <div class="col-md-5 col-md-offset-4">
-		        	<a href="{{ URL('cms/uo/anggaran') }}" class="btn btn-xs btn-success margin-top-50"><i class="fa fa-list"></i> Lihat Data Anggaran</a>
+		        	<a href="{{ URL('cms/kemhan/uo/anggaran') }}" class="btn btn-xs btn-success margin-top-50"><i class="fa fa-list"></i> Lihat Data Anggaran</a>
 		            <div class="box-body margin-bottom-50 margin-top-10 box-form-rounded">
 
 		            	<!-- form start -->
