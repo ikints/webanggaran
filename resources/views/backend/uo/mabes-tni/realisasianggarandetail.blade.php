@@ -24,7 +24,7 @@
             <!-- /.box-header -->
             <div class="box-body">
               <div class="padding-bottom-20">
-                  <a href="{{ URL('cms/uo/realisasi-anggaran') }}" class="btn btn-xs btn-success"><i class="fa fa-list"></i> Lihat Dafar Program</a>
+                  <a href="{{ URL('cms/mabes-tni/uo/realisasi-anggaran') }}" class="btn btn-xs btn-success"><i class="fa fa-list"></i> Lihat Dafar Program</a>
                 </div>
               <div class="box box-solid">
                 <div class="box-body">
@@ -61,7 +61,7 @@
                       Riwayat Pencairan Dana
                     </div>
                     <div class="col-md-7">
-                      <a href="{{ URL('cms/uo/tambah-pencairan-dana') }}" class="btn btn-xs btn-success pull-right"><i class="fa fa-plus"></i> Tambah Pencairan Dana</a>
+                      <a href="{{ URL('cms/mabes-tni/uo/tambah-pencairan-dana') }}" class="btn btn-xs btn-success pull-right"><i class="fa fa-plus"></i> Tambah Pencairan Dana</a>
                     </div>
                   </div>
         			  	

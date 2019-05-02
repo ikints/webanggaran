@@ -1,4 +1,4 @@
-@extends('layout.backend')
+s@extends('layout.backend')
 
 @section('content')
 
@@ -14,8 +14,8 @@
             <h3 class="box-title">Tambah Realisasi Dana Program</h3>
           </div>
           <div class="box-body">
-          	<a href="{{ URL('cms/uo/realisasi-anggaran') }}" class="btn btn-xs btn-success margin-top-50"><i class="fa fa-list"></i> Lihat Daftar Program</a>
-		    <a href="{{ URL('cms/uo/realisasi-anggaran') }}" class="btn btn-xs btn-success margin-top-50"><i class="fa fa-list"></i> Lihat Pencairan</a>
+          	<a href="{{ URL('cms/tni-ad/uo/realisasi-anggaran') }}" class="btn btn-xs btn-success margin-top-50"><i class="fa fa-list"></i> Lihat Daftar Program</a>
+		    <a href="{{ URL('cms/tni-ad/uo/realisasi-anggaran') }}" class="btn btn-xs btn-success margin-top-50"><i class="fa fa-list"></i> Lihat Pencairan</a>
           	<div class="box box-solid">
                 <div class="box-body">
                   <div class="row">

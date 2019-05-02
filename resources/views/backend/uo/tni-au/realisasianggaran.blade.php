@@ -76,7 +76,7 @@
                 </div>
 
                 <div class="padding-bottom-20">
-                  <a href="{{ URL('cms/uo/tambah-realisasi-anggaran') }}" class="btn btn-xs btn-success"><i class="fa fa-plus"></i> Tambah Realisasi Dana Program</a>
+                  <a href="{{ URL('cms/tni-au/uo/tambah-realisasi-anggaran') }}" class="btn btn-xs btn-success"><i class="fa fa-plus"></i> Tambah Realisasi Dana Program</a>
                 </div>
 
 
@@ -91,7 +91,7 @@
                   </thead>
                   <tbody>
                   <tr>
-                    <td><a href="{{ URL('cms/uo/realisasi-anggaran-detail') }}">012.22.14 - Program Dukungan Kesiapan Matra Darat</a></td>
+                    <td><a href="{{ URL('cms/tni-au/uo/realisasi-anggaran-detail') }}">012.22.14 - Program Dukungan Kesiapan Matra Darat</a></td>
                     <td>132.991.912</td>
                     <td>8.765.12</td>
                     <td><i class="fa fa-check-circle-o"></i></td>                  
