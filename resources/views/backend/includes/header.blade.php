@@ -112,6 +112,7 @@
               @switch(Session::get('username'))
                   @case('kemhan_uo')
             <li class="active"><a href="{{ URL('cms/kemhan/uo/anggaran') }}">Anggaran Unit Organisasi</a></li>
+            <li><a href="{{ URL('cms/kemhan/uo/revisi-anggaran') }}">Revisi Anggaran</a></li>
             <li><a href="{{ URL('cms/kemhan/uo/realisasi-anggaran') }}">Realisasi Anggaran</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Laporan <span class="caret"></span></a>
@@ -132,6 +133,7 @@
                       @break
                   @case('mabes_tni_uo')
             <li class="active"><a href="{{ URL('cms/mabes-tni/uo/anggaran') }}">Anggaran Unit Organisasi</a></li>
+            <li><a href="{{ URL('cms/mabes-tni/uo/revisi-anggaran') }}">Revisi Anggaran</a></li>
             <li><a href="{{ URL('cms/mabes-tni/uo/realisasi-anggaran') }}">Realisasi Anggaran</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Laporan <span class="caret"></span></a>
@@ -152,6 +154,7 @@
                       @break
                   @case('tni_ad_uo')
             <li class="active"><a href="{{ URL('cms/tni-ad/uo/anggaran') }}">Anggaran Unit Organisasi</a></li>
+            <li><a href="{{ URL('cms/tni-ad/uo/revisi-anggaran') }}">Revisi Anggaran</a></li>
             <li><a href="{{ URL('cms/tni-ad/uo/realisasi-anggaran') }}">Realisasi Anggaran</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Laporan <span class="caret"></span></a>
@@ -172,6 +175,7 @@
                       @break
                   @case('tni_au_uo')
             <li class="active"><a href="{{ URL('cms/tni-au/uo/anggaran') }}">Anggaran Unit Organisasi</a></li>
+            <li><a href="{{ URL('cms/tni-au/uo/revisi-anggaran') }}">Revisi Anggaran</a></li>
             <li><a href="{{ URL('cms/tni-au/uo/realisasi-anggaran') }}">Realisasi Anggaran</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Laporan <span class="caret"></span></a>
@@ -192,6 +196,7 @@
                       @break
                   @case('tni_al_uo')
             <li class="active"><a href="{{ URL('cms/tni-al/uo/anggaran') }}">Anggaran Unit Organisasi</a></li>
+            <li><a href="{{ URL('cms/tni-al/uo/revisi-anggaran') }}">Revisi Anggaran</a></li>
             <li><a href="{{ URL('cms/tni-al/uo/realisasi-anggaran') }}">Realisasi Anggaran</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Laporan <span class="caret"></span></a>
@@ -214,6 +219,7 @@
 
             @elseif (Session::get('level') == 3)
             <li class="active"><a href="{{ URL('cms/kotama/anggaran') }}">Anggaran Kotama</a></li>
+            <li><a href="{{ URL('cms/kotama/revisi-anggaran') }}">Revisi Anggaran</a></li>
             <li><a href="{{ URL('cms/kotama/realisasi-anggaran') }}">Realisasi Anggaran</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Laporan <span class="caret"></span></a>
@@ -233,6 +239,7 @@
             <li><a href="{{ URL('cms/signout') }}">Logout</a></li>
             @elseif (Session::get('level') == 4)
             <li class="active"><a href="{{ URL('cms/satker/anggaran') }}">Anggaran Satuan Kerja</a></li>
+            <li><a href="{{ URL('cms/satker/revisi-anggaran') }}">Revisi Anggaran</a></li>
             <li><a href="{{ URL('cms/satker/realisasi-anggaran') }}">Realisasi Anggaran</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Laporan <span class="caret"></span></a>

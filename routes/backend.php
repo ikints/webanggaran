@@ -29,8 +29,8 @@ Route::group(['middleware' => 'ValidateKemhan'], function () {
 	Route::get('cms/revisi-anggaran', 'Backend\HomeController@revisi_anggaran');
 	Route::get('cms/edit-semua-revisi-anggaran', 'Backend\HomeController@edit_semua_revisi_anggaran');
 	Route::get('cms/edit-revisi-anggaran', 'Backend\HomeController@edit_revisi_anggaran');
-	Route::get('cms/realisasi-anggaran', 'Backend\HomeController@realisasi_anggaran');
 	Route::get('cms/revisi-anggaran-detail', 'Backend\HomeController@revisi_anggaran_detail');
+	Route::get('cms/realisasi-anggaran', 'Backend\HomeController@realisasi_anggaran');
 	Route::get('cms/realisasi-anggaran-detail', 'Backend\HomeController@realisasi_anggaran_detail');
 	Route::get('cms/tambah-realisasi-anggaran', 'Backend\HomeController@tambah_realisasi_anggaran');
 	//
@@ -58,6 +58,10 @@ Route::group(['middleware' => 'ValidateUO'], function () {
 	Route::get('cms/kemhan/uo/anggaran', 'Backend\UOController@anggaran');
 	Route::get('cms/kemhan/uo/rincian-anggaran', 'Backend\UOController@anggaran');
 	Route::get('cms/kemhan/uo/rincian-anggaran-detail', 'Backend\UOController@anggaran_detail');
+	Route::get('cms/kemhan/uo/revisi-anggaran', 'Backend\UOController@revisi_anggaran');
+	Route::get('cms/kemhan/uo/edit-semua-revisi-anggaran', 'Backend\UOController@edit_semua_revisi_anggaran');
+	Route::get('cms/kemhan/uo/edit-revisi-anggaran', 'Backend\UOController@edit_revisi_anggaran');
+	Route::get('cms/kemhan/uo/revisi-anggaran-detail', 'Backend\UOController@revisi_anggaran_detail');
 	Route::get('cms/kemhan/uo/realisasi-anggaran', 'Backend\UOController@realisasi_anggaran');
 	Route::get('cms/kemhan/uo/realisasi-anggaran-detail', 'Backend\UOController@realisasi_anggaran_detail');
 	Route::get('cms/kemhan/uo/tambah-realisasi-anggaran', 'Backend\UOController@tambah_realisasi_anggaran');
@@ -82,6 +86,10 @@ Route::group(['middleware' => 'ValidateUO'], function () {
 	Route::get('cms/mabes-tni/uo/buat-anggaran-selesai', 'Backend\MabesTniUOController@buat_anggaran_selesai');
 	Route::get('cms/mabes-tni/uo/dashboard', 'Backend\MabesTniUOController@dashboard');
 	Route::get('cms/mabes-tni/uo/anggaran', 'Backend\MabesTniUOController@anggaran');
+	Route::get('cms/mabes-tni/uo/revisi-anggaran', 'Backend\MabesTniUOController@revisi_anggaran');
+	Route::get('cms/mabes-tni/uo/edit-semua-revisi-anggaran', 'Backend\MabesTniUOController@edit_semua_revisi_anggaran');
+	Route::get('cms/mabes-tni/uo/edit-revisi-anggaran', 'Backend\MabesTniUOController@edit_revisi_anggaran');
+	Route::get('cms/mabes-tni/uo/revisi-anggaran-detail', 'Backend\MabesTniUOController@revisi_anggaran_detail');
 	Route::get('cms/mabes-tni/uo/rincian-anggaran', 'Backend\MabesTniUOController@anggaran');
 	Route::get('cms/mabes-tni/uo/rincian-anggaran-detail', 'Backend\MabesTniUOController@anggaran_detail');
 	Route::get('cms/mabes-tni/uo/realisasi-anggaran', 'Backend\MabesTniUOController@realisasi_anggaran');
@@ -108,6 +116,10 @@ Route::group(['middleware' => 'ValidateUO'], function () {
 	Route::get('cms/tni-ad/uo/buat-anggaran-selesai', 'Backend\TniADUOController@buat_anggaran_selesai');
 	Route::get('cms/tni-ad/uo/dashboard', 'Backend\TniADUOController@dashboard');
 	Route::get('cms/tni-ad/uo/anggaran', 'Backend\TniADUOController@anggaran');
+	Route::get('cms/tni-ad/uo/revisi-anggaran', 'Backend\TniADUOController@revisi_anggaran');
+	Route::get('cms/tni-ad/uo/edit-semua-revisi-anggaran', 'Backend\TniADUOController@edit_semua_revisi_anggaran');
+	Route::get('cms/tni-ad/uo/edit-revisi-anggaran', 'Backend\TniADUOController@edit_revisi_anggaran');
+	Route::get('cms/tni-ad/uo/revisi-anggaran-detail', 'Backend\TniADUOController@revisi_anggaran_detail');
 	Route::get('cms/tni-ad/uo/rincian-anggaran', 'Backend\TniADUOController@anggaran');
 	Route::get('cms/tni-ad/uo/rincian-anggaran-detail', 'Backend\TniADUOController@anggaran_detail');
 	Route::get('cms/tni-ad/uo/realisasi-anggaran', 'Backend\TniADUOController@realisasi_anggaran');
@@ -136,6 +148,10 @@ Route::group(['middleware' => 'ValidateUO'], function () {
 	Route::get('cms/tni-au/uo/dashboard', 'Backend\TniAUUOController@dashboard');
 	Route::get('cms/tni-au/uo/anggaran', 'Backend\TniAUUOController@anggaran');
 	Route::get('cms/tni-au/uo/rincian-anggaran', 'Backend\TniAUUOController@anggaran');
+	Route::get('cms/tni-au/uo/revisi-anggaran', 'Backend\TniAUUOController@revisi_anggaran');
+	Route::get('cms/tni-au/uo/edit-semua-revisi-anggaran', 'Backend\TniAUUOController@edit_semua_revisi_anggaran');
+	Route::get('cms/tni-au/uo/edit-revisi-anggaran', 'Backend\TniAUUOController@edit_revisi_anggaran');
+	Route::get('cms/tni-au/uo/revisi-anggaran-detail', 'Backend\TniAUUOController@revisi_anggaran_detail');
 	Route::get('cms/tni-au/uo/rincian-anggaran-detail', 'Backend\TniAUUOController@anggaran_detail');
 	Route::get('cms/tni-au/uo/realisasi-anggaran', 'Backend\TniAUUOController@realisasi_anggaran');
 	Route::get('cms/tni-au/uo/realisasi-anggaran-detail', 'Backend\TniAUUOController@realisasi_anggaran_detail');
@@ -161,6 +177,10 @@ Route::group(['middleware' => 'ValidateUO'], function () {
 	Route::get('cms/tni-al/uo/buat-anggaran-selesai', 'Backend\TniALUOController@buat_anggaran_selesai');
 	Route::get('cms/tni-al/uo/dashboard', 'Backend\TniALUOController@dashboard');
 	Route::get('cms/tni-al/uo/anggaran', 'Backend\TniALUOController@anggaran');
+	Route::get('cms/tni-al/uo/revisi-anggaran', 'Backend\TniALUOController@revisi_anggaran');
+	Route::get('cms/tni-al/uo/edit-semua-revisi-anggaran', 'Backend\TniALUOController@edit_semua_revisi_anggaran');
+	Route::get('cms/tni-al/uo/edit-revisi-anggaran', 'Backend\TniALUOController@edit_revisi_anggaran');
+	Route::get('cms/tni-al/uo/revisi-anggaran-detail', 'Backend\TniALUOController@revisi_anggaran_detail');
 	Route::get('cms/tni-al/uo/rincian-anggaran', 'Backend\TniALUOController@anggaran');
 	Route::get('cms/tni-al/uo/rincian-anggaran-detail', 'Backend\TniALUOController@anggaran_detail');
 	Route::get('cms/tni-al/uo/realisasi-anggaran', 'Backend\TniALUOController@realisasi_anggaran');
@@ -193,6 +213,10 @@ Route::group(['middleware' => 'ValidateKotama'], function () {
 	Route::get('cms/kotama/buat-anggaran-selesai', 'Backend\KotamaController@buat_anggaran_selesai');
 	Route::get('cms/kotama/dashboard', 'Backend\KotamaController@dashboard');
 	Route::get('cms/kotama/anggaran', 'Backend\KotamaController@anggaran');
+	Route::get('cms/kotama/revisi-anggaran', 'Backend\KotamaController@revisi_anggaran');
+	Route::get('cms/kotama/edit-semua-revisi-anggaran', 'Backend\KotamaController@edit_semua_revisi_anggaran');
+	Route::get('cms/kotama/edit-revisi-anggaran', 'Backend\KotamaController@edit_revisi_anggaran');
+	Route::get('cms/kotama/revisi-anggaran-detail', 'Backend\KotamaController@revisi_anggaran_detail');
 	Route::get('cms/kotama/rincian-anggaran', 'Backend\KotamaController@anggaran');
 	Route::get('cms/kotama/rincian-anggaran-detail', 'Backend\KotamaController@anggaran_detail');
 	Route::get('cms/kotama/realisasi-anggaran', 'Backend\KotamaController@realisasi_anggaran');
@@ -222,6 +246,10 @@ Route::group(['middleware' => 'ValidateSatKer'], function () {
 	Route::get('cms/satker/buat-anggaran-selesai', 'Backend\SatKerController@buat_anggaran_selesai');
 	Route::get('cms/satker/dashboard', 'Backend\SatKerController@dashboard');
 	Route::get('cms/satker/anggaran', 'Backend\SatKerController@anggaran');
+	Route::get('cms/satker/revisi-anggaran', 'Backend\SatKerController@revisi_anggaran');
+	Route::get('cms/satker/edit-semua-revisi-anggaran', 'Backend\SatKerController@edit_semua_revisi_anggaran');
+	Route::get('cms/satker/edit-revisi-anggaran', 'Backend\SatKerController@edit_revisi_anggaran');
+	Route::get('cms/satker/revisi-anggaran-detail', 'Backend\SatKerController@revisi_anggaran_detail');
 	Route::get('cms/satker/rincian-anggaran', 'Backend\SatKerController@anggaran');
 	Route::get('cms/satker/rincian-anggaran-detail', 'Backend\SatKerController@anggaran_detail');
 	Route::get('cms/satker/realisasi-anggaran', 'Backend\SatKerController@realisasi_anggaran');
