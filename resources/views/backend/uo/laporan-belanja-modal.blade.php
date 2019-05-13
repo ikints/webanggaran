@@ -61,6 +61,15 @@
 			                    <input type="text" class="form-control" id="inputEmail3">
 			                  </div>
 			                </div>
+			                <div class="form-group">
+			                  <label for="inputEmail3" class="col-sm-3 control-label">Kotama</label>
+
+			                  <div class="col-sm-9">
+			                    <select class="form-control">
+			                    	<option>--Pilih Kotama--</option>
+			                    </select>
+			                  </div>
+			                </div>
 
 			                <div class="form-group">
 			                  <label for="inputEmail3" class="col-sm-3 control-label">Satuan Kerja</label>
@@ -68,15 +77,6 @@
 			                  <div class="col-sm-9">
 			                    <select class="form-control">
 			                    	<option>--Pilih Satuan Kerja--</option>
-			                    </select>
-			                  </div>
-			                </div>
-			                <div class="form-group">
-			                  <label for="inputEmail3" class="col-sm-3 control-label">Kotama</label>
-
-			                  <div class="col-sm-9">
-			                    <select class="form-control">
-			                    	<option>--Pilih Kotama--</option>
 			                    </select>
 			                  </div>
 			                </div>

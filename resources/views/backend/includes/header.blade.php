@@ -100,8 +100,13 @@
                 </li>
                 <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Barang dan Jasa</a></li>
                 <li><a href="{{ URL('laporan') }}">Perkembangan Pembangunan dan Pengembangan Fasilitas</a></li>
-                <li><a href="{{ URL('laporan') }}">Perkembangan Kegiatan Prioritas</a></li>
-                <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Alutsista</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Prioritas</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Perumahan</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Pemeliharaan</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Alutsista</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran MEF</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Perbatasan</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Pinjaman</a></li>
                 <li><a href="{{ URL('laporan') }}">Penerimaan Hibah Dalam Negeri</a></li>
                 <li><a href="{{ URL('laporan') }}">Pendapatan Negara</a></li>
               </ul>
@@ -111,7 +116,7 @@
                 
               @switch(Session::get('username'))
                   @case('kemhan_uo')
-            <li class="active"><a href="{{ URL('cms/kemhan/uo/anggaran') }}">Anggaran Unit Organisasi</a></li>
+            <li class="active"><a href="{{ URL('cms/kemhan/uo/anggaran') }}">Anggaran</a></li>
             <li><a href="{{ URL('cms/kemhan/uo/revisi-anggaran') }}">Revisi Anggaran</a></li>
             <li><a href="{{ URL('cms/kemhan/uo/realisasi-anggaran') }}">Realisasi Anggaran</a></li>
             <li class="dropdown">
@@ -123,8 +128,13 @@
                 </li>
                 <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Barang dan Jasa</a></li>
                 <li><a href="{{ URL('laporan') }}">Perkembangan Pembangunan dan Pengembangan Fasilitas</a></li>
-                <li><a href="{{ URL('laporan') }}">Perkembangan Kegiatan Prioritas</a></li>
-                <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Alutsista</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Prioritas</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Perumahan</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Pemeliharaan</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Alutsista</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran MEF</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Perbatasan</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Pinjaman</a></li>
                 <li><a href="{{ URL('laporan') }}">Penerimaan Hibah Dalam Negeri</a></li>
                 <li><a href="{{ URL('laporan') }}">Pendapatan Negara</a></li>
               </ul>
@@ -132,7 +142,7 @@
             <li><a href="{{ URL('cms/signout') }}">Logout</a></li>
                       @break
                   @case('mabes_tni_uo')
-            <li class="active"><a href="{{ URL('cms/mabes-tni/uo/anggaran') }}">Anggaran Unit Organisasi</a></li>
+            <li class="active"><a href="{{ URL('cms/mabes-tni/uo/anggaran') }}">Anggaran</a></li>
             <li><a href="{{ URL('cms/mabes-tni/uo/revisi-anggaran') }}">Revisi Anggaran</a></li>
             <li><a href="{{ URL('cms/mabes-tni/uo/realisasi-anggaran') }}">Realisasi Anggaran</a></li>
             <li class="dropdown">
@@ -144,8 +154,13 @@
                 </li>
                 <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Barang dan Jasa</a></li>
                 <li><a href="{{ URL('laporan') }}">Perkembangan Pembangunan dan Pengembangan Fasilitas</a></li>
-                <li><a href="{{ URL('laporan') }}">Perkembangan Kegiatan Prioritas</a></li>
-                <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Alutsista</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Prioritas</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Perumahan</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Pemeliharaan</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Alutsista</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran MEF</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Perbatasan</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Pinjaman</a></li>
                 <li><a href="{{ URL('laporan') }}">Penerimaan Hibah Dalam Negeri</a></li>
                 <li><a href="{{ URL('laporan') }}">Pendapatan Negara</a></li>
               </ul>
@@ -153,7 +168,7 @@
             <li><a href="{{ URL('cms/signout') }}">Logout</a></li>
                       @break
                   @case('tni_ad_uo')
-            <li class="active"><a href="{{ URL('cms/tni-ad/uo/anggaran') }}">Anggaran Unit Organisasi</a></li>
+            <li class="active"><a href="{{ URL('cms/tni-ad/uo/anggaran') }}">Anggaran</a></li>
             <li><a href="{{ URL('cms/tni-ad/uo/revisi-anggaran') }}">Revisi Anggaran</a></li>
             <li><a href="{{ URL('cms/tni-ad/uo/realisasi-anggaran') }}">Realisasi Anggaran</a></li>
             <li class="dropdown">
@@ -165,8 +180,13 @@
                 </li>
                 <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Barang dan Jasa</a></li>
                 <li><a href="{{ URL('laporan') }}">Perkembangan Pembangunan dan Pengembangan Fasilitas</a></li>
-                <li><a href="{{ URL('laporan') }}">Perkembangan Kegiatan Prioritas</a></li>
-                <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Alutsista</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Prioritas</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Perumahan</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Pemeliharaan</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Alutsista</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran MEF</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Perbatasan</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Pinjaman</a></li>
                 <li><a href="{{ URL('laporan') }}">Penerimaan Hibah Dalam Negeri</a></li>
                 <li><a href="{{ URL('laporan') }}">Pendapatan Negara</a></li>
               </ul>
@@ -174,7 +194,7 @@
             <li><a href="{{ URL('cms/signout') }}">Logout</a></li>
                       @break
                   @case('tni_au_uo')
-            <li class="active"><a href="{{ URL('cms/tni-au/uo/anggaran') }}">Anggaran Unit Organisasi</a></li>
+            <li class="active"><a href="{{ URL('cms/tni-au/uo/anggaran') }}">Anggaran</a></li>
             <li><a href="{{ URL('cms/tni-au/uo/revisi-anggaran') }}">Revisi Anggaran</a></li>
             <li><a href="{{ URL('cms/tni-au/uo/realisasi-anggaran') }}">Realisasi Anggaran</a></li>
             <li class="dropdown">
@@ -186,8 +206,13 @@
                 </li>
                 <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Barang dan Jasa</a></li>
                 <li><a href="{{ URL('laporan') }}">Perkembangan Pembangunan dan Pengembangan Fasilitas</a></li>
-                <li><a href="{{ URL('laporan') }}">Perkembangan Kegiatan Prioritas</a></li>
-                <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Alutsista</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Prioritas</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Perumahan</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Pemeliharaan</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Alutsista</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran MEF</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Perbatasan</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Pinjaman</a></li>
                 <li><a href="{{ URL('laporan') }}">Penerimaan Hibah Dalam Negeri</a></li>
                 <li><a href="{{ URL('laporan') }}">Pendapatan Negara</a></li>
               </ul>
@@ -195,7 +220,7 @@
             <li><a href="{{ URL('cms/signout') }}">Logout</a></li>
                       @break
                   @case('tni_al_uo')
-            <li class="active"><a href="{{ URL('cms/tni-al/uo/anggaran') }}">Anggaran Unit Organisasi</a></li>
+            <li class="active"><a href="{{ URL('cms/tni-al/uo/anggaran') }}">Anggaran</a></li>
             <li><a href="{{ URL('cms/tni-al/uo/revisi-anggaran') }}">Revisi Anggaran</a></li>
             <li><a href="{{ URL('cms/tni-al/uo/realisasi-anggaran') }}">Realisasi Anggaran</a></li>
             <li class="dropdown">
@@ -205,20 +230,25 @@
                 <li><a href="{{ URL('cms/tni-al/uo/laporan-anggaran-belanja-barang') }}">Pelaksanaan Anggaran Belanja Barang</a></li>
                 <li><a href="{{ URL('cms/tni-al/uo/laporan-anggaran-belanja-modal') }}">Pelaksanaan Anggaran Belanja Modal</a>
                 </li>
-                <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Barang dan Jasa</a></li>
+                 <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Barang dan Jasa</a></li>
                 <li><a href="{{ URL('laporan') }}">Perkembangan Pembangunan dan Pengembangan Fasilitas</a></li>
-                <li><a href="{{ URL('laporan') }}">Perkembangan Kegiatan Prioritas</a></li>
-                <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Alutsista</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Prioritas</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Perumahan</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Pemeliharaan</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Alutsista</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran MEF</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Perbatasan</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Pinjaman</a></li>
                 <li><a href="{{ URL('laporan') }}">Penerimaan Hibah Dalam Negeri</a></li>
                 <li><a href="{{ URL('laporan') }}">Pendapatan Negara</a></li>
-              </ul>
+             </ul>
             </li>
             <li><a href="{{ URL('cms/signout') }}">Logout</a></li>
                       @break
               @endswitch  
 
             @elseif (Session::get('level') == 3)
-            <li class="active"><a href="{{ URL('cms/kotama/anggaran') }}">Anggaran Kotama</a></li>
+            <li class="active"><a href="{{ URL('cms/kotama/anggaran') }}">Anggaran</a></li>
             <li><a href="{{ URL('cms/kotama/revisi-anggaran') }}">Revisi Anggaran</a></li>
             <li><a href="{{ URL('cms/kotama/realisasi-anggaran') }}">Realisasi Anggaran</a></li>
             <li class="dropdown">
@@ -230,15 +260,20 @@
                 </li>
                 <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Barang dan Jasa</a></li>
                 <li><a href="{{ URL('laporan') }}">Perkembangan Pembangunan dan Pengembangan Fasilitas</a></li>
-                <li><a href="{{ URL('laporan') }}">Perkembangan Kegiatan Prioritas</a></li>
-                <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Alutsista</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Prioritas</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Perumahan</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Pemeliharaan</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Alutsista</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran MEF</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Perbatasan</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Pinjaman</a></li>
                 <li><a href="{{ URL('laporan') }}">Penerimaan Hibah Dalam Negeri</a></li>
                 <li><a href="{{ URL('laporan') }}">Pendapatan Negara</a></li>
               </ul>
             </li>
             <li><a href="{{ URL('cms/signout') }}">Logout</a></li>
             @elseif (Session::get('level') == 4)
-            <li class="active"><a href="{{ URL('cms/satker/anggaran') }}">Anggaran Satuan Kerja</a></li>
+            <li class="active"><a href="{{ URL('cms/satker/anggaran') }}">Anggaran</a></li>
             <li><a href="{{ URL('cms/satker/revisi-anggaran') }}">Revisi Anggaran</a></li>
             <li><a href="{{ URL('cms/satker/realisasi-anggaran') }}">Realisasi Anggaran</a></li>
             <li class="dropdown">
@@ -250,8 +285,13 @@
                 </li>
                 <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Barang dan Jasa</a></li>
                 <li><a href="{{ URL('laporan') }}">Perkembangan Pembangunan dan Pengembangan Fasilitas</a></li>
-                <li><a href="{{ URL('laporan') }}">Perkembangan Kegiatan Prioritas</a></li>
-                <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Alutsista</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Prioritas</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Perumahan</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Pemeliharaan</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Alutsista</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran MEF</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Perbatasan</a></li>
+                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Pinjaman</a></li>
                 <li><a href="{{ URL('laporan') }}">Penerimaan Hibah Dalam Negeri</a></li>
                 <li><a href="{{ URL('laporan') }}">Pendapatan Negara</a></li>
               </ul>
