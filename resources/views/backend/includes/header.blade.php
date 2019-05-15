@@ -8,7 +8,7 @@
           </a>
             </div>
             <div class="col-md-10 text-left user-padding">
-              <span class="a-mon">Aplikasi Monitoring Pelaksanaan Anggaran</span><br>
+              <span class="a-mon">Sistem Pelaporan Keuangan & Kinerja Pembangunan Pertahanan</span><br>
               <span class="k-per">Kementerian Pertahanan Republik Indonesia</span>
             </div>
           </div>
@@ -124,11 +124,10 @@
               <ul class="dropdown-menu" role="menu">
                 <li><a href="{{ URL('cms/kemhan/uo/laporan-anggaran-belanja-pegawai') }}">Pelaksanaan Anggaran Belanja Pegawai</a></li>
                 <li><a href="{{ URL('cms/kemhan/uo/laporan-anggaran-belanja-barang') }}">Pelaksanaan Anggaran Belanja Barang</a></li>
-                <li><a href="{{ URL('cms/kemhan/uo/laporan-anggaran-belanja-modal') }}">Pelaksanaan Anggaran Belanja Modal</a>
-                </li>
+                <li><a href="{{ URL('cms/kemhan/uo/laporan-anggaran-belanja-modal') }}">Pelaksanaan Anggaran Belanja Modal</a></li>
                 <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Barang dan Jasa</a></li>
                 <li><a href="{{ URL('laporan') }}">Perkembangan Pembangunan dan Pengembangan Fasilitas</a></li>
-                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Prioritas</a></li>
+                <li><a href="{{ URL('cms/kemhan/uo/laporan-keg-prioritas') }}">Laporan Anggaran Prioritas</a></li>
                 <li><a href="{{ URL('laporan') }}">Laporan Anggaran Perumahan</a></li>
                 <li><a href="{{ URL('laporan') }}">Laporan Anggaran Pemeliharaan</a></li>
                 <li><a href="{{ URL('laporan') }}">Laporan Anggaran Alutsista</a></li>
