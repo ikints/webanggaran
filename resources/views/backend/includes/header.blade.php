@@ -100,6 +100,9 @@
                 </li>
                 <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Barang dan Jasa</a></li>
                 <li><a href="{{ URL('laporan') }}">Perkembangan Pembangunan dan Pengembangan Fasilitas</a></li>
+                <li><a href="{{ URL('laporan') }}">Penerimaan Hibah Dalam Negeri</a></li>
+                <li><a href="{{ URL('laporan') }}">Pendapatan Negara</a></li>
+                <li class="divider"></li>
                 <li><a href="{{ URL('laporan') }}">Laporan Anggaran Prioritas</a></li>
                 <li><a href="{{ URL('laporan') }}">Laporan Anggaran Perumahan</a></li>
                 <li><a href="{{ URL('laporan') }}">Laporan Anggaran Pemeliharaan</a></li>
@@ -107,8 +110,6 @@
                 <li><a href="{{ URL('laporan') }}">Laporan Anggaran MEF</a></li>
                 <li><a href="{{ URL('laporan') }}">Laporan Anggaran Perbatasan</a></li>
                 <li><a href="{{ URL('laporan') }}">Laporan Anggaran Pinjaman</a></li>
-                <li><a href="{{ URL('laporan') }}">Penerimaan Hibah Dalam Negeri</a></li>
-                <li><a href="{{ URL('laporan') }}">Pendapatan Negara</a></li>
               </ul>
             </li>
             <li><a href="{{ URL('cms/signout') }}">Logout</a></li>
@@ -128,14 +129,25 @@
                 <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Barang dan Jasa</a></li>
                 <li><a href="{{ URL('laporan') }}">Perkembangan Pembangunan dan Pengembangan Fasilitas</a></li>
                 <li><a href="{{ URL('cms/kemhan/uo/laporan-keg-prioritas') }}">Laporan Anggaran Prioritas</a></li>
-                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Perumahan</a></li>
-                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Pemeliharaan</a></li>
-                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Alutsista</a></li>
-                <li><a href="{{ URL('laporan') }}">Laporan Anggaran MEF</a></li>
-                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Perbatasan</a></li>
-                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Pinjaman</a></li>
                 <li><a href="{{ URL('laporan') }}">Penerimaan Hibah Dalam Negeri</a></li>
                 <li><a href="{{ URL('laporan') }}">Pendapatan Negara</a></li>
+                <li class="divider"></li>
+                <li><a href="{{ URL('cms/kemhan/uo/laporan-realisasi-anggaran-pendapatan') }}">Laporan Realisasi Anggaran Pendapatan</a></li>
+                <li><a href="{{ URL('cms/kemhan/uo/laporan-realisasi-anggaran-belanja-perwilayah') }}">Laporan Realisasi Anggaran Belanja Perwilayah/Satuan Kerja</a></li>
+                <li><a href="{{ URL('cms/kemhan/uo/laporan-realisasi-anggaran-belanja-menurut-jenis-belanja') }}">Laporan Realisasi Anggaran Belanja Menurut Jenis Belanja</a></li>
+                <li class="divider"></li>
+                <li><a href="{{ URL('cms/kemhan/uo/laporan-pelaksanaan-barang-dan-jasa') }}">Laporan Pelaksanaan Barang dan Jasa</a></li>
+                <li><a href="{{ URL('cms/kemhan/uo/laporan-pelaksanaan-perkembangan-kegiatan-prioritas') }}">Laporan Pelaksanaan Perkembangan Kegiatan Prioritas</a></li>
+                <li><a href="{{ URL('cms/kemhan/uo/laporan-pelaksanaan-perkembangan-pembangunan-dan-fasilitas') }}">Laporan Pelaksanaan perkembangan-pembangunan-dan-fasilitas</a></li>
+                <li><a href="{{ URL('cms/kemhan/uo/laporan-realisasi-pelaksanaan-anggaran-perjenis-belanja') }}">Laporan Pelaksanaan Anggaran Perjenis Belanja</a></li>
+                <li class="divider"></li>
+                <li><a href="{{ URL('cms/kemhan/uo/laporan-penerimaan-hibah-dalam-negeri') }}">Laporan Penerimaan Hibah dalam Negeri</a></li>
+                <li class="divider"></li>
+                <li><a href="{{ URL('cms/kemhan/uo/laporan') }}">Laporan Anggaran Pemeliharaan</a></li>
+                <li><a href="{{ URL('cms/kemhan/uo/laporan') }}">Laporan Anggaran Alutsista</a></li>
+                <li><a href="{{ URL('cms/kemhan/uo/laporan') }}">Laporan Anggaran MEF</a></li>
+                <li><a href="{{ URL('cms/kemhan/uo/laporan') }}">Laporan Anggaran Perbatasan</a></li>
+                <li><a href="{{ URL('cms/kemhan/uo/laporan') }}">Laporan Anggaran Pinjaman</a></li>
               </ul>
             </li>
             <li><a href="{{ URL('cms/signout') }}">Logout</a></li>

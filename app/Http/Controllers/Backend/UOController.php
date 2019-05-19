@@ -345,6 +345,113 @@ class UOController extends Controller
 
     }
 
+    //Laporan 19 Mei 2019
+
+    /*== laporan_realisasi_anggaran_pendapatan ==*/
+    public function laporan_realisasi_anggaran_pendapatan() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan-realisasi-anggaran-pendapatan";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    /*== laporan_realisasi_anggaran_belanja_perwilayah ==*/
+    public function laporan_realisasi_anggaran_belanja_perwilayah() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan-realisasi-anggaran-belanja-perwilayah";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    /*== laporan_realisasi_anggaran_belanja_menurut_jenis_belanja ==*/
+    public function laporan_realisasi_anggaran_belanja_menurut_jenis_belanja() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan-realisasi-anggaran-belanja-menurut-jenis-belanja";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    /*== laporan_pelaksanaan_barang_dan_jasa ==*/
+    public function laporan_pelaksanaan_barang_dan_jasa() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan-pelaksanaan-barang-dan-jasa";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    /*== laporan_pelaksanaan_perkembangan_kegiatan_prioritas ==*/
+    public function laporan_pelaksanaan_perkembangan_kegiatan_prioritas() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan-pelaksanaan-perkembangan-kegiatan-prioritas";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    /*== laporan_pelaksanaan_perkembangan_pembangunan_dan_fasilitas ==*/
+    public function laporan_pelaksanaan_perkembangan_pembangunan_dan_fasilitas() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan-pelaksanaan-perkembangan-pembangunan-dan-fasilitas";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    /*== laporan_realisasi_pelaksanaan_anggaran_perjenis_belanja ==*/
+    public function laporan_realisasi_pelaksanaan_anggaran_perjenis_belanja() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan-realisasi-pelaksanaan-anggaran-perjenis-belanja";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
     /*== Signout Action ==*/
     public function signout(Request $request) 
     {
