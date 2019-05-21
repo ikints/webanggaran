@@ -17,7 +17,7 @@
         
         <div class="box">
             <div class="box-header padding-bottom-10 text-center">
-              <h4 class="box-title report-title">Laporan Realisasi Anggaran Belanja Menurut Jenis Belanja</h4><br>
+              <h4 class="box-title report-title">Laporan Realisasi Anggaran Belanja Menurut Sumber Dana</h4><br>
               <h3 class="box-title report-title">{{Session::get('status_user')}}</h3><br>
               <h3 class="box-title report-title">UNTUK PERIODE YANG BERAKHIR 31 DESEMBER 2019</h3>
             </div>
@@ -170,7 +170,7 @@
                         text: 'Excel',
                         extend: 'excelHtml5',
                         footer: true,
-                        filename: 'Laporan Realisasi Anggaran Belanja Menurut Jenis Belanja {{Session::get('status_user')}} PERIODE 31 Desember 2019',
+                        filename: 'Laporan Realisasi Anggaran Belanja Menurut Sumber Dana {{Session::get('status_user')}} PERIODE 31 Desember 2019',
                         title:'',
                         orientation: 'landscape',
                         pageSize: 'A4',
@@ -261,7 +261,7 @@
                           }
                    
                           //insert
-                          var r1 = AddrowHead(1, [{ k: 'A', v: 'Laporan Realisasi Anggaran Belanja Menurut Jenis Belanja' }]);
+                          var r1 = AddrowHead(1, [{ k: 'A', v: 'Laporan Realisasi Anggaran Belanja Menurut Sumber Dana' }]);
                           var r2 = Addrow(3, [{ k: 'A', v: 'KEMENTERIAN NEGARA/LEMBAGA : 012' }]);
                           var r3 = Addrow(4, [{ k: 'A', v: 'ESELON : 01 - KEMENTERIAN PERTAHANAN' }]);
                           var r4 = Addrow(4, [{ k: 'G', v: 'Kode Lap : LRA.P.E1.2' }]);
@@ -280,8 +280,8 @@
                         text: 'PDF',
                         extend: 'pdfHtml5',
                         footer: true,
-                        filename: 'Laporan Realisasi Anggaran Belanja Menurut Jenis Belanja {{Session::get('status_user')}} PERIODE 31 Desember 2019',
-                        title:'Laporan Realisasi Anggaran Belanja Menurut Jenis Belanja' + '\n' + '{{Session::get('status_user')}}' + '\n' + ' PERIODE 31 Desember 2019',
+                        filename: 'Laporan Realisasi Anggaran Belanja Menurut Sumber Dana {{Session::get('status_user')}} PERIODE 31 Desember 2019',
+                        title:'Laporan Realisasi Anggaran Belanja Menurut Sumber Dana' + '\n' + '{{Session::get('status_user')}}' + '\n' + ' PERIODE 31 Desember 2019',
                         orientation: 'landscape',
                         pageSize: 'A4',
                         pageMargins: [ 150, 150, 150, 150 ],

@@ -347,6 +347,21 @@ class UOController extends Controller
 
     //Laporan 19 Mei 2019
 
+    /*== laporan_realisasi_anggaran ==*/
+    public function laporan_realisasi_anggaran() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan-realisasi-anggaran";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
     /*== laporan_realisasi_anggaran_pendapatan ==*/
     public function laporan_realisasi_anggaran_pendapatan() 
     {
@@ -383,6 +398,21 @@ class UOController extends Controller
 
     // set data view
     $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan-realisasi-anggaran-belanja-menurut-jenis-belanja";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    /*== laporan_realisasi_anggaran_belanja_menurut_sumber_dana ==*/
+    public function laporan_realisasi_anggaran_belanja_menurut_sumber_dana() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan-realisasi-anggaran-belanja-menurut-sumber-dana";
     $datapage[ 'page_title' ]   = $this->title;
     $datapage[ 'ctrl' ]         = $this->ctrl;
     $datapage[ 'title' ]        = $this->title;
