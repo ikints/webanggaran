@@ -104,24 +104,24 @@
                 <tr>
                   <td>Q100</td>
                   <td>DKI Jakarta</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
                 </tr>
                 <tr>
                   <td>461390</td>
                   <td>Badan instalasi strategis nasional</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td></td>
-                  <td></td>
+                  <td>19.863.803.000</td>
+                  <td>19.463.803.000</td>
+                  <td>18.863803.000</td>
+                  <td>3.146.768</td>
+                  <td>18.463.803.000</td>
+                  <td>97.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>561390</td>

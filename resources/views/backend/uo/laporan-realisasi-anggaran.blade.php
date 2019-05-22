@@ -106,7 +106,7 @@
                   </tr>
                 <tr>
                   <td>A</td>
-                  <td>Pendaoatan negara dan hibah</td>
+                  <td>Pendapatan negara dan hibah</td>
                   <td></td>
                   <td></td>
                   <td></td>
@@ -119,50 +119,50 @@
                 <tr>
                   <td></td>
                   <td>Penerimaan perpajakan</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td>Penerimaan negara bukan pajak</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
+                  <td>0</td>
+                  <td>111.522.292,172</td>
+                  <td>(111.522.292,172)</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>99.480.944,700</td>
+                  <td>(99.480.944,700)</td>
+                  <td>0</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td>Penerimaan hibah</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
                 </tr>
-                <tr>
+                <tr style="font-weight: bold;">
                   <td></td>
                   <td>Jumlah pendapatan dan hibah</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
+                  <td>0</td>
+                  <td>111.522.292,172</td>
+                  <td>(111.522.292,172)</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>99.480.944,700</td>
+                  <td>(99.480.944,700)</td>
+                  <td>0</td>
                 </tr>
                 <tr>
                   <td>A</td>
@@ -179,122 +179,122 @@
                 <tr>
                   <td></td>
                   <td>Belanja Pegawai</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
+                  <td>663.713.021.000</td>
+                  <td>618.801.579.836</td>
+                  <td>14.911.451.168</td>
+                  <td>98</td>
+                  <td>699.702.640.000</td>
+                  <td>541.261.357.804</td>
+                  <td>128.441.282.196</td>
+                  <td>81</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td>Belanja Barang</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
+                  <td>8.663.713.021.000</td>
+                  <td>5.663.713.021.000</td>
+                  <td>3.663.713.021.000</td>
+                  <td>60</td>
+                  <td>4.663.713.021.000</td>
+                  <td>3.663.713.021.000</td>
+                  <td>663.713.021.000</td>
+                  <td>84</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td>Belanja Modal</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td>Belanja Pembayaran Kewajiban</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td>Utang</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td>Belanja Subsidi</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td>Belanja Hibah</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td>Belanja Bantuan Sosial</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td>Belanja Lain-lain</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td>Jumlah Belanja (BI + BII)</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
+                  <td>22.663.713.021.000</td>
+                  <td>12.663.713.021.000</td>
+                  <td>9.663.713.021.000</td>
+                  <td>55</td>
+                  <td>22.663.713.021.000</td>
+                  <td>17.663.713.021.000</td>
+                  <td>5.663.713.021.000</td>
+                  <td>78</td>
                 </tr>
                 <tr>
                   <td>C</td>
@@ -302,7 +302,7 @@
                   <td></td>
                   <td></td>
                   <td></td>
-                  <td></td>
+                  <td>0</td>
                   <td></td>
                   <td></td>
                   <td></td>
