@@ -56,10 +56,10 @@
                     <td>10</td>           
                   </tr>
                 <tr>
-                  <td>Q100</td>
-                  <td>DKI Jakarta</td>
+                  <td>42</td>
+                  <td>Pengadaan Alat Militer</td>
                   <td>0</td>
-                  <td>146.768</td>
+                  <td>34.146.768</td>
                   <td>0</td>
                   <td>146.768</td>
                   <td>0</td>
@@ -117,6 +117,7 @@
         { 
           "paging": false,
           "searching": false,
+          "ordering": false,
           "bLengthChange": false,
           dom: 'lBfrtip',
                 buttons: [

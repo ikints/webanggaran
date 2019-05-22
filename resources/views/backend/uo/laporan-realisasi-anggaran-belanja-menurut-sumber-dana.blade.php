@@ -104,1120 +104,1120 @@
                 <tr>
                   <td>Q100</td>
                   <td>Rupiah murni</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Program dukungan manajemen</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>9.863.803.000</td>
+                  <td>9.463.803.000</td>
+                  <td>8.863803.000</td>
+                  <td>6.768</td>
+                  <td>8.463.803.000</td>
+                  <td>62.71</td>
+                  <td>203.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Program sistem informasi</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Pelayanan dan pembinaan keuangan pertahanan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Pelayanan berbadan hukum</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Pelayanan Rehabilitasi</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Dukungan pelayanan umum uo kemhan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Dukungan peningkatan suara dan pelaksanaan aparatur uo kemhan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Dukungan peminaan dan pengelolaan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Dukungan pembinaan dan pengembangan program</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Dukungan administrasi pelayanan pimpinan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Pelayanan komunikasi publik</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Jumlah belanja program 01</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Program peningkatan sarana dan prasarana aparatur kementerian pertahanan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Pengelolaan barang milik negara</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Kelaikan sarana pertahanan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Kondisi material pertahanan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Pengadaan jasa komunikasi pertahanan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Pengambangan sarana dan prasarana pertahanan diwilayah perbatasan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Pengadaan barang dan jasa militer</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>12.119.863.803.000</td>
+                  <td>12.119.463.803.000</td>
+                  <td>12.118.863803.000</td>
+                  <td>13.146.768</td>
+                  <td>12.118.463.803.000</td>
+                  <td>92.71</td>
+                  <td>12.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Dukungan manajemen dan pelaksanaan tugas teknis lainnya badan ranahan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>12.119.863.803.000</td>
+                  <td>12.119.463.803.000</td>
+                  <td>12.118.863803.000</td>
+                  <td>13.146.768</td>
+                  <td>12.118.463.803.000</td>
+                  <td>92.71</td>
+                  <td>12.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Program pengawasan dan peningkatan akuntabilitas aparatur kementerian pertahanan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>12.119.863.803.000</td>
+                  <td>12.119.463.803.000</td>
+                  <td>12.118.863803.000</td>
+                  <td>13.146.768</td>
+                  <td>12.118.463.803.000</td>
+                  <td>92.71</td>
+                  <td>12.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Dukungan manajemen dan pelaksanaan tugas teknis lainnya</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>12.119.863.803.000</td>
+                  <td>12.119.463.803.000</td>
+                  <td>12.118.863803.000</td>
+                  <td>13.146.768</td>
+                  <td>12.118.463.803.000</td>
+                  <td>92.71</td>
+                  <td>12.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Pengawasan umum kemhan/tni</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>19.863.803.000</td>
+                  <td>19.463.803.000</td>
+                  <td>18.863.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>82.71</td>
+                  <td>2.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Pengawasan pengadaan kemhan/tni</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>19.863.803.000</td>
+                  <td>19.463.803.000</td>
+                  <td>18.863.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>82.71</td>
+                  <td>2.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Pengawasan logistik kemhan/tni</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>19.863.803.000</td>
+                  <td>19.463.803.000</td>
+                  <td>18.863.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>82.71</td>
+                  <td>2.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Jumlah belanja program 03</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>19.863.803.000</td>
+                  <td>19.463.803.000</td>
+                  <td>18.863.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>82.71</td>
+                  <td>2.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Program penelitian dan pengembangan kemeterian pertahanan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>19.863.803.000</td>
+                  <td>19.463.803.000</td>
+                  <td>18.863.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>82.71</td>
+                  <td>2.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Penelitian dan pengembangan strategi pertahanan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>19.863.803.000</td>
+                  <td>19.463.803.000</td>
+                  <td>18.863.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>82.71</td>
+                  <td>2.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Penelitian dan pengembangan alat peralatan pertahanan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>19.863.803.000</td>
+                  <td>19.463.803.000</td>
+                  <td>18.863.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>82.71</td>
+                  <td>2.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Penelitian dan pengembangan iptek pertahanan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>19.863.803.000</td>
+                  <td>19.463.803.000</td>
+                  <td>18.863.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>82.71</td>
+                  <td>2.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Penelitian dan pengembangan sumber daya pertahanan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                 <td>19.863.803.000</td>
+                  <td>19.463.803.000</td>
+                  <td>18.863.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>82.71</td>
+                  <td>2.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Dukungab manajemen dan pelaksanaan tugas teknis lainnya balitbang</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Jumlah belanja program 04</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Program pendidikan dan pelatihan kemhan/tni</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Pendidikan dan pelatihan bahasa</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Pendidikan dan pelatihan manajemen pertahanan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Pendidikan dan pelatihan teknis fungsional pertahanan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Dukngan manajemen dan pelaksanaan tugas teknis lainnya badiklat</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Pusat pendidikan dan pelatihan bela negara</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Program strategi pertahanan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Analisa strategis</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Perumusan kebijakan strategis dan kebijakan implementatif</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Kerja sama internasional</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Pengumuman kebijakan pebgerahan komponen pertahanan negara</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Pengumuman hukum strategi pertahanan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Pengelolaan wilayah pertahanan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Dukungan manajemen dan pelaksanaan tugas taktus lainnya</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Jumlah belanja program 06</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Program perencanaan umum dan pengangaran pertahanan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Administrasi dan pelaksanaan anggaran</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Pengendalian dan program anggaran</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Perencanaan pembangunan pertahanan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Dukungan manajemen dan pelaksanaan tugas teknis lainnya</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Jumlah belanja program 07</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Program pengembangan teknologi dan industri pertahanan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Produksi alutsista industri dalam negeri dan pengembangan pinak industri pertahanan
-</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  </td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Jumlah belanja program 08</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                   <td>Q100</td>
                   <td>Program potensi pertahanan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                   <td>Q100</td>
                   <td>Pembinaan keveteranan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                   <td>Q100</td>
                   <td>Pembinaan kesadaran bela negara</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                   <td>Q100</td>
                   <td>Pembentukan dan pembinaan komponen pendukung</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                   <td>Q100</td>
                   <td>Pembinaan potensi teknologi dan industri pertahanan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                   <td>Q100</td>
                   <td>Dukungan manajemen dan pelaksanaan tugas teknis lainnya</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                   <td>Q100</td>
                   <td>Jumlah belanja program 09</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 </tr>
                   <td>Q100</td>
                   <td>Program kekuatan pertahanan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 </tr>
                   <td>Q100</td>
                   <td>Pembinaan fasilitas dan jasa pertahanan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 </tr>
                   <td>Q100</td>
                   <td>Pembinaan kesehatan pertahanan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 </tr>
                   <td>Q100</td>
                   <td>Pembinaan material pertahanan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 </tr>
                   <td>Q100</td>
                   <td>Pembinaan sumber daya manusia</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 </tr>
                   <td>Q100</td>
                   <td>Dukungan manajemen dan pelaksanaan tugas teknis lainnya</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 </tr>
                   <td>Q100</td>
                   <td>Program pembinaan instalasi strategid nasional</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 </tr>
                   <td>Q100</td>
                   <td>Pembinaan pengamanan dan pemeliharan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 </tr>
                   <td>Q100</td>
                   <td>Pembinaan pengembangan dan kerjasama</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 </tr>
                   <td>Q100</td>
                   <td>Dukungan manajemen dan pelaksanaan tugas teknis</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 </tr>
                   <td>Q100</td>
                   <td>Jumlah belanja program 27</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 </tr>
                   <td>Q100</td>
                   <td>Program pendidikan dan pelatihan kemhan/tni</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 </tr>
                   <td>Q100</td>
                   <td>Penyelenggaraan pendidikan tinggi pertahanan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 </tr>
                   <td>Q100</td>
                   <td>Jumlah belanja program 06</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 </tr>
                   <td>Q100</td>
                   <td>Jumlah belanja rupiah murni</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
 
                 </tr>
                   <td>Q100</td>
                   <td>Pinjaman luar negeri</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 </tr>
                   <td>Q100</td>
                   <td>Program peningkatan sarana dan prasarana apararus kementerian pertahanan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 </tr>
                   <td>Q100</td>
                   <td>Pengadaan barang dan jasa militer</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 </tr>
                   <td>Q100</td>
                   <td>Jumlah belanja program 02</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 </tr>
                   <td>Q100</td>
                   <td>Jumlah belanja pinjaman luar negeri</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 </tr>
                   <td>Q100</td>
                   <td>Rupiah murni pendamping</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 </tr>
                   <td>Q100</td>
                   <td>Program peningkatan sarana dan prasarana</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 </tr>
                   <td>Q100</td>
                   <td>Pengadaan barang dan jasa militer</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 </tr>
                   <td>Q100</td>
                   <td>Jumlah belanja program 02</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 </tr>
                   <td>Q100</td>
                   <td>Jumlah belanja rupiah murni pendamping</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
 
                 </tr>
                   <td>Q100</td>
                   <td>PNBP</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 </tr>
                   <td>Q100</td>
                   <td>Program dukungan manajemen dan pelaksanaan tugas teknis lainnya</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 </tr>
                   <td>Q100</td>
                   <td>Pelayanan rehabilitas dan perumahan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 </tr>
                   <td>Q100</td>
                   <td>Dukungan pelayanan umum</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 </tr>
                   <td>Q100</td>
                   <td>Jumlah belanja program 01</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 </tr>
                   <td>Q100</td>
                   <td>Jumlah belanja PNBP</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 </tr>
                   <td>Q100</td>
                   <td>Pinjaman dalam negeri</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 </tr>
                   <td>Q100</td>
                   <td>Program pengembangan teknologi dan industri pertahanan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 </tr>
                   <td>Q100</td>
                   <td>Produksi alutsista industri dalam negeri dan pengembangan pinak industri pertahanan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 </tr>
                   <td>Q100</td>
                   <td>Jumlah belanja program 08</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 </tr>
                   <td>Q100</td>
                   <td>Jumlah belanja pinjaman dalam negeri</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
                 </tr>
                   <td>Q100</td>
                   <td>Jumlah</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>163.803.000</td>
+                  <td>46.768</td>
+                  <td>8.463.803.000</td>
+                  <td>52.71</td>
+                  <td>403.000</td>
                 </tr>
 
                 </tbody>

@@ -117,6 +117,7 @@
         { 
           "paging": false,
           "searching": false,
+          "ordering": false,
           "bLengthChange": false,
           dom: 'lBfrtip',
                 buttons: [
