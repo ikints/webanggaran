@@ -102,1203 +102,1203 @@
                     <td>9=4-7</td>                
                   </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>51</td>
                   <td>Belanja pegawai</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>12.119.863.803.000</td>
+                  <td>12.119.463.803.000</td>
+                  <td>12.118.863803.000</td>
+                  <td>13.146.768</td>
+                  <td>12.118.463.803.000</td>
+                  <td>92.71</td>
+                  <td>12.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>511112</td>
                   <td>Belanja gaji dan tunjangan pns</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>12.119.863.803.000</td>
+                  <td>12.119.463.803.000</td>
+                  <td>12.118.863803.000</td>
+                  <td>13.146.768</td>
+                  <td>12.118.463.803.000</td>
+                  <td>92.71</td>
+                  <td>12.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>511113</td>
                   <td>Belanja pembulatan gaji pns</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>12.119.863.803.000</td>
+                  <td>12.119.463.803.000</td>
+                  <td>12.118.863803.000</td>
+                  <td>13.146.768</td>
+                  <td>12.118.463.803.000</td>
+                  <td>92.71</td>
+                  <td>12.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>511114</td>
                   <td>Belanja tunj. penghidupan luar negeri untuk home</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>12.119.863.803.000</td>
+                  <td>12.119.463.803.000</td>
+                  <td>12.118.863803.000</td>
+                  <td>13.146.768</td>
+                  <td>12.118.463.803.000</td>
+                  <td>92.71</td>
+                  <td>12.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>511116</td>
                   <td>Belanja gaji pokok pns TNI/Polri</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>12.119.863.803.000</td>
+                  <td>12.119.463.803.000</td>
+                  <td>12.118.863803.000</td>
+                  <td>13.146.768</td>
+                  <td>12.118.463.803.000</td>
+                  <td>92.71</td>
+                  <td>12.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>511117</td>
                   <td>Belanja pembulatan gaji pns tni/polri</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>12.119.863.803.000</td>
+                  <td>12.119.463.803.000</td>
+                  <td>12.118.863803.000</td>
+                  <td>13.146.768</td>
+                  <td>12.118.463.803.000</td>
+                  <td>92.71</td>
+                  <td>12.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>511118</td>
                   <td>Belanja tunj. suami/istri pns tni/polri</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>12.119.863.803.000</td>
+                  <td>12.119.463.803.000</td>
+                  <td>12.118.863803.000</td>
+                  <td>13.146.768</td>
+                  <td>12.118.463.803.000</td>
+                  <td>92.71</td>
+                  <td>12.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>511119</td>
                   <td>Belanja tunj. anak pns tni/polri</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>12.119.863.803.000</td>
+                  <td>12.119.463.803.000</td>
+                  <td>12.118.863803.000</td>
+                  <td>13.146.768</td>
+                  <td>12.118.463.803.000</td>
+                  <td>92.71</td>
+                  <td>12.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>511120</td>
                   <td>Belanja tunj. struktural pns tni/polri</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>12.119.863.803.000</td>
+                  <td>12.119.463.803.000</td>
+                  <td>12.118.863803.000</td>
+                  <td>13.146.768</td>
+                  <td>12.118.463.803.000</td>
+                  <td>92.71</td>
+                  <td>12.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>511121</td>
                   <td>Belanja tunj. fungsional pns tni/polri</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>12.119.863.803.000</td>
+                  <td>12.119.463.803.000</td>
+                  <td>12.118.863803.000</td>
+                  <td>13.146.768</td>
+                  <td>12.118.463.803.000</td>
+                  <td>92.71</td>
+                  <td>12.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>511122</td>
                   <td>Belanja tunj. pph pns tni/polri</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>12.119.863.803.000</td>
+                  <td>12.119.463.803.000</td>
+                  <td>12.118.863803.000</td>
+                  <td>13.146.768</td>
+                  <td>12.118.463.803.000</td>
+                  <td>92.71</td>
+                  <td>12.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>511123</td>
                   <td>Belanja tunj. beras pns tni/polri</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>12.119.863.803.000</td>
+                  <td>12.119.463.803.000</td>
+                  <td>12.118.863803.000</td>
+                  <td>13.146.768</td>
+                  <td>12.118.463.803.000</td>
+                  <td>92.71</td>
+                  <td>12.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>511124</td>
                   <td>Belanja uang makan pns tni/polri</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>12.119.863.803.000</td>
+                  <td>12.119.463.803.000</td>
+                  <td>12.118.863803.000</td>
+                  <td>13.146.768</td>
+                  <td>12.118.463.803.000</td>
+                  <td>92.71</td>
+                  <td>12.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>511125</td>
                   <td>Belanja tunjangan medis pns tni/polri</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>12.119.863.803.000</td>
+                  <td>12.119.463.803.000</td>
+                  <td>12.118.863803.000</td>
+                  <td>13.146.768</td>
+                  <td>12.118.463.803.000</td>
+                  <td>92.71</td>
+                  <td>12.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>511126</td>
                   <td>Belanja tunjangan umum pns tni/polri</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>12.119.863.803.000</td>
+                  <td>12.119.463.803.000</td>
+                  <td>12.118.863803.000</td>
+                  <td>13.146.768</td>
+                  <td>12.118.463.803.000</td>
+                  <td>92.71</td>
+                  <td>12.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>511126</td>
                   <td>Belanja tunjangan kompensasi kerja bidang persandian pns</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>12.119.863.803.000</td>
+                  <td>12.119.463.803.000</td>
+                  <td>12.118.863803.000</td>
+                  <td>13.146.768</td>
+                  <td>12.118.463.803.000</td>
+                  <td>92.71</td>
+                  <td>12.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>511127</td>
                   <td>Belanja tunjangan profesi dosen/kehormatan guru</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>12.119.863.803.000</td>
+                  <td>12.119.463.803.000</td>
+                  <td>12.118.863803.000</td>
+                  <td>13.146.768</td>
+                  <td>12.118.463.803.000</td>
+                  <td>92.71</td>
+                  <td>12.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>511128</td>
                   <td>Jumlah sub kelompok belanja 5111</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>112.119.863.803.000</td>
+                  <td>112.119.463.803.000</td>
+                  <td>112.118.863803.000</td>
+                  <td>113.146.768</td>
+                  <td>112.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>112.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>5112</td>
                   <td>Belanja gaji dan tunjangan tni/polri</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>14.119.863.803.000</td>
+                  <td>14.119.463.803.000</td>
+                  <td>14.118.863803.000</td>
+                  <td>13.146.768</td>
+                  <td>12.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>12.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>511211</td>
                   <td>Belanja gaji pokok tni/polri</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>14.119.863.803.000</td>
+                  <td>14.119.463.803.000</td>
+                  <td>14.118.863803.000</td>
+                  <td>13.146.768</td>
+                  <td>12.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>12.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>511212</td>
                   <td>Belanja pembulatan gaji tni/polri</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>14.119.863.803.000</td>
+                  <td>14.119.463.803.000</td>
+                  <td>14.118.863803.000</td>
+                  <td>13.146.768</td>
+                  <td>12.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>12.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>511213</td>
                   <td>Belanja tunj. suami/istri pns tni/polri</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>14.119.863.803.000</td>
+                  <td>14.119.463.803.000</td>
+                  <td>14.118.863803.000</td>
+                  <td>13.146.768</td>
+                  <td>12.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>12.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>511214</td>
                   <td>Belanja tunj. anak pns tni/polri</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>14.119.863.803.000</td>
+                  <td>14.119.463.803.000</td>
+                  <td>14.118.863803.000</td>
+                  <td>13.146.768</td>
+                  <td>12.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>12.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>511215</td>
                   <td>Belanja tunj. struktural pns tni/polri</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>14.119.863.803.000</td>
+                  <td>14.119.463.803.000</td>
+                  <td>14.118.863803.000</td>
+                  <td>13.146.768</td>
+                  <td>12.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>12.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>511216</td>
                   <td>Belanja tunj. fungsional pns tni/polri</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>14.119.863.803.000</td>
+                  <td>14.119.463.803.000</td>
+                  <td>14.118.863803.000</td>
+                  <td>13.146.768</td>
+                  <td>12.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>12.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>511217</td>
                   <td>Belanja tunj. pph pns tni/polri</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>14.119.863.803.000</td>
+                  <td>14.119.463.803.000</td>
+                  <td>14.118.863803.000</td>
+                  <td>13.146.768</td>
+                  <td>12.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>12.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>511218</td>
                   <td>Belanja tunj. beras pns tni/polri</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>511219</td>
                   <td>Belanja tunj. lauk pauk tni/polri</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>5112120</td>
                   <td>Belanja tunj. kowan/polwan tni/polri</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>5112121</td>
                   <td>Belanja tunj. umum tni/polri</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>5112122</td>
                   <td>Belanja santunan cacat TNI</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>5112123</td>
                   <td>Belanja tunj. profesi dosen/kehormatan guru</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>5112124</td>
                   <td>Jumlah sub kelompok belanja 5112</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>5112125</td>
                   <td>Belanja lembur</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>5112126</td>
                   <td>Belanja uang lembur</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>5112127</td>
                   <td>Jumlah sub kelompok belanja 5113</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>5112128</td>
                   <td>Belanja tunj. khusus dan belanja pegawai</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>5112129</td>
                   <td>Belanja pegawai (tunjangan khusus/kegiatan)</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>5112130</td>
                   <td>Jumlah sub kelompok belanja 5123</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
-                  <td>Q100</td>
+                  <td>5112132</td>
                   <td>Jumlah kelompok belanja</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja barang</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja barang operasional</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja pertemuan perkantoran</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja pengadaan bahan makanan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>JBelanja penambah daya tahan tubuh</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja pengiriman surat dinas</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja humas</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja bidang operasinal lainnya</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Jumlah sub kelompok belanja 52</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja barang dan operasional</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja bahan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja output kegiatan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja barang dan operasional</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Jumlah sub kelompok belanja 5212</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja barang persediaan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja barang persediaan barang komsumsi</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja barang persediaan amunisi</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja jasa</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja langganan listrik</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja langganan telepon</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja langganan air</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja langganan daya dan jasa lainnya</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja jasa konsultan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja sewa</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja jasa profesi</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja jasa lainnya</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Jumlah sub kelompok belanja 5221</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja pemeliharaan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja pemeliharaan gedung dan bangunan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja pemeliharaan gedung dan bangunan lainnya</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja pemeliharaan peralatan dan mesin</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja bahan bakar minyak dan pelumas (BMP)</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja pemeliharaan peralatan dan mesin lainnya</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja pemelihataan jalan dan jembatan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja pemeliharaan lainnya</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Jumlah sub kelompok belanja 5231</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja perjalanan dalam negeri</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja perjalanan biasa</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja perjalanan dinas dalam kota</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja perjalanan dinas paket meeting dalam kota</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja perjalanan dinas paket meeting luar kota</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Jumlah sub kelompok belanja 5241</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja perjalanan luar negeri</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja perjalanan biasa luar negeri</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja perjalanan lainnya luar negeri</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Jumlah sub kelompok belanja 5242</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja barang untuk diserahkan kepada masyarakat</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja peralatan dan mesin untuk diserahkan kepada masyarakat</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja barang fisik lainnya untuk diserahkan kepada masyarakat</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Jumlah sub kelompok belanja 5263</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Jumlah kelompok belanja 52</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja modal</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja modal peralatan dan mesin</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja penambahan nilai peralatan dan mesin</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Jumlag sub kelompok belanja 5321</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja modal gedung dan bangunan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja modal upah tenaga kerja dan honor pengelola</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja modal perencanaan dan pengawasan gedung</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja penambahan nilai gedung dan bangunan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Jumlah sub kelompok belanja 5321</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja modal jalan, irigasi dan jaringan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja modal jalan dan jembatan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja modal sewa peralatan jaringan</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Jumlah sub kelompok belanja 5341</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Jumlah sub kelompok belanja 5341</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja modal lainnya</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Belanja modal lainnya</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Jumlah sub kelompok belanja 5361</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 <tr>
                   <td>Q100</td>
                   <td>Jumlah kelompok belanja 53</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>146.768</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>16.119.863.803.000</td>
+                  <td>16.119.463.803.000</td>
+                  <td>16.118.863803.000</td>
+                  <td>14.146.768</td>
+                  <td>14.118.463.803.000</td>
+                  <td>22.71</td>
+                  <td>13.403.000</td>
                 </tr>
                 
                 </tbody>
@@ -1306,13 +1306,13 @@
                   <tr>
                       <td>Q100</td>
                       <td>Jumlah belanja</td>
-                      <td>0</td>
-                      <td>146.768</td>
-                      <td>0</td>
-                      <td>146.768</td>
-                      <td>0</td>
-                      <td>0</td>
-                      <td>0</td>
+                      <td>116.119.863.803.000</td>
+                      <td>116.119.463.803.000</td>
+                      <td>216.118.863803.000</td>
+                      <td>114.146.768</td>
+                      <td>18.463.803.000</td>
+                      <td>2.71</td>
+                      <td>14.403.000</td>
                     </tr>
                 </tfoot>
               </table>
