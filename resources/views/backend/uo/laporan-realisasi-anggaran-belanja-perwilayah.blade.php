@@ -10,7 +10,6 @@
 
   <!-- Full Width Column -->
   <div class="content-wrapper">
-    <div class="container">
 
       <!-- Main content -->
       <section class="content">
@@ -192,8 +191,8 @@
                 <tr>
                   <td>661395</td>
                   <td>Ditjen renhan kemhan</td>
-                  <td>15.863.803.000</td>
-                  <td>15.463.803.000</td>
+                  <td>10.863.803.000</td>
+                  <td>10.463.803.000</td>
                   <td>14.863803.000</td>
                   <td>6.146.768</td>
                   <td>14.463.803.000</td>
@@ -203,11 +202,11 @@
                 <tr>
                   <td>661396</td>
                   <td>Ditjen pothan kemhan</td>
-                  <td>11.863.803.000</td>
-                  <td>11.463.803.000</td>
+                  <td>16.863.803.000</td>
+                  <td>16.463.803.000</td>
                   <td>14.863803.000</td>
                   <td>6.146.768</td>
-                  <td>14.463.803.000</td>
+                  <td>12.463.803.000</td>
                   <td>76.71</td>
                   <td>703.000</td>
                 </tr>
@@ -226,7 +225,7 @@
                   <td>661398</td>
                   <td>Baramahan kemhan</td>
                   <td>25.863.803.000</td>
-                  <td>25.463.803.000</td>
+                  <td>21.463.803.000</td>
                   <td>24.863803.000</td>
                   <td>23.146.768</td>
                   <td>24.463.803.000</td>
@@ -236,19 +235,19 @@
                 <tr>
                   <td>661399</td>
                   <td>Badiklat kemhan</td>
-                  <td>5.863.803.000</td>
-                  <td>5.463.803.000</td>
-                  <td>4.863803.000</td>
-                  <td>3.146.768</td>
-                  <td>4.463.803.000</td>
-                  <td>6.71</td>
+                  <td>51.863.803.000</td>
+                  <td>51.463.803.000</td>
+                  <td>41.863803.000</td>
+                  <td>31.146.768</td>
+                  <td>41.463.803.000</td>
+                  <td>61.71</td>
                   <td>203.000</td>
                 </tr>
                 <tr>
                   <td>661310</td>
                   <td>Balitbang kemhan</td>
                   <td>15.863.803.000</td>
-                  <td>15.463.803.000</td>
+                  <td>19.463.803.000</td>
                   <td>14.863803.000</td>
                   <td>6.146.768</td>
                   <td>14.463.803.000</td>
@@ -324,8 +323,8 @@
                 <tr>
                   <td>42</td>
                   <td>Pendapatan penerimaan negara bukan pajak</td>
-                  <td>15.863.803.000</td>
-                  <td>15.463.803.000</td>
+                  <td>14.863.803.000</td>
+                  <td>11.463.803.000</td>
                   <td>14.863803.000</td>
                   <td>6.146.768</td>
                   <td>14.463.803.000</td>
@@ -336,7 +335,7 @@
                   <td>4251</td>
                   <td>Pendapatan dari penjualan, pengelolaan BMN, Iuran badan usaha</td>
                   <td>15.863.803.000</td>
-                  <td>15.463.803.000</td>
+                  <td>12.463.803.000</td>
                   <td>14.863803.000</td>
                   <td>6.146.768</td>
                   <td>14.463.803.000</td>
@@ -347,7 +346,7 @@
                   <td>425129</td>
                   <td>Pendapatan dari pemindahtanganan BMN Lainnya</td>
                   <td>15.863.803.000</td>
-                  <td>15.463.803.000</td>
+                  <td>17.463.803.000</td>
                   <td>14.863803.000</td>
                   <td>6.146.768</td>
                   <td>14.463.803.000</td>
@@ -357,7 +356,7 @@
                 <tr>
                   <td>425130</td>
                   <td>Pendapatan sewa tanah, gedung, dan bangunan</td>
-                  <td>15.863.803.000</td>
+                  <td>18.863.803.000</td>
                   <td>15.463.803.000</td>
                   <td>14.863803.000</td>
                   <td>6.146.768</td>
@@ -368,7 +367,7 @@
                 <tr>
                   <td>425131</td>
                   <td>Pendapatan sewa peralatan dan mesin</td>
-                  <td>15.863.803.000</td>
+                  <td>19.863.803.000</td>
                   <td>15.463.803.000</td>
                   <td>14.863803.000</td>
                   <td>6.146.768</td>
@@ -380,7 +379,7 @@
                   <td>425132</td>
                   <td>Pendapatan dari KSP Tanah, gedung, dan bangunan</td>
                   <td>15.863.803.000</td>
-                  <td>15.463.803.000</td>
+                  <td>14.463.803.000</td>
                   <td>14.863803.000</td>
                   <td>6.146.768</td>
                   <td>14.463.803.000</td>
@@ -391,7 +390,7 @@
                   <td>#</td>
                   <td>Jumlah sub kelompok pendapatan 4251</td>
                   <td>15.863.803.000</td>
-                  <td>15.463.803.000</td>
+                  <td>21.463.803.000</td>
                   <td>14.863803.000</td>
                   <td>6.146.768</td>
                   <td>14.463.803.000</td>
@@ -402,8 +401,8 @@
                   <td>425134</td>
                   <td>Pendapatan kesehatan, perlindungan sosial, dan keagamaan</td>
                   <td>15.863.803.000</td>
-                  <td>15.463.803.000</td>
-                  <td>14.863803.000</td>
+                  <td>14.463.803.000</td>
+                  <td>12.863803.000</td>
                   <td>6.146.768</td>
                   <td>14.463.803.000</td>
                   <td>76.71</td>
@@ -413,7 +412,7 @@
                   <td>425135</td>
                   <td>Pendapatan dari badan penyelenggaraan jaminan sosial (BPJS)</td>
                   <td>15.863.803.000</td>
-                  <td>15.463.803.000</td>
+                  <td>17.463.803.000</td>
                   <td>14.863803.000</td>
                   <td>6.146.768</td>
                   <td>14.463.803.000</td>
@@ -423,8 +422,8 @@
                 <tr>
                   <td>425136</td>
                   <td>Pendapatan dari BJS kesehatan pada fasilitas kesehatan tingkat</td>
-                  <td>15.863.803.000</td>
-                  <td>15.463.803.000</td>
+                  <td>11.863.803.000</td>
+                  <td>19.463.803.000</td>
                   <td>14.863803.000</td>
                   <td>6.146.768</td>
                   <td>14.463.803.000</td>
@@ -435,7 +434,7 @@
                   <td>425137</td>
                   <td>Pendapatan layanan fasilitas kesehatan</td>
                   <td>15.863.803.000</td>
-                  <td>15.463.803.000</td>
+                  <td>11.463.803.000</td>
                   <td>14.863803.000</td>
                   <td>6.146.768</td>
                   <td>14.463.803.000</td>
@@ -446,7 +445,7 @@
                   <td>#</td>
                   <td>Jumlah sub kelompok pendapatan 4257</td>
                   <td>15.863.803.000</td>
-                  <td>15.463.803.000</td>
+                  <td>12.463.803.000</td>
                   <td>14.863803.000</td>
                   <td>6.146.768</td>
                   <td>14.463.803.000</td>
@@ -457,7 +456,7 @@
                   <td>4253</td>
                   <td>Pendapatan denda</td>
                   <td>15.863.803.000</td>
-                  <td>15.463.803.000</td>
+                  <td>13.463.803.000</td>
                   <td>14.863803.000</td>
                   <td>6.146.768</td>
                   <td>14.463.803.000</td>
@@ -467,7 +466,7 @@
                 <tr>
                   <td>425311</td>
                   <td>Pendapatan denda penyelesaian pekerjaan pemerintah</td>
-                  <td>15.863.803.000</td>
+                  <td>118.863.803.000</td>
                   <td>15.463.803.000</td>
                   <td>14.863803.000</td>
                   <td>6.146.768</td>
@@ -479,7 +478,7 @@
                   <td>425312</td>
                   <td>Jumlah sub kelompok pendapatan 4258</td>
                   <td>15.863.803.000</td>
-                  <td>15.463.803.000</td>
+                  <td>17.463.803.000</td>
                   <td>14.863803.000</td>
                   <td>6.146.768</td>
                   <td>14.463.803.000</td>
@@ -607,8 +606,6 @@
         <!-- /.box -->
       </section>
       <!-- /.content -->
-    </div>
-    <!-- /.container -->
   </div>
   <!-- /.content-wrapper -->
 
