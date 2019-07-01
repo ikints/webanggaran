@@ -16,7 +16,7 @@
       <section class="content">
         
         <div class="box">
-            <div class="box-header padding-bottom-50">
+            <div class="box-header padding-bottom-50 text-center">
               <h4 class="box-title">Rincian Anggaran</h4><br>
               <h3 class="box-title">Kementerian Pertahanan Republik Indonesia</h3><br>
               <h3 class="box-title">Tahun 2019</h3>
@@ -24,9 +24,9 @@
             <!-- /.box-header -->
             <div class="box-body">
       			    <div class="padding-bottom-20">
-        			  	<a href="{{ URL('cms/input-anggaran') }}" class="btn btn-xs btn-success"><i class="fa fa-plus"></i> Input Anggaran</a>
+        			  	<a href="{{ URL('cms/input-anggaran') }}" class="btn btn-md btn-flat btn-success"><i class="fa fa-plus"></i> Input Anggaran</a>
                 </div>
-                <table id="tablelist" class="table table-bordered table-striped">
+                <table class="table table-bordered table-striped">
                   <thead>
                   <tr>
                     <th rowspan="2">Kode Nama Unit</th>

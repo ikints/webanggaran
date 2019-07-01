@@ -8,11 +8,56 @@ use Session;
 use App\Admin;
 
 
-class UOController extends Controller
+class KemhanUOController extends Controller
 {
 
-	private $ctrl = 'uo';
+	private $ctrl = 'uo.kemhan';
 	private $title = 'Unit Organisasi';
+
+    /*== Anggaran page ==*/
+    public function anggaran() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.anggaran.rinciananggaran";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    public function input_anggaran() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.anggaran.input-anggaran";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    public function anggaran_detail() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.anggaran.rinciananggarandetail";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    /*== End Anggaran page ==*/
 
 	/*== Tahun Anggaran page ==*/
     public function tahun_anggaran() 
@@ -104,20 +149,7 @@ class UOController extends Controller
 
     }
 
-    /*== Anggaran page ==*/
-    public function anggaran() 
-    {
-
-    // set data view
-    $datapage[ 'content_view' ] = "backend.$this->ctrl.rinciananggaran";
-    $datapage[ 'page_title' ]   = $this->title;
-    $datapage[ 'ctrl' ]         = $this->ctrl;
-    $datapage[ 'title' ]        = $this->title;
-
-    // load view
-    return view($datapage[ 'content_view' ], $datapage);
-
-    }
+    
 
     /*== Revisi Anggaran page ==*/
     public function revisi_anggaran() 
@@ -224,35 +256,9 @@ class UOController extends Controller
 
     }
 
-    /*== Anggaran Detail page ==*/
-    public function anggaran_detail() 
-    {
+    
 
-    // set data view
-    $datapage[ 'content_view' ] = "backend.$this->ctrl.rinciananggarandetail";
-    $datapage[ 'page_title' ]   = $this->title;
-    $datapage[ 'ctrl' ]         = $this->ctrl;
-    $datapage[ 'title' ]        = $this->title;
-
-    // load view
-    return view($datapage[ 'content_view' ], $datapage);
-
-    }
-
-    /*== Anggaran page ==*/
-    public function input_anggaran() 
-    {
-
-    // set data view
-    $datapage[ 'content_view' ] = "backend.$this->ctrl.input-anggaran";
-    $datapage[ 'page_title' ]   = $this->title;
-    $datapage[ 'ctrl' ]         = $this->ctrl;
-    $datapage[ 'title' ]        = $this->title;
-
-    // load view
-    return view($datapage[ 'content_view' ], $datapage);
-
-    }
+    
 
     /*== Laporan Pelaksanaan ABP page ==*/
     public function laporan_pelaksanaan_abp() 

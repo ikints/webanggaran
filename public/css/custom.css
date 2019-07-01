@@ -50,6 +50,48 @@
 	color: #fff;
 }
 
+.mobile-header .m-logo {
+	width: 60px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.mobile-header .m-a-mon {
+	font-size: 12px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.mobile-header .m-k-per {
+	font-size: 12px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+
+	.desktop-header{
+		display: none;
+	}
+
+	.mobile-header{
+		display: block;
+	}
+
+}
+
+@media (min-width: 900px) {
+
+	.desktop-header{
+		display: block;
+	}
+
+	.mobile-header{
+		display: none;
+	}
+
+}
+
 /*--------------------
 * Padding 
 *--------------------
@@ -167,17 +209,33 @@
 }
 
 .login-label .a-mon {
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: 400;
 	text-transform: uppercase;
 	color: #fff;
 }
 
 .login-label .k-per {
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 400;
 	text-transform: uppercase;
 	color: #fff;
+}
+
+@media (max-width: 768px) {
+	.login-label .a-mon {
+		font-size: 14px;
+		font-weight: 400;
+		text-transform: uppercase;
+		color: #fff;
+	}
+
+	.login-label .k-per {
+		font-size: 14px;
+		font-weight: 400;
+		text-transform: uppercase;
+		color: #fff;
+	}
 }
 
 /*--------------------
@@ -211,3 +269,14 @@
 * Table 
 *--------------------
 */
+
+table.table-bordered{
+    border:1px solid #666;
+    margin-top:20px;
+  }
+table.table-bordered > thead > tr > th{
+    border:1px solid #666;
+}
+table.table-bordered > tbody > tr > td{
+    border:1px solid #666;
+}

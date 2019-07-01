@@ -3,100 +3,110 @@
 @section('content')
 <!-- Full Width Column -->
 <div class="content-wrapper">
-  <div class="container">
 	<!-- Main content -->
     <section class="content">
       <!-- Small boxes (Stat box) -->
       <div class="row">
-        <div class="col-lg-3 col-xs-6">
-          <div class="box box-solid">
-            <div class="box-header with-border">
-              <h3 class="box-title">Penyerapan Anggaran</h3>
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="chart-responsive">
-                    <div id="PenyerapanAnggaran" style="height: 190px"></div>
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-lg-6 col-xs-6">
+              <div class="box box-solid">
+                <div class="box-header with-border">
+                  <h3 class="box-title">Penyerapan Anggaran</h3>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="chart-responsive">
+                        <div id="PenyerapanAnggaran" style="height: 190px"></div>
+                      </div>
+                      <!-- ./chart-responsive -->
+                    </div>
                   </div>
-                  <!-- ./chart-responsive -->
+                  <!-- /.row -->
                 </div>
               </div>
-              <!-- /.row -->
+              <!-- /.box -->
             </div>
-          </div>
-          <!-- /.box -->
-        </div>
-        <!-- ./col -->
-        <div class="col-lg-3 col-xs-6">
-          <div class="row">
-          	<div class="col-md-12 bg-green padding-20">
-          		<div class="box-header with-border">
-		              <h3 class="box-title text-white">Total Anggaran</h3>
-		        </div>
-          		<div class="box-body">
-		              Rp. 107,7 Trilliun
-		        </div>
-          	</div>
-          	<div class="col-md-12 bg-blue padding-20 margin-top-10">
-          		<div class="box-header with-border">
-		              <h3 class="box-title text-white">Penyerapan Anggaran</h3>
-		        </div>
-          		<div class="box-body">
-		              Rp. 48,5 Trilliun
-		        </div>
-          	</div>
-          </div>
-        </div>
-        <!-- ./col -->
-        <div class="col-lg-3 col-xs-6">
-          <div class="box box-solid">
-            <div class="box-header with-border">
-              <h3 class="box-title">Anggaran Per-Jenis</h3>
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body">
+            <!-- ./col -->
+            <div class="col-lg-6 col-xs-6">
               <div class="row">
-                <div class="col-md-12">
-                  <div class="chart-responsive">
-                    <div id="PenyerapanAnggaranPerJenis" style="height: 190px"></div>
-                  </div>
-                  <!-- ./chart-responsive -->
+                <div class="col-md-12 bg-green padding-20">
+                  <div class="box-header with-border">
+                      <h3 class="box-title text-white">Total Anggaran</h3>
+                </div>
+                  <div class="box-body">
+                      Rp. 107,7 Trilliun
+                </div>
+                </div>
+                <div class="col-md-12 bg-blue padding-20 margin-top-10">
+                  <div class="box-header with-border">
+                      <h3 class="box-title text-white">Penyerapan Anggaran</h3>
+                </div>
+                  <div class="box-body">
+                      Rp. 48,5 Trilliun
+                </div>
                 </div>
               </div>
-              <!-- /.row -->
             </div>
           </div>
-          <!-- /.box -->
         </div>
-        <!-- ./col -->
-        <div class="col-lg-3 col-xs-6">
+        <div class="col-lg-6">
           <div class="row">
-          	<div class="col-md-12 bg-yellow padding-20">
-          		<div class="box-header with-border">
-		              <h3 class="box-title text-white">Total Penerimaan Dana Hibah</h3>
-		        </div>
-          		<div class="box-body">
-		              Rp. 15,7 Trilliun
-		        </div>
-          	</div>
-          	<div class="col-md-12 bg-aqua padding-20 margin-top-10">
-          		<div class="box-header with-border">
-		              <h3 class="box-title text-white">Total Pendapatan Negara</h3>
-		        </div>
-          		<div class="box-body">
-		              Rp. 10,5 Trilliun
-		        </div>
-          	</div>
+            
+            <!-- ./col -->
+            <div class="col-lg-6 col-xs-6">
+              <div class="row">
+                <div class="col-md-12 bg-yellow padding-20">
+                  <div class="box-header with-border">
+                      <h3 class="box-title text-white">Total Penerimaan Dana Hibah</h3>
+                </div>
+                  <div class="box-body">
+                      Rp. 15,7 Trilliun
+                </div>
+                </div>
+                <div class="col-md-12 bg-aqua padding-20 margin-top-10">
+                  <div class="box-header with-border">
+                      <h3 class="box-title text-white">Total Pendapatan Negara</h3>
+                </div>
+                  <div class="box-body">
+                      Rp. 10,5 Trilliun
+                </div>
+                </div>
+              </div>
+            </div>
+            <!-- ./col -->
+            <!-- ./col -->
+            <div class="col-lg-6 col-xs-6">
+              <div class="box box-solid">
+                <div class="box-header with-border">
+                  <h3 class="box-title">Anggaran Per-Jenis</h3>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="chart-responsive">
+                        <div id="PenyerapanAnggaranPerJenis" style="height: 190px"></div>
+                      </div>
+                      <!-- ./chart-responsive -->
+                    </div>
+                  </div>
+                  <!-- /.row -->
+                </div>
+              </div>
+              <!-- /.box -->
+            </div>
           </div>
         </div>
-        <!-- ./col -->
       </div>
+
+        
 
       <!-- Small boxes (Stat box) -->
       <div class="row">
-        <div class="col-lg-5 col-xs-6">
+        <div class="col-lg-12 padding-20">
           <div class="box box-solid">
             <div class="box-header with-border">
               <h3 class="box-title">Penyerapan Anggaran Persatuan Kerja</h3>
@@ -117,7 +127,9 @@
           <!-- /.box -->
         </div>
         <!-- ./col -->
-        <div class="col-lg-7 col-xs-6 pull-right nopadding">
+        </div>
+      <div class="row">
+        <div class="col-lg-12">
           <div class="box box-solid">
             <div class="box-header with-border">
               <h3 class="box-title">Penyerapan Anggaran Perbulan</h3>
@@ -140,7 +152,7 @@
       </div>
 
       <div class="row">
-        <div class="col-lg-3 col-xs-6">
+        <div class="col-lg-6 col-xs-6">
           <div class="box box-solid">
             <div class="box-header with-border">
               <h3 class="box-title">10 Sataun Kerja Dengan Anggaran Terbesar</h3>
@@ -161,7 +173,7 @@
           <!-- /.box -->
         </div>
         <!-- ./col -->
-        <div class="col-lg-3 col-xs-6">
+        <div class="col-lg-6 col-xs-6">
           <div class="box box-solid">
             <div class="box-header with-border">
               <h3 class="box-title">Satuan Kerja Belum Menyerahkan Laporan</h3>
@@ -183,7 +195,9 @@
           </div>
           <!-- /.box -->
         </div>
-        <div class="col-lg-6 col-xs-6 pull-right nopadding">
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
           <div class="box box-solid">
             <div class="box-header with-border">
               <h3 class="box-title">Penyerapan Anggaran 5 Tahun Terakhir</h3>
@@ -205,7 +219,6 @@
       </div>
 
 	</section>
-</div>
 </div>
 @endsection
 

@@ -1,5 +1,6 @@
 <div class="top-head">
     <div class="container">
+      <section class="desktop-header">
       <div class="row">
         <div class="col-md-7 pull-left">
           <div class="row">
@@ -18,6 +19,50 @@
             <div class="col-md-10 text-right nopadding">
               <span>Kementerian Pertahanan <br>User : 
                 @switch(Session::get('level'))
+                    @case(1)
+                        {{Session::get('status_user')}}
+                        @break
+                    @case(2)
+                        {{Session::get('status_user')}}
+                        @break
+                    @case(3)
+                        {{Session::get('status_user')}}
+                        @break
+                    @case(4)
+                        {{Session::get('status_user')}}
+                        @break
+                @endswitch
+
+               </span>
+            </div>
+            <div class="col-md-2 text-left user"><i class="fa fa-user"></i></div>
+          </div>
+        </div>
+      </div>
+      </section>
+      <section class="mobile-header">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-12">
+              <a href="#" title="Kementerian Pertahanan"><img class="img-responsive m-logo" src="{{ URL('public/images/') }}/logo.png"/>
+          </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-10 text-center">
+              <span class="m-a-mon">Sistem Pelaporan Keuangan & Kinerja Pembangunan Pertahanan</span><br>
+              <span class="m-k-per">Kementerian Pertahanan Republik Indonesia</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-10 text-center padding-20">
+              <span>Kementerian Pertahanan <br>User : 
+                @switch(Session::get('level'))
                   @case(1)
                       {{Session::get('status_user')}}
                       @break
@@ -34,10 +79,11 @@
 
                </span>
             </div>
-            <div class="col-md-2 text-left user"><i class="fa fa-user"></i></div>
+            <div class="col-md-2 text-center user"><i class="fa fa-user"></i></div>
           </div>
         </div>
       </div>
+    </section>
     </div>
 </div>
 

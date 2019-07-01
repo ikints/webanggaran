@@ -7,7 +7,7 @@
 
 @section('content')
 <div class="hold-transition login-page-wrapper">
-  <div class="login-box-kemhan">
+  <div class="login-box">
     <div class="login-logo">
       <a href="#" title="Kementerian Pertahanan"><img class="img-responsive" src="{{ URL('public/images/') }}/logo.png"/>
           </a>
