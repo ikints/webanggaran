@@ -3,6 +3,7 @@
 @section('extra-css')
 <!-- DataTables -->
 <link rel="stylesheet" href="{{ URL('public/iCheck/square/blue.css') }}">
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 @endsection
 
 @section('content')
@@ -32,6 +33,11 @@
           <span class="glyphicon glyphicon-lock form-control-feedback"></span>
         </div>
         <div class="row">
+          <div class="col-md-12">
+            <div class="g-recaptcha pull-right" data-sitekey="6LfvpasUAAAAAAbyoYWXm3k2VRWvl_BuI4VrNw3Q"></div>
+          </div>
+        </div>
+        <div class="row margin-top-10">
           <div class="col-xs-8">
             <div class="checkbox icheck">
               <label>

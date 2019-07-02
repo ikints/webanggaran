@@ -42,8 +42,8 @@
                         <th rowspan="2" class="text-center">KODE</th>
                         <th rowspan="2" class="text-center">PROGRAM/KEGIATAN/OUTPUT/SUBOUPUT<br>KOMPONEN/SUBKOMPONEN/AKUN/DETIL</th>
                         <th colspan="2" class="text-center">ANGGARAN</th>
-                        <th colspan="2" class="text-center">REALISASI</th>
                         <th colspan="2" class="text-center">SISA</th>
+                        <th colspan="2" class="text-center">REALISASI</th>
                       </tr>
                       <tr>
                         <th class="text-center">VOLUME</th>
@@ -130,38 +130,38 @@
                         <td><a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Snack Rapat Biasa D.K>I Jakarta (14ORG X2OK)</a></td>
                         <td>28.00</td>
                         <td>588.000</td>
+                        <td>0</td>
+                        <td>0</td>
                         <td><input type="text" name="realisasi" size="5" id="textvolume_1">
                           <span id="labelvolume_1">0</span>
                         </td>
                         <td><input type="text" name="realisasi" size="5" id="textnominal_1">
                           <span id="labelnominal_1">0</td>
-                        <td>0</td>
-                        <td>0</td>
                       </tr>
                       <tr>
                         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5212112</td>
                         <td><a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Makan Rapat Biasa D.K>I Jakarta (14ORG X2OK)</a></td>
                         <td>28.00</td>
                         <td>1.316.000</td>
+                        <td>0</td>
+                        <td>0</td>
                         <td><input type="text" name="realisasi" size="5" id="textvolume_2">
                           <span id="labelvolume_2">0</span>
                         </td>
                         <td><input type="text" name="realisasi" size="5" id="textnominal_2">
                           <span id="labelnominal_2">0</span></td>
-                        <td>0</td>
-                        <td>0</td>
                       </tr>
                       <tr>
                         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5212113</td>
                         <td><a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Reproduksi</a></td>
                         <td>1.00</td>
                         <td>846.000</td>
+                        <td>0</td>
+                        <td>0</td>
                         <td><input type="text" name="realisasi" size="5" id="textvolume_3">
                           <span id="labelvolume_3">0</span></td>
                         <td><input type="text" name="realisasi" size="5" id="textnominal_3">
                           <span id="labelnominal_3">0</td>
-                        <td>0</td>
-                        <td>0</td>
                       </tr>
         
                     </tbody>
