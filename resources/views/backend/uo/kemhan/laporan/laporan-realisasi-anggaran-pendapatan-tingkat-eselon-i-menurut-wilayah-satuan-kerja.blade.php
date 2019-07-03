@@ -17,6 +17,8 @@
         <div class="box">
             <div class="box-header padding-bottom-10 text-center">
               <h4 class="box-title report-title">Laporan Realisasi Anggaran Pendapatan</h4><br>
+              <h4 class="box-title report-title">Tingkat Eselon I</h4><br>
+              <h4 class="box-title report-title">Menurut Wilayah Satuan Kerja</h4><br>
               <h3 class="box-title report-title">{{Session::get('status_user')}}</h3><br>
               <h3 class="box-title report-title">UNTUK PERIODE YANG BERAKHIR 31 DESEMBER 2019</h3>
             </div>

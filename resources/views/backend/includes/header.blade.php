@@ -179,10 +179,11 @@
                 <li><a href="{{ URL('laporan') }}">Pendapatan Negara</a></li>
                 <li class="divider"></li>
                 <li><a href="{{ URL('cms/kemhan/uo/laporan-realisasi-anggaran') }}">Laporan Realisasi Anggaran</a></li>
-                <li><a href="{{ URL('cms/kemhan/uo/laporan-realisasi-anggaran-pendapatan') }}">Laporan Realisasi Anggaran Pendapatan</a></li>
-                <li><a href="{{ URL('cms/kemhan/uo/laporan-realisasi-anggaran-belanja-perwilayah') }}">Laporan Realisasi Anggaran Belanja Perwilayah/Satuan Kerja</a></li>
-                <li><a href="{{ URL('cms/kemhan/uo/laporan-realisasi-anggaran-belanja-menurut-jenis-belanja') }}">Laporan Realisasi Anggaran Belanja Menurut Jenis Belanja</a></li>
-                <li><a href="{{ URL('cms/kemhan/uo/laporan-realisasi-anggaran-belanja-menurut-sumber-dana') }}">Laporan Realisasi Anggaran Belanja Menurut Sumber Dana</a></li>
+                <li><a href="{{ URL('cms/kemhan/uo/laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i') }}">Laporan Realisasi Anggaran Pendapatan Tingkat Eselon I</a></li>
+                <li><a href="{{ URL('cms/kemhan/uo/laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i-menurut-wilayah-satuan-kerja') }}">Laporan Realisasi Anggaran Pendapatan Tingkat Eselon I Menurut Wilayah Satuan Kerja</a></li>
+                <li><a href="{{ URL('cms/kemhan/uo/laporan-realisasi-anggaran-belanja-menurut-wilayah-satuan-kerja-tingkat-eselon-i') }}">Laporan Realisasi Anggaran Belanja Menurut Wilayah/Satuan Kerja Tingkat Eselon I</a></li>
+                <li><a href="{{ URL('cms/kemhan/uo/laporan-realisasi-anggaran-belanja-menurut-jenis-belanja-akun-tingkat-eselon-i') }}">Laporan Realisasi Anggaran Belanja Menurut Jenis Belanja / Akun Tingkat Eselon I</a></li>
+                <li><a href="{{ URL('cms/kemhan/uo/laporan-realisasi-anggaran-belanja-menurut-sumber-dana-program-kegiatan-tingkat-eselon-i') }}">Laporan Realisasi Anggaran Belanja Menurut Sumber Dana Program Kegiatan Tingkat Eselon I</a></li>
                 <li class="divider"></li>
                 <li><a href="{{ URL('cms/kemhan/uo/laporan-pelaksanaan-barang-dan-jasa') }}">Laporan Pelaksanaan Barang dan Jasa</a></li>
                 <li><a href="{{ URL('cms/kemhan/uo/laporan-pelaksanaan-perkembangan-kegiatan-prioritas') }}">Laporan Pelaksanaan Perkembangan Kegiatan Prioritas</a></li>

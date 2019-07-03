@@ -82,10 +82,11 @@ Route::group(['middleware' => 'ValidateUO'], function () {
 	Route::post('cms/kemhan/uo/laporan-rincian-belanja-barang', 'Backend\KemhanUOController@laporan_rincian_barang');
 	//Laporan
 	Route::get('cms/kemhan/uo/laporan-realisasi-anggaran', 'Backend\KemhanUOController@laporan_realisasi_anggaran');
-	Route::get('cms/kemhan/uo/laporan-realisasi-anggaran-pendapatan', 'Backend\KemhanUOController@laporan_realisasi_anggaran_pendapatan');
-	Route::get('cms/kemhan/uo/laporan-realisasi-anggaran-belanja-perwilayah', 'Backend\KemhanUOController@laporan_realisasi_anggaran_belanja_perwilayah');
-	Route::get('cms/kemhan/uo/laporan-realisasi-anggaran-belanja-menurut-jenis-belanja', 'Backend\KemhanUOController@laporan_realisasi_anggaran_belanja_menurut_jenis_belanja');
-	Route::get('cms/kemhan/uo/laporan-realisasi-anggaran-belanja-menurut-sumber-dana', 'Backend\KemhanUOController@laporan_realisasi_anggaran_belanja_menurut_sumber_dana');
+	Route::get('cms/kemhan/uo/laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i-menurut-wilayah-satuan-kerja', 'Backend\KemhanUOController@laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i_menurut_wilayah_satuan_kerja');
+	Route::get('cms/kemhan/uo/laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i', 'Backend\KemhanUOController@laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i');
+	Route::get('cms/kemhan/uo/laporan-realisasi-anggaran-belanja-menurut-wilayah-satuan-kerja-tingkat-eselon-i', 'Backend\KemhanUOController@laporan_realisasi_anggaran_belanja_menurut_wilayah_satuan_kerja_tingkat_eselon_i');
+	Route::get('cms/kemhan/uo/laporan-realisasi-anggaran-belanja-menurut-jenis-belanja-akun-tingkat-eselon-i', 'Backend\KemhanUOController@laporan_realisasi_anggaran_belanja_menurut_jenis_belanja_akun_tingkat_eselon_i');
+	Route::get('cms/kemhan/uo/laporan-realisasi-anggaran-belanja-menurut-sumber-dana-program-kegiatan-tingkat-eselon-i', 'Backend\KemhanUOController@laporan_realisasi_anggaran_belanja_menurut_sumber_dana_program_kegiatan_tingkat_eselon_i');
 	//
 	Route::get('cms/kemhan/uo/laporan-pelaksanaan-barang-dan-jasa', 'Backend\KemhanUOController@laporan_pelaksanaan_barang_dan_jasa');
 	Route::get('cms/kemhan/uo/laporan-pelaksanaan-perkembangan-kegiatan-prioritas', 'Backend\KemhanUOController@laporan_pelaksanaan_perkembangan_kegiatan_prioritas');

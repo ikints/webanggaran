@@ -17,6 +17,8 @@
         <div class="box">
             <div class="box-header padding-bottom-10 text-center">
               <h4 class="box-title report-title">Laporan Realisasi Anggaran Belanja Perwilayah</h4><br>
+              <h4 class="box-title report-title">Menurut wilayah / satuan kerja</h4><br>
+              <h4 class="box-title report-title">Tingkat Eselon I</h4><br>
               <h3 class="box-title report-title">{{Session::get('status_user')}}</h3><br>
               <h3 class="box-title report-title">UNTUK PERIODE YANG BERAKHIR 31 DESEMBER 2019</h3>
             </div>
@@ -85,7 +87,7 @@
                   <tr>
                     <th class="text-center">BELANJA</th>
                     <th class="text-center">PENGEMBALIAN BELANJA</th>
-                    <th class="text-center">BELANJA NETTO</th>
+                    <th class="text-center" style="border-right: 1px solid #666;">BELANJA NETTO</th>
                   </tr>
                   </thead>
                   <tbody>
