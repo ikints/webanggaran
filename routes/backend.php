@@ -50,13 +50,42 @@ Route::group(['middleware' => 'ValidateUO'], function () {
 
 	/* Kemhan UO */
 
-	/* ==========Anggaran========== */
+	/* ==========Laporan Perkembangan========== */
+	Route::get('cms/kemhan/uo/laporan-perkembangan-pengadaan-barang-dan-jasa', 'Backend\KemhanUOController@laporan_perkembangan_pengadaan_barang_dan_jasa');
+	Route::get('cms/kemhan/uo/laporan-perkembangan-pembangunan-dan-pengembangan-fasilitas', 'Backend\KemhanUOController@laporan_perkembangan_pembangunan_dan_pengembangan_fasilitas');
 
+	/* ==========Laporan Pelaksanaan========== */
+	Route::get('cms/kemhan/uo/laporan-pelaksanaan-anggaran-belanja-pegawai', 'Backend\KemhanUOController@laporan_pelaksanaan_anggaran_belanja_pegawai');
+	Route::get('cms/kemhan/uo/laporan-pelaksanaan-anggaran-belanja-barang', 'Backend\KemhanUOController@laporan_pelaksanaan_anggaran_belanja_barang');
+	Route::get('cms/kemhan/uo/laporan-pelaksanaan-anggaran-belanja-modal', 'Backend\KemhanUOController@laporan_pelaksanaan_anggaran_belanja_modal');
+	Route::get('cms/kemhan/uo/laporan-pelaksanaan-barang-dan-jasa', 'Backend\KemhanUOController@laporan_pelaksanaan_barang_dan_jasa');
+	Route::get('cms/kemhan/uo/laporan-pelaksanaan-perkembangan-kegiatan-prioritas', 'Backend\KemhanUOController@laporan_pelaksanaan_perkembangan_kegiatan_prioritas');
+	Route::get('cms/kemhan/uo/laporan-pelaksanaan-perkembangan-pembangunan-dan-fasilitas', 'Backend\KemhanUOController@laporan_pelaksanaan_perkembangan_pembangunan_dan_fasilitas');
+	Route::get('cms/kemhan/uo/laporan-realisasi-pelaksanaan-anggaran-perjenis-belanja', 'Backend\KemhanUOController@laporan_realisasi_pelaksanaan_anggaran_perjenis_belanja');
+
+	/* ==========Laporan Rincian========== */
+	Route::post('cms/kemhan/uo/laporan-rincian-anggaran-belanja-pegawai', 'Backend\KemhanUOController@laporan_rincian_anggaran_belanja_pegawai');
+	Route::post('cms/kemhan/uo/laporan-rincian-belanja-barang', 'Backend\KemhanUOController@laporan_rincian_barang');
+	Route::post('cms/kemhan/uo/laporan-rincian-belanja-modal', 'Backend\KemhanUOController@laporan_rincian_modal');
+
+	/* ==========Hibah========== */
+	Route::get('cms/kemhan/uo/laporan-penerimaan-hibah-dalam-negeri', 'Backend\KemhanUOController@laporan_penerimaan_hibah_dalam_negeri');
+
+	/* ==========Pendapatan========== */
+	Route::get('cms/kemhan/uo/laporan-pendapatan-negara', 'Backend\KemhanUOController@laporan_pendapatan_negara');
+
+	/* ==========Anggaran========== */
 	Route::get('cms/kemhan/uo/anggaran', 'Backend\KemhanUOController@anggaran');
 	Route::get('cms/kemhan/uo/input-anggaran', 'Backend\KemhanUOController@input_anggaran');
 	Route::get('cms/kemhan/uo/rincian-anggaran', 'Backend\KemhanUOController@anggaran');
 	Route::get('cms/kemhan/uo/rincian-anggaran-detail', 'Backend\KemhanUOController@anggaran_detail');
-
+	//
+	Route::get('cms/kemhan/uo/laporan-anggaran-pemeliharaan', 'Backend\KemhanUOController@laporan_anggaran_pemeliharaan');
+	Route::get('cms/kemhan/uo/laporan-anggaran-alutsista', 'Backend\KemhanUOController@laporan_anggaran_alutsista');
+	Route::get('cms/kemhan/uo/laporan-anggaran-mef', 'Backend\KemhanUOController@laporan_anggaran_mef');
+	Route::get('cms/kemhan/uo/laporan-anggaran-perbatasan', 'Backend\KemhanUOController@laporan_anggaran_perbatasan');
+	Route::get('cms/kemhan/uo/laporan-anggaran-pinjaman', 'Backend\KemhanUOController@laporan_anggaran_pinjaman');
+	Route::get('cms/kemhan/uo/laporan-anggaran-prioritas', 'Backend\KemhanUOController@laporan_anggaran_prioritas');
 
     Route::get('cms/kemhan/uo/tahun-anggaran', 'Backend\KemhanUOController@tahun_anggaran');
 	Route::get('cms/kemhan/uo/tahun-anggaran-baru', 'Backend\KemhanUOController@tahun_anggaran_baru');
@@ -72,14 +101,8 @@ Route::group(['middleware' => 'ValidateUO'], function () {
 	Route::get('cms/kemhan/uo/realisasi-anggaran-detail', 'Backend\KemhanUOController@realisasi_anggaran_detail');
 	Route::get('cms/kemhan/uo/tambah-realisasi-anggaran', 'Backend\KemhanUOController@tambah_realisasi_anggaran');
 	//
+
 	
-	//Laporan
-	Route::get('cms/kemhan/uo/laporan-anggaran-belanja-pegawai', 'Backend\KemhanUOController@laporan_pelaksanaan_abp');
-	Route::post('cms/kemhan/uo/laporan-rincian-anggaran-belanja-pegawai', 'Backend\KemhanUOController@laporan_rincian_abp');
-	Route::get('cms/kemhan/uo/laporan-anggaran-belanja-modal', 'Backend\KemhanUOController@laporan_belanja_modal');
-	Route::post('cms/kemhan/uo/laporan-rincian-belanja-modal', 'Backend\KemhanUOController@laporan_rincian_modal');
-	Route::get('cms/kemhan/uo/laporan-anggaran-belanja-barang', 'Backend\KemhanUOController@laporan_belanja_barang');
-	Route::post('cms/kemhan/uo/laporan-rincian-belanja-barang', 'Backend\KemhanUOController@laporan_rincian_barang');
 	//Laporan
 	Route::get('cms/kemhan/uo/laporan-realisasi-anggaran', 'Backend\KemhanUOController@laporan_realisasi_anggaran');
 	Route::get('cms/kemhan/uo/laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i-menurut-wilayah-satuan-kerja', 'Backend\KemhanUOController@laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i_menurut_wilayah_satuan_kerja');
@@ -88,10 +111,8 @@ Route::group(['middleware' => 'ValidateUO'], function () {
 	Route::get('cms/kemhan/uo/laporan-realisasi-anggaran-belanja-menurut-jenis-belanja-akun-tingkat-eselon-i', 'Backend\KemhanUOController@laporan_realisasi_anggaran_belanja_menurut_jenis_belanja_akun_tingkat_eselon_i');
 	Route::get('cms/kemhan/uo/laporan-realisasi-anggaran-belanja-menurut-sumber-dana-program-kegiatan-tingkat-eselon-i', 'Backend\KemhanUOController@laporan_realisasi_anggaran_belanja_menurut_sumber_dana_program_kegiatan_tingkat_eselon_i');
 	//
-	Route::get('cms/kemhan/uo/laporan-pelaksanaan-barang-dan-jasa', 'Backend\KemhanUOController@laporan_pelaksanaan_barang_dan_jasa');
-	Route::get('cms/kemhan/uo/laporan-pelaksanaan-perkembangan-kegiatan-prioritas', 'Backend\KemhanUOController@laporan_pelaksanaan_perkembangan_kegiatan_prioritas');
-	Route::get('cms/kemhan/uo/laporan-pelaksanaan-perkembangan-pembangunan-dan-fasilitas', 'Backend\KemhanUOController@laporan_pelaksanaan_perkembangan_pembangunan_dan_fasilitas');
-	Route::get('cms/kemhan/uo/laporan-realisasi-pelaksanaan-anggaran-perjenis-belanja', 'Backend\KemhanUOController@laporan_realisasi_pelaksanaan_anggaran_perjenis_belanja');
+	
+	
 
 	//Signout
 	Route::get('cms/kemhan/uo/signout', 'Backend\KemhanUOController@signout');

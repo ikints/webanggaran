@@ -10,14 +10,12 @@
 
   <!-- Full Width Column -->
   <div class="content-wrapper">
-    <div class="container">
-
       <!-- Main content -->
       <section class="content">
         
         <div class="box">
             <div class="box-header padding-bottom-10 text-center">
-              <h4 class="box-title report-title">Laporan Pelaksanaan Anggaran Belanja Pegawai</h4><br>
+              <h4 class="box-title report-title">Laporan Anggaran MEF</h4><br>
               <h3 class="box-title report-title">{{Session::get('status_user')}}</h3><br>
               <h3 class="box-title report-title">PERIODE 1 JANUARI S.D. 31 MARET 2019</h3>
             </div>
@@ -63,7 +61,7 @@
                     <th>KODE</th>
                     <th class="text-center">NAMA AKUN</th>
                     <th>ALOKASI DIPA</th>
-                    <th>REALISASI SPAN</th>
+                    <th>REALISASI</th>
                     <th>SISA</th>
                     <th>%</th>
                   </tr>
@@ -336,8 +334,6 @@
         <!-- /.box -->
       </section>
       <!-- /.content -->
-    </div>
-    <!-- /.container -->
   </div>
   <!-- /.content-wrapper -->
 
@@ -362,6 +358,7 @@
         { 
           "paging": false,
           "searching": false,
+          "ordering": false,
           "bLengthChange": false,
           dom: 'lBfrtip',
                 buttons: [

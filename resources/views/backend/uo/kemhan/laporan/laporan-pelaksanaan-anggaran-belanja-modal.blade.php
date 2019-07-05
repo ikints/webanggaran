@@ -4,8 +4,6 @@
 
   <!-- Full Width Column -->
   <div class="content-wrapper">
-    <div class="container">
-
       <!-- Main content -->
       <section class="content">
 
@@ -100,10 +98,7 @@
           <!-- /.box-body -->
         </div>
 
-
       </section>
-
-    </div>
 
   </div>
 

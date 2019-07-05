@@ -16,7 +16,7 @@
         
         <div class="box">
             <div class="box-header padding-bottom-10 text-center">
-              <h4 class="box-title report-title">Laporan Realisasi Pelaksanaan Anggaran Perjenis Belanja</h4><br>
+              <h4 class="box-title report-title">Penerimaan Dana Hibah Dalam dan Luar Negeri</h4><br>
               <h3 class="box-title report-title">Sampai dengan bulan : Desember 2019</h3><br>
               <h3 class="box-title report-title">{{Session::get('status_user')}}</h3>
             </div>
@@ -26,15 +26,19 @@
                 <table id="tablelist" class="table table-bordered table-striped table-hover">
                   <thead>
                   <tr>
-                    <th>NO</th>
-                    <th>URAIAN</th>
-                    <th>PAGU</th>
-                    <th>REVISI</th>
-                    <th>PAGU SETELAH REVISI</th>
-                    <th>REALISASI</th>
-                    <th>SISA</th>
-                    <th>PERSENTASE</th>
-                    <th>KETERANGAN</th>
+                    <th rowspan="2">KODE</th>
+                    <th rowspan="2">URAIAN</th>
+                    <th rowspan="2">PAGU</th>
+                    <th rowspan="2">NILAI KONTRAK</th>
+                    <th colspan="2" class="text-center">PEMBAYARAN</th>
+                    <th rowspan="2">JUMLAH</th>
+                    <th rowspan="2">SISA</th>
+                    <th rowspan="2">%</th>
+                    <th rowspan="2">KETERANGAN</th>
+                  </tr>
+                  <tr>
+                    <th class="text-center">UANG MUKA</th>
+                    <th class="text-center">REALISASI KONTRAK</th>
                   </tr>
                   </thead>
                   <tbody>
@@ -45,17 +49,19 @@
                     <td>4</td>
                     <td>5</td>
                     <td>6</td>
-                    <td>7(5-6)</td>
-                    <td>8(6-5)</td> 
-                    <td>9</td>        
+                    <td>7</td>
+                    <td>8=4-7</td>
+                    <td>9=7-4</td>     
+                    <td>10</td>           
                   </tr>
                 <tr>
-                  <td>Q100</td>
-                  <td>DKI Jakarta</td>
+                  <td>42</td>
+                  <td>Pengadaan Alat</td>
+                  <td>0</td>
+                  <td>34.146.768</td>
                   <td>0</td>
                   <td>146.768</td>
                   <td>0</td>
-                  <td>146.768</td>
                   <td>0</td>
                   <td>0</td>
                   <td>0</td>
@@ -71,6 +77,7 @@
                   <td>423518354083</td>
                   <td>23.19</td>
                   <td></td>
+                  <td>0</td>
                   <td>0</td>
                   <td>0</td>
                 </tr>
@@ -107,6 +114,7 @@
         { 
           "paging": false,
           "searching": false,
+          "ordering": false,
           "bLengthChange": false,
           dom: 'lBfrtip',
                 buttons: [
@@ -115,7 +123,7 @@
                         text: 'Excel',
                         extend: 'excelHtml5',
                         footer: true,
-                        filename: 'Laporan Realisasi Pelaksanaan Anggaran Perjenis Belanja \n Sampai dengan bulan : Desember 2019 \n {{Session::get('status_user')}}',
+                        filename: 'Laporan Penerimaan Dana Hibah Dalam dan Luar Negeri \n Sampai dengan bulan : Desember 2019 \n {{Session::get('status_user')}}',
                         title:'',
                         orientation: 'landscape',
                         pageSize: 'A4',
@@ -218,7 +226,7 @@
                           }
                    
                           //insert
-                          var r1 = AddrowHead(1, [{ k: 'A', v: 'Laporan Realisasi Pelaksanaan Anggaran Perjenis Belanja' }]);
+                          var r1 = AddrowHead(1, [{ k: 'A', v: 'Laporan Pelaksanaan Barang dan Jasa' }]);
                           var r2 = AddrowHead(2, [{ k: 'A', v: 'Sampai dengan bulan : Desember 2019' }]);
                           var r3 = AddrowHead(3, [{ k: 'A', v: '{{Session::get('status_user')}}' }]);
                            
@@ -230,8 +238,8 @@
                         text: 'PDF',
                         extend: 'pdfHtml5',
                         footer: true,
-                        filename: 'Laporan Realisasi Pelaksanaan Anggaran Perjenis Belanja {{Session::get('status_user')}} Sampai dengan bulan : Desember 2019',
-                        title:'Laporan Realisasi Pelaksanaan Anggaran Perjenis Belanja' + '\n' + 'Sampai dengan bulan : Desember 2019' + '\n' + ' {{Session::get('status_user')}} ',
+                        filename: 'Laporan Pelaksanaan Barang dan Jasa {{Session::get('status_user')}} Sampai dengan bulan : Desember 2019',
+                        title:'Laporan Pelaksanaan Barang dan Jasa' + '\n' + 'Sampai dengan bulan : Desember 2019' + '\n' + ' {{Session::get('status_user')}} ',
                         orientation: 'landscape',
                         pageSize: 'A4',
                         pageMargins: [ 150, 150, 150, 150 ],

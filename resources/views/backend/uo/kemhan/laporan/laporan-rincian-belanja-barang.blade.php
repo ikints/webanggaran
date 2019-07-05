@@ -10,8 +10,6 @@
 
   <!-- Full Width Column -->
   <div class="content-wrapper">
-    <div class="container">
-
       <!-- Main content -->
       <section class="content">
         
@@ -356,8 +354,6 @@
         <!-- /.box -->
       </section>
       <!-- /.content -->
-    </div>
-    <!-- /.container -->
   </div>
   <!-- /.content-wrapper -->
 

@@ -72,7 +72,7 @@
                 </div>
 
 
-                <table id="tablelist" class="table table-striped table-bordered">
+                <table id="tablelist" class="table table-striped table-bordered table-hover">
                   <thead>
                   <tr>
                     <th rowspan="2">KODE</th>

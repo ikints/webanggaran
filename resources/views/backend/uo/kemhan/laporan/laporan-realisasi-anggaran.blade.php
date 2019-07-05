@@ -16,9 +16,7 @@
         
         <div class="box">
             <div class="box-header padding-bottom-10 text-center">
-              <h4 class="box-title report-title">Laporan Realisasi Anggaran Pendapatan</h4><br>
-              <h4 class="box-title report-title">Tingkat Eselon I</h4><br>
-              <h4 class="box-title report-title">Menurut Wilayah Satuan Kerja</h4><br>
+              <h4 class="box-title report-title">Laporan Realisasi Anggaran</h4><br>
               <h3 class="box-title report-title">{{Session::get('status_user')}}</h3><br>
               <h3 class="box-title report-title">UNTUK PERIODE YANG BERAKHIR 31 DESEMBER 2019</h3>
             </div>
@@ -76,16 +74,20 @@
                 <table id="tablelist" class="table table-striped table-bordered table-hover">
                   <thead>
                   <tr>
-                    <th rowspan="2">KODE</th>
+                    <th rowspan="2">NO</th>
                     <th rowspan="2">URAIAN</th>
-                    <th rowspan="2">ESTIMASI PENDAPATAN</th>
-                    <th colspan="3" class="text-center">REALISASI PENDAPATAN</th>
-                    <th rowspan="2">%REALISASI PENDAPATAN</th>
+                    <th colspan="4" class="text-center">2018</th>
+                    <th colspan="4" class="text-center">2017</th>
                   </tr>
                   <tr>
-                    <th class="text-center">PENDAPATAN</th>
-                    <th class="text-center">PENGEMBALIAN PENDAPATAN</th>
-                    <th class="text-center">PENDAPATAN NETTO</th>
+                    <th class="text-center">ANGGARAN</th>
+                    <th class="text-center">REALISASI</th>
+                    <th class="text-center">RELISASI DIATAS (BAWAH)</th>
+                    <th class="text-center">%</th>
+                    <th class="text-center">ANGGARAN</th>
+                    <th class="text-center">REALISASI</th>
+                    <th class="text-center">RELISASI DIATAS (BAWAH)</th>
+                    <th class="text-center">%</th>
                   </tr>
                   </thead>
                   <tbody>
@@ -96,416 +98,216 @@
                     <td>4</td>
                     <td>5</td>
                     <td>6</td>
-                    <td>7</td>                
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>                
                   </tr>
                 <tr>
-                  <td>Q100</td>
-                  <td>DKI Jakarta</td>
+                  <td>A</td>
+                  <td>Pendapatan negara dan hibah</td>
                   <td></td>
                   <td></td>
                   <td></td>
                   <td></td>
                   <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
                 </tr>
                 <tr>
-                  <td>461390</td>
-                  <td>Badan instalasi strategis nasional</td>
+                  <td></td>
+                  <td>Penerimaan perpajakan</td>
                   <td>0</td>
-                  <td>146.768</td>
                   <td>0</td>
-                  <td>146.768</td>
                   <td>0</td>
-                </tr>
-                <tr>
-                  <td>561390</td>
-                  <td>Kementerian pertahanan</td>
                   <td>0</td>
-                  <td>43.618.146.768</td>
                   <td>0</td>
-                  <td>43.18.146.768</td>
+                  <td>0</td>
+                  <td>0</td>
                   <td>0</td>
                 </tr>
                 <tr>
-                  <td>661390</td>
-                  <td>Roren setjen kemhan</td>
+                  <td></td>
+                  <td>Penerimaan negara bukan pajak</td>
                   <td>0</td>
-                  <td>792.768</td>
+                  <td>111.522.292,172</td>
+                  <td>(111.522.292,172)</td>
                   <td>0</td>
-                  <td>792.768</td>
                   <td>0</td>
-                </tr>
-                <tr>
-                  <td>661391</td>
-                  <td>Ropeg setjen kemhan</td>
-                  <td>0</td>
-                  <td>9.146.768</td>
-                  <td>0</td>
-                  <td>9.146.768</td>
+                  <td>99.480.944,700</td>
+                  <td>(99.480.944,700)</td>
                   <td>0</td>
                 </tr>
                 <tr>
-                  <td>661392</td>
-                  <td>RO. hukum setjen kemhan</td>
+                  <td></td>
+                  <td>Penerimaan hibah</td>
                   <td>0</td>
-                  <td>446.768</td>
                   <td>0</td>
-                  <td>446.768</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr style="font-weight: bold;">
+                  <td></td>
+                  <td>Jumlah pendapatan dan hibah</td>
+                  <td>0</td>
+                  <td>111.522.292,172</td>
+                  <td>(111.522.292,172)</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>99.480.944,700</td>
+                  <td>(99.480.944,700)</td>
                   <td>0</td>
                 </tr>
                 <tr>
-                  <td>661393</td>
-                  <td>Itjen kemhan</td>
+                  <td>A</td>
+                  <td>Belanja</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Belanja Pegawai</td>
+                  <td>663.713.021.000</td>
+                  <td>618.801.579.836</td>
+                  <td>14.911.451.168</td>
+                  <td>98</td>
+                  <td>699.702.640.000</td>
+                  <td>541.261.357.804</td>
+                  <td>128.441.282.196</td>
+                  <td>81</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Belanja Barang</td>
+                  <td>8.663.713.021.000</td>
+                  <td>5.663.713.021.000</td>
+                  <td>3.663.713.021.000</td>
+                  <td>60</td>
+                  <td>4.663.713.021.000</td>
+                  <td>3.663.713.021.000</td>
+                  <td>663.713.021.000</td>
+                  <td>84</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Belanja Modal</td>
                   <td>0</td>
-                  <td>2.146.768</td>
                   <td>0</td>
-                  <td>2.146.768</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
                   <td>0</td>
                 </tr>
                 <tr>
-                  <td>661394</td>
-                  <td>Ditjen strahan kemhan</td>
+                  <td></td>
+                  <td>Belanja Pembayaran Kewajiban</td>
                   <td>0</td>
-                  <td>3.146.768</td>
                   <td>0</td>
-                  <td>3.146.768</td>
                   <td>0</td>
-                </tr>
-                <tr>
-                  <td>661395</td>
-                  <td>Ditjen renhan kemhan</td>
                   <td>0</td>
-                  <td>7.146.768</td>
                   <td>0</td>
-                  <td>7.146.768</td>
+                  <td>0</td>
+                  <td>0</td>
                   <td>0</td>
                 </tr>
                 <tr>
-                  <td>661396</td>
-                  <td>Ditjen pothan kemhan</td>
+                  <td></td>
+                  <td>Utang</td>
                   <td>0</td>
-                  <td>1.146.768</td>
                   <td>0</td>
-                  <td>1.146.768</td>
                   <td>0</td>
-                </tr>
-                <tr>
-                  <td>661397</td>
-                  <td>Ditjen kuthan kemhan</td>
                   <td>0</td>
-                  <td>17.146.768</td>
                   <td>0</td>
-                  <td>146.768</td>
+                  <td>0</td>
+                  <td>0</td>
                   <td>0</td>
                 </tr>
                 <tr>
-                  <td>661398</td>
-                  <td>Baramahan kemhan</td>
+                  <td></td>
+                  <td>Belanja Subsidi</td>
                   <td>0</td>
-                  <td>17.146.768</td>
                   <td>0</td>
-                  <td>146.768</td>
                   <td>0</td>
-                </tr>
-                <tr>
-                  <td>661399</td>
-                  <td>Badiklat kemhan</td>
                   <td>0</td>
-                  <td>7.146.768</td>
                   <td>0</td>
-                  <td>7.146.768</td>
+                  <td>0</td>
+                  <td>0</td>
                   <td>0</td>
                 </tr>
                 <tr>
-                  <td>661310</td>
-                  <td>Balitbang kemhan</td>
+                  <td></td>
+                  <td>Belanja Hibah</td>
                   <td>0</td>
-                  <td>5.146.768</td>
                   <td>0</td>
-                  <td>5.146.768</td>
                   <td>0</td>
-                </tr>
-                <tr>
-                  <td>661311</td>
-                  <td>Roum setjen kemhan</td>
                   <td>0</td>
-                  <td>1.146.768</td>
                   <td>0</td>
-                  <td>1.146.768</td>
+                  <td>0</td>
+                  <td>0</td>
                   <td>0</td>
                 </tr>
                 <tr>
-                  <td>661312</td>
-                  <td>Pusrehan kemhan</td>
+                  <td></td>
+                  <td>Belanja Bantuan Sosial</td>
                   <td>0</td>
-                  <td>3.981.146.768</td>
                   <td>0</td>
-                  <td>3.981.146.768</td>
                   <td>0</td>
-                </tr>
-                <tr>
-                  <td>#</td>
-                  <td>Jumlah Pendapatan (1000) - DKI Jakarta</td>
                   <td>0</td>
-                  <td>118.146.768</td>
                   <td>0</td>
-                  <td>118.146.768</td>
+                  <td>0</td>
+                  <td>0</td>
                   <td>0</td>
                 </tr>
                 <tr>
-                  <td>0205</td>
-                  <td>Kab. Bogor</td>
+                  <td></td>
+                  <td>Belanja Lain-lain</td>
                   <td>0</td>
-                  <td>72.146.768</td>
                   <td>0</td>
-                  <td>72.146.768</td>
                   <td>0</td>
-                </tr>
-                <tr>
-                  <td>661314</td>
-                  <td>Universitas Pertahanan</td>
                   <td>0</td>
-                  <td>501.146.768</td>
                   <td>0</td>
-                  <td>501.146.768</td>
+                  <td>0</td>
+                  <td>0</td>
                   <td>0</td>
                 </tr>
                 <tr>
-                  <td>#</td>
-                  <td>Jumlah Pendapatan (0205) - Kab Bogor</td>
-                  <td>0</td>
-                  <td>501.146.768</td>
-                  <td>0</td>
-                  <td>501.146.768</td>
-                  <td>0</td>
+                  <td></td>
+                  <td>Jumlah Belanja (BI + BII)</td>
+                  <td>22.663.713.021.000</td>
+                  <td>12.663.713.021.000</td>
+                  <td>9.663.713.021.000</td>
+                  <td>55</td>
+                  <td>22.663.713.021.000</td>
+                  <td>17.663.713.021.000</td>
+                  <td>5.663.713.021.000</td>
+                  <td>78</td>
                 </tr>
                 <tr>
-                  <td>42</td>
-                  <td>Pendapatan penerimaan negara bukan pajak</td>
-                  <td>0</td>
-                  <td>321.146.768</td>
-                  <td>0</td>
-                  <td>321.146.768</td>
-                  <td>0</td>
-                </tr>
-                <tr>
-                  <td>4251</td>
-                  <td>Pendapatan dari penjualan, pengelolaan BMN, Iuran badan usaha</td>
-                  <td>0</td>
-                  <td>2.321.146.768</td>
-                  <td>0</td>
-                  <td>2.321.146.768</td>
-                  <td>0</td>
-                </tr>
-                <tr>
-                  <td>425129</td>
-                  <td>Pendapatan dari pemindahtanganan BMN Lainnya</td>
-                  <td>0</td>
-                  <td>1.146.768</td>
-                  <td>0</td>
-                  <td>1.146.768</td>
-                  <td>0</td>
-                </tr>
-                <tr>
-                  <td>425130</td>
-                  <td>Pendapatan sewa tanah, gedung, dan bangunan</td>
-                  <td>0</td>
-                  <td>1.321.146.768</td>
-                  <td>0</td>
-                  <td>1.321.146.768</td>
-                  <td>0</td>
-                </tr>
-                <tr>
-                  <td>425131</td>
-                  <td>Pendapatan sewa peralatan dan mesin</td>
-                  <td>0</td>
-                  <td>33.146.768</td>
-                  <td>0</td>
-                  <td>33.768</td>
-                  <td>0</td>
-                </tr>
-                <tr>
-                  <td>425132</td>
-                  <td>Pendapatan dari KSP Tanah, gedung, dan bangunan</td>
-                  <td>0</td>
-                  <td>223.146.768</td>
-                  <td>0</td>
-                  <td>223.146.768</td>
-                  <td>0</td>
-                </tr>
-                <tr>
-                  <td>#</td>
-                  <td>Jumlah sub kelompok pendapatan 4251</td>
-                  <td>0</td>
-                  <td>3.146.768</td>
-                  <td>0</td>
-                  <td>3.146.768</td>
-                  <td>0</td>
-                </tr>
-                <tr>
-                  <td>425134</td>
-                  <td>Pendapatan kesehatan, perlindungan sosial, dan keagamaan</td>
-                  <td>0</td>
-                  <td>421.146.768</td>
-                  <td>0</td>
-                  <td>421..146.768</td>
-                  <td>0</td>
-                </tr>
-                <tr>
-                  <td>425135</td>
-                  <td>Pendapatan dari badan penyelenggaraan jaminan sosial (BPJS)</td>
-                  <td>0</td>
-                  <td>4.321.146.768</td>
-                  <td>0</td>
-                  <td>4.321.146.768</td>
-                  <td>0</td>
-                </tr>
-                <tr>
-                  <td>425136</td>
-                  <td>Pendapatan dari BJS kesehatan pada fasilitas kesehatan tingkat</td>
-                  <td>0</td>
-                  <td>3.321.146.768</td>
-                  <td>0</td>
-                  <td>3.321.146.768</td>
-                  <td>0</td>
-                </tr>
-                <tr>
-                  <td>425137</td>
-                  <td>Pendapatan layanan fasilitas kesehatan</td>
-                  <td>0</td>
-                  <td>12.146.768</td>
-                  <td>0</td>
-                  <td>12.146.768</td>
-                  <td>0</td>
-                </tr>
-                <tr>
-                  <td>#</td>
-                  <td>Jumlah sub kelompok pendapatan 4257</td>
-                  <td>0</td>
-                  <td>8.146.768</td>
-                  <td>0</td>
-                  <td>8.146.768</td>
-                  <td>0</td>
-                </tr>
-                <tr>
-                  <td>4253</td>
-                  <td>Pendapatan denda</td>
-                  <td>0</td>
-                  <td>3.146.768</td>
-                  <td>0</td>
-                  <td>3146.768</td>
-                  <td>0</td>
-                </tr>
-                <tr>
-                  <td>425311</td>
-                  <td>Pendapatan denda penyelesaian pekerjaan pemerintah</td>
-                  <td>0</td>
-                  <td>4.146.768</td>
-                  <td>0</td>
-                  <td>4.146.768</td>
-                  <td>0</td>
-                </tr>
-                <tr>
-                  <td>425312</td>
-                  <td>Jumlah sub kelompok pendapatan 4258</td>
-                  <td>0</td>
-                  <td>8.146.768</td>
-                  <td>0</td>
-                  <td>8.146.768</td>
-                  <td>0</td>
-                </tr>
-                <tr>
-                  <td>4259</td>
-                  <td>Pendapatan lain-lain</td>
-                  <td>0</td>
-                  <td>1.146.768</td>
-                  <td>0</td>
-                  <td>1.146.768</td>
-                  <td>0</td>
-                </tr>
-                <tr>
-                  <td>425911</td>
-                  <td>Penerimaan kembali belanja pegawai tahun anggaran yang lalu</td>
-                  <td>0</td>
-                  <td>7.321.146.768</td>
-                  <td>0</td>
-                  <td>7.321.146.768</td>
-                  <td>0</td>
-                </tr>
-                <tr>
-                  <td>425912</td>
-                  <td>Penerimaan kembali belanja barang tahun anggaran yang lalu</td>
-                  <td>0</td>
-                  <td>21.321.146.768</td>
-                  <td>0</td>
-                  <td>21.321.146.768</td>
-                  <td>0</td>
-                </tr>
-                <tr>
-                  <td>425913</td>
-                  <td>Penerimaan kembali belanja modal tahun anggaran yang lalu</td>
-                  <td>0</td>
-                  <td>2.321.146.768</td>
-                  <td>0</td>
-                  <td>2.321.146.768</td>
-                  <td>0</td>
-                </tr>
-                <tr>
-                  <td>425914</td>
-                  <td>Pendapatan setoran dari sisa utang non TP/TGR pensiunan PNS</td>
-                  <td>0</td>
-                  <td>421.146.768</td>
-                  <td>0</td>
-                  <td>421.146.768</td>
-                  <td>0</td>
-                </tr>
-                <tr>
-                  <td>425915</td>
-                  <td>Pendapatan setoran dari sisa utang non TP/TGR pensiunan prajurit</td>
-                  <td>0</td>
-                  <td>22.146.768</td>
-                  <td>0</td>
-                  <td>22.146.768</td>
-                  <td>0</td>
-                </tr>
-                <tr>
-                  <td>425916</td>
-                  <td>Pendapatan anggaran lain-lain</td>
-                  <td>0</td>
-                  <td>44.146.768</td>
-                  <td>0</td>
-                  <td>44.146.768</td>
-                  <td>0</td>
-                </tr>
-                <tr>
-                  <td>#</td>
-                  <td>Jumlah sub kelompok pendapatan 4259</td>
-                  <td>0</td>
-                  <td>45.146.768</td>
-                  <td>0</td>
-                  <td>23.146.768</td>
-                  <td>0</td>
-                </tr>
-                <tr>
-                  <td>#</td>
-                  <td>Jumlah kelompok pendapatan 42</td>
-                  <td>0</td>
-                  <td>111.146.768</td>
-                  <td>0</td>
-                  <td>111.146.768</td>
-                  <td>0</td>
+                  <td>C</td>
+                  <td>Pembiayaan</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>0</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
                 </tr>
                 </tbody>
-                <tfoot>
-                  <tr>
-                  <td>#</td>
-                  <td>Jumlah Pendapatan</td>
-                  <td>551392146000</td>
-                  <td>127873791917</td>
-                  <td>423518354083</td>
-                  <td>23.19</td>
-                  <td></td>
-                </tr>
-                </tfoot>
               </table>
             </div>
         </div>
@@ -513,7 +315,6 @@
         </div>
         <!-- /.box -->
       </section>
-      <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
 
@@ -547,7 +348,7 @@
                         text: 'Excel',
                         extend: 'excelHtml5',
                         footer: true,
-                        filename: 'Laporan Realisasi Anggaran Pendapatan {{Session::get('status_user')}} PERIODE 31 Desember 2019',
+                        filename: 'Laporan Realisasi Anggaran {{Session::get('status_user')}} PERIODE 31 Desember 2019',
                         title:'',
                         orientation: 'landscape',
                         pageSize: 'A4',
@@ -638,7 +439,7 @@
                           }
                    
                           //insert
-                          var r1 = AddrowHead(1, [{ k: 'A', v: 'Laporan Realisasi Anggaran Pendapatan' }]);
+                          var r1 = AddrowHead(1, [{ k: 'A', v: 'Laporan Realisasi Anggaran' }]);
                           var r2 = Addrow(3, [{ k: 'A', v: 'KEMENTERIAN NEGARA/LEMBAGA : 012' }]);
                           var r3 = Addrow(4, [{ k: 'A', v: 'ESELON : 01 - KEMENTERIAN PERTAHANAN' }]);
                           var r4 = Addrow(4, [{ k: 'G', v: 'Kode Lap : LRA.P.E1.2' }]);
@@ -654,8 +455,8 @@
                         text: 'PDF',
                         extend: 'pdfHtml5',
                         footer: true,
-                        filename: 'Laporan Realisasi Anggaran Pendapatan {{Session::get('status_user')}} PERIODE 31 Desember 2019',
-                        title:'Laporan Realisasi Anggaran Pendapatan' + '\n' + '{{Session::get('status_user')}}' + '\n' + ' PERIODE 31 Desember 2019',
+                        filename: 'Laporan Realisasi Anggaran {{Session::get('status_user')}} PERIODE 31 Desember 2019',
+                        title:'Laporan Realisasi Anggaran' + '\n' + '{{Session::get('status_user')}}' + '\n' + ' PERIODE 31 Desember 2019',
                         orientation: 'landscape',
                         pageSize: 'A4',
                         pageMargins: [ 150, 150, 150, 150 ],

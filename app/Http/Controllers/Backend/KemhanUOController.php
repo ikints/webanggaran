@@ -14,6 +14,39 @@ class KemhanUOController extends Controller
 	private $ctrl = 'uo.kemhan';
 	private $title = 'Unit Organisasi';
 
+
+    /*== Perkembangan page ==*/
+
+    public function laporan_perkembangan_pengadaan_barang_dan_jasa() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.laporan-perkembangan-pengadaan-barang-dan-jasa";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    public function laporan_perkembangan_pembangunan_dan_pengembangan_fasilitas() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.laporan-perkembangan-pembangunan-dan-pengembangan-fasilitas";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+
+
     /*== Anggaran page ==*/
     public function anggaran() 
     {
@@ -261,11 +294,11 @@ class KemhanUOController extends Controller
     
 
     /*== Laporan Pelaksanaan ABP page ==*/
-    public function laporan_pelaksanaan_abp() 
+    public function laporan_pelaksanaan_anggaran_belanja_pegawai() 
     {
 
     // set data view
-    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan-pelaksanaan-abp";
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.laporan-pelaksanaan-anggaran-belanja-pegawai";
     $datapage[ 'page_title' ]   = $this->title;
     $datapage[ 'ctrl' ]         = $this->ctrl;
     $datapage[ 'title' ]        = $this->title;
@@ -276,11 +309,11 @@ class KemhanUOController extends Controller
     }
 
     /*== Laporan Rincian ABP page ==*/
-    public function laporan_rincian_abp() 
+    public function laporan_rincian_anggaran_belanja_pegawai() 
     {
 
     // set data view
-    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan-rincian-abp";
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.laporan-rincian-anggaran-belanja-pegawai";
     $datapage[ 'page_title' ]   = $this->title;
     $datapage[ 'ctrl' ]         = $this->ctrl;
     $datapage[ 'title' ]        = $this->title;
@@ -291,11 +324,11 @@ class KemhanUOController extends Controller
     }
 
     /*== Laporan Belanja Modal page ==*/
-    public function laporan_belanja_modal() 
+    public function laporan_pelaksanaan_anggaran_belanja_modal() 
     {
 
     // set data view
-    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan-belanja-modal";
+    $datapage[ 'content_view' ] = "backend.$this->ctrl..laporan.laporan-pelaksanaan-anggaran-belanja-modal";
     $datapage[ 'page_title' ]   = $this->title;
     $datapage[ 'ctrl' ]         = $this->ctrl;
     $datapage[ 'title' ]        = $this->title;
@@ -310,7 +343,7 @@ class KemhanUOController extends Controller
     {
 
     // set data view
-    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan-rincian-belanja-modal";
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.laporan-rincian-belanja-modal";
     $datapage[ 'page_title' ]   = $this->title;
     $datapage[ 'ctrl' ]         = $this->ctrl;
     $datapage[ 'title' ]        = $this->title;
@@ -322,11 +355,11 @@ class KemhanUOController extends Controller
 
 
     /*== Laporan Belanja Barang page ==*/
-    public function laporan_belanja_barang() 
+    public function laporan_pelaksanaan_anggaran_belanja_barang() 
     {
 
     // set data view
-    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan-belanja-barang";
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.laporan-pelaksanaan-anggaran-belanja-barang";
     $datapage[ 'page_title' ]   = $this->title;
     $datapage[ 'ctrl' ]         = $this->ctrl;
     $datapage[ 'title' ]        = $this->title;
@@ -341,7 +374,7 @@ class KemhanUOController extends Controller
     {
 
     // set data view
-    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan-rincian-belanja-barang";
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.laporan-rincian-belanja-barang";
     $datapage[ 'page_title' ]   = $this->title;
     $datapage[ 'ctrl' ]         = $this->ctrl;
     $datapage[ 'title' ]        = $this->title;
@@ -358,7 +391,7 @@ class KemhanUOController extends Controller
     {
 
     // set data view
-    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan-realisasi-anggaran";
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.laporan-realisasi-anggaran";
     $datapage[ 'page_title' ]   = $this->title;
     $datapage[ 'ctrl' ]         = $this->ctrl;
     $datapage[ 'title' ]        = $this->title;
@@ -448,7 +481,7 @@ class KemhanUOController extends Controller
     {
 
     // set data view
-    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan-pelaksanaan-barang-dan-jasa";
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.laporan-pelaksanaan-barang-dan-jasa";
     $datapage[ 'page_title' ]   = $this->title;
     $datapage[ 'ctrl' ]         = $this->ctrl;
     $datapage[ 'title' ]        = $this->title;
@@ -463,7 +496,7 @@ class KemhanUOController extends Controller
     {
 
     // set data view
-    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan-pelaksanaan-perkembangan-kegiatan-prioritas";
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.laporan-pelaksanaan-perkembangan-kegiatan-prioritas";
     $datapage[ 'page_title' ]   = $this->title;
     $datapage[ 'ctrl' ]         = $this->ctrl;
     $datapage[ 'title' ]        = $this->title;
@@ -478,7 +511,7 @@ class KemhanUOController extends Controller
     {
 
     // set data view
-    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan-pelaksanaan-perkembangan-pembangunan-dan-fasilitas";
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.laporan-pelaksanaan-perkembangan-pembangunan-dan-fasilitas";
     $datapage[ 'page_title' ]   = $this->title;
     $datapage[ 'ctrl' ]         = $this->ctrl;
     $datapage[ 'title' ]        = $this->title;
@@ -493,7 +526,37 @@ class KemhanUOController extends Controller
     {
 
     // set data view
-    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan-realisasi-pelaksanaan-anggaran-perjenis-belanja";
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.laporan-realisasi-pelaksanaan-anggaran-perjenis-belanja";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    /*== laporan_penerimaan_hibah_dalam_negeri ==*/
+    public function laporan_penerimaan_hibah_dalam_negeri() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.laporan-penerimaan-hibah-dalam-negeri";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    /*== laporan_pendapatan_negara ==*/
+    public function laporan_pendapatan_negara() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.laporan-pendapatan-negara";
     $datapage[ 'page_title' ]   = $this->title;
     $datapage[ 'ctrl' ]         = $this->ctrl;
     $datapage[ 'title' ]        = $this->title;
@@ -511,6 +574,96 @@ class KemhanUOController extends Controller
 
         // redirect to signin form
         return redirect('/');
+
+    }
+
+    /*== Laporan laporan_anggaran_pemeliharaan ==*/
+    public function laporan_anggaran_pemeliharaan() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.laporan-anggaran-pemeliharaan";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    /*== Laporan laporan_anggaran_alutsista ==*/
+    public function laporan_anggaran_alutsista() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.laporan-anggaran-alutsista";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    /*== Laporan laporan_anggaran_mef ==*/
+    public function laporan_anggaran_mef() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.laporan-anggaran-mef";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    /*== Laporan laporan_anggaran_perbatasan ==*/
+    public function laporan_anggaran_perbatasan() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.laporan-anggaran-perbatasan";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    /*== Laporan laporan_anggaran_pinjaman ==*/
+    public function laporan_anggaran_pinjaman() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.laporan-anggaran-pinjaman";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    /*== Laporan laporan_anggaran_prioritas ==*/
+    public function laporan_anggaran_prioritas() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.laporan-anggaran-prioritas";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
 
     }
 
