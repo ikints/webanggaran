@@ -51,7 +51,8 @@ Route::group(['middleware' => 'ValidateUO'], function () {
 	/* Kemhan UO */
 
 	/* ==========Laporan Perkembangan========== */
-	Route::get('cms/kemhan/uo/laporan-perkembangan-pengadaan-barang-dan-jasa', 'Backend\KemhanUOController@laporan_perkembangan_pengadaan_barang_dan_jasa');
+	Route::get('cms/kemhan/uo/form-filter-laporan-perkembangan-pengadaan-barang-dan-jasa', 'Backend\KemhanUOController@form_filter_laporan_perkembangan_pengadaan_barang_dan_jasa');
+	Route::post('cms/kemhan/uo/laporan-perkembangan-pengadaan-barang-dan-jasa', 'Backend\KemhanUOController@laporan_perkembangan_pengadaan_barang_dan_jasa');
 	Route::get('cms/kemhan/uo/laporan-perkembangan-pembangunan-dan-pengembangan-fasilitas', 'Backend\KemhanUOController@laporan_perkembangan_pembangunan_dan_pengembangan_fasilitas');
 
 	/* ==========Laporan Pelaksanaan========== */

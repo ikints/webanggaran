@@ -14,8 +14,7 @@
       <section class="content">
         
         <div class="box">
-            <div class="box-header padding-bottom-10 text-right with-border panel-heading">
-            </div>
+            <div class="box-header padding-bottom-10 text-right with-border panel-heading"></div>
             <div class="box-header padding-bottom-10 text-center">
               <h4 class="box-title report-title">Laporan Anggaran Prioritas</h4><br>
               <h3 class="box-title report-title">{{Session::get('status_user')}}</h3><br>

@@ -17,6 +17,20 @@ class KemhanUOController extends Controller
 
     /*== Perkembangan page ==*/
 
+    public function form_filter_laporan_perkembangan_pengadaan_barang_dan_jasa() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.form-filter-laporan-perkembangan-pengadaan-barang-dan-jasa";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
     public function laporan_perkembangan_pengadaan_barang_dan_jasa() 
     {
 

@@ -169,7 +169,7 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Laporan <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="{{ URL('cms/kemhan/uo/laporan-perkembangan-pengadaan-barang-dan-jasa') }}">Laporan Perkembangan Pengadaan Barang dan Jasa</a></li>
+                <li><a href="{{ URL('cms/kemhan/uo/form-filter-laporan-perkembangan-pengadaan-barang-dan-jasa') }}">Laporan Perkembangan Pengadaan Barang dan Jasa</a></li>
                 <li><a href="{{ URL('cms/kemhan/uo/laporan-perkembangan-pembangunan-dan-pengembangan-fasilitas') }}">Laporan Perkembangan Pembangunan dan Pengembangan Fasilitas</a></li>
                 <li class="divider"></li>
                 <li><a href="{{ URL('cms/kemhan/uo/laporan-realisasi-anggaran') }}">Laporan Realisasi Anggaran</a></li>
