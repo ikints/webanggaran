@@ -170,9 +170,9 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Laporan <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="{{ URL('cms/kemhan/uo/form-filter-laporan-perkembangan-pengadaan-barang-dan-jasa') }}">Laporan Perkembangan Pengadaan Barang dan Jasa</a></li>
-                <li><a href="{{ URL('cms/kemhan/uo/laporan-perkembangan-pembangunan-dan-pengembangan-fasilitas') }}">Laporan Perkembangan Pembangunan dan Pengembangan Fasilitas</a></li>
+                <li><a href="{{ URL('cms/kemhan/uo/form-filter-laporan-perkembangan-pembangunan-dan-pengembangan-fasilitas') }}">Laporan Perkembangan Pembangunan dan Pengembangan Fasilitas</a></li>
                 <li class="divider"></li>
-                <li><a href="{{ URL('cms/kemhan/uo/laporan-realisasi-anggaran') }}">Laporan Realisasi Anggaran</a></li>
+                <li><a href="{{ URL('cms/kemhan/uo/form-filter-laporan-realisasi-anggaran') }}">Laporan Realisasi Anggaran</a></li>
                 <li><a href="{{ URL('cms/kemhan/uo/laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i') }}">Laporan Realisasi Anggaran Pendapatan Tingkat Eselon I</a></li>
                 <li><a href="{{ URL('cms/kemhan/uo/laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i-menurut-wilayah-satuan-kerja') }}">Laporan Realisasi Anggaran Pendapatan Tingkat Eselon I Menurut Wilayah Satuan Kerja</a></li>
                 <li><a href="{{ URL('cms/kemhan/uo/laporan-realisasi-anggaran-belanja-menurut-wilayah-satuan-kerja-tingkat-eselon-i') }}">Laporan Realisasi Anggaran Belanja Menurut Wilayah/Satuan Kerja Tingkat Eselon I</a></li>

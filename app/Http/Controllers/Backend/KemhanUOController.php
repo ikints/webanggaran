@@ -45,6 +45,20 @@ class KemhanUOController extends Controller
 
     }
 
+    public function form_filter_laporan_perkembangan_pembangunan_dan_pengembangan_fasilitas() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.form-filter-laporan-perkembangan-pembangunan-dan-pengembangan-fasilitas";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
     public function laporan_perkembangan_pembangunan_dan_pengembangan_fasilitas() 
     {
 
@@ -400,7 +414,21 @@ class KemhanUOController extends Controller
 
     //Laporan 19 Mei 2019
 
-    /*== laporan_realisasi_anggaran ==*/
+    /*== form_filter_laporan_realisasi_anggaran ==*/
+    public function form_filter_laporan_realisasi_anggaran() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.form-filter-laporan-realisasi-anggaran";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
     public function laporan_realisasi_anggaran() 
     {
 

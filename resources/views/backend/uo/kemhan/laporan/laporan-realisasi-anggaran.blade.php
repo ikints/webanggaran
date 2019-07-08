@@ -15,6 +15,7 @@
       <section class="content">
         
         <div class="box">
+            <div class="box-header padding-bottom-10 text-right with-border panel-heading"></div>
             <div class="box-header padding-bottom-10 text-center">
               <h4 class="box-title report-title">Laporan Realisasi Anggaran</h4><br>
               <h3 class="box-title report-title">{{Session::get('status_user')}}</h3><br>
@@ -334,6 +335,9 @@
 <!-- page script -->
 <script>
   $(function () {
+
+    var APP_URL = {!! json_encode(url('/')) !!};
+
     $('#tablelist').DataTable(
 
         { 
@@ -343,10 +347,17 @@
           "bLengthChange": false,
           dom: 'lBfrtip',
                 buttons: [
-
+                    {
+                      text: '<i class="fa fa-filter"></i> Buat Laporan Baru',
+                      className: 'btn btn-success',
+                      action: function ( e, dt, node, config ) {
+                          window.location = APP_URL + '/cms/kemhan/uo/form-filter-laporan-perkembangan-pembangunan-dan-pengembangan-fasilitas';
+                      }
+                    },
                     {   
-                        text: 'Excel',
+                        text: '<i class="fa fa-file-excel-o"></i> Excel',
                         extend: 'excelHtml5',
+                        className: 'btn btn-success',
                         footer: true,
                         filename: 'Laporan Realisasi Anggaran {{Session::get('status_user')}} PERIODE 31 Desember 2019',
                         title:'',
@@ -452,8 +463,9 @@
                       }
                     },
                     { 
-                        text: 'PDF',
+                        text: '<i class="fa fa-file-pdf-o"></i> PDF',
                         extend: 'pdfHtml5',
+                        className: 'btn btn-success',
                         footer: true,
                         filename: 'Laporan Realisasi Anggaran {{Session::get('status_user')}} PERIODE 31 Desember 2019',
                         title:'Laporan Realisasi Anggaran' + '\n' + '{{Session::get('status_user')}}' + '\n' + ' PERIODE 31 Desember 2019',
@@ -537,6 +549,8 @@
         }
 
       );
+
+      $("#tablelist_wrapper > .dt-buttons").appendTo("div.panel-heading");
   })
 </script>
 @endsection

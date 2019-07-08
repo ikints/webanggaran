@@ -53,7 +53,8 @@ Route::group(['middleware' => 'ValidateUO'], function () {
 	/* ==========Laporan Perkembangan========== */
 	Route::get('cms/kemhan/uo/form-filter-laporan-perkembangan-pengadaan-barang-dan-jasa', 'Backend\KemhanUOController@form_filter_laporan_perkembangan_pengadaan_barang_dan_jasa');
 	Route::post('cms/kemhan/uo/laporan-perkembangan-pengadaan-barang-dan-jasa', 'Backend\KemhanUOController@laporan_perkembangan_pengadaan_barang_dan_jasa');
-	Route::get('cms/kemhan/uo/laporan-perkembangan-pembangunan-dan-pengembangan-fasilitas', 'Backend\KemhanUOController@laporan_perkembangan_pembangunan_dan_pengembangan_fasilitas');
+	Route::get('cms/kemhan/uo/form-filter-laporan-perkembangan-pembangunan-dan-pengembangan-fasilitas', 'Backend\KemhanUOController@form_filter_laporan_perkembangan_pembangunan_dan_pengembangan_fasilitas');
+	Route::post('cms/kemhan/uo/laporan-perkembangan-pembangunan-dan-pengembangan-fasilitas', 'Backend\KemhanUOController@laporan_perkembangan_pembangunan_dan_pengembangan_fasilitas');
 
 	/* ==========Laporan Pelaksanaan========== */
 	Route::get('cms/kemhan/uo/laporan-pelaksanaan-anggaran-belanja-pegawai', 'Backend\KemhanUOController@laporan_pelaksanaan_anggaran_belanja_pegawai');
@@ -105,7 +106,8 @@ Route::group(['middleware' => 'ValidateUO'], function () {
 
 	
 	//Laporan
-	Route::get('cms/kemhan/uo/laporan-realisasi-anggaran', 'Backend\KemhanUOController@laporan_realisasi_anggaran');
+	Route::get('cms/kemhan/uo/form-filter-laporan-realisasi-anggaran', 'Backend\KemhanUOController@form_filter_laporan_realisasi_anggaran');
+	Route::post('cms/kemhan/uo/laporan-realisasi-anggaran', 'Backend\KemhanUOController@laporan_realisasi_anggaran');
 	Route::get('cms/kemhan/uo/laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i-menurut-wilayah-satuan-kerja', 'Backend\KemhanUOController@laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i_menurut_wilayah_satuan_kerja');
 	Route::get('cms/kemhan/uo/laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i', 'Backend\KemhanUOController@laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i');
 	Route::get('cms/kemhan/uo/laporan-realisasi-anggaran-belanja-menurut-wilayah-satuan-kerja-tingkat-eselon-i', 'Backend\KemhanUOController@laporan_realisasi_anggaran_belanja_menurut_wilayah_satuan_kerja_tingkat_eselon_i');
