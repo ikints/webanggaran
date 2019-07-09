@@ -322,6 +322,21 @@ class KemhanUOController extends Controller
     
 
     /*== Laporan Pelaksanaan ABP page ==*/
+    public function form_filter_laporan_pelaksanaan_anggaran_belanja_pegawai() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.form-filter-laporan-pelaksanaan-anggaran-belanja-pegawai";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    /*== Laporan Pelaksanaan ABP page ==*/
     public function laporan_pelaksanaan_anggaran_belanja_pegawai() 
     {
 
@@ -352,11 +367,11 @@ class KemhanUOController extends Controller
     }
 
     /*== Laporan Belanja Modal page ==*/
-    public function laporan_pelaksanaan_anggaran_belanja_modal() 
+    public function form_filter_laporan_pelaksanaan_anggaran_belanja_modal() 
     {
 
     // set data view
-    $datapage[ 'content_view' ] = "backend.$this->ctrl..laporan.laporan-pelaksanaan-anggaran-belanja-modal";
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.form-filter-laporan-pelaksanaan-anggaran-belanja-modal";
     $datapage[ 'page_title' ]   = $this->title;
     $datapage[ 'ctrl' ]         = $this->ctrl;
     $datapage[ 'title' ]        = $this->title;
@@ -366,12 +381,12 @@ class KemhanUOController extends Controller
 
     }
 
-    /*== Laporan Result Belanja Modal page ==*/
-    public function laporan_rincian_modal() 
+    /*== Laporan Belanja Modal page ==*/
+    public function laporan_pelaksanaan_anggaran_belanja_modal() 
     {
 
     // set data view
-    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.laporan-rincian-belanja-modal";
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.laporan-pelaksanaan-anggaran-belanja-modal";
     $datapage[ 'page_title' ]   = $this->title;
     $datapage[ 'ctrl' ]         = $this->ctrl;
     $datapage[ 'title' ]        = $this->title;
@@ -397,12 +412,12 @@ class KemhanUOController extends Controller
 
     }
 
-    /*== Laporan Result Belanja Barang page ==*/
-    public function laporan_rincian_barang() 
+    /*== Laporan Belanja Barang page ==*/
+    public function form_filter_laporan_pelaksanaan_anggaran_belanja_barang() 
     {
 
     // set data view
-    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.laporan-rincian-belanja-barang";
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.form-filter-laporan-pelaksanaan-anggaran-belanja-barang";
     $datapage[ 'page_title' ]   = $this->title;
     $datapage[ 'ctrl' ]         = $this->ctrl;
     $datapage[ 'title' ]        = $this->title;
@@ -443,12 +458,42 @@ class KemhanUOController extends Controller
 
     }
 
+    /*== form_filter_laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i_menurut_wilayah_satuan_kerja ==*/
+    public function form_filter_laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i_menurut_wilayah_satuan_kerja() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.form-filter-laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i-menurut-wilayah-satuan-kerja";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
     /*== laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i_menurut_wilayah_satuan_kerja ==*/
     public function laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i_menurut_wilayah_satuan_kerja() 
     {
 
     // set data view
     $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i-menurut-wilayah-satuan-kerja";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    /*== form_filter_laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i ==*/
+    public function form_filter_laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.form-filter-laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i";
     $datapage[ 'page_title' ]   = $this->title;
     $datapage[ 'ctrl' ]         = $this->ctrl;
     $datapage[ 'title' ]        = $this->title;
@@ -473,12 +518,42 @@ class KemhanUOController extends Controller
 
     }
 
+    /*== form-filter-laporan_realisasi_anggaran_belanja_menurut_wilayah_satuan_kerja_tingkat_eselon_i ==*/
+    public function form_filter_laporan_realisasi_anggaran_belanja_menurut_wilayah_satuan_kerja_tingkat_eselon_i() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.form-filter-laporan-realisasi-anggaran-belanja-menurut-wilayah-satuan-kerja-tingkat-eselon-i";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
     /*== laporan_realisasi_anggaran_belanja_menurut_wilayah_satuan_kerja_tingkat_eselon_i ==*/
     public function laporan_realisasi_anggaran_belanja_menurut_wilayah_satuan_kerja_tingkat_eselon_i() 
     {
 
     // set data view
     $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.laporan-realisasi-anggaran-belanja-menurut-wilayah-satuan-kerja-tingkat-eselon-i";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    /*== form_filter_laporan_realisasi_anggaran_belanja_menurut_jenis_belanja_akun_tingkat_eselon_i ==*/
+    public function form_filter_laporan_realisasi_anggaran_belanja_menurut_jenis_belanja_akun_tingkat_eselon_i() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.form-filter-laporan-realisasi-anggaran-belanja-menurut-jenis-belanja-akun-tingkat-eselon-i";
     $datapage[ 'page_title' ]   = $this->title;
     $datapage[ 'ctrl' ]         = $this->ctrl;
     $datapage[ 'title' ]        = $this->title;
@@ -503,12 +578,42 @@ class KemhanUOController extends Controller
 
     }
 
+    /*== form_filter_laporan_realisasi_anggaran_belanja_menurut_sumber_dana_program_kegiatan_tingkat_eselon_i ==*/
+    public function form_filter_laporan_realisasi_anggaran_belanja_menurut_sumber_dana_program_kegiatan_tingkat_eselon_i() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.form-filter-laporan-realisasi-anggaran-belanja-menurut-sumber-dana-program-kegiatan-tingkat-eselon-i";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
     /*== laporan_realisasi_anggaran_belanja_menurut_sumber_dana_program_kegiatan_tingkat_eselon_i ==*/
     public function laporan_realisasi_anggaran_belanja_menurut_sumber_dana_program_kegiatan_tingkat_eselon_i() 
     {
 
     // set data view
     $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.laporan-realisasi-anggaran-belanja-menurut-sumber-dana-program-kegiatan-tingkat-eselon-i";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    /*== form_filter_laporan_pelaksanaan_barang_dan_jasa ==*/
+    public function form_filter_laporan_pelaksanaan_barang_dan_jasa() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.form-filter-laporan-pelaksanaan-barang-dan-jasa";
     $datapage[ 'page_title' ]   = $this->title;
     $datapage[ 'ctrl' ]         = $this->ctrl;
     $datapage[ 'title' ]        = $this->title;
@@ -533,12 +638,42 @@ class KemhanUOController extends Controller
 
     }
 
+    /*== form_filter_laporan_pelaksanaan_perkembangan_kegiatan_prioritas ==*/
+    public function form_filter_laporan_pelaksanaan_perkembangan_kegiatan_prioritas() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.form-filter-laporan-pelaksanaan-perkembangan-kegiatan-prioritas";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
     /*== laporan_pelaksanaan_perkembangan_kegiatan_prioritas ==*/
     public function laporan_pelaksanaan_perkembangan_kegiatan_prioritas() 
     {
 
     // set data view
     $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.laporan-pelaksanaan-perkembangan-kegiatan-prioritas";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    /*== form_filter_laporan_pelaksanaan_perkembangan_pembangunan_dan_fasilitas ==*/
+    public function form_filter_laporan_pelaksanaan_perkembangan_pembangunan_dan_fasilitas() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.form-filter-laporan-pelaksanaan-perkembangan-pembangunan-dan-fasilitas";
     $datapage[ 'page_title' ]   = $this->title;
     $datapage[ 'ctrl' ]         = $this->ctrl;
     $datapage[ 'title' ]        = $this->title;
