@@ -698,6 +698,21 @@ class KemhanUOController extends Controller
 
     }
 
+    /*== form_filter_laporan_realisasi_pelaksanaan_anggaran_perjenis_belanja ==*/
+    public function form_filter_laporan_realisasi_pelaksanaan_anggaran_perjenis_belanja() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.form-filter-laporan-realisasi-pelaksanaan-anggaran-perjenis-belanja";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
     /*== laporan_realisasi_pelaksanaan_anggaran_perjenis_belanja ==*/
     public function laporan_realisasi_pelaksanaan_anggaran_perjenis_belanja() 
     {
@@ -713,12 +728,42 @@ class KemhanUOController extends Controller
 
     }
 
+    /*== form_filter_laporan_penerimaan_hibah_dalam_negeri ==*/
+    public function form_filter_laporan_penerimaan_hibah_dalam_negeri() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.form-filter-laporan-penerimaan-hibah-dalam-negeri";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
     /*== laporan_penerimaan_hibah_dalam_negeri ==*/
     public function laporan_penerimaan_hibah_dalam_negeri() 
     {
 
     // set data view
     $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.laporan-penerimaan-hibah-dalam-negeri";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    /*== form_filter_laporan_pendapatan_negara ==*/
+    public function form_filter_laporan_pendapatan_negara() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.form-filter-laporan-pendapatan-negara";
     $datapage[ 'page_title' ]   = $this->title;
     $datapage[ 'ctrl' ]         = $this->ctrl;
     $datapage[ 'title' ]        = $this->title;
@@ -754,12 +799,42 @@ class KemhanUOController extends Controller
 
     }
 
+    /*== form_filter_laporan_anggaran_pemeliharaan ==*/
+    public function form_filter_laporan_anggaran_pemeliharaan() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.form-filter-laporan-anggaran-pemeliharaan";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
     /*== Laporan laporan_anggaran_pemeliharaan ==*/
     public function laporan_anggaran_pemeliharaan() 
     {
 
     // set data view
     $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.laporan-anggaran-pemeliharaan";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    /*== form_filter_laporan_anggaran_alutsista ==*/
+    public function form_filter_laporan_anggaran_alutsista() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.form-filter-laporan-anggaran-alutsista";
     $datapage[ 'page_title' ]   = $this->title;
     $datapage[ 'ctrl' ]         = $this->ctrl;
     $datapage[ 'title' ]        = $this->title;
@@ -784,12 +859,42 @@ class KemhanUOController extends Controller
 
     }
 
+    /*== Laporan form_filter_laporan_anggaran_mef ==*/
+    public function form_filter_laporan_anggaran_mef() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.form-filter-laporan-anggaran-mef";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
     /*== Laporan laporan_anggaran_mef ==*/
     public function laporan_anggaran_mef() 
     {
 
     // set data view
     $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.laporan-anggaran-mef";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    /*== Laporan form_filter_laporan_anggaran_perbatasan ==*/
+    public function form_filter_laporan_anggaran_perbatasan() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.form-filter-laporan-anggaran-perbatasan";
     $datapage[ 'page_title' ]   = $this->title;
     $datapage[ 'ctrl' ]         = $this->ctrl;
     $datapage[ 'title' ]        = $this->title;
@@ -814,12 +919,42 @@ class KemhanUOController extends Controller
 
     }
 
+    /*== Laporan form_filter_laporan_anggaran_pinjaman ==*/
+    public function form_filter_laporan_anggaran_pinjaman() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.form-filter-laporan-anggaran-pinjaman";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
     /*== Laporan laporan_anggaran_pinjaman ==*/
     public function laporan_anggaran_pinjaman() 
     {
 
     // set data view
     $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.laporan-anggaran-pinjaman";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    /*== Laporan form_filter_laporan_anggaran_prioritas ==*/
+    public function form_filter_laporan_anggaran_prioritas() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.form-filter-laporan-anggaran-prioritas";
     $datapage[ 'page_title' ]   = $this->title;
     $datapage[ 'ctrl' ]         = $this->ctrl;
     $datapage[ 'title' ]        = $this->title;

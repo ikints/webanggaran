@@ -127,7 +127,7 @@
                       </tr>
                       <tr>
                         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5212111</td>
-                        <td><a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Snack Rapat Biasa D.K>I Jakarta (14ORG X2OK)</a></td>
+                        <td><a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Snack Rapat Biasa D.K.I Jakarta (14ORG X2OK)</a></td>
                         <td>28.00</td>
                         <td>588.000</td>
                         <td>0</td>
@@ -140,7 +140,7 @@
                       </tr>
                       <tr>
                         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5212112</td>
-                        <td><a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Makan Rapat Biasa D.K>I Jakarta (14ORG X2OK)</a></td>
+                        <td><a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Makan Rapat Biasa D.K.I Jakarta (14ORG X2OK)</a></td>
                         <td>28.00</td>
                         <td>1.316.000</td>
                         <td>0</td>

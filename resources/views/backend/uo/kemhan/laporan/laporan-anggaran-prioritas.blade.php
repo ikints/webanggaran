@@ -354,6 +354,9 @@
 <!-- page script -->
 <script>
   $(function () {
+
+    var APP_URL = {!! json_encode(url('/')) !!};
+
     $('#tablelist').DataTable(
 
         { 
@@ -361,9 +364,18 @@
           "searching": false,
           "ordering": false,
           "bLengthChange": false,
+          "language": {
+            "info": "Menampilkan _START_ Hingga _END_ Dari _TOTAL_ Entri",
+          },
           dom: 'lBfrtip',
                 buttons: [
-
+                    {
+                      text: '<i class="fa fa-filter"></i> Buat Laporan Baru',
+                      className: 'btn btn-success',
+                      action: function ( e, dt, node, config ) {
+                          window.location = APP_URL + '/cms/kemhan/uo/form-filter-laporan-anggaran-prioritas';
+                      }
+                    },
                     {   
                         text: '<i class="fa fa-file-excel-o"></i> Excel',
                         extend: 'excelHtml5',

@@ -254,65 +254,7 @@ class SatKerController extends Controller
 
     }
 
-    /*== Laporan Pelaksanaan ABP page ==*/
-    public function laporan_pelaksanaan_abp() 
-    {
-
-    // set data view
-    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan-pelaksanaan-abp";
-    $datapage[ 'page_title' ]   = $this->title;
-    $datapage[ 'ctrl' ]         = $this->ctrl;
-    $datapage[ 'title' ]        = $this->title;
-
-    // load view
-    return view($datapage[ 'content_view' ], $datapage);
-
-    }
-
-    /*== Laporan Rincian ABP page ==*/
-    public function laporan_rincian_abp() 
-    {
-
-    // set data view
-    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan-rincian-abp";
-    $datapage[ 'page_title' ]   = $this->title;
-    $datapage[ 'ctrl' ]         = $this->ctrl;
-    $datapage[ 'title' ]        = $this->title;
-
-    // load view
-    return view($datapage[ 'content_view' ], $datapage);
-
-    }
-
-    /*== Laporan Belanja Modal page ==*/
-    public function laporan_belanja_modal() 
-    {
-
-    // set data view
-    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan-belanja-modal";
-    $datapage[ 'page_title' ]   = $this->title;
-    $datapage[ 'ctrl' ]         = $this->ctrl;
-    $datapage[ 'title' ]        = $this->title;
-
-    // load view
-    return view($datapage[ 'content_view' ], $datapage);
-
-    }
-
-    /*== Laporan Result Belanja Modal page ==*/
-    public function laporan_rincian_modal() 
-    {
-
-    // set data view
-    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan-rincian-belanja-modal";
-    $datapage[ 'page_title' ]   = $this->title;
-    $datapage[ 'ctrl' ]         = $this->ctrl;
-    $datapage[ 'title' ]        = $this->title;
-
-    // load view
-    return view($datapage[ 'content_view' ], $datapage);
-
-    }
+    
 
     /*== Signout Action ==*/
     public function signout(Request $request) 
@@ -322,6 +264,35 @@ class SatKerController extends Controller
 
         // redirect to signin form
         return redirect('/');
+
+    }
+
+    //===================================Laporan========================
+    public function form_filter_laporan_perkembangan_pengadaan_barang_dan_jasa() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.form-filter-laporan-perkembangan-pengadaan-barang-dan-jasa";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    public function laporan_perkembangan_pengadaan_barang_dan_jasa() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.laporan-perkembangan-pengadaan-barang-dan-jasa";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
 
     }
 

@@ -35,11 +35,65 @@ Route::group(['middleware' => 'ValidateKemhan'], function () {
 	Route::get('cms/tambah-realisasi-anggaran', 'Backend\HomeController@tambah_realisasi_anggaran');
 	//
 	Route::get('cms/input-anggaran', 'Backend\HomeController@input_anggaran');
-	//Laporan
-	Route::get('cms/laporan-anggaran-belanja-pegawai', 'Backend\HomeController@laporan_pelaksanaan_abp');
-	Route::post('cms/laporan-rincian-anggaran-belanja-pegawai', 'Backend\HomeController@laporan_rincian_abp');
-	Route::get('cms/laporan-anggaran-belanja-modal', 'Backend\HomeController@laporan_belanja_modal');
-	Route::post('cms/laporan-rincian-belanja-modal', 'Backend\HomeController@laporan_rincian_modal');
+
+	//================================Laporan==================================
+	/*
+	/* Rincian Laporan
+	/*
+	*/
+
+	Route::get('cms/form-filter-laporan-perkembangan-pengadaan-barang-dan-jasa', 'Backend\HomeController@form_filter_laporan_perkembangan_pengadaan_barang_dan_jasa');
+	Route::post('cms/laporan-perkembangan-pengadaan-barang-dan-jasa', 'Backend\HomeController@laporan_perkembangan_pengadaan_barang_dan_jasa');
+	Route::get('cms/form-filter-laporan-perkembangan-pembangunan-dan-pengembangan-fasilitas', 'Backend\HomeController@form_filter_laporan_perkembangan_pembangunan_dan_pengembangan_fasilitas');
+	Route::post('cms/laporan-perkembangan-pembangunan-dan-pengembangan-fasilitas', 'Backend\HomeController@laporan_perkembangan_pembangunan_dan_pengembangan_fasilitas');
+
+	Route::get('cms/form-filter-laporan-pelaksanaan-anggaran-belanja-pegawai', 'Backend\HomeController@form_filter_laporan_pelaksanaan_anggaran_belanja_pegawai');
+	Route::post('cms/laporan-pelaksanaan-anggaran-belanja-pegawai', 'Backend\HomeController@laporan_pelaksanaan_anggaran_belanja_pegawai');
+	Route::get('cms/form-filter-laporan-pelaksanaan-anggaran-belanja-barang', 'Backend\HomeController@form_filter_laporan_pelaksanaan_anggaran_belanja_barang');
+	Route::get('cms/laporan-pelaksanaan-anggaran-belanja-barang', 'Backend\HomeController@laporan_pelaksanaan_anggaran_belanja_barang');
+	Route::get('cms/form-filter-laporan-pelaksanaan-anggaran-belanja-modal', 'Backend\HomeController@form_filter_laporan_pelaksanaan_anggaran_belanja_modal');
+	Route::post('cms/laporan-pelaksanaan-anggaran-belanja-modal', 'Backend\HomeController@laporan_pelaksanaan_anggaran_belanja_modal');
+	Route::get('cms/form-filter-laporan-pelaksanaan-barang-dan-jasa', 'Backend\HomeController@form_filter_laporan_pelaksanaan_barang_dan_jasa');
+	Route::post('cms/laporan-pelaksanaan-barang-dan-jasa', 'Backend\HomeController@laporan_pelaksanaan_barang_dan_jasa');
+	Route::get('cms/form-filter-laporan-pelaksanaan-perkembangan-kegiatan-prioritas', 'Backend\HomeController@form_filter_laporan_pelaksanaan_perkembangan_kegiatan_prioritas');
+	Route::post('cms/laporan-pelaksanaan-perkembangan-kegiatan-prioritas', 'Backend\HomeController@laporan_pelaksanaan_perkembangan_kegiatan_prioritas');
+	Route::get('cms/form-filter-laporan-pelaksanaan-perkembangan-pembangunan-dan-fasilitas', 'Backend\HomeController@form_filter_laporan_pelaksanaan_perkembangan_pembangunan_dan_fasilitas');
+	Route::post('cms/laporan-pelaksanaan-perkembangan-pembangunan-dan-fasilitas', 'Backend\HomeController@laporan_pelaksanaan_perkembangan_pembangunan_dan_fasilitas');
+	Route::get('cms/form-filter-laporan-realisasi-pelaksanaan-anggaran-perjenis-belanja', 'Backend\HomeController@form_filter_laporan_realisasi_pelaksanaan_anggaran_perjenis_belanja');
+	Route::post('cms/laporan-realisasi-pelaksanaan-anggaran-perjenis-belanja', 'Backend\HomeController@laporan_realisasi_pelaksanaan_anggaran_perjenis_belanja');
+
+	Route::get('cms/form-filter-laporan-penerimaan-hibah-dalam-negeri', 'Backend\HomeController@form_filter_laporan_penerimaan_hibah_dalam_negeri');
+	Route::post('cms/laporan-penerimaan-hibah-dalam-negeri', 'Backend\HomeController@laporan_penerimaan_hibah_dalam_negeri');
+
+	Route::get('cms/form-filter-laporan-pendapatan-negara', 'Backend\HomeController@form_filter_laporan_pendapatan_negara');
+	Route::post('cms/laporan-pendapatan-negara', 'Backend\HomeController@laporan_pendapatan_negara');
+	Route::get('cms/form-filter-laporan-anggaran-pemeliharaan', 'Backend\HomeController@form_filter_laporan_anggaran_pemeliharaan');
+	Route::post('cms/laporan-anggaran-pemeliharaan', 'Backend\HomeController@laporan_anggaran_pemeliharaan');
+	Route::get('cms/form-filter-laporan-anggaran-alutsista', 'Backend\HomeController@form_filter_laporan_anggaran_alutsista');
+	Route::post('cms/laporan-anggaran-alutsista', 'Backend\HomeController@laporan_anggaran_alutsista');
+	Route::get('cms/form-filter-laporan-anggaran-mef', 'Backend\HomeController@form_filter_laporan_anggaran_mef');
+	Route::post('cms/laporan-anggaran-mef', 'Backend\HomeController@laporan_anggaran_mef');
+	Route::get('cms/form-filter-laporan-anggaran-perbatasan', 'Backend\HomeController@form_filter_laporan_anggaran_perbatasan');
+	Route::post('cms/laporan-anggaran-perbatasan', 'Backend\HomeController@laporan_anggaran_perbatasan');
+	Route::get('cms/form-filter-laporan-anggaran-pinjaman', 'Backend\HomeController@form_filter_laporan_anggaran_pinjaman');
+	Route::post('cms/laporan-anggaran-pinjaman', 'Backend\HomeController@laporan_anggaran_pinjaman');
+	Route::get('cms/form-filter-laporan-anggaran-prioritas', 'Backend\HomeController@form_filter_laporan_anggaran_prioritas');
+	Route::post('cms/laporan-anggaran-prioritas', 'Backend\HomeController@laporan_anggaran_prioritas');
+
+	Route::get('cms/form-filter-laporan-realisasi-anggaran', 'Backend\HomeController@form_filter_laporan_realisasi_anggaran');
+	Route::post('cms/laporan-realisasi-anggaran', 'Backend\HomeController@laporan_realisasi_anggaran');
+	Route::get('cms/form-filter-laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i-menurut-wilayah-satuan-kerja', 'Backend\HomeController@form_filter_laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i_menurut_wilayah_satuan_kerja');
+	Route::post('cms/laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i-menurut-wilayah-satuan-kerja', 'Backend\HomeController@laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i_menurut_wilayah_satuan_kerja');
+	Route::get('cms/form-filter-laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i', 'Backend\HomeController@form_filter_laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i');
+	Route::post('cms/laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i', 'Backend\HomeController@laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i');
+	Route::get('cms/form-filter-laporan-realisasi-anggaran-belanja-menurut-wilayah-satuan-kerja-tingkat-eselon-i', 'Backend\HomeController@form_filter_laporan_realisasi_anggaran_belanja_menurut_wilayah_satuan_kerja_tingkat_eselon_i');
+	Route::post('cms/laporan-realisasi-anggaran-belanja-menurut-wilayah-satuan-kerja-tingkat-eselon-i', 'Backend\HomeController@laporan_realisasi_anggaran_belanja_menurut_wilayah_satuan_kerja_tingkat_eselon_i');
+	Route::get('cms/form-filter-laporan-realisasi-anggaran-belanja-menurut-jenis-belanja-akun-tingkat-eselon-i', 'Backend\HomeController@form_filter_laporan_realisasi_anggaran_belanja_menurut_jenis_belanja_akun_tingkat_eselon_i');
+	Route::post('cms/laporan-realisasi-anggaran-belanja-menurut-jenis-belanja-akun-tingkat-eselon-i', 'Backend\HomeController@laporan_realisasi_anggaran_belanja_menurut_jenis_belanja_akun_tingkat_eselon_i');
+	Route::get('cms/form-filter-laporan-realisasi-anggaran-belanja-menurut-sumber-dana-program-kegiatan-tingkat-eselon-i', 'Backend\HomeController@form_filter_laporan_realisasi_anggaran_belanja_menurut_sumber_dana_program_kegiatan_tingkat_eselon_i');
+	Route::post('cms/laporan-realisasi-anggaran-belanja-menurut-sumber-dana-program-kegiatan-tingkat-eselon-i', 'Backend\HomeController@laporan_realisasi_anggaran_belanja_menurut_sumber_dana_program_kegiatan_tingkat_eselon_i');
+
+	//===============================End Laporan===============================
 
 	//Signout
 	Route::get('cms/signout', 'Backend\HomeController@signout');
@@ -49,6 +103,18 @@ Route::group(['middleware' => 'ValidateKemhan'], function () {
 Route::group(['middleware' => 'ValidateUO'], function () {
 
 	/* Kemhan UO */
+
+	
+
+	/* ==========Anggaran========== */
+	Route::get('cms/kemhan/uo/anggaran', 'Backend\KemhanUOController@anggaran');
+	Route::get('cms/kemhan/uo/input-anggaran', 'Backend\KemhanUOController@input_anggaran');
+	Route::get('cms/kemhan/uo/rincian-anggaran', 'Backend\KemhanUOController@anggaran');
+	Route::get('cms/kemhan/uo/rincian-anggaran-detail', 'Backend\KemhanUOController@anggaran_detail');
+	//
+
+
+	///=======================================Laporan
 
 	/* ==========Laporan Perkembangan========== */
 	Route::get('cms/kemhan/uo/form-filter-laporan-perkembangan-pengadaan-barang-dan-jasa', 'Backend\KemhanUOController@form_filter_laporan_perkembangan_pengadaan_barang_dan_jasa');
@@ -69,31 +135,43 @@ Route::group(['middleware' => 'ValidateUO'], function () {
 	Route::post('cms/kemhan/uo/laporan-pelaksanaan-perkembangan-kegiatan-prioritas', 'Backend\KemhanUOController@laporan_pelaksanaan_perkembangan_kegiatan_prioritas');
 	Route::get('cms/kemhan/uo/form-filter-laporan-pelaksanaan-perkembangan-pembangunan-dan-fasilitas', 'Backend\KemhanUOController@form_filter_laporan_pelaksanaan_perkembangan_pembangunan_dan_fasilitas');
 	Route::post('cms/kemhan/uo/laporan-pelaksanaan-perkembangan-pembangunan-dan-fasilitas', 'Backend\KemhanUOController@laporan_pelaksanaan_perkembangan_pembangunan_dan_fasilitas');
-	Route::get('cms/kemhan/uo/laporan-realisasi-pelaksanaan-anggaran-perjenis-belanja', 'Backend\KemhanUOController@laporan_realisasi_pelaksanaan_anggaran_perjenis_belanja');
-
-	/* ==========Laporan Rincian========== */
-	Route::post('cms/kemhan/uo/laporan-rincian-belanja-barang', 'Backend\KemhanUOController@laporan_rincian_barang');
-	Route::post('cms/kemhan/uo/laporan-rincian-belanja-modal', 'Backend\KemhanUOController@laporan_rincian_modal');
+	Route::get('cms/kemhan/uo/form-filter-laporan-realisasi-pelaksanaan-anggaran-perjenis-belanja', 'Backend\KemhanUOController@form_filter_laporan_realisasi_pelaksanaan_anggaran_perjenis_belanja');
+	Route::post('cms/kemhan/uo/laporan-realisasi-pelaksanaan-anggaran-perjenis-belanja', 'Backend\KemhanUOController@laporan_realisasi_pelaksanaan_anggaran_perjenis_belanja');
 
 	/* ==========Hibah========== */
-	Route::get('cms/kemhan/uo/laporan-penerimaan-hibah-dalam-negeri', 'Backend\KemhanUOController@laporan_penerimaan_hibah_dalam_negeri');
+	Route::get('cms/kemhan/uo/form-filter-laporan-penerimaan-hibah-dalam-negeri', 'Backend\KemhanUOController@form_filter_laporan_penerimaan_hibah_dalam_negeri');
+	Route::post('cms/kemhan/uo/laporan-penerimaan-hibah-dalam-negeri', 'Backend\KemhanUOController@laporan_penerimaan_hibah_dalam_negeri');
 
 	/* ==========Pendapatan========== */
-	Route::get('cms/kemhan/uo/laporan-pendapatan-negara', 'Backend\KemhanUOController@laporan_pendapatan_negara');
+	Route::get('cms/kemhan/uo/form-filter-laporan-pendapatan-negara', 'Backend\KemhanUOController@form_filter_laporan_pendapatan_negara');
+	Route::post('cms/kemhan/uo/laporan-pendapatan-negara', 'Backend\KemhanUOController@laporan_pendapatan_negara');
+	Route::get('cms/kemhan/uo/form-filter-laporan-anggaran-pemeliharaan', 'Backend\KemhanUOController@form_filter_laporan_anggaran_pemeliharaan');
+	Route::post('cms/kemhan/uo/laporan-anggaran-pemeliharaan', 'Backend\KemhanUOController@laporan_anggaran_pemeliharaan');
+	Route::get('cms/kemhan/uo/form-filter-laporan-anggaran-alutsista', 'Backend\KemhanUOController@form_filter_laporan_anggaran_alutsista');
+	Route::post('cms/kemhan/uo/laporan-anggaran-alutsista', 'Backend\KemhanUOController@laporan_anggaran_alutsista');
+	Route::get('cms/kemhan/uo/form-filter-laporan-anggaran-mef', 'Backend\KemhanUOController@form_filter_laporan_anggaran_mef');
+	Route::post('cms/kemhan/uo/laporan-anggaran-mef', 'Backend\KemhanUOController@laporan_anggaran_mef');
+	Route::get('cms/kemhan/uo/form-filter-laporan-anggaran-perbatasan', 'Backend\KemhanUOController@form_filter_laporan_anggaran_perbatasan');
+	Route::post('cms/kemhan/uo/laporan-anggaran-perbatasan', 'Backend\KemhanUOController@laporan_anggaran_perbatasan');
+	Route::get('cms/kemhan/uo/form-filter-laporan-anggaran-pinjaman', 'Backend\KemhanUOController@form_filter_laporan_anggaran_pinjaman');
+	Route::post('cms/kemhan/uo/laporan-anggaran-pinjaman', 'Backend\KemhanUOController@laporan_anggaran_pinjaman');
+	Route::get('cms/kemhan/uo/form-filter-laporan-anggaran-prioritas', 'Backend\KemhanUOController@form_filter_laporan_anggaran_prioritas');
+	Route::post('cms/kemhan/uo/laporan-anggaran-prioritas', 'Backend\KemhanUOController@laporan_anggaran_prioritas');
 
-	/* ==========Anggaran========== */
-	Route::get('cms/kemhan/uo/anggaran', 'Backend\KemhanUOController@anggaran');
-	Route::get('cms/kemhan/uo/input-anggaran', 'Backend\KemhanUOController@input_anggaran');
-	Route::get('cms/kemhan/uo/rincian-anggaran', 'Backend\KemhanUOController@anggaran');
-	Route::get('cms/kemhan/uo/rincian-anggaran-detail', 'Backend\KemhanUOController@anggaran_detail');
-	//
-	Route::get('cms/kemhan/uo/laporan-anggaran-pemeliharaan', 'Backend\KemhanUOController@laporan_anggaran_pemeliharaan');
-	Route::get('cms/kemhan/uo/laporan-anggaran-alutsista', 'Backend\KemhanUOController@laporan_anggaran_alutsista');
-	Route::get('cms/kemhan/uo/laporan-anggaran-mef', 'Backend\KemhanUOController@laporan_anggaran_mef');
-	Route::get('cms/kemhan/uo/laporan-anggaran-perbatasan', 'Backend\KemhanUOController@laporan_anggaran_perbatasan');
-	Route::get('cms/kemhan/uo/laporan-anggaran-pinjaman', 'Backend\KemhanUOController@laporan_anggaran_pinjaman');
-	Route::get('cms/kemhan/uo/laporan-anggaran-prioritas', 'Backend\KemhanUOController@laporan_anggaran_prioritas');
+	Route::get('cms/kemhan/uo/form-filter-laporan-realisasi-anggaran', 'Backend\KemhanUOController@form_filter_laporan_realisasi_anggaran');
+	Route::post('cms/kemhan/uo/laporan-realisasi-anggaran', 'Backend\KemhanUOController@laporan_realisasi_anggaran');
+	Route::get('cms/kemhan/uo/form-filter-laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i-menurut-wilayah-satuan-kerja', 'Backend\KemhanUOController@form_filter_laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i_menurut_wilayah_satuan_kerja');
+	Route::post('cms/kemhan/uo/laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i-menurut-wilayah-satuan-kerja', 'Backend\KemhanUOController@laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i_menurut_wilayah_satuan_kerja');
+	Route::get('cms/kemhan/uo/form-filter-laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i', 'Backend\KemhanUOController@form_filter_laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i');
+	Route::post('cms/kemhan/uo/laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i', 'Backend\KemhanUOController@laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i');
+	Route::get('cms/kemhan/uo/form-filter-laporan-realisasi-anggaran-belanja-menurut-wilayah-satuan-kerja-tingkat-eselon-i', 'Backend\KemhanUOController@form_filter_laporan_realisasi_anggaran_belanja_menurut_wilayah_satuan_kerja_tingkat_eselon_i');
+	Route::post('cms/kemhan/uo/laporan-realisasi-anggaran-belanja-menurut-wilayah-satuan-kerja-tingkat-eselon-i', 'Backend\KemhanUOController@laporan_realisasi_anggaran_belanja_menurut_wilayah_satuan_kerja_tingkat_eselon_i');
+	Route::get('cms/kemhan/uo/form-filter-laporan-realisasi-anggaran-belanja-menurut-jenis-belanja-akun-tingkat-eselon-i', 'Backend\KemhanUOController@form_filter_laporan_realisasi_anggaran_belanja_menurut_jenis_belanja_akun_tingkat_eselon_i');
+	Route::post('cms/kemhan/uo/laporan-realisasi-anggaran-belanja-menurut-jenis-belanja-akun-tingkat-eselon-i', 'Backend\KemhanUOController@laporan_realisasi_anggaran_belanja_menurut_jenis_belanja_akun_tingkat_eselon_i');
+	Route::get('cms/kemhan/uo/form-filter-laporan-realisasi-anggaran-belanja-menurut-sumber-dana-program-kegiatan-tingkat-eselon-i', 'Backend\KemhanUOController@form_filter_laporan_realisasi_anggaran_belanja_menurut_sumber_dana_program_kegiatan_tingkat_eselon_i');
+	Route::post('cms/kemhan/uo/laporan-realisasi-anggaran-belanja-menurut-sumber-dana-program-kegiatan-tingkat-eselon-i', 'Backend\KemhanUOController@laporan_realisasi_anggaran_belanja_menurut_sumber_dana_program_kegiatan_tingkat_eselon_i');
 
+	//---------------------------------------------------------------------
     Route::get('cms/kemhan/uo/tahun-anggaran', 'Backend\KemhanUOController@tahun_anggaran');
 	Route::get('cms/kemhan/uo/tahun-anggaran-baru', 'Backend\KemhanUOController@tahun_anggaran_baru');
 	Route::get('cms/kemhan/uo/tambah-sumber-anggaran', 'Backend\KemhanUOController@tambah_sumber_anggaran');
@@ -107,23 +185,7 @@ Route::group(['middleware' => 'ValidateUO'], function () {
 	Route::get('cms/kemhan/uo/realisasi-anggaran', 'Backend\KemhanUOController@realisasi_anggaran');
 	Route::get('cms/kemhan/uo/realisasi-anggaran-detail', 'Backend\KemhanUOController@realisasi_anggaran_detail');
 	Route::get('cms/kemhan/uo/tambah-realisasi-anggaran', 'Backend\KemhanUOController@tambah_realisasi_anggaran');
-	//
 
-	
-	//Laporan
-	Route::get('cms/kemhan/uo/form-filter-laporan-realisasi-anggaran', 'Backend\KemhanUOController@form_filter_laporan_realisasi_anggaran');
-	Route::post('cms/kemhan/uo/laporan-realisasi-anggaran', 'Backend\KemhanUOController@laporan_realisasi_anggaran');
-	Route::get('cms/kemhan/uo/form-filter-laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i-menurut-wilayah-satuan-kerja', 'Backend\KemhanUOController@form_filter_laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i_menurut_wilayah_satuan_kerja');
-	Route::post('cms/kemhan/uo/laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i-menurut-wilayah-satuan-kerja', 'Backend\KemhanUOController@laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i_menurut_wilayah_satuan_kerja');
-	Route::get('cms/kemhan/uo/form-filter-laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i', 'Backend\KemhanUOController@form_filter_laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i');
-	Route::post('cms/kemhan/uo/laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i', 'Backend\KemhanUOController@laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i');
-	Route::get('cms/kemhan/uo/form-filter-laporan-realisasi-anggaran-belanja-menurut-wilayah-satuan-kerja-tingkat-eselon-i', 'Backend\KemhanUOController@form_filter_laporan_realisasi_anggaran_belanja_menurut_wilayah_satuan_kerja_tingkat_eselon_i');
-	Route::post('cms/kemhan/uo/laporan-realisasi-anggaran-belanja-menurut-wilayah-satuan-kerja-tingkat-eselon-i', 'Backend\KemhanUOController@laporan_realisasi_anggaran_belanja_menurut_wilayah_satuan_kerja_tingkat_eselon_i');
-	Route::get('cms/kemhan/uo/form-filter-laporan-realisasi-anggaran-belanja-menurut-jenis-belanja-akun-tingkat-eselon-i', 'Backend\KemhanUOController@form_filter_laporan_realisasi_anggaran_belanja_menurut_jenis_belanja_akun_tingkat_eselon_i');
-	Route::post('cms/kemhan/uo/laporan-realisasi-anggaran-belanja-menurut-jenis-belanja-akun-tingkat-eselon-i', 'Backend\KemhanUOController@laporan_realisasi_anggaran_belanja_menurut_jenis_belanja_akun_tingkat_eselon_i');
-	Route::get('cms/kemhan/uo/form-filter-laporan-realisasi-anggaran-belanja-menurut-sumber-dana-program-kegiatan-tingkat-eselon-i', 'Backend\KemhanUOController@form_filter_laporan_realisasi_anggaran_belanja_menurut_sumber_dana_program_kegiatan_tingkat_eselon_i');
-	Route::post('cms/kemhan/uo/laporan-realisasi-anggaran-belanja-menurut-sumber-dana-program-kegiatan-tingkat-eselon-i', 'Backend\KemhanUOController@laporan_realisasi_anggaran_belanja_menurut_sumber_dana_program_kegiatan_tingkat_eselon_i');
-	//
 	
 	
 
@@ -277,10 +339,56 @@ Route::group(['middleware' => 'ValidateKotama'], function () {
 	//
 	Route::get('cms/kotama/input-anggaran', 'Backend\KotamaController@input_anggaran');
 	//Laporan
-	Route::get('cms/kotama/laporan-anggaran-belanja-pegawai', 'Backend\KotamaController@laporan_pelaksanaan_abp');
-	Route::post('cms/kotama/laporan-rincian-anggaran-belanja-pegawai', 'Backend\KotamaController@laporan_rincian_abp');
-	Route::get('cms/kotama/laporan-anggaran-belanja-modal', 'Backend\KotamaController@laporan_belanja_modal');
-	Route::post('cms/kotama/laporan-rincian-belanja-modal', 'Backend\KotamaController@laporan_rincian_modal');
+	Route::get('cms/kotama/form-filter-laporan-perkembangan-pengadaan-barang-dan-jasa', 'Backend\KotamaController@form_filter_laporan_perkembangan_pengadaan_barang_dan_jasa');
+	Route::post('cms/kotama/laporan-perkembangan-pengadaan-barang-dan-jasa', 'Backend\KotamaController@laporan_perkembangan_pengadaan_barang_dan_jasa');
+	Route::get('cms/kotama/form-filter-laporan-perkembangan-pembangunan-dan-pengembangan-fasilitas', 'Backend\KotamaController@form_filter_laporan_perkembangan_pembangunan_dan_pengembangan_fasilitas');
+	Route::post('cms/kotama/laporan-perkembangan-pembangunan-dan-pengembangan-fasilitas', 'Backend\KotamaController@laporan_perkembangan_pembangunan_dan_pengembangan_fasilitas');
+
+	Route::get('cms/kotama/form-filter-laporan-pelaksanaan-anggaran-belanja-pegawai', 'Backend\KotamaController@form_filter_laporan_pelaksanaan_anggaran_belanja_pegawai');
+	Route::post('cms/kotama/laporan-pelaksanaan-anggaran-belanja-pegawai', 'Backend\KotamaController@laporan_pelaksanaan_anggaran_belanja_pegawai');
+	Route::get('cms/kotama/form-filter-laporan-pelaksanaan-anggaran-belanja-barang', 'Backend\KotamaController@form_filter_laporan_pelaksanaan_anggaran_belanja_barang');
+	Route::get('cms/kotama/laporan-pelaksanaan-anggaran-belanja-barang', 'Backend\KotamaController@laporan_pelaksanaan_anggaran_belanja_barang');
+	Route::get('cms/kotama/form-filter-laporan-pelaksanaan-anggaran-belanja-modal', 'Backend\KotamaController@form_filter_laporan_pelaksanaan_anggaran_belanja_modal');
+	Route::post('cms/kotama/laporan-pelaksanaan-anggaran-belanja-modal', 'Backend\KotamaController@laporan_pelaksanaan_anggaran_belanja_modal');
+	Route::get('cms/kotama/form-filter-laporan-pelaksanaan-barang-dan-jasa', 'Backend\KotamaController@form_filter_laporan_pelaksanaan_barang_dan_jasa');
+	Route::post('cms/kotama/laporan-pelaksanaan-barang-dan-jasa', 'Backend\KotamaController@laporan_pelaksanaan_barang_dan_jasa');
+	Route::get('cms/kotama/form-filter-laporan-pelaksanaan-perkembangan-kegiatan-prioritas', 'Backend\KotamaController@form_filter_laporan_pelaksanaan_perkembangan_kegiatan_prioritas');
+	Route::post('cms/kotama/laporan-pelaksanaan-perkembangan-kegiatan-prioritas', 'Backend\KotamaController@laporan_pelaksanaan_perkembangan_kegiatan_prioritas');
+	Route::get('cms/kotama/form-filter-laporan-pelaksanaan-perkembangan-pembangunan-dan-fasilitas', 'Backend\KotamaController@form_filter_laporan_pelaksanaan_perkembangan_pembangunan_dan_fasilitas');
+	Route::post('cms/kotama/laporan-pelaksanaan-perkembangan-pembangunan-dan-fasilitas', 'Backend\KotamaController@laporan_pelaksanaan_perkembangan_pembangunan_dan_fasilitas');
+	Route::get('cms/kotama/form-filter-laporan-realisasi-pelaksanaan-anggaran-perjenis-belanja', 'Backend\KotamaController@form_filter_laporan_realisasi_pelaksanaan_anggaran_perjenis_belanja');
+	Route::post('cms/kotama/laporan-realisasi-pelaksanaan-anggaran-perjenis-belanja', 'Backend\KotamaController@laporan_realisasi_pelaksanaan_anggaran_perjenis_belanja');
+
+	Route::get('cms/kotama/form-filter-laporan-penerimaan-hibah-dalam-negeri', 'Backend\KotamaController@form_filter_laporan_penerimaan_hibah_dalam_negeri');
+	Route::post('cms/kotama/laporan-penerimaan-hibah-dalam-negeri', 'Backend\KotamaController@laporan_penerimaan_hibah_dalam_negeri');
+
+	Route::get('cms/kotama/form-filter-laporan-pendapatan-negara', 'Backend\KotamaController@form_filter_laporan_pendapatan_negara');
+	Route::post('cms/kotama/laporan-pendapatan-negara', 'Backend\KotamaController@laporan_pendapatan_negara');
+	Route::get('cms/kotama/form-filter-laporan-anggaran-pemeliharaan', 'Backend\KotamaController@form_filter_laporan_anggaran_pemeliharaan');
+	Route::post('cms/kotama/laporan-anggaran-pemeliharaan', 'Backend\KotamaController@laporan_anggaran_pemeliharaan');
+	Route::get('cms/kotama/form-filter-laporan-anggaran-alutsista', 'Backend\KotamaController@form_filter_laporan_anggaran_alutsista');
+	Route::post('cms/kotama/laporan-anggaran-alutsista', 'Backend\KotamaController@laporan_anggaran_alutsista');
+	Route::get('cms/kotama/form-filter-laporan-anggaran-mef', 'Backend\KotamaController@form_filter_laporan_anggaran_mef');
+	Route::post('cms/kotama/laporan-anggaran-mef', 'Backend\KotamaController@laporan_anggaran_mef');
+	Route::get('cms/kotama/form-filter-laporan-anggaran-perbatasan', 'Backend\KotamaController@form_filter_laporan_anggaran_perbatasan');
+	Route::post('cms/kotama/laporan-anggaran-perbatasan', 'Backend\KotamaController@laporan_anggaran_perbatasan');
+	Route::get('cms/kotama/form-filter-laporan-anggaran-pinjaman', 'Backend\KotamaController@form_filter_laporan_anggaran_pinjaman');
+	Route::post('cms/kotama/laporan-anggaran-pinjaman', 'Backend\KotamaController@laporan_anggaran_pinjaman');
+	Route::get('cms/kotama/form-filter-laporan-anggaran-prioritas', 'Backend\KotamaController@form_filter_laporan_anggaran_prioritas');
+	Route::post('cms/kotama/laporan-anggaran-prioritas', 'Backend\KotamaController@laporan_anggaran_prioritas');
+
+	Route::get('cms/kotama/form-filter-laporan-realisasi-anggaran', 'Backend\KotamaController@form_filter_laporan_realisasi_anggaran');
+	Route::post('cms/kotama/laporan-realisasi-anggaran', 'Backend\KotamaController@laporan_realisasi_anggaran');
+	Route::get('cms/kotama/form-filter-laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i-menurut-wilayah-satuan-kerja', 'Backend\KotamaController@form_filter_laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i_menurut_wilayah_satuan_kerja');
+	Route::post('cms/kotama/laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i-menurut-wilayah-satuan-kerja', 'Backend\KotamaController@laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i_menurut_wilayah_satuan_kerja');
+	Route::get('cms/kotama/form-filter-laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i', 'Backend\KotamaController@form_filter_laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i');
+	Route::post('cms/kotama/laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i', 'Backend\KotamaController@laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i');
+	Route::get('cms/kotama/form-filter-laporan-realisasi-anggaran-belanja-menurut-wilayah-satuan-kerja-tingkat-eselon-i', 'Backend\KotamaController@form_filter_laporan_realisasi_anggaran_belanja_menurut_wilayah_satuan_kerja_tingkat_eselon_i');
+	Route::post('cms/kotama/laporan-realisasi-anggaran-belanja-menurut-wilayah-satuan-kerja-tingkat-eselon-i', 'Backend\KotamaController@laporan_realisasi_anggaran_belanja_menurut_wilayah_satuan_kerja_tingkat_eselon_i');
+	Route::get('cms/kotama/form-filter-laporan-realisasi-anggaran-belanja-menurut-jenis-belanja-akun-tingkat-eselon-i', 'Backend\KotamaController@form_filter_laporan_realisasi_anggaran_belanja_menurut_jenis_belanja_akun_tingkat_eselon_i');
+	Route::post('cms/kotama/laporan-realisasi-anggaran-belanja-menurut-jenis-belanja-akun-tingkat-eselon-i', 'Backend\KotamaController@laporan_realisasi_anggaran_belanja_menurut_jenis_belanja_akun_tingkat_eselon_i');
+	Route::get('cms/kotama/form-filter-laporan-realisasi-anggaran-belanja-menurut-sumber-dana-program-kegiatan-tingkat-eselon-i', 'Backend\KotamaController@form_filter_laporan_realisasi_anggaran_belanja_menurut_sumber_dana_program_kegiatan_tingkat_eselon_i');
+	Route::post('cms/kotama/laporan-realisasi-anggaran-belanja-menurut-sumber-dana-program-kegiatan-tingkat-eselon-i', 'Backend\KotamaController@laporan_realisasi_anggaran_belanja_menurut_sumber_dana_program_kegiatan_tingkat_eselon_i');
 
 	//Signout
 	Route::get('cms/kotama/signout', 'Backend\KotamaController@signout');
@@ -292,7 +400,7 @@ Route::group(['middleware' => 'ValidateSatKer'], function () {
 
 	/* SatKer */
     Route::get('cms/satker/tahun-anggaran', 'Backend\SatKerController@tahun_anggaran');
-	Route::get('cms/satker/tahun-anggaran-baru', 'Backend\SatKerController@tahun_anggaran_baru');
+	Route::get('cms/cms/tahun-anggaran-baru', 'Backend\SatKerController@tahun_anggaran_baru');
 	Route::get('cms/satker/tambah-sumber-anggaran', 'Backend\SatKerController@tambah_sumber_anggaran');
 	Route::get('cms/satker/tambah-upload-pendapatan', 'Backend\SatKerController@tambah_upload_pendapatan');
 	Route::get('cms/satker/buat-anggaran-selesai', 'Backend\SatKerController@buat_anggaran_selesai');
@@ -310,10 +418,56 @@ Route::group(['middleware' => 'ValidateSatKer'], function () {
 	//
 	Route::get('cms/satker/input-anggaran', 'Backend\SatKerController@input_anggaran');
 	//Laporan
-	Route::get('cms/satker/laporan-anggaran-belanja-pegawai', 'Backend\SatKerController@laporan_pelaksanaan_abp');
-	Route::post('cms/satker/laporan-rincian-anggaran-belanja-pegawai', 'Backend\SatKerController@laporan_rincian_abp');
-	Route::get('cms/satker/laporan-anggaran-belanja-modal', 'Backend\SatKerController@laporan_belanja_modal');
-	Route::post('cms/satker/laporan-rincian-belanja-modal', 'Backend\SatKerController@laporan_rincian_modal');
+	Route::get('cms/satker/form-filter-laporan-perkembangan-pengadaan-barang-dan-jasa', 'Backend\SatKerController@form_filter_laporan_perkembangan_pengadaan_barang_dan_jasa');
+	Route::post('cms/satker/laporan-perkembangan-pengadaan-barang-dan-jasa', 'Backend\SatKerController@laporan_perkembangan_pengadaan_barang_dan_jasa');
+	Route::get('cms/satker/form-filter-laporan-perkembangan-pembangunan-dan-pengembangan-fasilitas', 'Backend\SatKerController@form_filter_laporan_perkembangan_pembangunan_dan_pengembangan_fasilitas');
+	Route::post('cms/satker/laporan-perkembangan-pembangunan-dan-pengembangan-fasilitas', 'Backend\SatKerController@laporan_perkembangan_pembangunan_dan_pengembangan_fasilitas');
+
+	Route::get('cms/satker/form-filter-laporan-pelaksanaan-anggaran-belanja-pegawai', 'Backend\SatKerController@form_filter_laporan_pelaksanaan_anggaran_belanja_pegawai');
+	Route::post('cms/satker/laporan-pelaksanaan-anggaran-belanja-pegawai', 'Backend\SatKerController@laporan_pelaksanaan_anggaran_belanja_pegawai');
+	Route::get('cms/satker/form-filter-laporan-pelaksanaan-anggaran-belanja-barang', 'Backend\SatKerController@form_filter_laporan_pelaksanaan_anggaran_belanja_barang');
+	Route::get('cms/satker/laporan-pelaksanaan-anggaran-belanja-barang', 'Backend\SatKerController@laporan_pelaksanaan_anggaran_belanja_barang');
+	Route::get('cms/satker/form-filter-laporan-pelaksanaan-anggaran-belanja-modal', 'Backend\SatKerController@form_filter_laporan_pelaksanaan_anggaran_belanja_modal');
+	Route::post('cms/satker/laporan-pelaksanaan-anggaran-belanja-modal', 'Backend\SatKerController@laporan_pelaksanaan_anggaran_belanja_modal');
+	Route::get('cms/satker/form-filter-laporan-pelaksanaan-barang-dan-jasa', 'Backend\SatKerController@form_filter_laporan_pelaksanaan_barang_dan_jasa');
+	Route::post('cms/satker/laporan-pelaksanaan-barang-dan-jasa', 'Backend\SatKerController@laporan_pelaksanaan_barang_dan_jasa');
+	Route::get('cms/satker/form-filter-laporan-pelaksanaan-perkembangan-kegiatan-prioritas', 'Backend\SatKerController@form_filter_laporan_pelaksanaan_perkembangan_kegiatan_prioritas');
+	Route::post('cms/satker/laporan-pelaksanaan-perkembangan-kegiatan-prioritas', 'Backend\SatKerController@laporan_pelaksanaan_perkembangan_kegiatan_prioritas');
+	Route::get('cms/satker/form-filter-laporan-pelaksanaan-perkembangan-pembangunan-dan-fasilitas', 'Backend\SatKerController@form_filter_laporan_pelaksanaan_perkembangan_pembangunan_dan_fasilitas');
+	Route::post('cms/satker/laporan-pelaksanaan-perkembangan-pembangunan-dan-fasilitas', 'Backend\SatKerController@laporan_pelaksanaan_perkembangan_pembangunan_dan_fasilitas');
+	Route::get('cms/satker/form-filter-laporan-realisasi-pelaksanaan-anggaran-perjenis-belanja', 'Backend\SatKerController@form_filter_laporan_realisasi_pelaksanaan_anggaran_perjenis_belanja');
+	Route::post('cms/satker/laporan-realisasi-pelaksanaan-anggaran-perjenis-belanja', 'Backend\SatKerController@laporan_realisasi_pelaksanaan_anggaran_perjenis_belanja');
+
+	Route::get('cms/satker/form-filter-laporan-penerimaan-hibah-dalam-negeri', 'Backend\SatKerController@form_filter_laporan_penerimaan_hibah_dalam_negeri');
+	Route::post('cms/satker/laporan-penerimaan-hibah-dalam-negeri', 'Backend\SatKerController@laporan_penerimaan_hibah_dalam_negeri');
+
+	Route::get('cms/satker/form-filter-laporan-pendapatan-negara', 'Backend\SatKerController@form_filter_laporan_pendapatan_negara');
+	Route::post('cms/satker/laporan-pendapatan-negara', 'Backend\SatKerController@laporan_pendapatan_negara');
+	Route::get('cms/satker/form-filter-laporan-anggaran-pemeliharaan', 'Backend\SatKerController@form_filter_laporan_anggaran_pemeliharaan');
+	Route::post('cms/satker/laporan-anggaran-pemeliharaan', 'Backend\SatKerController@laporan_anggaran_pemeliharaan');
+	Route::get('cms/satker/form-filter-laporan-anggaran-alutsista', 'Backend\SatKerController@form_filter_laporan_anggaran_alutsista');
+	Route::post('cms/satker/laporan-anggaran-alutsista', 'Backend\SatKerController@laporan_anggaran_alutsista');
+	Route::get('cms/satker/form-filter-laporan-anggaran-mef', 'Backend\SatKerController@form_filter_laporan_anggaran_mef');
+	Route::post('cms/satker/laporan-anggaran-mef', 'Backend\SatKerController@laporan_anggaran_mef');
+	Route::get('cms/satker/form-filter-laporan-anggaran-perbatasan', 'Backend\SatKerController@form_filter_laporan_anggaran_perbatasan');
+	Route::post('cms/satker/laporan-anggaran-perbatasan', 'Backend\SatKerController@laporan_anggaran_perbatasan');
+	Route::get('cms/satker/form-filter-laporan-anggaran-pinjaman', 'Backend\SatKerController@form_filter_laporan_anggaran_pinjaman');
+	Route::post('cms/satker/laporan-anggaran-pinjaman', 'Backend\SatKerController@laporan_anggaran_pinjaman');
+	Route::get('cms/satker/form-filter-laporan-anggaran-prioritas', 'Backend\SatKerController@form_filter_laporan_anggaran_prioritas');
+	Route::post('cms/satker/laporan-anggaran-prioritas', 'Backend\SatKerController@laporan_anggaran_prioritas');
+
+	Route::get('cms/satker/form-filter-laporan-realisasi-anggaran', 'Backend\SatKerController@form_filter_laporan_realisasi_anggaran');
+	Route::post('cms/satker/laporan-realisasi-anggaran', 'Backend\SatKerController@laporan_realisasi_anggaran');
+	Route::get('cms/satker/form-filter-laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i-menurut-wilayah-satuan-kerja', 'Backend\SatKerController@form_filter_laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i_menurut_wilayah_satuan_kerja');
+	Route::post('cms/satker/laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i-menurut-wilayah-satuan-kerja', 'Backend\SatKerController@laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i_menurut_wilayah_satuan_kerja');
+	Route::get('cms/satker/form-filter-laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i', 'Backend\SatKerController@form_filter_laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i');
+	Route::post('cms/satker/laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i', 'Backend\SatKerController@laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i');
+	Route::get('cms/satker/form-filter-laporan-realisasi-anggaran-belanja-menurut-wilayah-satuan-kerja-tingkat-eselon-i', 'Backend\SatKerController@form_filter_laporan_realisasi_anggaran_belanja_menurut_wilayah_satuan_kerja_tingkat_eselon_i');
+	Route::post('cms/satker/laporan-realisasi-anggaran-belanja-menurut-wilayah-satuan-kerja-tingkat-eselon-i', 'Backend\SatKerController@laporan_realisasi_anggaran_belanja_menurut_wilayah_satuan_kerja_tingkat_eselon_i');
+	Route::get('cms/satker/form-filter-laporan-realisasi-anggaran-belanja-menurut-jenis-belanja-akun-tingkat-eselon-i', 'Backend\SatKerController@form_filter_laporan_realisasi_anggaran_belanja_menurut_jenis_belanja_akun_tingkat_eselon_i');
+	Route::post('cms/satker/laporan-realisasi-anggaran-belanja-menurut-jenis-belanja-akun-tingkat-eselon-i', 'Backend\SatKerController@laporan_realisasi_anggaran_belanja_menurut_jenis_belanja_akun_tingkat_eselon_i');
+	Route::get('cms/satker/form-filter-laporan-realisasi-anggaran-belanja-menurut-sumber-dana-program-kegiatan-tingkat-eselon-i', 'Backend\SatKerController@form_filter_laporan_realisasi_anggaran_belanja_menurut_sumber_dana_program_kegiatan_tingkat_eselon_i');
+	Route::post('cms/satker/laporan-realisasi-anggaran-belanja-menurut-sumber-dana-program-kegiatan-tingkat-eselon-i', 'Backend\SatKerController@laporan_realisasi_anggaran_belanja_menurut_sumber_dana_program_kegiatan_tingkat_eselon_i');
 
 	//Signout
 	Route::get('cms/satker/signout', 'Backend\SatKerController@signout');
