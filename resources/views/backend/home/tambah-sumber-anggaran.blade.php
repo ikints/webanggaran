@@ -21,15 +21,28 @@
           <div class="box-body">
           	<div class="row">
 		        <div class="col-md-5 col-md-offset-4">
+		        		{{-- notifikasi sukses --}}
+						@if ($sukses = Session::get('sukses'))
+						<div class="alert alert-success alert-block">
+							<button type="button" class="close" data-dismiss="alert">×</button> 
+							<strong>{{ $sukses }}</strong>
+						</div>
+						@endif
+
 		        	<span class="text-green">Langkah 2 dari 3</span>
 		            <div class="box-body margin-bottom-50 margin-top-10 box-form-rounded">
 
+
+
 		            <!-- /.box --><!-- form start -->
-			            <form class="form" method="get" action="tambah-upload-pendapatan">
+			            <!-- <form class="form" method="get" action="tambah-upload-pendapatan"> -->
+
+			            <form class="form" method="POST" action="{{ url('cms/import') }}" enctype="multipart/form-data">
+			              {{ csrf_field() }}
 			              <div class="box-body">
 			                <div class="form-group">
 			                  <label for="inputEmail3">File</label>
-			                    <input type="file" class="form-control" id="inputEmail3">
+			                    <input type="file" name="file" class="form-control">
 			                </div>
 			                <div class="form-group">
 			                  <label for="inputEmail3"></label>

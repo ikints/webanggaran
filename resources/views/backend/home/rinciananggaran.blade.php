@@ -14,6 +14,9 @@
       <section class="content">
         
         <div class="box">
+            <div class="box-header padding-bottom-10 text-right with-border panel-heading">
+              <a href="{{ URL('cms/tahun-anggaran-baru') }}" class="btn btn-success btn-flat"><i class="fa fa-plus"></i> Buat Anggaran Baru</a>
+            </div>
             <div class="box-header padding-bottom-20 text-center">
               <h4 class="box-title">Rincian Anggaran</h4><br>
               <h3 class="box-title">@switch(Session::get('level'))

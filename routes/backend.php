@@ -17,6 +17,9 @@ Route::post('cms/user/signin', 'Backend\UserController@signin');
 Route::group(['middleware' => 'ValidateKemhan'], function () {
 
 	/* Home */
+
+	Route::post('cms/import', 'Backend\AnggaranController@import');
+
     Route::get('cms/tahun-anggaran', 'Backend\HomeController@tahun_anggaran');
 	Route::get('cms/tahun-anggaran-baru', 'Backend\HomeController@tahun_anggaran_baru');
 	Route::get('cms/tambah-sumber-anggaran', 'Backend\HomeController@tambah_sumber_anggaran');
