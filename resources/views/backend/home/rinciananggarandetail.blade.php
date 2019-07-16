@@ -16,57 +16,84 @@
       <section class="content">
         
         <div class="box">
-            <div class="box-header padding-bottom-50">
+            <div class="box-header padding-bottom-20 text-center">
               <h4 class="box-title">Rincian Anggaran</h4><br>
-              <h3 class="box-title">012.22 - Markas Besar TNI AD</h3><br>
+              <h3 class="box-title">012.22 - Kementerian Pertahanan</h3><br>
               <h3 class="box-title">Tahun 2019</h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-                <div class="padding-bottom-20">
-                  <a href="{{ URL('cms/anggaran') }}" class="btn btn-xs btn-success"><i class="fa fa-list"></i> Anggaran Kementerian</a>
-                  <a href="{{ URL('cms/input-anggaran') }}" class="btn btn-xs btn-success"><i class="fa fa-plus"></i> Input Anggaran</a>
+                <div class="box box-solid">
+                <div class="box-body">
+                  <div class="row">
+                  <div class="col-md-7">
+                      <div class="box-body">
+                        <table class="table table-border">
+                          <tr>
+                            <td style="padding: 0px;">Unit Organisasi</td>
+                            <td style="padding: 0px;">: 22 - Kementerian Pertahanan</td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 0px;">Kode Program</td>
+                            <td style="padding: 0px;">: 1444-001</td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 0px;">Nama Program</td>
+                            <td style="padding: 0px;">: Intelejen dan Pengamanan Matra Darat [Base Line]</td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 0px;">Total Anggaran</td>
+                            <td style="padding: 0px;">: Rp. 28.909.920.000</td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 0px;">Total Penyerapan</td>
+                            <td style="padding: 0px;">: Rp. 18.909.920.000</td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 0px;">Sisa Anggaran</td>
+                            <td style="padding: 0px;">: Rp. 8.909.920.000</td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 0px;">Waktu Anggaran</td>
+                            <td style="padding: 0px;">Januari 2019 s/d Maret 2019</td>
+                          </tr>
+                        </table>
+                      </div>
+                      <!-- /.box-body -->
+                    </div>
+                  </div>
+                  
                 </div>
-                <table id="tablelist" class="table table-bordered table-striped">
-                  <thead>
-                  <tr>
-                    <th rowspan="2">Kode Nama Unit</th>
-                    <th rowspan="2">Belanja Pegawai (Operasional)</th>
-                    <th colspan="2">Belanja Barang</th>
-                    <th colspan="2">Belanja Modal</th>
-                    <th rowspan="2">Bantuan Sosial</th>
-                    <th rowspan="2">Jumlah</th>
-                  </tr>
-                  <tr>
-                    <th>(Operasional)</th>
-                    <th>(Non Ops)</th>
-                    <th>(Operasional)</th>
-                    <th>(Non Ops)</th>
-                  </tr>
-                  </thead>
-                  <tbody>
-                  <tr>
-                    <td>012.22 - Markas Besar TNI AD</td>
-                    <td>28.920.991.912</td>
-                    <td>2.908.765.12</td>
-                    <td>8.980.889.321</td>
-                    <td>0</td>
-                    <td>6.980.778.126</td>
-                    <td>0</td>
-                    <td>47.980.120.223</td>
-                  </tr>
-                  <tr>
-                    <td>012.22.14 - Program dukungan kesiapan matra darat</td>
-                    <td>2.920.991.912</td>
-                    <td>1.908.765.12</td>
-                    <td>980.889.321</td>
-                    <td>0</td>
-                    <td>5.980.778.126</td>
-                    <td>0</td>
-                    <td>17.980.120.223</td>
-                  </tr>
-                </tbody>
-              </table>
+
+                </div>  
+
+                <div class="row">
+                  <div class="col-md-5 col-md-offset-4">
+                    
+                      <div class="box-body margin-bottom-50 margin-top-10 box-form-rounded">
+
+                        <!-- form start -->
+                        <form class="form-group">
+                          <div class="box-body">
+                            <div class="form-group">
+                              <label for="inputEmail3">Jumlah Realisasi/Penyerapan</label>
+                              <input type="text" class="form-control" id="inputEmail3" placeholder="Jumlah Realisasi/Penyerapan">
+                            </div>
+                          </div>
+                          <!-- /.box-body -->
+                          <div class="box-footer">
+                            <button type="submit" class="btn btn-info pull-right"><i class="fa fa-save"></i> Simpan</button>
+                          </div>
+                          <!-- /.box-footer -->
+                        </form>
+                        
+                      </div>
+                      <!-- /.box-body -->
+                    </div>
+                    <!-- /.box -->
+                  </div>
+
+
             </div>
           <!-- /.box-body -->
         </div>

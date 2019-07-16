@@ -130,9 +130,9 @@
                       </tr>
                       <tr>
                         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5212111</td>
-                        <td><a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Snack Rapat Biasa D.K.I Jakarta (14ORG X2OK)</a></td>
+                        <td><a href="{{ URL('cms/rincian-anggaran-detail') }}">Snack Rapat Biasa D.K.I Jakarta (14ORG X2OK)</a></td>
                         <td>28.00</td>
-                        <td>588.000</td>
+                        <td class="progress-bar-custom progress-bar-green" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 20%">588.000</td>
                         <td>0</td>
                         <td>0</td>
                         <td><input type="text" name="realisasi" size="5" id="textvolume_1">
@@ -141,9 +141,9 @@
                         <td><input type="text" name="realisasi" size="5" id="textnominal_1">
                           <span id="labelnominal_1">0</td>
                       </tr>
-                      <tr>
+                      <tr id="anggaran-terlambat">
                         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5212112</td>
-                        <td><a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Makan Rapat Biasa D.K.I Jakarta (14ORG X2OK)</a></td>
+                        <td><a href="{{ URL('cms/rincian-anggaran-detail') }}">Makan Rapat Biasa D.K.I Jakarta (14ORG X2OK)</a></td>
                         <td>28.00</td>
                         <td>1.316.000</td>
                         <td>0</td>
@@ -156,7 +156,7 @@
                       </tr>
                       <tr>
                         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5212113</td>
-                        <td><a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Reproduksi</a></td>
+                        <td><a href="{{ URL('cms/rincian-anggaran-detail') }}">Reproduksi</a></td>
                         <td>1.00</td>
                         <td>846.000</td>
                         <td>0</td>
