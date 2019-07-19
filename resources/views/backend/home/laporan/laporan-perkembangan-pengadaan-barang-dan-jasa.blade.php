@@ -1375,20 +1375,36 @@
                         customize: function (xlsx) {
                           console.log(xlsx);
                           var sheet = xlsx.xl.worksheets['sheet1.xml'];
-                          var downrows = 8;
+                          var downrows = 10;
                           var clRow = $('row', sheet);
                           //style
                           
-
-                          var mergeCells = $('mergeCells', sheet);
- 
-                          mergeCells[0].appendChild( _createNode( sheet, 'mergeCell', {
+                          //1
+                          var mergeCells1 = $('mergeCells', sheet);
+                          mergeCells1[0].appendChild( _createNode( sheet, 'mergeCell', {
                             attr: {
-                              ref: 'A1:G1'
+                              ref: 'A1:I1'
                             }
                           } ) );
+                          mergeCells1.attr( 'count', mergeCells1.attr( 'count' )+1 );
 
-                          mergeCells.attr( 'count', mergeCells.attr( 'count' )+1 );
+                          //2
+                          var mergeCells2 = $('mergeCells', sheet);
+                          mergeCells2[0].appendChild( _createNode( sheet, 'mergeCell', {
+                            attr: {
+                              ref: 'A2:I2'
+                            }
+                          } ) );
+                          mergeCells2.attr( 'count', mergeCells2.attr( 'count' )+1 );
+
+                          //3
+                          var mergeCells3 = $('mergeCells', sheet);
+                          mergeCells3[0].appendChild( _createNode( sheet, 'mergeCell', {
+                            attr: {
+                              ref: 'A3:I3'
+                            }
+                          } ) );
+                          mergeCells3.attr( 'count', mergeCells3.attr( 'count' )+1 );
  
                           function _createNode( doc, nodeName, opts ) {
                             var tempNode = doc.createElement( nodeName );
@@ -1426,7 +1442,10 @@
                               var ind = parseInt(attr.substring(1, attr.length));
                               ind = ind + downrows;
                               $(this).attr("r", pre + ind);
+                              $(this).attr('s', '25');
                           });
+
+                          $('row:first c', sheet).attr('s','27');
 
                           function AddrowHead(index,data) {
                               msg='<row r="'+index+'">'
@@ -1459,18 +1478,24 @@
                           }
                    
                           //insert
-                          var r1 = AddrowHead(1, [{ k: 'A', v: 'Laporan Realisasi Anggaran Belanja Menurut Jenis Belanja' }]);
-                          var r2 = Addrow(3, [{ k: 'A', v: 'KEMENTERIAN NEGARA/LEMBAGA : 012' }]);
-                          var r3 = Addrow(4, [{ k: 'A', v: 'ESELON : 01 - KEMENTERIAN PERTAHANAN' }]);
-                          var r4 = Addrow(4, [{ k: 'G', v: 'Kode Lap : LRA.P.E1.2' }]);
-                          var r5 = Addrow(5, [{ k: 'G', v: 'Tanggal : 11/02/19 11:30 PM' }]);
-                          var r6 = Addrow(6, [{ k: 'G', v: 'Halaman : 2' }]);
-                          var r7 = Addrow(7, [{ k: 'G', v: 'Prg ID : lap_09' }]);
+                          var r1 = AddrowHead(1, [{ k: 'A', v: 'LAPORAN PERKEMBANGAN PEMBANGUNAN DAN PERKEMBANGAN FASILITAS' }]);
+                          var r2 = AddrowHead(2, [{ k: 'A', v: '{{Session::get('status_user')}}' }]);
+                          var r3 = AddrowHead(3, [{ k: 'A', v: 'UNTUK PERIODE YANG BERAKHIR 31 DESEMBER 2019' }]);
+                          
+                          var r51 = Addrow(5, [{ k: 'A', v: 'KEMENTERIAN NEGARA/LEMBAGA : 012' }]);
+                          var r52 = Addrow(5, [{ k: 'G', v: 'Kode Lap : LRA.P.E1.2' }]);
+
+                          var r61 = Addrow(6, [{ k: 'A', v: 'ESELON : 01 - KEMENTERIAN PERTAHANAN' }]);
+                          var r62 = Addrow(6, [{ k: 'G', v: 'Tanggal : 11/02/19 11:30 PM' }]);
+
+                          
+                          var r7 = Addrow(7, [{ k: 'G', v: 'Halaman : 2' }]);
+                          var r8 = Addrow(8, [{ k: 'G', v: 'Prg ID : lap_09' }]);
 
                           //
-                          var r8 = Addrow(8, [{ k: 'F', v: 'REALISASI BELANJA' }]);
+                          //var r8 = Addrow(8, [{ k: 'F', v: 'REALISASI BELANJA' }]);
                            
-                          sheet.childNodes[0].childNodes[1].innerHTML = r1+ r2+ r3+ r4+ r5+ r6+ r7+ r8+  sheet.childNodes[0].childNodes[1].innerHTML;
+                          sheet.childNodes[0].childNodes[1].innerHTML = r1+r2+r3+r51+r52+r61+r62+r7+r8+ sheet.childNodes[0].childNodes[1].innerHTML;
 
                       }
                     },
