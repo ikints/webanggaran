@@ -4,6 +4,7 @@ namespace App\Imports;
 
 use App\Anggaran;
 use Maatwebsite\Excel\Concerns\ToModel;
+use Maatwebsite\Excel\Concerns\Importable;
 
 class AnggaranImport implements ToModel
 {

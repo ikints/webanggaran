@@ -355,7 +355,13 @@
             </li>
             <li><a href="{{ URL('cms/signout') }}">Logout</a></li>
             @elseif (Session::get('level') == 4)
-            <li class="active"><a href="{{ URL('cms/satker/anggaran') }}">Anggaran</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Anggaran <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="{{ URL('cms/satker/anggaran') }}">Anggaran</a></li>
+                <li><a href="{{ URL('cms/satker/tahun-anggaran') }}">Tahun Anggaran</a></li>
+              </ul>
+            </li>
             <li><a href="{{ URL('cms/satker/revisi-anggaran') }}">Revisi Anggaran</a></li>
             <li><a href="{{ URL('cms/satker/realisasi-anggaran') }}">Realisasi Anggaran</a></li>
             <li class="dropdown">
