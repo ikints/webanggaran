@@ -15,7 +15,7 @@
           </div>
           <div class="box-header">
           	<p>
-            	Upload Anggaran a
+            	Upload Anggaran
             </p>
           </div>
           <div class="box-body">
