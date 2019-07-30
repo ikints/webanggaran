@@ -182,6 +182,101 @@
             <td>{{ $rows->j }}</td> 
           </tr>
         @endforeach
+        <tr>
+          <th class="text-center" colspan="4">
+            Sub Sub Komponen I
+          </th>
+        </tr>
+        <tr>
+          <th>Kode</th>
+          <th>SSK I</th>
+          <th>Volume</th>
+          <th>Jumlah</th>
+        </tr>
+        @foreach($sski->results as $rows)
+          <tr>
+            <td>{{ $rows->kode }}</td>
+            <td>{{ $rows->nama }}</td>
+            <td>{{ $rows->v }}</td>
+            <td>{{ $rows->j }}</td> 
+          </tr>
+        @endforeach
+        <tr>
+          <th class="text-center" colspan="4">
+            Sub Sub Komponen II
+          </th>
+        </tr>
+        <tr>
+          <th>Kode</th>
+          <th>SSK II</th>
+          <th>Volume</th>
+          <th>Jumlah</th>
+        </tr>
+        @foreach($sskii->results as $rows)
+          <tr>
+            <td>{{ $rows->kode }}</td>
+            <td>{{ $rows->nama }}</td>
+            <td>{{ $rows->v }}</td>
+            <td>{{ $rows->j }}</td> 
+          </tr>
+        @endforeach
+        <tr>
+          <th class="text-center" colspan="4">
+            Sub Sub Komponen III
+          </th>
+        </tr>
+        <tr>
+          <th>Kode</th>
+          <th>SSK III</th>
+          <th>Volume</th>
+          <th>Jumlah</th>
+        </tr>
+        @foreach($sskiii->results as $rows)
+          <tr>
+            <td>{{ $rows->kode }}</td>
+            <td>{{ $rows->nama }}</td>
+            <td>{{ $rows->v }}</td>
+            <td>{{ $rows->j }}</td> 
+          </tr>
+        @endforeach
+        <tr>
+          <th class="text-center" colspan="4">
+            Sub Sub Komponen IV
+          </th>
+        </tr>
+        <tr>
+          <th>Kode</th>
+          <th>SSK IV</th>
+          <th>Volume</th>
+          <th>Jumlah</th>
+        </tr>
+        @foreach($sskiv->results as $rows)
+          <tr>
+            <td>{{ $rows->kode }}</td>
+            <td>{{ $rows->nama }}</td>
+            <td>{{ $rows->v }}</td>
+            <td>{{ $rows->j }}</td> 
+          </tr>
+        @endforeach
+        <tr>
+          <th class="text-center" colspan="4">
+            Sub Sub Komponen V
+          </th>
+        </tr>
+        <tr>
+          <th>Kode</th>
+          <th>SSK V</th>
+          <th>Volume</th>
+          <th>Jumlah</th>
+        </tr>
+        @foreach($sskv->results as $rows)
+          <tr>
+            <td>{{ $rows->kode }}</td>
+            <td>{{ $rows->nama }}</td>
+            <td>{{ $rows->v }}</td>
+            <td>{{ $rows->j }}</td> 
+          </tr>
+        @endforeach
         </tbody>
         </table>
 

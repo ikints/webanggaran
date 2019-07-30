@@ -97,19 +97,20 @@ class SatKerController extends Controller
         File::delete(public_path('files/').$nama_file);
 
         //print_r($data);
-        
-        foreach ($data as $rows) {
 
-            //print_r($rows[1]);
-            //echo "<br><br><br><br>";
+        //Program
+        foreach ($data as $rows) {
 
             $numrow = 1;
             $i = 0;
+            
+            $data_program = array();
             foreach ($rows as $cols) {
+                
                 $i++;
+
                 if( $numrow > 1){
 
-                    //---------- Program
                     $kode_program = $cols[0];
                     $nama_program = $cols[1];
                     $v_program = $cols[2];
@@ -121,7 +122,7 @@ class SatKerController extends Controller
                         
                     }else{
 
-                        $data_program = array();
+                        
                         //create array
                         $data_program[$i]['kode'] = $kode_program;
                         $data_program[$i]['nama'] = $nama_program;
@@ -130,7 +131,24 @@ class SatKerController extends Controller
 
                     }
 
-                    //---------- Kegiatan
+                 }
+                $numrow++;
+            }
+
+        }
+
+        //Kegiatan
+        foreach ($data as $rows) {
+            $numrow = 1;
+            $i = 0;
+            
+            $data_keg = array();
+            foreach ($rows as $cols) {
+                
+                $i++;
+
+                if( $numrow > 1){
+
                     $kode_keg = $cols[4];
                     $nama_keg = $cols[5];
                     $v_keg = $cols[6];
@@ -142,7 +160,6 @@ class SatKerController extends Controller
                         
                     }else{
 
-                        $data_keg = array();
                         //create array
                         $data_keg[$i]['kode'] = $kode_keg;
                         $data_keg[$i]['nama'] = $nama_keg;
@@ -151,7 +168,26 @@ class SatKerController extends Controller
 
                     }
 
-                    //---------- Output
+
+                 }
+                $numrow++;
+            }
+
+            
+        }
+
+        //Output
+        foreach ($data as $rows) {
+            $numrow = 1;
+            $i = 0;
+            
+            $data_out = array();
+            foreach ($rows as $cols) {
+                
+                $i++;
+
+                if( $numrow > 1){
+
                     $kode_out = $cols[8];
                     $nama_out = $cols[9];
                     $v_out = $cols[10];
@@ -163,7 +199,7 @@ class SatKerController extends Controller
                         
                     }else{
 
-                        $data_out = array();
+                        
                         //create array
                         $data_out[$i]['kode'] = $kode_out;
                         $data_out[$i]['nama'] = $nama_out;
@@ -172,7 +208,25 @@ class SatKerController extends Controller
 
                     }
 
-                    //---------- Sub soutput
+
+                 }
+                $numrow++;
+            }
+
+        }
+
+        //Sub soutput
+        foreach ($data as $rows) {
+            $numrow = 1;
+            $i = 0;
+            
+            $data_sout = array();
+            foreach ($rows as $cols) {
+                
+                $i++;
+
+                if( $numrow > 1){
+
                     $kode_sout = $cols[12];
                     $nama_sout = $cols[13];
                     $v_sout = $cols[14];
@@ -184,7 +238,7 @@ class SatKerController extends Controller
                         
                     }else{
 
-                        $data_sout = array();
+                        
                         //create array
                         $data_sout[$i]['kode'] = $kode_sout;
                         $data_sout[$i]['nama'] = $nama_sout;
@@ -193,7 +247,25 @@ class SatKerController extends Controller
 
                     }
 
-                    //---------- Komponen
+
+                 }
+                $numrow++;
+            }
+
+        }
+
+        //Komponen
+        foreach ($data as $rows) {
+            $numrow = 1;
+            $i = 0;
+            
+            $data_kom = array();
+            foreach ($rows as $cols) {
+                
+                $i++;
+
+                if( $numrow > 1){
+
                     $kode_kom = $cols[16];
                     $nama_kom = $cols[17];
                     $v_kom = $cols[18];
@@ -205,7 +277,7 @@ class SatKerController extends Controller
                         
                     }else{
 
-                        $data_kom = array();
+                        
                         //create array
                         $data_kom[$i]['kode'] = $kode_kom;
                         $data_kom[$i]['nama'] = $nama_kom;
@@ -214,7 +286,24 @@ class SatKerController extends Controller
 
                     }
 
-                    //---------- Sub komponen
+                }
+                $numrow++;
+            }
+
+        }
+
+        //Sub komponen
+        foreach ($data as $rows) {
+            $numrow = 1;
+            $i = 0;
+            
+            $data_skom = array();
+            foreach ($rows as $cols) {
+                
+                $i++;
+
+                if( $numrow > 1){
+
                     $kode_skom = $cols[20];
                     $nama_skom = $cols[21];
                     $v_skom = $cols[22];
@@ -226,7 +315,7 @@ class SatKerController extends Controller
                         
                     }else{
 
-                        $data_skom = array();
+                        
                         //create array
                         $data_skom[$i]['kode'] = $kode_skom;
                         $data_skom[$i]['nama'] = $nama_skom;
@@ -235,7 +324,25 @@ class SatKerController extends Controller
 
                     }
 
-                    //---------- Akun
+
+                }
+                $numrow++;
+            }
+
+        }
+
+        //Akun
+        foreach ($data as $rows) {
+            $numrow = 1;
+            $i = 0;
+            
+            $data_akun = array();
+            foreach ($rows as $cols) {
+                
+                $i++;
+
+                if( $numrow > 1){
+
                     $kode_akun = $cols[24];
                     $nama_akun = $cols[25];
                     $v_akun = $cols[26];
@@ -247,7 +354,7 @@ class SatKerController extends Controller
                         
                     }else{
 
-                        $data_akun = array();
+                        
                         //create array
                         $data_akun[$i]['kode'] = $kode_akun;
                         $data_akun[$i]['nama'] = $nama_akun;
@@ -256,18 +363,24 @@ class SatKerController extends Controller
 
                     }
 
-
                 }
                 $numrow++;
             }
 
+        }
+
+        //Sub Sub komponen
+        foreach ($data as $rows) {
+            $numrow = 1;
+            $i = 0;
+            
+            $data_sskom = array();
             foreach ($rows as $cols) {
                 
                 $i++;
 
                 if( $numrow > 1){
 
-                    //---------- Sub Sub komponen
                     $kode_sskom = $cols[28];
                     $nama_sskom = $cols[29];
                     $v_sskom = $cols[30];
@@ -280,25 +393,208 @@ class SatKerController extends Controller
                     }else{
 
 
-                        $data_sskom = array();
                         //create array
                         $data_sskom[$i]['kode'] = $kode_sskom;
                         $data_sskom[$i]['nama'] = $nama_sskom;
                         $data_sskom[$i]['v'] = $v_sskom;
                         $data_sskom[$i]['j'] = $j_sskom;
 
-                        //print_r($kode_sskom);
-
-                        //sub sub komponen
-                        $responses_sskom['results']= $data_sskom;
-                        $j_sskom = json_encode($responses_sskom);
-                        $datapage[ 'ssk' ] = json_decode($j_sskom);
                     }
-
 
                 }
                 $numrow++;
             }
+
+        }
+
+        //SSKI
+        foreach ($data as $rows) {
+            $numrow = 1;
+            $i = 0;
+            
+            $data_sski = array();
+            foreach ($rows as $cols) {
+                
+                $i++;
+
+                if( $numrow > 1){
+
+                    $kode_sski = $cols[32];
+                    $nama_sski = $cols[33];
+                    $v_sski = $cols[34];
+                    $j_sski = $cols[35];
+
+                    if(empty($kode_sski) && empty($nama_sski) && empty($v_sski) && empty($j_sski))
+                    {   
+                        continue; 
+                        
+                    }else{
+
+
+                        //create array
+                        $data_sski[$i]['kode'] = $kode_sski;
+                        $data_sski[$i]['nama'] = $nama_sski;
+                        $data_sski[$i]['v'] = $v_sski;
+                        $data_sski[$i]['j'] = $j_sski;
+
+                    }
+
+                }
+                $numrow++;
+            }
+
+        }
+
+        //SSKII
+        foreach ($data as $rows) {
+            $numrow = 1;
+            $i = 0;
+            
+            $data_sskii = array();
+            foreach ($rows as $cols) {
+                
+                $i++;
+
+                if( $numrow > 1){
+
+                    $kode_sskii = $cols[36];
+                    $nama_sskii = $cols[37];
+                    $v_sskii = $cols[38];
+                    $j_sskii = $cols[39];
+
+                    if(empty($kode_sskii) && empty($nama_sskii) && empty($v_sskii) && empty($j_sskii))
+                    {   
+                        continue; 
+                        
+                    }else{
+
+
+                        //create array
+                        $data_sskii[$i]['kode'] = $kode_sskii;
+                        $data_sskii[$i]['nama'] = $nama_sskii;
+                        $data_sskii[$i]['v'] = $v_sskii;
+                        $data_sskii[$i]['j'] = $j_sskii;
+
+                    }
+
+                }
+                $numrow++;
+            }
+
+        }
+
+        //sskiii
+        foreach ($data as $rows) {
+            $numrow = 1;
+            $i = 0;
+            
+            $data_sskiii = array();
+            foreach ($rows as $cols) {
+                
+                $i++;
+
+                if( $numrow > 1){
+
+                    $kode_sskiii = $cols[40];
+                    $nama_sskiii = $cols[41];
+                    $v_sskiii = $cols[42];
+                    $j_sskiii = $cols[43];
+
+                    if(empty($kode_sskiii) && empty($nama_sskiii) && empty($v_sskiii) && empty($j_sskiii))
+                    {   
+                        continue; 
+                        
+                    }else{
+
+
+                        //create array
+                        $data_sskiii[$i]['kode'] = $kode_sskiii;
+                        $data_sskiii[$i]['nama'] = $nama_sskiii;
+                        $data_sskiii[$i]['v'] = $v_sskiii;
+                        $data_sskiii[$i]['j'] = $j_sskiii;
+
+                    }
+
+                }
+                $numrow++;
+            }
+
+        }
+
+        //sskiv
+        foreach ($data as $rows) {
+            $numrow = 1;
+            $i = 0;
+            
+            $data_sskiv = array();
+            foreach ($rows as $cols) {
+                
+                $i++;
+
+                if( $numrow > 1){
+
+                    $kode_sskiv = $cols[44];
+                    $nama_sskiv = $cols[45];
+                    $v_sskiv = $cols[46];
+                    $j_sskiv = $cols[47];
+
+                    if(empty($kode_sskiv) && empty($nama_sskiv) && empty($v_sskiv) && empty($j_sskiv))
+                    {   
+                        continue; 
+                        
+                    }else{
+
+
+                        //create array
+                        $data_sskiv[$i]['kode'] = $kode_sskiv;
+                        $data_sskiv[$i]['nama'] = $nama_sskiv;
+                        $data_sskiv[$i]['v'] = $v_sskiv;
+                        $data_sskiv[$i]['j'] = $j_sskiv;
+
+                    }
+
+                }
+                $numrow++;
+            }
+
+        }
+
+        //sskv
+        foreach ($data as $rows) {
+            $numrow = 1;
+            $i = 0;
+            
+            $data_sskv = array();
+            foreach ($rows as $cols) {
+                
+                $i++;
+
+                if( $numrow > 1){
+
+                    $kode_sskv = $cols[48];
+                    $nama_sskv = $cols[49];
+                    $v_sskv = $cols[50];
+                    $j_sskv = $cols[51];
+
+                    if(empty($kode_sskv) && empty($nama_sskv) && empty($v_sskv) && empty($j_sskv))
+                    {   
+                        continue; 
+                        
+                    }else{
+
+
+                        //create array
+                        $data_sskv[$i]['kode'] = $kode_sskv;
+                        $data_sskv[$i]['nama'] = $nama_sskv;
+                        $data_sskv[$i]['v'] = $v_sskv;
+                        $data_sskv[$i]['j'] = $j_sskv;
+
+                    }
+
+                }
+                $numrow++;
+            }
+
         }
 
         //program
@@ -329,7 +625,30 @@ class SatKerController extends Controller
         $responses_akun['results']= $data_akun;
         $j_akun = json_encode($responses_akun);
         $datapage[ 'akun' ] = json_decode($j_akun);
-        
+        //sub sub komponen
+        $responses_sskom['results']= $data_sskom;
+        $j_sskom = json_encode($responses_sskom);
+        $datapage[ 'ssk' ] = json_decode($j_sskom);
+        //sski
+        $responses_sski['results']= $data_sski;
+        $j_sski = json_encode($responses_sski);
+        $datapage[ 'sski' ] = json_decode($j_sski);
+        //sskii
+        $responses_sskii['results']= $data_sskii;
+        $j_sskii = json_encode($responses_sskii);
+        $datapage[ 'sskii' ] = json_decode($j_sskii);
+        //sskiii
+        $responses_sskiii['results']= $data_sskiii;
+        $j_sskiii = json_encode($responses_sskiii);
+        $datapage[ 'sskiii' ] = json_decode($j_sskiii);
+        //sskiv
+        $responses_sskiv['results']= $data_sskiv;
+        $j_sskiv = json_encode($responses_sskiv);
+        $datapage[ 'sskiv' ] = json_decode($j_sskiv);
+        //sskv
+        $responses_sskv['results']= $data_sskv;
+        $j_sskv = json_encode($responses_sskv);
+        $datapage[ 'sskv' ] = json_decode($j_sskv);
 
         // set data view
         $datapage[ 'content_view' ] = "backend.$this->ctrl.preview-excel";
