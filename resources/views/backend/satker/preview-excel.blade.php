@@ -10,14 +10,19 @@
 
   <!-- Full Width Column -->
   <div class="content-wrapper">
-    <div class="container">
 
       <!-- Main content -->
       <section class="content">
-
+        {{-- notifikasi sukses --}}
+        @if ($sukses = Session::get('sukses'))
+        <div class="alert alert-success alert-block">
+          <button type="button" class="close" data-dismiss="alert">×</button> 
+          <strong>{{ $sukses }}</strong>
+        </div>
+        @endif
         <div class="box">
           <div class="box-header">
-            <a href="#" class="btn btn-flat btn-success btn-sm pull-right"> <i class="fa fa-cloud-upload"></i> Import</a>
+            <a href="#" id="import" class="btn btn-flat btn-success btn-sm pull-right"> <i class="fa fa-cloud-upload"></i> Import</a>
             <a href="{{ URL('cms/satker/tahun-anggaran') }}" class="btn btn-flat btn-success btn-sm pull-right"> <i class="fa fa-plus"></i> Tambah Anggaran</a>
 
             
@@ -277,12 +282,23 @@
             <td>{{ $rows->j }}</td> 
           </tr>
         @endforeach
+        <tr>
+          <th class="text-center" colspan="4">
+            Kode
+          </th>
+        </tr>
+        <tr>
+          <th colspan="4">Struktur Kode</th>
+        </tr>
+        @foreach($kode->results as $rows)
+          <tr>
+            <td colspan="4">{{ $rows->kode }}</td> 
+          </tr>
+        @endforeach
         </tbody>
         </table>
 
       </section>
-
-    </div>
 
   </div>
 
@@ -292,28 +308,20 @@
 <!-- DataTables -->
 <script src="{{ URL('public/datatables.net/js/jquery.dataTables.min.js') }}"></script>
 <script src="{{ URL('public/datatables.net-bs/js/dataTables.bootstrap.min.js') }}"></script>
-<script src="{{ URL('https://cdn.datatables.net/buttons/1.5.6/js/dataTables.buttons.min.js') }}"></script>
-<script src="{{ URL('https://cdn.datatables.net/buttons/1.5.6/js/buttons.flash.min.js') }}"></script>
-<script src="{{ URL('https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js') }}"></script>
-<script src="{{ URL('https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js') }}"></script>
-<script src="{{ URL('https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js') }}"></script>
-<script src="{{ URL('https://cdn.datatables.net/buttons/1.5.6/js/buttons.html5.min.js') }}"></script>
-<script src="{{ URL('https://cdn.datatables.net/buttons/1.5.6/js/buttons.print.min.js') }}"></script>
+<script src="{{ URL('public/datatables.net/js/dataTables.buttons.min.js') }}"></script>
+<script src="{{ URL('public/datatables.net/js/buttons.flash.min.js') }}"></script>
+<script src="{{ URL('public/datatables.net/js/jszip.min.js') }}"></script>
+<script src="{{ URL('public/datatables.net/js/pdfmake.min.js') }}"></script>
+<script src="{{ URL('public/datatables.net/js/vfs_fonts.js') }}"></script>
+<script src="{{ URL('public/datatables.net/js/buttons.html5.min.js') }}"></script>
+<script src="{{ URL('public/datatables.net/js/buttons.print.min.js') }}"></script>
 <!-- page script -->
 <script>
-  $(function () {
+  $(document).ready(function(){
 
-    $('#tablelist').DataTable(
-
-        { 
-          "paging": false,
-          "searching": false,
-          "ordering": false,
-          "bLengthChange": false,
-          "bInfo": false,
-        }
-
-      );
+    $('#import').on('click', function(e){
+      alert('import');
+    });
 
   })
 </script>

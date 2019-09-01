@@ -224,6 +224,22 @@ class HomeController extends Controller
 
     }
 
+    /*== Tambah Pencairan page ==*/
+    public function tambah_pencairan_dana() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.tambah-pencairan-dana";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+
     /*== Anggaran Detail page ==*/
     public function anggaran_detail() 
     {

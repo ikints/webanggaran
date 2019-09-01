@@ -5,7 +5,8 @@ namespace App\Http\Controllers\Backend;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Imports\AnggaranImport;
-use App\Admin;
+use App\AnggaranTemp;
+use App\Anggaran;
 use Maatwebsite\Excel\Facades\Excel;
 use File;
 use Session;
@@ -96,8 +97,9 @@ class SatKerController extends Controller
         $myFile = public_path('files/').$nama_file;
         File::delete(public_path('files/').$nama_file);
 
-        //print_r($data);
-
+        //ID Template
+        $pos_template = rand(0, 99999999);
+        $pos_id_tahun = 1;
         //Program
         foreach ($data as $rows) {
 
@@ -129,6 +131,32 @@ class SatKerController extends Controller
                         $data_program[$i]['v'] = $v_program;
                         $data_program[$i]['j'] = $j_program;
 
+                        /*$kode_pos = new Anggaran;
+                        $kode_pos->subfung_parent_id = 12;
+                        $kode_pos->prog_parent_id = 14;
+                        $kode_pos->subprog_parent_id = 0;
+                        $kode_pos->giat_parent_id = 0;
+                        $kode_pos->output_parent_id = 0;
+                        $kode_pos->komp_parent_id = 1;
+                        $kode_pos->sub_komp_parent_id = 0;
+                        $kode_pos->pos_kode = 22;
+                        $kode_pos->pos_nama = $nama_program;
+                        $kode_pos->pos_level = 1;
+                        $kode_pos->save();*/
+
+                        $kode_prog = explode('.', $kode_program);
+
+                        $kode_pos = new AnggaranTemp;
+                        $kode_pos->pos_template = $pos_template;
+                        $kode_pos->pos_id_tahun = $pos_id_tahun;
+                        $kode_pos->pos_parent_kode = 0;
+                        $kode_pos->pos_kode = $kode_prog[2];
+                        $kode_pos->pos_nama = $nama_program;
+                        $kode_pos->pos_volume = $v_program;
+                        $kode_pos->pos_jumlah = $j_program;
+                        $kode_pos->pos_level = 1;
+                        $kode_pos->save();
+
                     }
 
                  }
@@ -148,6 +176,8 @@ class SatKerController extends Controller
                 $i++;
 
                 if( $numrow > 1){
+                    //lokasi kode
+                    $kode_all = $cols[52];
 
                     $kode_keg = $cols[4];
                     $nama_keg = $cols[5];
@@ -165,6 +195,20 @@ class SatKerController extends Controller
                         $data_keg[$i]['nama'] = $nama_keg;
                         $data_keg[$i]['v'] = $v_keg;
                         $data_keg[$i]['j'] = $j_keg;
+
+                        $pos_p = explode('/', $kode_all);
+                        $pos_parent_kode = explode('.', $pos_p[0]);
+
+                        $kode_pos = new AnggaranTemp;
+                        $kode_pos->pos_template = $pos_template;
+                        $kode_pos->pos_id_tahun = $pos_id_tahun;
+                        $kode_pos->pos_parent_kode = $pos_parent_kode[2];
+                        $kode_pos->pos_kode = $kode_keg;
+                        $kode_pos->pos_nama = $nama_keg;
+                        $kode_pos->pos_volume = $v_keg;
+                        $kode_pos->pos_jumlah = $j_keg;
+                        $kode_pos->pos_level = 2;
+                        $kode_pos->save();
 
                     }
 
@@ -187,6 +231,8 @@ class SatKerController extends Controller
                 $i++;
 
                 if( $numrow > 1){
+                    //lokasi kode
+                    $kode_all = $cols[52];
 
                     $kode_out = $cols[8];
                     $nama_out = $cols[9];
@@ -205,6 +251,19 @@ class SatKerController extends Controller
                         $data_out[$i]['nama'] = $nama_out;
                         $data_out[$i]['v'] = $v_out;
                         $data_out[$i]['j'] = $j_out;
+
+                        $pos_p = explode('/', $kode_all);
+
+                        $kode_pos = new AnggaranTemp;
+                        $kode_pos->pos_template = $pos_template;
+                        $kode_pos->pos_id_tahun = $pos_id_tahun;
+                        $kode_pos->pos_parent_kode = $pos_p[1];
+                        $kode_pos->pos_kode = $kode_out;
+                        $kode_pos->pos_nama = $nama_out;
+                        $kode_pos->pos_volume = $v_out;
+                        $kode_pos->pos_jumlah = $j_out;
+                        $kode_pos->pos_level = 3;
+                        $kode_pos->save();
 
                     }
 
@@ -226,6 +285,8 @@ class SatKerController extends Controller
                 $i++;
 
                 if( $numrow > 1){
+                    //lokasi kode
+                    $kode_all = $cols[52];
 
                     $kode_sout = $cols[12];
                     $nama_sout = $cols[13];
@@ -244,6 +305,19 @@ class SatKerController extends Controller
                         $data_sout[$i]['nama'] = $nama_sout;
                         $data_sout[$i]['v'] = $v_sout;
                         $data_sout[$i]['j'] = $j_sout;
+
+                        $pos_p = explode('/', $kode_all);
+
+                        $kode_pos = new AnggaranTemp;
+                        $kode_pos->pos_template = $pos_template;
+                        $kode_pos->pos_id_tahun = $pos_id_tahun;
+                        $kode_pos->pos_parent_kode = $pos_p[2];
+                        $kode_pos->pos_kode = $kode_sout;
+                        $kode_pos->pos_nama = $nama_sout;
+                        $kode_pos->pos_volume = $v_sout;
+                        $kode_pos->pos_jumlah = $j_sout;
+                        $kode_pos->pos_level = 4;
+                        $kode_pos->save();
 
                     }
 
@@ -265,6 +339,8 @@ class SatKerController extends Controller
                 $i++;
 
                 if( $numrow > 1){
+                    //lokasi kode
+                    $kode_all = $cols[52];
 
                     $kode_kom = $cols[16];
                     $nama_kom = $cols[17];
@@ -283,6 +359,19 @@ class SatKerController extends Controller
                         $data_kom[$i]['nama'] = $nama_kom;
                         $data_kom[$i]['v'] = $v_kom;
                         $data_kom[$i]['j'] = $j_kom;
+
+                        $pos_p = explode('/', $kode_all);
+
+                        $kode_pos = new AnggaranTemp;
+                        $kode_pos->pos_template = $pos_template;
+                        $kode_pos->pos_id_tahun = $pos_id_tahun;
+                        $kode_pos->pos_parent_kode = $pos_p[3];
+                        $kode_pos->pos_kode = $kode_kom;
+                        $kode_pos->pos_nama = $nama_kom;
+                        $kode_pos->pos_volume = $v_kom;
+                        $kode_pos->pos_jumlah = $j_kom;
+                        $kode_pos->pos_level = 5;
+                        $kode_pos->save();
 
                     }
 
@@ -303,6 +392,8 @@ class SatKerController extends Controller
                 $i++;
 
                 if( $numrow > 1){
+                    //lokasi kode
+                    $kode_all = $cols[52];
 
                     $kode_skom = $cols[20];
                     $nama_skom = $cols[21];
@@ -321,6 +412,19 @@ class SatKerController extends Controller
                         $data_skom[$i]['nama'] = $nama_skom;
                         $data_skom[$i]['v'] = $v_skom;
                         $data_skom[$i]['j'] = $j_skom;
+
+                        $pos_p = explode('/', $kode_all);
+
+                        $kode_pos = new AnggaranTemp;
+                        $kode_pos->pos_template = $pos_template;
+                        $kode_pos->pos_id_tahun = $pos_id_tahun;
+                        $kode_pos->pos_parent_kode = $pos_p[4];
+                        $kode_pos->pos_kode = $kode_skom;
+                        $kode_pos->pos_nama = $nama_skom;
+                        $kode_pos->pos_volume = $v_skom;
+                        $kode_pos->pos_jumlah = $j_skom;
+                        $kode_pos->pos_level = 6;
+                        $kode_pos->save();
 
                     }
 
@@ -342,6 +446,8 @@ class SatKerController extends Controller
                 $i++;
 
                 if( $numrow > 1){
+                    //lokasi kode
+                    $kode_all = $cols[52];
 
                     $kode_akun = $cols[24];
                     $nama_akun = $cols[25];
@@ -360,6 +466,19 @@ class SatKerController extends Controller
                         $data_akun[$i]['nama'] = $nama_akun;
                         $data_akun[$i]['v'] = $v_akun;
                         $data_akun[$i]['j'] = $j_akun;
+
+                        $pos_p = explode('/', $kode_all);
+
+                        $kode_pos = new AnggaranTemp;
+                        $kode_pos->pos_template = $pos_template;
+                        $kode_pos->pos_id_tahun = $pos_id_tahun;
+                        $kode_pos->pos_parent_kode = $pos_p[5];
+                        $kode_pos->pos_kode = $kode_akun;
+                        $kode_pos->pos_nama = $nama_akun;
+                        $kode_pos->pos_volume = $v_akun;
+                        $kode_pos->pos_jumlah = $j_akun;
+                        $kode_pos->pos_level = 7;
+                        $kode_pos->save();
 
                     }
 
@@ -380,6 +499,8 @@ class SatKerController extends Controller
                 $i++;
 
                 if( $numrow > 1){
+                    //lokasi kode
+                    $kode_all = $cols[52];
 
                     $kode_sskom = $cols[28];
                     $nama_sskom = $cols[29];
@@ -399,6 +520,18 @@ class SatKerController extends Controller
                         $data_sskom[$i]['v'] = $v_sskom;
                         $data_sskom[$i]['j'] = $j_sskom;
 
+                        $pos_p = explode('/', $kode_all);
+
+                        $kode_pos = new AnggaranTemp;
+                        $kode_pos->pos_template = $pos_template;
+                        $kode_pos->pos_id_tahun = $pos_id_tahun;
+                        $kode_pos->pos_parent_kode = $pos_p[6];
+                        $kode_pos->pos_kode = $kode_sskom;
+                        $kode_pos->pos_nama = $nama_sskom;
+                        $kode_pos->pos_volume = $v_sskom;
+                        $kode_pos->pos_jumlah = $j_sskom;
+                        $kode_pos->pos_level = 8;
+                        $kode_pos->save();
                     }
 
                 }
@@ -418,6 +551,8 @@ class SatKerController extends Controller
                 $i++;
 
                 if( $numrow > 1){
+                    //lokasi kode
+                    $kode_all = $cols[52];
 
                     $kode_sski = $cols[32];
                     $nama_sski = $cols[33];
@@ -437,6 +572,18 @@ class SatKerController extends Controller
                         $data_sski[$i]['v'] = $v_sski;
                         $data_sski[$i]['j'] = $j_sski;
 
+                        $pos_p = explode('/', $kode_all);
+
+                        $kode_pos = new AnggaranTemp;
+                        $kode_pos->pos_template = $pos_template;
+                        $kode_pos->pos_id_tahun = $pos_id_tahun;
+                        $kode_pos->pos_parent_kode = $pos_p[7];
+                        $kode_pos->pos_kode = $kode_sski;
+                        $kode_pos->pos_nama = $nama_sski;
+                        $kode_pos->pos_volume = $v_sski;
+                        $kode_pos->pos_jumlah = $j_sski;
+                        $kode_pos->pos_level = 9;
+                        $kode_pos->save();
                     }
 
                 }
@@ -456,6 +603,8 @@ class SatKerController extends Controller
                 $i++;
 
                 if( $numrow > 1){
+                    //lokasi kode
+                    $kode_all = $cols[52];
 
                     $kode_sskii = $cols[36];
                     $nama_sskii = $cols[37];
@@ -475,7 +624,20 @@ class SatKerController extends Controller
                         $data_sskii[$i]['v'] = $v_sskii;
                         $data_sskii[$i]['j'] = $j_sskii;
 
-                    }
+                        $pos_p = explode('/', $kode_all);
+
+                        $kode_pos = new AnggaranTemp;
+                        $kode_pos->pos_template = $pos_template;
+                        $kode_pos->pos_id_tahun = $pos_id_tahun;
+                        $kode_pos->pos_parent_kode = $pos_p[8];
+                        $kode_pos->pos_kode = $kode_sskii;
+                        $kode_pos->pos_nama = $nama_sskii;
+                        $kode_pos->pos_volume = $v_sskii;
+                        $kode_pos->pos_jumlah = $j_sskii;
+                        $kode_pos->pos_level = 10;
+                        $kode_pos->save();
+
+                    }   
 
                 }
                 $numrow++;
@@ -494,6 +656,8 @@ class SatKerController extends Controller
                 $i++;
 
                 if( $numrow > 1){
+                    //lokasi kode
+                    $kode_all = $cols[52];
 
                     $kode_sskiii = $cols[40];
                     $nama_sskiii = $cols[41];
@@ -512,6 +676,19 @@ class SatKerController extends Controller
                         $data_sskiii[$i]['nama'] = $nama_sskiii;
                         $data_sskiii[$i]['v'] = $v_sskiii;
                         $data_sskiii[$i]['j'] = $j_sskiii;
+
+                        $pos_p = explode('/', $kode_all);
+
+                        $kode_pos = new AnggaranTemp;
+                        $kode_pos->pos_template = $pos_template;
+                        $kode_pos->pos_id_tahun = $pos_id_tahun;
+                        $kode_pos->pos_parent_kode = $pos_p[9];
+                        $kode_pos->pos_kode = $kode_sskiii;
+                        $kode_pos->pos_nama = $nama_sskiii;
+                        $kode_pos->pos_volume = $v_sskiii;
+                        $kode_pos->pos_jumlah = $j_sskiii;
+                        $kode_pos->pos_level = 11;
+                        $kode_pos->save();
 
                     }
 
@@ -532,6 +709,8 @@ class SatKerController extends Controller
                 $i++;
 
                 if( $numrow > 1){
+                    //lokasi kode
+                    $kode_all = $cols[52];
 
                     $kode_sskiv = $cols[44];
                     $nama_sskiv = $cols[45];
@@ -550,6 +729,19 @@ class SatKerController extends Controller
                         $data_sskiv[$i]['nama'] = $nama_sskiv;
                         $data_sskiv[$i]['v'] = $v_sskiv;
                         $data_sskiv[$i]['j'] = $j_sskiv;
+
+                        $pos_p = explode('/', $kode_all);
+
+                        $kode_pos = new AnggaranTemp;
+                        $kode_pos->pos_template = $pos_template;
+                        $kode_pos->pos_id_tahun = $pos_id_tahun;
+                        $kode_pos->pos_parent_kode = $pos_p[10];
+                        $kode_pos->pos_kode = $kode_sskiv;
+                        $kode_pos->pos_nama = $nama_sskiv;
+                        $kode_pos->pos_volume = $v_sskiv;
+                        $kode_pos->pos_jumlah = $j_sskiv;
+                        $kode_pos->pos_level = 12;
+                        $kode_pos->save();
 
                     }
 
@@ -570,6 +762,8 @@ class SatKerController extends Controller
                 $i++;
 
                 if( $numrow > 1){
+                    //lokasi kode
+                    $kode_all = $cols[52];
 
                     $kode_sskv = $cols[48];
                     $nama_sskv = $cols[49];
@@ -584,10 +778,63 @@ class SatKerController extends Controller
 
 
                         //create array
+
                         $data_sskv[$i]['kode'] = $kode_sskv;
                         $data_sskv[$i]['nama'] = $nama_sskv;
                         $data_sskv[$i]['v'] = $v_sskv;
                         $data_sskv[$i]['j'] = $j_sskv;
+
+                        $pos_p = explode('/', $kode_all);
+
+                        if (empty($pos_p[11])) :
+                            $pos_parent_kode = '-';
+                        else :
+                            $pos_parent_kode = $pos_p[11];
+                        endif;
+
+                        $kode_pos = new AnggaranTemp;
+                        $kode_pos->pos_template = $pos_template;
+                        $kode_pos->pos_id_tahun = $pos_id_tahun;
+                        $kode_pos->pos_parent_kode = $pos_parent_kode;
+                        $kode_pos->pos_kode = $kode_sskv;
+                        $kode_pos->pos_nama = $nama_sskv;
+                        $kode_pos->pos_volume = $v_sskv;
+                        $kode_pos->pos_jumlah = $j_sskv;
+                        $kode_pos->pos_level = 13;
+                        $kode_pos->save();
+
+                    }
+
+                }
+                $numrow++;
+            }
+
+        }
+
+        //kode
+        foreach ($data as $rows) {
+            $numrow = 1;
+            $i = 0;
+            
+            $data_kode = array();
+            foreach ($rows as $cols) {
+                
+                $i++;
+
+                if( $numrow > 1){
+                    //lokasi kode
+                    $kode_all = $cols[52];
+
+                    if(empty($kode_all))
+                    {   
+                        continue; 
+                        
+                    }else{
+
+
+                        //create array
+
+                        $data_kode[$i]['kode'] = $kode_all;
 
                     }
 
@@ -649,7 +896,15 @@ class SatKerController extends Controller
         $responses_sskv['results']= $data_sskv;
         $j_sskv = json_encode($responses_sskv);
         $datapage[ 'sskv' ] = json_decode($j_sskv);
+        //kode
+        $responses_kode['results']= $data_kode;
+        $j_kode = json_encode($responses_kode);
+        $datapage[ 'kode' ] = json_decode($j_kode);
 
+        //print_r($j_kode);
+
+
+        $datapage['id_template'] = $pos_template;
         // set data view
         $datapage[ 'content_view' ] = "backend.$this->ctrl.preview-excel";
         $datapage[ 'page_title' ]   = $this->title;
@@ -660,6 +915,23 @@ class SatKerController extends Controller
         // load view
         return view($datapage[ 'content_view' ], $datapage);
 
+
+    }
+
+    /*== Import Insert ==*/
+    public function import_insert(Request $request) 
+    {
+
+
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.insert-excel";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
 
     }
 

@@ -38,6 +38,7 @@ Route::group(['middleware' => 'ValidateKemhan'], function () {
 	Route::get('cms/tambah-realisasi-anggaran', 'Backend\HomeController@tambah_realisasi_anggaran');
 	//
 	Route::get('cms/input-anggaran', 'Backend\HomeController@input_anggaran');
+	Route::get('cms/tambah-pencairan-dana', 'Backend\HomeController@tambah_pencairan_dana');
 
 	//================================Laporan==================================
 	/*
@@ -406,6 +407,7 @@ Route::group(['middleware' => 'ValidateSatKer'], function () {
 	Route::get('cms/satker/tahun-anggaran-baru', 'Backend\SatKerController@tahun_anggaran_baru');
 	Route::get('cms/satker/tambah-sumber-anggaran', 'Backend\SatKerController@tambah_sumber_anggaran');
 	Route::post('cms/satker/import/preview', 'Backend\SatKerController@import_preview');
+	Route::post('cms/satker/import/insert', 'Backend\SatKerController@import_insert');
 	Route::get('cms/satker/tambah-upload-pendapatan', 'Backend\SatKerController@tambah_upload_pendapatan');
 	Route::get('cms/satker/buat-anggaran-selesai', 'Backend\SatKerController@buat_anggaran_selesai');
 	Route::get('cms/satker/dashboard', 'Backend\SatKerController@dashboard');
