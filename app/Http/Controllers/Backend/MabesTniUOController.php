@@ -119,6 +119,21 @@ class MabesTniUOController extends Controller
 
     }
 
+    /*== Tambah Pencairan page ==*/
+    public function tambah_pencairan_dana() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.tambah-pencairan-dana";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
     /*== Revisi Anggaran page ==*/
     public function revisi_anggaran() 
     {
