@@ -17,8 +17,9 @@
         <div class="box">
             <div class="box-header padding-bottom-10 text-right with-border panel-heading"></div>
             <div class="box-header padding-bottom-10 text-center">
-              <h4 class="box-title report-title">Laporan Perkembangan Pengadaan</h4><br>
-               <h4 class="box-title report-title">Barang Dan Jasa</h4><br>
+              <h4 class="box-title report-title">Laporan Realisasi Anggaran Belanja Menurut Jenis Belanja Akun Tingkat Eselon I</h4><br>
+               <h4 class="box-title report-title">Belanja Menurut Jenis Belanja</h4><br>
+               <h4 class="box-title report-title">Tingkat Eselon I</h4><br>
               <h3 class="box-title report-title">{{Session::get('status_user')}}</h3><br>
               <h3 class="box-title report-title">UNTUK PERIODE YANG BERAKHIR 31 DESEMBER 2019</h3>
             </div>
@@ -1355,12 +1356,11 @@
           "bLengthChange": false,
           dom: 'lBfrtip',
                 buttons: [
-
                     {
                       text: '<i class="fa fa-filter"></i> Buat Laporan Baru',
                       className: 'btn btn-success',
                       action: function ( e, dt, node, config ) {
-                          window.location = APP_URL + '/cms/kemhan/uo/form-filter-laporan-perkembangan-pengadaan-barang-dan-jasa';
+                          window.location = APP_URL + '/cms/kemhan/uo/form-filter-laporan-perkembangan-pembangunan-dan-pengembangan-fasilitas';
                       }
                     },
                     {   
@@ -1371,7 +1371,7 @@
                         filename: 'Laporan Realisasi Anggaran Belanja Menurut Jenis Belanja {{Session::get('status_user')}} PERIODE 31 Desember 2019',
                         title:'',
                         orientation: 'landscape',
-                        pageSize: 'LEGAL',
+                        pageSize: 'A4',
                         customize: function (xlsx) {
                           console.log(xlsx);
                           var sheet = xlsx.xl.worksheets['sheet1.xml'];
@@ -1482,7 +1482,7 @@
                         filename: 'Laporan Realisasi Anggaran Belanja Menurut Jenis Belanja {{Session::get('status_user')}} PERIODE 31 Desember 2019',
                         title:'Laporan Realisasi Anggaran Belanja Menurut Jenis Belanja' + '\n' + '{{Session::get('status_user')}}' + '\n' + ' PERIODE 31 Desember 2019',
                         orientation: 'landscape',
-                        pageSize: 'LEGAL',
+                        pageSize: 'A4',
                         pageMargins: [ 150, 150, 150, 150 ],
                         margin: [ 150, 150, 150, 150 ],
                         messageTop : 'KEMENTERIAN NEGARA/LEMBAGA : 012 - {{Session::get('status_user')}} \n ESELON : 01 - KEMENTERIAN PERTAHANAN \n \n Kode Lap : LRA.P.E1.2 \n Tanggal : 11/02/19 11:30 PM \n Halaman : 2 \n Prg ID : lap_09',
@@ -1556,7 +1556,6 @@
 
                         }
                     }
-                    
 
                     ]
         }
@@ -1564,7 +1563,6 @@
       );
 
       $("#tablelist_wrapper > .dt-buttons").appendTo("div.panel-heading");
-
   })
 </script>
 @endsection

@@ -9,7 +9,7 @@
 
       	<div class="box box-default">
           <div class="box-header with-border text-center">
-            <h3 class="box-title report-title">LAPORAN Perkembangan Pengadaan</h3><br>
+            <h3 class="box-title report-title">Laporan Pelaksanaan Anggaran Belanja Barang</h3><br>
             <h3 class="box-title report-title">Barang Dan Jasa</h3><br>
             <h3 class="box-title report-title">{{Session::get('status_user')}}</h3><br>
             <h3 class="box-title report-title">KEMENTERIAN PERTAHANAN REPUBLIK INDONESIA</h3><br>

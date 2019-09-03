@@ -67,15 +67,7 @@
 			                    </select>
 			                  </div>
 			                </div>
-			                <div class="form-group">
-			                  <label for="inputEmail3" class="col-sm-3 control-label">Unit Organisasi</label>
 
-			                  <div class="col-sm-9">
-			                    <select class="form-control">
-			                    	<option>--Pilih Unit Organisasi--</option>
-			                    </select>
-			                  </div>
-			                </div>
 			                <div class="form-group">
 			                  <label for="inputEmail3" class="col-sm-3 control-label">Satuan Kerja</label>
 

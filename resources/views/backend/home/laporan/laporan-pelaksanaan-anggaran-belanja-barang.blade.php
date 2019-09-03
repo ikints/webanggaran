@@ -9,10 +9,9 @@
 
       	<div class="box box-default">
           <div class="box-header with-border text-center">
-            <h3 class="box-title report-title">LAPORAN Perkembangan Pengadaan</h3><br>
-            <h3 class="box-title report-title">Barang Dan Jasa</h3><br>
-            <h3 class="box-title report-title">{{Session::get('status_user')}}</h3><br>
-            <h3 class="box-title report-title">KEMENTERIAN PERTAHANAN REPUBLIK INDONESIA</h3><br>
+            <h3 class="box-title">LAPORAN PELAKSANAAN</h3><br>
+            <h3 class="box-title">ANGGARAN BELANJA BARANG</h3><br>
+            <h3 class="box-title">KEMENTERIAN PERTAHANAN REPUBLIK INDONESIA</h3><br>
           </div>
           <div class="box-body">
           	<div class="row">
@@ -20,8 +19,8 @@
 		            <div class="box-body margin-bottom-50 margin-top-10 box-form-rounded">
 
 		            	<!-- form start -->
-			            <form class="form-horizontal" method="post" action="laporan-perkembangan-pengadaan-barang-dan-jasa">
-			              {{ csrf_field() }}
+			            <form class="form-horizontal" method="post" action="laporan-rincian-belanja-barang">
+			            {{ csrf_field() }}
 			              <div class="box-body">
 
 			                <div class="form-group">
@@ -61,14 +60,23 @@
 			                  </div>
 			                </div>
 			                <div class="form-group">
+			                  <label for="inputEmail3" class="col-sm-3 control-label">Unit Organisasi</label>
+
+			                  <div class="col-sm-9">
+			                    <select class="form-control">
+			                    	<option>--Pilih Unit Organisasi--</option>
+			                    </select>
+			                  </div>
+			                </div>
+			                <div class="form-group">
 			                  <label for="inputEmail3" class="col-sm-3 control-label">Kotama</label>
+
 			                  <div class="col-sm-9">
 			                    <select class="form-control">
 			                    	<option>--Pilih Kotama--</option>
 			                    </select>
 			                  </div>
 			                </div>
-
 			                <div class="form-group">
 			                  <label for="inputEmail3" class="col-sm-3 control-label">Satuan Kerja</label>
 
