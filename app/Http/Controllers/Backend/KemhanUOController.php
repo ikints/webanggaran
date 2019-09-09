@@ -637,6 +637,34 @@ class KemhanUOController extends Controller
 
     }
 
+    public function form_filter_laporan_realisasi_rpd() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.form-filter-laporan-realisasi-rpd";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    public function laporan_realisasi_rpd() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.laporan-realisasi-rpd";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
     /*== laporan_realisasi_anggaran_belanja_menurut_sumber_dana_program_kegiatan_tingkat_eselon_i ==*/
     public function laporan_realisasi_anggaran_belanja_menurut_sumber_dana_program_kegiatan_tingkat_eselon_i() 
     {

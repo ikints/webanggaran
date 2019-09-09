@@ -196,6 +196,8 @@
                 <li><a href="{{ URL('cms/kemhan/uo/form-filter-laporan-realisasi-anggaran-belanja-menurut-jenis-belanja-akun-tingkat-eselon-i') }}">Laporan Realisasi Anggaran Belanja Menurut Jenis Belanja / Akun Tingkat Eselon I</a></li>
                 <li><a href="{{ URL('cms/kemhan/uo/form-filter-laporan-realisasi-anggaran-belanja-menurut-sumber-dana-program-kegiatan-tingkat-eselon-i') }}">Laporan Realisasi Anggaran Belanja Menurut Sumber Dana Program Kegiatan Tingkat Eselon I</a></li>
                 <li class="divider"></li>
+                <li><a href="{{ URL('cms/kemhan/uo/form-filter-laporan-realisasi-rpd') }}">Laporan Realisasi RPD</a></li>
+                <li class="divider"></li>
                 <li><a href="{{ URL('cms/kemhan/uo/form-filter-laporan-pelaksanaan-anggaran-belanja-pegawai') }}">Laporan Pelaksanaan Anggaran Belanja Pegawai</a></li>
                 <li><a href="{{ URL('cms/kemhan/uo/form-filter-laporan-pelaksanaan-anggaran-belanja-barang') }}">Laporan Pelaksanaan Anggaran Belanja Barang</a></li>
                 <li><a href="{{ URL('cms/kemhan/uo/form-filter-laporan-pelaksanaan-anggaran-belanja-modal') }}">Laporan Pelaksanaan Anggaran Belanja Modal</a></li>
@@ -230,21 +232,35 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Laporan <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="{{ URL('cms/mabes-tni/uo/laporan-anggaran-belanja-pegawai') }}">Pelaksanaan Anggaran Belanja Pegawai</a></li>
-                <li><a href="{{ URL('cms/mabes-tni/uo/laporan-anggaran-belanja-barang') }}">Pelaksanaan Anggaran Belanja Barang</a></li>
-                <li><a href="{{ URL('cms/mabes-tni/uo/laporan-anggaran-belanja-modal') }}">Pelaksanaan Anggaran Belanja Modal</a>
-                </li>
-                <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Barang dan Jasa</a></li>
-                <li><a href="{{ URL('laporan') }}">Perkembangan Pembangunan dan Pengembangan Fasilitas</a></li>
-                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Prioritas</a></li>
-                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Perumahan</a></li>
-                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Pemeliharaan</a></li>
-                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Alutsista</a></li>
-                <li><a href="{{ URL('laporan') }}">Laporan Anggaran MEF</a></li>
-                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Perbatasan</a></li>
-                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Pinjaman</a></li>
-                <li><a href="{{ URL('laporan') }}">Penerimaan Hibah Dalam Negeri</a></li>
-                <li><a href="{{ URL('laporan') }}">Pendapatan Negara</a></li>
+                <li><a href="{{ URL('cms/mabes-tni/uo/form-filter-laporan-perkembangan-pengadaan-barang-dan-jasa') }}">Laporan Perkembangan Pengadaan Barang dan Jasa</a></li>
+                <li><a href="{{ URL('cms/mabes-tni/uo/form-filter-laporan-perkembangan-pembangunan-dan-pengembangan-fasilitas') }}">Laporan Perkembangan Pembangunan dan Pengembangan Fasilitas</a></li>
+                <li class="divider"></li>
+                <li><a href="{{ URL('cms/mabes-tni/uo/form-filter-laporan-realisasi-anggaran') }}">Laporan Realisasi Anggaran</a></li>
+                <li><a href="{{ URL('cms/mabes-tni/uo/form-filter-laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i') }}">Laporan Realisasi Anggaran Pendapatan Tingkat Eselon I</a></li>
+                <li><a href="{{ URL('cms/mabes-tni/uo/form-filter-laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i-menurut-wilayah-satuan-kerja') }}">Laporan Realisasi Anggaran Pendapatan Tingkat Eselon I Menurut Wilayah Satuan Kerja</a></li>
+                <li><a href="{{ URL('cms/mabes-tni/uo/form-filter-laporan-realisasi-anggaran-belanja-menurut-wilayah-satuan-kerja-tingkat-eselon-i') }}">Laporan Realisasi Anggaran Belanja Menurut Wilayah/Satuan Kerja Tingkat Eselon I</a></li>
+                <li><a href="{{ URL('cms/mabes-tni/uo/form-filter-laporan-realisasi-anggaran-belanja-menurut-jenis-belanja-akun-tingkat-eselon-i') }}">Laporan Realisasi Anggaran Belanja Menurut Jenis Belanja / Akun Tingkat Eselon I</a></li>
+                <li><a href="{{ URL('cms/mabes-tni/uo/form-filter-laporan-realisasi-anggaran-belanja-menurut-sumber-dana-program-kegiatan-tingkat-eselon-i') }}">Laporan Realisasi Anggaran Belanja Menurut Sumber Dana Program Kegiatan Tingkat Eselon I</a></li>
+                <li class="divider"></li>
+                <li><a href="{{ URL('cms/mabes-tni/uo/form-filter-laporan-realisasi-rpd') }}">Laporan Realisasi RPD</a></li>
+                <li class="divider"></li>
+                <li><a href="{{ URL('cms/mabes-tni/uo/form-filter-laporan-pelaksanaan-anggaran-belanja-pegawai') }}">Laporan Pelaksanaan Anggaran Belanja Pegawai</a></li>
+                <li><a href="{{ URL('cms/mabes-tni/uo/form-filter-laporan-pelaksanaan-anggaran-belanja-barang') }}">Laporan Pelaksanaan Anggaran Belanja Barang</a></li>
+                <li><a href="{{ URL('cms/mabes-tni/uo/form-filter-laporan-pelaksanaan-anggaran-belanja-modal') }}">Laporan Pelaksanaan Anggaran Belanja Modal</a></li>
+                <li><a href="{{ URL('cms/mabes-tni/uo/form-filter-laporan-pelaksanaan-barang-dan-jasa') }}">Laporan Pelaksanaan Barang dan Jasa</a></li>
+                <li><a href="{{ URL('cms/mabes-tni/uo/form-filter-laporan-pelaksanaan-perkembangan-kegiatan-prioritas') }}">Laporan Pelaksanaan Perkembangan Kegiatan Prioritas</a></li>
+                <li><a href="{{ URL('cms/mabes-tni/uo/form-filter-laporan-pelaksanaan-perkembangan-pembangunan-dan-fasilitas') }}">Laporan Pelaksanaan Perkembangan Pembangunan dan Fasilitas</a></li>
+                <li><a href="{{ URL('cms/mabes-tni/uo/form-filter-laporan-realisasi-pelaksanaan-anggaran-perjenis-belanja') }}">Laporan Pelaksanaan Anggaran Perjenis Belanja</a></li>
+                <li class="divider"></li>
+                <li><a href="{{ URL('cms/mabes-tni/uo/form-filter-laporan-penerimaan-hibah-dalam-negeri') }}">Laporan Penerimaan Hibah dalam Negeri</a></li>
+                <li><a href="{{ URL('cms/mabes-tni/uo/form-filter-laporan-pendapatan-negara') }}">Laporan Pendapatan Negara</a></li>
+                <li class="divider"></li>
+                <li><a href="{{ URL('cms/mabes-tni/uo/form-filter-laporan-anggaran-pemeliharaan') }}">Laporan Anggaran Pemeliharaan</a></li>
+                <li><a href="{{ URL('cms/mabes-tni/uo/form-filter-laporan-anggaran-alutsista') }}">Laporan Anggaran Alutsista</a></li>
+                <li><a href="{{ URL('cms/mabes-tni/uo/form-filter-laporan-anggaran-mef') }}">Laporan Anggaran MEF</a></li>
+                <li><a href="{{ URL('cms/mabes-tni/uo/form-filter-laporan-anggaran-perbatasan') }}">Laporan Anggaran Perbatasan</a></li>
+                <li><a href="{{ URL('cms/mabes-tni/uo/form-filter-laporan-anggaran-pinjaman') }}">Laporan Anggaran Pinjaman</a></li>
+                <li><a href="{{ URL('cms/mabes-tni/uo/form-filter-laporan-anggaran-prioritas') }}">Laporan Anggaran Prioritas</a></li>
               </ul>
             </li>
             <li><a href="{{ URL('cms/signout') }}">Logout</a></li>
@@ -262,21 +278,35 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Laporan <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="{{ URL('cms/tni-ad/uo/laporan-anggaran-belanja-pegawai') }}">Pelaksanaan Anggaran Belanja Pegawai</a></li>
-                <li><a href="{{ URL('cms/tni-ad/uo/laporan-anggaran-belanja-barang') }}">Pelaksanaan Anggaran Belanja Barang</a></li>
-                <li><a href="{{ URL('cms/tni-ad/uo/laporan-anggaran-belanja-modal') }}">Pelaksanaan Anggaran Belanja Modal</a>
-                </li>
-                <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Barang dan Jasa</a></li>
-                <li><a href="{{ URL('laporan') }}">Perkembangan Pembangunan dan Pengembangan Fasilitas</a></li>
-                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Prioritas</a></li>
-                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Perumahan</a></li>
-                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Pemeliharaan</a></li>
-                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Alutsista</a></li>
-                <li><a href="{{ URL('laporan') }}">Laporan Anggaran MEF</a></li>
-                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Perbatasan</a></li>
-                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Pinjaman</a></li>
-                <li><a href="{{ URL('laporan') }}">Penerimaan Hibah Dalam Negeri</a></li>
-                <li><a href="{{ URL('laporan') }}">Pendapatan Negara</a></li>
+                <li><a href="{{ URL('cms/tni-ad/uo/form-filter-laporan-perkembangan-pengadaan-barang-dan-jasa') }}">Laporan Perkembangan Pengadaan Barang dan Jasa</a></li>
+                <li><a href="{{ URL('cms/tni-ad/uo/form-filter-laporan-perkembangan-pembangunan-dan-pengembangan-fasilitas') }}">Laporan Perkembangan Pembangunan dan Pengembangan Fasilitas</a></li>
+                <li class="divider"></li>
+                <li><a href="{{ URL('cms/tni-ad/uo/form-filter-laporan-realisasi-anggaran') }}">Laporan Realisasi Anggaran</a></li>
+                <li><a href="{{ URL('cms/tni-ad/uo/form-filter-laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i') }}">Laporan Realisasi Anggaran Pendapatan Tingkat Eselon I</a></li>
+                <li><a href="{{ URL('cms/tni-ad/uo/form-filter-laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i-menurut-wilayah-satuan-kerja') }}">Laporan Realisasi Anggaran Pendapatan Tingkat Eselon I Menurut Wilayah Satuan Kerja</a></li>
+                <li><a href="{{ URL('cms/tni-ad/uo/form-filter-laporan-realisasi-anggaran-belanja-menurut-wilayah-satuan-kerja-tingkat-eselon-i') }}">Laporan Realisasi Anggaran Belanja Menurut Wilayah/Satuan Kerja Tingkat Eselon I</a></li>
+                <li><a href="{{ URL('cms/tni-ad/uo/form-filter-laporan-realisasi-anggaran-belanja-menurut-jenis-belanja-akun-tingkat-eselon-i') }}">Laporan Realisasi Anggaran Belanja Menurut Jenis Belanja / Akun Tingkat Eselon I</a></li>
+                <li><a href="{{ URL('cms/tni-ad/uo/form-filter-laporan-realisasi-anggaran-belanja-menurut-sumber-dana-program-kegiatan-tingkat-eselon-i') }}">Laporan Realisasi Anggaran Belanja Menurut Sumber Dana Program Kegiatan Tingkat Eselon I</a></li>
+                <li class="divider"></li>
+                <li><a href="{{ URL('cms/tni-ad/uo/form-filter-laporan-realisasi-rpd') }}">Laporan Realisasi RPD</a></li>
+                <li class="divider"></li>
+                <li><a href="{{ URL('cms/tni-ad/uo/form-filter-laporan-pelaksanaan-anggaran-belanja-pegawai') }}">Laporan Pelaksanaan Anggaran Belanja Pegawai</a></li>
+                <li><a href="{{ URL('cms/tni-ad/uo/form-filter-laporan-pelaksanaan-anggaran-belanja-barang') }}">Laporan Pelaksanaan Anggaran Belanja Barang</a></li>
+                <li><a href="{{ URL('cms/tni-ad/uo/form-filter-laporan-pelaksanaan-anggaran-belanja-modal') }}">Laporan Pelaksanaan Anggaran Belanja Modal</a></li>
+                <li><a href="{{ URL('cms/tni-ad/uo/form-filter-laporan-pelaksanaan-barang-dan-jasa') }}">Laporan Pelaksanaan Barang dan Jasa</a></li>
+                <li><a href="{{ URL('cms/tni-ad/uo/form-filter-laporan-pelaksanaan-perkembangan-kegiatan-prioritas') }}">Laporan Pelaksanaan Perkembangan Kegiatan Prioritas</a></li>
+                <li><a href="{{ URL('cms/tni-ad/uo/form-filter-laporan-pelaksanaan-perkembangan-pembangunan-dan-fasilitas') }}">Laporan Pelaksanaan Perkembangan Pembangunan dan Fasilitas</a></li>
+                <li><a href="{{ URL('cms/tni-ad/uo/form-filter-laporan-realisasi-pelaksanaan-anggaran-perjenis-belanja') }}">Laporan Pelaksanaan Anggaran Perjenis Belanja</a></li>
+                <li class="divider"></li>
+                <li><a href="{{ URL('cms/tni-ad/uo/form-filter-laporan-penerimaan-hibah-dalam-negeri') }}">Laporan Penerimaan Hibah dalam Negeri</a></li>
+                <li><a href="{{ URL('cms/tni-ad/uo/form-filter-laporan-pendapatan-negara') }}">Laporan Pendapatan Negara</a></li>
+                <li class="divider"></li>
+                <li><a href="{{ URL('cms/tni-ad/uo/form-filter-laporan-anggaran-pemeliharaan') }}">Laporan Anggaran Pemeliharaan</a></li>
+                <li><a href="{{ URL('cms/tni-ad/uo/form-filter-laporan-anggaran-alutsista') }}">Laporan Anggaran Alutsista</a></li>
+                <li><a href="{{ URL('cms/tni-ad/uo/form-filter-laporan-anggaran-mef') }}">Laporan Anggaran MEF</a></li>
+                <li><a href="{{ URL('cms/tni-ad/uo/form-filter-laporan-anggaran-perbatasan') }}">Laporan Anggaran Perbatasan</a></li>
+                <li><a href="{{ URL('cms/tni-ad/uo/form-filter-laporan-anggaran-pinjaman') }}">Laporan Anggaran Pinjaman</a></li>
+                <li><a href="{{ URL('cms/tni-ad/uo/form-filter-laporan-anggaran-prioritas') }}">Laporan Anggaran Prioritas</a></li>
               </ul>
             </li>
             <li><a href="{{ URL('cms/signout') }}">Logout</a></li>
@@ -294,21 +324,35 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Laporan <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="{{ URL('cms/tni-au/uo/laporan-anggaran-belanja-pegawai') }}">Pelaksanaan Anggaran Belanja Pegawai</a></li>
-                <li><a href="{{ URL('cms/tni-au/uo/laporan-anggaran-belanja-barang') }}">Pelaksanaan Anggaran Belanja Barang</a></li>
-                <li><a href="{{ URL('cms/tni-au/uo/laporan-anggaran-belanja-modal') }}">Pelaksanaan Anggaran Belanja Modal</a>
-                </li>
-                <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Barang dan Jasa</a></li>
-                <li><a href="{{ URL('laporan') }}">Perkembangan Pembangunan dan Pengembangan Fasilitas</a></li>
-                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Prioritas</a></li>
-                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Perumahan</a></li>
-                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Pemeliharaan</a></li>
-                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Alutsista</a></li>
-                <li><a href="{{ URL('laporan') }}">Laporan Anggaran MEF</a></li>
-                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Perbatasan</a></li>
-                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Pinjaman</a></li>
-                <li><a href="{{ URL('laporan') }}">Penerimaan Hibah Dalam Negeri</a></li>
-                <li><a href="{{ URL('laporan') }}">Pendapatan Negara</a></li>
+                <li><a href="{{ URL('cms/tni-au/uo/form-filter-laporan-perkembangan-pengadaan-barang-dan-jasa') }}">Laporan Perkembangan Pengadaan Barang dan Jasa</a></li>
+                <li><a href="{{ URL('cms/tni-au/uo/form-filter-laporan-perkembangan-pembangunan-dan-pengembangan-fasilitas') }}">Laporan Perkembangan Pembangunan dan Pengembangan Fasilitas</a></li>
+                <li class="divider"></li>
+                <li><a href="{{ URL('cms/tni-au/uo/form-filter-laporan-realisasi-anggaran') }}">Laporan Realisasi Anggaran</a></li>
+                <li><a href="{{ URL('cms/tni-au/uo/form-filter-laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i') }}">Laporan Realisasi Anggaran Pendapatan Tingkat Eselon I</a></li>
+                <li><a href="{{ URL('cms/tni-au/uo/form-filter-laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i-menurut-wilayah-satuan-kerja') }}">Laporan Realisasi Anggaran Pendapatan Tingkat Eselon I Menurut Wilayah Satuan Kerja</a></li>
+                <li><a href="{{ URL('cms/tni-au/uo/form-filter-laporan-realisasi-anggaran-belanja-menurut-wilayah-satuan-kerja-tingkat-eselon-i') }}">Laporan Realisasi Anggaran Belanja Menurut Wilayah/Satuan Kerja Tingkat Eselon I</a></li>
+                <li><a href="{{ URL('cms/tni-au/uo/form-filter-laporan-realisasi-anggaran-belanja-menurut-jenis-belanja-akun-tingkat-eselon-i') }}">Laporan Realisasi Anggaran Belanja Menurut Jenis Belanja / Akun Tingkat Eselon I</a></li>
+                <li><a href="{{ URL('cms/tni-au/uo/form-filter-laporan-realisasi-anggaran-belanja-menurut-sumber-dana-program-kegiatan-tingkat-eselon-i') }}">Laporan Realisasi Anggaran Belanja Menurut Sumber Dana Program Kegiatan Tingkat Eselon I</a></li>
+                <li class="divider"></li>
+                <li><a href="{{ URL('cms/tni-au/uo/form-filter-laporan-realisasi-rpd') }}">Laporan Realisasi RPD</a></li>
+                <li class="divider"></li>
+                <li><a href="{{ URL('cms/tni-au/uo/form-filter-laporan-pelaksanaan-anggaran-belanja-pegawai') }}">Laporan Pelaksanaan Anggaran Belanja Pegawai</a></li>
+                <li><a href="{{ URL('cms/tni-au/uo/form-filter-laporan-pelaksanaan-anggaran-belanja-barang') }}">Laporan Pelaksanaan Anggaran Belanja Barang</a></li>
+                <li><a href="{{ URL('cms/tni-au/uo/form-filter-laporan-pelaksanaan-anggaran-belanja-modal') }}">Laporan Pelaksanaan Anggaran Belanja Modal</a></li>
+                <li><a href="{{ URL('cms/tni-au/uo/form-filter-laporan-pelaksanaan-barang-dan-jasa') }}">Laporan Pelaksanaan Barang dan Jasa</a></li>
+                <li><a href="{{ URL('cms/tni-au/uo/form-filter-laporan-pelaksanaan-perkembangan-kegiatan-prioritas') }}">Laporan Pelaksanaan Perkembangan Kegiatan Prioritas</a></li>
+                <li><a href="{{ URL('cms/tni-au/uo/form-filter-laporan-pelaksanaan-perkembangan-pembangunan-dan-fasilitas') }}">Laporan Pelaksanaan Perkembangan Pembangunan dan Fasilitas</a></li>
+                <li><a href="{{ URL('cms/tni-au/uo/form-filter-laporan-realisasi-pelaksanaan-anggaran-perjenis-belanja') }}">Laporan Pelaksanaan Anggaran Perjenis Belanja</a></li>
+                <li class="divider"></li>
+                <li><a href="{{ URL('cms/tni-au/uo/form-filter-laporan-penerimaan-hibah-dalam-negeri') }}">Laporan Penerimaan Hibah dalam Negeri</a></li>
+                <li><a href="{{ URL('cms/tni-au/uo/form-filter-laporan-pendapatan-negara') }}">Laporan Pendapatan Negara</a></li>
+                <li class="divider"></li>
+                <li><a href="{{ URL('cms/tni-au/uo/form-filter-laporan-anggaran-pemeliharaan') }}">Laporan Anggaran Pemeliharaan</a></li>
+                <li><a href="{{ URL('cms/tni-au/uo/form-filter-laporan-anggaran-alutsista') }}">Laporan Anggaran Alutsista</a></li>
+                <li><a href="{{ URL('cms/tni-au/uo/form-filter-laporan-anggaran-mef') }}">Laporan Anggaran MEF</a></li>
+                <li><a href="{{ URL('cms/tni-au/uo/form-filter-laporan-anggaran-perbatasan') }}">Laporan Anggaran Perbatasan</a></li>
+                <li><a href="{{ URL('cms/tni-au/uo/form-filter-laporan-anggaran-pinjaman') }}">Laporan Anggaran Pinjaman</a></li>
+                <li><a href="{{ URL('cms/tni-au/uo/form-filter-laporan-anggaran-prioritas') }}">Laporan Anggaran Prioritas</a></li>
               </ul>
             </li>
             <li><a href="{{ URL('cms/signout') }}">Logout</a></li>
@@ -326,22 +370,36 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Laporan <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="{{ URL('cms/tni-al/uo/laporan-anggaran-belanja-pegawai') }}">Pelaksanaan Anggaran Belanja Pegawai</a></li>
-                <li><a href="{{ URL('cms/tni-al/uo/laporan-anggaran-belanja-barang') }}">Pelaksanaan Anggaran Belanja Barang</a></li>
-                <li><a href="{{ URL('cms/tni-al/uo/laporan-anggaran-belanja-modal') }}">Pelaksanaan Anggaran Belanja Modal</a>
-                </li>
-                 <li><a href="{{ URL('laporan') }}">Perkembangan Pengadaan Barang dan Jasa</a></li>
-                <li><a href="{{ URL('laporan') }}">Perkembangan Pembangunan dan Pengembangan Fasilitas</a></li>
-                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Prioritas</a></li>
-                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Perumahan</a></li>
-                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Pemeliharaan</a></li>
-                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Alutsista</a></li>
-                <li><a href="{{ URL('laporan') }}">Laporan Anggaran MEF</a></li>
-                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Perbatasan</a></li>
-                <li><a href="{{ URL('laporan') }}">Laporan Anggaran Pinjaman</a></li>
-                <li><a href="{{ URL('laporan') }}">Penerimaan Hibah Dalam Negeri</a></li>
-                <li><a href="{{ URL('laporan') }}">Pendapatan Negara</a></li>
-             </ul>
+                <li><a href="{{ URL('cms/tni-al/uo/form-filter-laporan-perkembangan-pengadaan-barang-dan-jasa') }}">Laporan Perkembangan Pengadaan Barang dan Jasa</a></li>
+                <li><a href="{{ URL('cms/tni-al/uo/form-filter-laporan-perkembangan-pembangunan-dan-pengembangan-fasilitas') }}">Laporan Perkembangan Pembangunan dan Pengembangan Fasilitas</a></li>
+                <li class="divider"></li>
+                <li><a href="{{ URL('cms/tni-al/uo/form-filter-laporan-realisasi-anggaran') }}">Laporan Realisasi Anggaran</a></li>
+                <li><a href="{{ URL('cms/tni-al/uo/form-filter-laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i') }}">Laporan Realisasi Anggaran Pendapatan Tingkat Eselon I</a></li>
+                <li><a href="{{ URL('cms/tni-al/uo/form-filter-laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i-menurut-wilayah-satuan-kerja') }}">Laporan Realisasi Anggaran Pendapatan Tingkat Eselon I Menurut Wilayah Satuan Kerja</a></li>
+                <li><a href="{{ URL('cms/tni-al/uo/form-filter-laporan-realisasi-anggaran-belanja-menurut-wilayah-satuan-kerja-tingkat-eselon-i') }}">Laporan Realisasi Anggaran Belanja Menurut Wilayah/Satuan Kerja Tingkat Eselon I</a></li>
+                <li><a href="{{ URL('cms/tni-al/uo/form-filter-laporan-realisasi-anggaran-belanja-menurut-jenis-belanja-akun-tingkat-eselon-i') }}">Laporan Realisasi Anggaran Belanja Menurut Jenis Belanja / Akun Tingkat Eselon I</a></li>
+                <li><a href="{{ URL('cms/tni-al/uo/form-filter-laporan-realisasi-anggaran-belanja-menurut-sumber-dana-program-kegiatan-tingkat-eselon-i') }}">Laporan Realisasi Anggaran Belanja Menurut Sumber Dana Program Kegiatan Tingkat Eselon I</a></li>
+                <li class="divider"></li>
+                <li><a href="{{ URL('cms/tni-al/uo/form-filter-laporan-realisasi-rpd') }}">Laporan Realisasi RPD</a></li>
+                <li class="divider"></li>
+                <li><a href="{{ URL('cms/tni-al/uo/form-filter-laporan-pelaksanaan-anggaran-belanja-pegawai') }}">Laporan Pelaksanaan Anggaran Belanja Pegawai</a></li>
+                <li><a href="{{ URL('cms/tni-al/uo/form-filter-laporan-pelaksanaan-anggaran-belanja-barang') }}">Laporan Pelaksanaan Anggaran Belanja Barang</a></li>
+                <li><a href="{{ URL('cms/tni-al/uo/form-filter-laporan-pelaksanaan-anggaran-belanja-modal') }}">Laporan Pelaksanaan Anggaran Belanja Modal</a></li>
+                <li><a href="{{ URL('cms/tni-al/uo/form-filter-laporan-pelaksanaan-barang-dan-jasa') }}">Laporan Pelaksanaan Barang dan Jasa</a></li>
+                <li><a href="{{ URL('cms/tni-al/uo/form-filter-laporan-pelaksanaan-perkembangan-kegiatan-prioritas') }}">Laporan Pelaksanaan Perkembangan Kegiatan Prioritas</a></li>
+                <li><a href="{{ URL('cms/tni-al/uo/form-filter-laporan-pelaksanaan-perkembangan-pembangunan-dan-fasilitas') }}">Laporan Pelaksanaan Perkembangan Pembangunan dan Fasilitas</a></li>
+                <li><a href="{{ URL('cms/tni-al/uo/form-filter-laporan-realisasi-pelaksanaan-anggaran-perjenis-belanja') }}">Laporan Pelaksanaan Anggaran Perjenis Belanja</a></li>
+                <li class="divider"></li>
+                <li><a href="{{ URL('cms/tni-al/uo/form-filter-laporan-penerimaan-hibah-dalam-negeri') }}">Laporan Penerimaan Hibah dalam Negeri</a></li>
+                <li><a href="{{ URL('cms/tni-al/uo/form-filter-laporan-pendapatan-negara') }}">Laporan Pendapatan Negara</a></li>
+                <li class="divider"></li>
+                <li><a href="{{ URL('cms/tni-al/uo/form-filter-laporan-anggaran-pemeliharaan') }}">Laporan Anggaran Pemeliharaan</a></li>
+                <li><a href="{{ URL('cms/tni-al/uo/form-filter-laporan-anggaran-alutsista') }}">Laporan Anggaran Alutsista</a></li>
+                <li><a href="{{ URL('cms/tni-al/uo/form-filter-laporan-anggaran-mef') }}">Laporan Anggaran MEF</a></li>
+                <li><a href="{{ URL('cms/tni-al/uo/form-filter-laporan-anggaran-perbatasan') }}">Laporan Anggaran Perbatasan</a></li>
+                <li><a href="{{ URL('cms/tni-al/uo/form-filter-laporan-anggaran-pinjaman') }}">Laporan Anggaran Pinjaman</a></li>
+                <li><a href="{{ URL('cms/tni-al/uo/form-filter-laporan-anggaran-prioritas') }}">Laporan Anggaran Prioritas</a></li>
+              </ul>
             </li>
             <li><a href="{{ URL('cms/signout') }}">Logout</a></li>
                       @break
