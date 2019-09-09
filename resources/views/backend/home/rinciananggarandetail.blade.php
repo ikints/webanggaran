@@ -30,32 +30,40 @@
                       <div class="box-body">
                         <table class="table table-border">
                           <tr>
-                            <td style="padding: 0px;">Unit Organisasi</td>
-                            <td style="padding: 0px;">: 22 - Kementerian Pertahanan</td>
-                          </tr>
-                          <tr>
-                            <td style="padding: 0px;">Kode Program</td>
-                            <td style="padding: 0px;">: 1444-001</td>
+                            <td style="padding: 0px;">Unit Kerja</td>
+                            <td style="padding: 0px;">: 34422 - ZIDAM III Siliwangi</td>
                           </tr>
                           <tr>
                             <td style="padding: 0px;">Nama Program</td>
-                            <td style="padding: 0px;">: Intelejen dan Pengamanan Matra Darat [Base Line]</td>
+                            <td style="padding: 0px;">: 012.22.14 - Program Dukungan Kesiapan Matra Darat</td>
                           </tr>
                           <tr>
-                            <td style="padding: 0px;">Total Anggaran</td>
-                            <td style="padding: 0px;">: Rp. 28.909.920.000</td>
+                            <td style="padding: 0px;">Kegiatan</td>
+                            <td style="padding: 0px;">: 1444 - Penyelenggaraan Intelejen dan Pengamanan Matra Darat</td>
                           </tr>
                           <tr>
-                            <td style="padding: 0px;">Total Penyerapan</td>
-                            <td style="padding: 0px;">: Rp. 18.909.920.000</td>
+                            <td style="padding: 0px;">Output</td>
+                            <td style="padding: 0px;">: 1444.001 - "Intelejen dan Pengamanan Matra Darat [Baseline]</td>
                           </tr>
                           <tr>
-                            <td style="padding: 0px;">Sisa Anggaran</td>
-                            <td style="padding: 0px;">: Rp. 8.909.920.000</td>
+                            <td style="padding: 0px;">Sub Output</td>
+                            <td style="padding: 0px;">: 1444.001.001 - Intelejen dan Pengamanan</td>
                           </tr>
                           <tr>
-                            <td style="padding: 0px;">Waktu Anggaran</td>
-                            <td style="padding: 0px;">Januari 2019 s/d Maret 2019</td>
+                            <td style="padding: 0px;">Komponen</td>
+                            <td style="padding: 0px;">: 003 - Dukungan Operasional Pertahanan dan Keamanan</td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 0px;">Sub Komponen</td>
+                            <td style="padding: 0px;">: B - Kegiatan Pengamanan</td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 0px;">Akun</td>
+                            <td style="padding: 0px;">: 5212111 - Belanja Barang Operasional Lainnya</td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 0px;">Detil</td>
+                            <td style="padding: 0px;">: Kegiatan Pengamanan</td>
                           </tr>
                         </table>
                       </div>
