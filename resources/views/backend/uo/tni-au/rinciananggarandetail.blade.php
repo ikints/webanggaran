@@ -16,57 +16,121 @@
       <section class="content">
         
         <div class="box">
-            <div class="box-header padding-bottom-50">
-              <h4 class="box-title">Rincian Anggaran</h4><br>
-              <h3 class="box-title">012.22 - Markas Besar TNI AD</h3><br>
+            <div class="box-header padding-bottom-20 text-center">
+              <h4 class="box-title">Riwayat Revisi Anggaran</h4><br>
+              <h3 class="box-title">012.22 - Kementerian Pertahanan</h3><br>
               <h3 class="box-title">Tahun 2019</h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-                <div class="padding-bottom-20">
-                  <a href="{{ URL('cms/tni-au/uo/anggaran') }}" class="btn btn-xs btn-success"><i class="fa fa-list"></i> Anggaran Kementerian</a>
-                  <a href="{{ URL('cms/tni-au/uo/input-anggaran') }}" class="btn btn-xs btn-success"><i class="fa fa-plus"></i> Input Anggaran</a>
+                <div class="box box-solid">
+                <div class="box-body">
+                  <div class="row">
+                  <div class="col-md-7">
+                      <div class="box-body">
+                        <table class="table table-border">
+                          <tr>
+                            <td style="padding: 0px;">Unit Kerja</td>
+                            <td style="padding: 0px;">: 34422 - ZIDAM III Siliwangi</td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 0px;">Nama Program</td>
+                            <td style="padding: 0px;">: 012.22.14 - Program Dukungan Kesiapan Matra Darat</td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 0px;">Kegiatan</td>
+                            <td style="padding: 0px;">: 1444 - Penyelenggaraan Intelejen dan Pengamanan Matra Darat</td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 0px;">Output</td>
+                            <td style="padding: 0px;">: 1444.001 - "Intelejen dan Pengamanan Matra Darat [Baseline]</td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 0px;">Sub Output</td>
+                            <td style="padding: 0px;">: 1444.001.001 - Intelejen dan Pengamanan</td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 0px;">Komponen</td>
+                            <td style="padding: 0px;">: 003 - Dukungan Operasional Pertahanan dan Keamanan</td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 0px;">Sub Komponen</td>
+                            <td style="padding: 0px;">: B - Kegiatan Pengamanan</td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 0px;">Akun</td>
+                            <td style="padding: 0px;">: 5212111 - Belanja Barang Operasional Lainnya</td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 0px;">Detil</td>
+                            <td style="padding: 0px;">: Kegiatan Pengamanan</td>
+                          </tr>
+                        </table>
+                      </div>
+                      <!-- /.box-body -->
+                    </div>
+                  </div>
+                  
                 </div>
-                <table id="tablelist" class="table table-bordered table-striped">
-                  <thead>
-                  <tr>
-                    <th rowspan="2">Kode Nama Unit</th>
-                    <th rowspan="2">Belanja Pegawai (Operasional)</th>
-                    <th colspan="2">Belanja Barang</th>
-                    <th colspan="2">Belanja Modal</th>
-                    <th rowspan="2">Bantuan Sosial</th>
-                    <th rowspan="2">Jumlah</th>
-                  </tr>
-                  <tr>
-                    <th>(Operasional)</th>
-                    <th>(Non Ops)</th>
-                    <th>(Operasional)</th>
-                    <th>(Non Ops)</th>
-                  </tr>
-                  </thead>
-                  <tbody>
-                  <tr>
-                    <td>012.22 - Markas Besar TNI AD</td>
-                    <td>28.920.991.912</td>
-                    <td>2.908.765.12</td>
-                    <td>8.980.889.321</td>
-                    <td>0</td>
-                    <td>6.980.778.126</td>
-                    <td>0</td>
-                    <td>47.980.120.223</td>
-                  </tr>
-                  <tr>
-                    <td>012.22.14 - Program dukungan kesiapan matra darat</td>
-                    <td>2.920.991.912</td>
-                    <td>1.908.765.12</td>
-                    <td>980.889.321</td>
-                    <td>0</td>
-                    <td>5.980.778.126</td>
-                    <td>0</td>
-                    <td>17.980.120.223</td>
-                  </tr>
-                </tbody>
-              </table>
+
+                </div>  
+
+                <div class="row">
+                  <div class="col-md-12">
+                      <h3>Riwayat Revisi</h3>
+                      <div class="box-body">
+
+                        <div class="table-responsive">
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                              <tr>
+                                <th>Revisi Ke -</th>
+                                <th>No. DIPA</th>
+                                <th>Tanggal</th>
+                                <th>Volume</th>
+                                <th>Satuan</th>
+                                <th>Harga Satuan</th>
+                                <th>Jumlah</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>1</td>
+                                <td>SP DIPA-012.01.1.686065/2019</td>
+                                <td>1 Jan 2019</td>
+                                <td>1</td>
+                                <td>GIAT</td>
+                                <td>11.000.000</td>
+                                <td>11.000.000</td>
+                              </tr>
+                              <tr>
+                                <td>1</td>
+                                <td>SP DIPA-012.01.1.686065/2019</td>
+                                <td>1 Mar 2019</td>
+                                <td>1</td>
+                                <td>GIAT</td>
+                                <td>15.000.000</td>
+                                <td>15.000.000</td>
+                              </tr>
+                              <tr>
+                                <td>1</td>
+                                <td>SP DIPA-012.01.1.686065/2019</td>
+                                <td>1 Jul 2019</td>
+                                <td>1</td>
+                                <td>GIAT</td>
+                                <td>17.000.000</td>
+                                <td>17.000.000</td>
+                              </tr>
+                            </tbody>
+                        </table>
+                        
+                      </div>
+                      <!-- /.box-body -->
+                    </div>
+                    <!-- /.box -->
+                  </div>
+
+
             </div>
           <!-- /.box-body -->
         </div>
