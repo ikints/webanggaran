@@ -68,53 +68,24 @@
                 </div>  
 
                 <div class="row">
-                  <div class="col-md-12">
-                      <h3>Riwayat Revisi</h3>
-                      <div class="box-body">
+                  <div class="col-md-5 col-md-offset-4">
+                    
+                      <div class="box-body margin-bottom-50 margin-top-10 box-form-rounded">
 
-                        <div class="table-responsive">
-                        <table class="table table-bordered table-striped">
-                            <thead>
-                              <tr>
-                                <th>Revisi Ke -</th>
-                                <th>No. DIPA</th>
-                                <th>Tanggal</th>
-                                <th>Volume</th>
-                                <th>Satuan</th>
-                                <th>Harga Satuan</th>
-                                <th>Jumlah</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <td>1</td>
-                                <td>SP DIPA-012.01.1.686065/2019</td>
-                                <td>1 Jan 2019</td>
-                                <td>1</td>
-                                <td>GIAT</td>
-                                <td>11.000.000</td>
-                                <td>11.000.000</td>
-                              </tr>
-                              <tr>
-                                <td>1</td>
-                                <td>SP DIPA-012.01.1.686065/2019</td>
-                                <td>1 Mar 2019</td>
-                                <td>1</td>
-                                <td>GIAT</td>
-                                <td>15.000.000</td>
-                                <td>15.000.000</td>
-                              </tr>
-                              <tr>
-                                <td>1</td>
-                                <td>SP DIPA-012.01.1.686065/2019</td>
-                                <td>1 Jul 2019</td>
-                                <td>1</td>
-                                <td>GIAT</td>
-                                <td>17.000.000</td>
-                                <td>17.000.000</td>
-                              </tr>
-                            </tbody>
-                        </table>
+                        <!-- form start -->
+                        <form class="form-group">
+                          <div class="box-body">
+                            <div class="form-group">
+                              <label for="inputEmail3">Jumlah Realisasi/Penyerapan</label>
+                              <input type="text" class="form-control" id="inputEmail3" placeholder="Jumlah Realisasi/Penyerapan">
+                            </div>
+                          </div>
+                          <!-- /.box-body -->
+                          <div class="box-footer">
+                            <button type="submit" class="btn btn-info pull-right"><i class="fa fa-save"></i> Simpan</button>
+                          </div>
+                          <!-- /.box-footer -->
+                        </form>
                         
                       </div>
                       <!-- /.box-body -->

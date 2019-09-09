@@ -12,11 +12,8 @@
   <div class="content-wrapper">
       <!-- Main content -->
       <section class="content">
-        
+
         <div class="box">
-            <div class="box-header padding-bottom-10 text-right with-border panel-heading">
-              <a href="{{ URL('cms/tahun-anggaran-baru') }}" class="btn btn-success btn-flat"><i class="fa fa-plus"></i> Buat Anggaran Baru</a>
-            </div>
             <div class="box-header padding-bottom-20 text-center">
               <h4 class="box-title">Rincian Anggaran</h4><br>
               <h3 class="box-title">@switch(Session::get('level'))
@@ -38,23 +35,89 @@
             </div>
             <!-- /.box-header -->
             <div class="box-body">
+              <div class="box box-solid">
+                <div class="box-body">
+                  <div class="row">
+                  <div class="col-md-12">
+                      <div class="box-body margin-bottom-20 margin-top-10">
+                        <!-- form start -->
+                        <form class="form">
+                          <div class="box-body">
+                            <div class="row">
+                              <div class="col-md-2">
+                                <div class="form-group">
+                                  <label for="inputEmail3">Unit Organisasi</label>
+                                  <select class="form-control">
+                                      <option>--Pilih Unit Organisasi--</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="col-md-2">
+                                <div class="form-group">
+                                  <label for="inputEmail3">Kotama</label>
+                                  <select class="form-control">
+                                      <option>--Pilih Kotama--</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="col-md-2">
+                                <div class="form-group">
+                                  <label for="inputEmail3">Satuan Kerja</label>
+                                  <select class="form-control">
+                                      <option>--Pilih Satuan Kerja--</option>
+                                  </select>                        
+                                </div>
+                              </div>
+                              <div class="col-md-2">
+                                <div class="form-group">
+                                  <label for="inputEmail3">Program</label>
+                                  <input type="text" class="form-control" id="inputEmail3" placeholder="Program">
+                                </div>
+                              </div>
+                              <div class="col-md-2">
+                                <div class="form-group">
+                                  <label for="inputEmail3">Versi DIPA</label>
+                                  <input type="text" class="form-control" id="inputEmail3" placeholder="Versi DIPA">
+                                </div>
+                              </div>
+                              <div class="col-md-1 padding-top-25">
+                                <button type="submit" class="btn btn-info btn-block"> Cari </button>
+                              </div>
+                              <div class="col-md-1 padding-top-25">
+                                <button type="submit" class="btn btn-info btn-block"> Reset </button>
+                              </div>
+                            </div>
+                            
+                            
+                            
+                          </div>
+                        </form>
+                        
+                      </div>
+                      <!-- /.box-body -->
+                    </div>
+                    <!-- /.box -->
+                  </div>
+                  
+                </div>
+
+                </div>
+
+                <div class="padding-bottom-20">
+                  <a href="{{ URL('cms/tambah-realisasi-anggaran') }}" class="btn btn-success btn-flat"><i class="fa fa-plus"></i> Revisi Program</a>
+                </div>
+
+
                 <div class="table-responsive">
-                  <table id="tablelist" class="table table-bordered table-striped">
+                  <table class="table table-bordered table-striped">
                       <thead>
                       <tr>
-                        <th rowspan="2" class="text-center">KODE</th>
-                        <th rowspan="2" class="text-center">PROGRAM/KEGIATAN/OUTPUT/SUBOUPUT<br>KOMPONEN/SUBKOMPONEN/AKUN/DETIL</th>
-                        <th colspan="2" class="text-center">ANGGARAN</th>
-                        <th colspan="2" class="text-center">SISA</th>
-                        <th colspan="2" class="text-center">REALISASI</th>
-                      </tr>
-                      <tr>
+                        <th class="text-center">PROGRAM/KEGIATAN/OUTPUT/SUBOUPUT<br>KOMPONEN/SUBKOMPONEN/AKUN/DETIL</th>
                         <th class="text-center">VOLUME</th>
+                        <th class="text-center">SATUAN</th>
+                        <th class="text-center">HARGA SATUAN</th>
                         <th class="text-center">JUMLAH</th>
-                        <th class="text-center">VOLUME</th>
-                        <th class="text-center">JUMLAH</th>
-                        <th class="text-center">VOLUME</th>
-                        <th class="text-center">JUMLAH</th>
+                        <th class="text-center">PILIHAN</th>
                       </tr>
                       <tr>
                         <th>(1)</th>
@@ -63,117 +126,217 @@
                         <th>(4)</th>
                         <th>(5)</th>
                         <th>(6)</th>
-                        <th>(7)</th>
-                        <th>(8)</th>
                       </tr>
                       </thead>
                       <tbody>
                       <tr>
-                        <td>012.01.07</td>
-                        <td>Program Perencanaan Umum dan Penganggaran Pertahanan</td>
+                        <td>012.22.14 - Program Dukungan Kesiapan Matra Darat</td>
+                        <td></td>
+                        <td></td>
                         <td></td>
                         <td>70.041.220.000</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td>
+                          <a href="{{ URL('cms/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                        </td>
                       </tr>
                       <tr>
-                        <td>1359</td>
-                        <td>Administrasi dan pelaksanaan anggaran</td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;1444 - Penyelenggaraan Intelejen dan Pengamanan Matra Darat</td>
+                        <td></td>
+                        <td></td>
                         <td></td>
                         <td>1.933.789.000</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td>
+                          <a href="{{ URL('cms/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                        </td>
                       </tr>
                       <tr>
-                        <td>&nbsp;&nbsp;1359.001</td>
-                        <td>Layanan Administrasi dan pelaksanaan anggaran</td>
-                        <td>16.00</td>
-                        <td>1.059.206.000</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                      </tr>
-                      <tr>
-                        <td>&nbsp;&nbsp;1359.001.001</td>
-                        <td>Pembinaan Administrasi dan pelaksanaan anggaran</td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1444.001 - "Intelejen dan Pengamanan Matra Darat [Baseline]"</td>
+                        <td>12.00</td>
+                        <td>Laporan</td>
                         <td></td>
                         <td>1.059.206.000</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td>
+                          <a href="{{ URL('cms/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                        </td>
                       </tr>
                       <tr>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;051</td>
-                        <td>Evaluasi penggunaan anggaran terpusat air minum di lingkungan kemhan dan TNI TA.2018</td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1444.001.001 - Intelejen dan Pengamanan</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>1.059.206.000</td>
+                        <td>
+                          <a href="{{ URL('cms/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;003 - Dukungan Operasional Pertahanan dan Keamanan</td>
+                        <td></td>
+                        <td></td>
                         <td></td>
                         <td>66.344.000</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                      </tr>
-                      <tr>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;521211</td>
-                        <td>Belanja Bahan (KPPN.019 Jakarta II)</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                      </tr>
-                      <tr>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5212111</td>
-                        <td><a href="{{ URL('cms/rincian-anggaran-detail') }}">Snack Rapat Biasa D.K.I Jakarta (14ORG X2OK)</a></td>
-                        <td>28.00</td>
-                        <td class="progress-bar-custom progress-bar-green" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 20%">588.000</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td><input type="text" name="realisasi" size="5" id="textvolume_1">
-                          <span id="labelvolume_1">0</span>
+                        <td>
+                          <a href="{{ URL('cms/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
-                        <td><input type="text" name="realisasi" size="5" id="textnominal_1">
-                          <span id="labelnominal_1">0</td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B - Kegiatan Pengamanan</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>16.000.000</td>
+                        <td>
+                          <a href="{{ URL('cms/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5212111 - Belanja Barang Operasional Lainnya</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>588.000</td>
+                        <td>
+                          <a href="{{ URL('cms/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="{{ URL('cms/rincian-anggaran-detail') }}">Kegiatan Pengamanan</a></td>
+                        <td>19.00</td>
+                        <td>GIAT</td>
+                        <td>15.000</td>
+                        <td class="progress-bar-custom progress-bar-green" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 20%">16.000.000</td>
+                        <td>
+                          <a href="{{ URL('cms/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5212112 - Belanja Barang Operasional Lainnya</td>
+                        <td>28.00</td>
+                        <td></td>
+                        <td></td>
+                        <td>1.316.000</td>
+                        <td>
+                          <a href="{{ URL('cms/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                        </td>
                       </tr>
                       <tr id="anggaran-terlambat">
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5212112</td>
-                        <td><a href="{{ URL('cms/rincian-anggaran-detail') }}">Makan Rapat Biasa D.K.I Jakarta (14ORG X2OK)</a></td>
-                        <td>28.00</td>
-                        <td>1.316.000</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td><input type="text" name="realisasi" size="5" id="textvolume_2">
-                          <span id="labelvolume_2">0</span>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="{{ URL('cms/rincian-anggaran-detail') }}">P4GN</a></td>
+                        <td>19.00</td>
+                        <td>GIAT</td>
+                        <td>15.000</td>
+                        <td class="progress-bar-custom progress-bar-green" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 20%">16.000.000</td>
+                        <td>
+                          <a href="{{ URL('cms/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
-                        <td><input type="text" name="realisasi" size="5" id="textnominal_2">
-                          <span id="labelnominal_2">0</span></td>
                       </tr>
                       <tr>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5212113</td>
-                        <td><a href="{{ URL('cms/rincian-anggaran-detail') }}">Reproduksi</a></td>
-                        <td>1.00</td>
-                        <td>846.000</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td><input type="text" name="realisasi" size="5" id="textvolume_3">
-                          <span id="labelvolume_3">0</span></td>
-                        <td><input type="text" name="realisasi" size="5" id="textnominal_3">
-                          <span id="labelnominal_3">0</td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;1451 - Pemeliharaan/Perawatan Non Alutsista</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>1.933.789.000</td>
+                        <td>
+                          <a href="{{ URL('cms/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                        </td>
                       </tr>
+                      <tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1451.001 - Materil Non Alutsista yang Terpelihara [Baseline]</td>
+                        <td>12.00</td>
+                        <td>Laporan</td>
+                        <td></td>
+                        <td>1.059.206.000</td>
+                        <td>
+                          <a href="{{ URL('cms/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1451.001.004 - Pemeliharaan Alzi </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>1.059.206.000</td>
+                        <td>
+                          <a href="{{ URL('cms/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;003 - Dukungan Operasional Pertahanan dan Keamanan</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>66.344.000</td>
+                        <td>
+                          <a href="{{ URL('cms/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A - Pemeliharaan Alzi</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>16.000.000</td>
+                        <td>
+                          <a href="{{ URL('cms/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5212111 - Belanja Barang Operasional Lainnya</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>588.000</td>
+                        <td>
+                          <a href="{{ URL('cms/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="{{ URL('cms/rincian-anggaran-detail') }}">Kegiatan Pengamanan</a></td>
+                        <td>19.00</td>
+                        <td>GIAT</td>
+                        <td>15.000</td>
+                        <td class="progress-bar-custom progress-bar-green" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 20%">16.000.000</td>
+                        <td>
+                          <a href="{{ URL('cms/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5212112 - Belanja Barang Operasional Lainnya</td>
+                        <td>28.00</td>
+                        <td></td>
+                        <td></td>
+                        <td>1.316.000</td>
+                        <td>
+                          <a href="{{ URL('cms/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                        </td>
+                      </tr>
+                      <tr id="anggaran-terlambat">
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="{{ URL('cms/rincian-anggaran-detail') }}">P4GN</a></td>
+                        <td>19.00</td>
+                        <td>GIAT</td>
+                        <td>15.000</td>
+                        <td class="progress-bar-custom progress-bar-green" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 20%">16.000.000</td>
+                        <td>
+                          <a href="{{ URL('cms/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                        </td>
+                      </tr>
+                      
         
                     </tbody>
                   </table>
                 </div>
             </div>
-          <!-- /.box-body -->
+            <!-- /.box-body -->
+            <div class="box-footer clearfix">
+              <ul class="pagination pagination-sm no-margin pull-right">
+                <li><a href="#">&laquo;</a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">&raquo;</a></li>
+              </ul>
+            </div>
         </div>
-          <!-- /.box-body -->
+
       </section>
       <!-- /.content -->
   </div>
