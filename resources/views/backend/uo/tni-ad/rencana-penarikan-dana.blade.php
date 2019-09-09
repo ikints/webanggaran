@@ -141,7 +141,7 @@
                         <td>5.500.000</td>
                         <td>2.500.000</td>
                         <td>
-                          <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/kemhan/uo/edittni-ad') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr>
@@ -160,7 +160,7 @@
                         <td>5.500.000</td>
                         <td>2.500.000</td>
                         <td>
-                          <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/kemhan/uo/edittni-ad') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr>
@@ -179,7 +179,7 @@
                         <td>5.500.000</td>
                         <td>2.500.000</td>
                         <td>
-                          <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/kemhan/uo/edittni-ad') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr>
@@ -198,7 +198,7 @@
                         <td>5.500.000</td>
                         <td>2.500.000</td>
                         <td>
-                          <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/kemhan/uo/edittni-ad') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr>
@@ -217,7 +217,7 @@
                         <td>5.500.000</td>
                         <td>2.500.000</td>
                         <td>
-                          <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/kemhan/uo/edittni-ad') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr>
@@ -236,7 +236,7 @@
                         <td>5.500.000</td>
                         <td>2.500.000</td>
                         <td>
-                          <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/kemhan/uo/edittni-ad') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr>
@@ -255,11 +255,11 @@
                         <td>5.500.000</td>
                         <td>2.500.000</td>
                         <td>
-                          <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/kemhan/uo/edittni-ad') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Kegiatan Pengamanan</a></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="{{ URL('cms/kemhan/uo/edittni-ad') }}">Kegiatan Pengamanan</a></td>
                         <td>32.000.000</td>
                         <td>2.500.000</td>
                         <td>4.500.000</td>
@@ -274,7 +274,7 @@
                         <td>5.500.000</td>
                         <td>2.500.000</td>
                         <td>
-                          <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/kemhan/uo/edittni-ad') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr>
@@ -293,11 +293,11 @@
                         <td>5.500.000</td>
                         <td>2.500.000</td>
                         <td>
-                          <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/kemhan/uo/edittni-ad') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr id="anggaran-terlambat">
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">P4GN</a></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="{{ URL('cms/kemhan/uo/edittni-ad') }}">P4GN</a></td>
                         <td>32.000.000</td>
                         <td>2.500.000</td>
                         <td>4.500.000</td>
@@ -312,7 +312,7 @@
                         <td>5.500.000</td>
                         <td>2.500.000</td>
                         <td>
-                          <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/kemhan/uo/edittni-ad') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr>
@@ -331,7 +331,7 @@
                         <td>5.500.000</td>
                         <td>2.500.000</td>
                         <td>
-                          <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/kemhan/uo/edittni-ad') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr>
@@ -350,7 +350,7 @@
                         <td>5.500.000</td>
                         <td>2.500.000</td>
                         <td>
-                          <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/kemhan/uo/edittni-ad') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr>
@@ -369,7 +369,7 @@
                         <td>5.500.000</td>
                         <td>2.500.000</td>
                         <td>
-                          <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/kemhan/uo/edittni-ad') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr>
@@ -388,7 +388,7 @@
                         <td>5.500.000</td>
                         <td>2.500.000</td>
                         <td>
-                          <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/kemhan/uo/edittni-ad') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr>
@@ -407,7 +407,7 @@
                         <td>5.500.000</td>
                         <td>2.500.000</td>
                         <td>
-                          <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/kemhan/uo/edittni-ad') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr>
@@ -426,11 +426,11 @@
                         <td>5.500.000</td>
                         <td>2.500.000</td>
                         <td>
-                          <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/kemhan/uo/edittni-ad') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Kegiatan Pengamanan</a></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="{{ URL('cms/kemhan/uo/edittni-ad') }}">Kegiatan Pengamanan</a></td>
                         <td>32.000.000</td>
                         <td>2.500.000</td>
                         <td>4.500.000</td>
@@ -445,7 +445,7 @@
                         <td>5.500.000</td>
                         <td>2.500.000</td>
                         <td>
-                          <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/kemhan/uo/edittni-ad') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr>
@@ -464,11 +464,11 @@
                         <td>5.500.000</td>
                         <td>2.500.000</td>
                         <td>
-                          <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/kemhan/uo/edittni-ad') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr id="anggaran-terlambat">
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">P4GN</a></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="{{ URL('cms/kemhan/uo/edittni-ad') }}">P4GN</a></td>
                         <td>32.000.000</td>
                         <td>2.500.000</td>
                         <td>4.500.000</td>
@@ -483,7 +483,7 @@
                         <td>5.500.000</td>
                         <td>2.500.000</td>
                         <td>
-                          <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/kemhan/uo/edittni-ad') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       

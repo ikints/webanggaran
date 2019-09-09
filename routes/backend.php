@@ -117,6 +117,7 @@ Route::group(['middleware' => 'ValidateUO'], function () {
 	Route::get('cms/kemhan/uo/rincian-anggaran-detail', 'Backend\KemhanUOController@anggaran_detail');
 	Route::get('cms/kemhan/uo/tambah-pencairan-dana', 'Backend\KemhanUOController@tambah_pencairan_dana');
 	Route::get('cms/kemhan/uo/rencana-penarikan-dana', 'Backend\KemhanUOController@rencana_penarikan_dana');
+	Route::get('cms/kemhan/uo/edit-rencana-penarikan-dana', 'Backend\KemhanUOController@edit_rencana_penarikan_dana');
 	//
 
 

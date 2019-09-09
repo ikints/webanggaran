@@ -17,14 +17,14 @@
         
         <div class="box">
             <div class="box-header padding-bottom-20 text-center">
-              <h4 class="box-title">Riwayat Revisi Anggaran</h4><br>
+              <h4 class="box-title">Edit Rencana Penarikan Dana</h4><br>
               <h3 class="box-title">012.22 - Kementerian Pertahanan</h3><br>
               <h3 class="box-title">Tahun 2019</h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
                 <div class="box box-solid">
-                  <a href="{{ URL('cms/kemhan/uo/anggaran') }}" class="btn btn-success btn-flat margin-top-50"><i class="fa fa-list"></i> Lihat Anggaran</a>
+                  <a href="{{ URL('cms/kemhan/uo/rencana-penarikan-dana') }}" class="btn btn-success btn-flat margin-top-50"><i class="fa fa-list"></i> Lihat Anggaran</a>
                 <div class="box-body">
                   <div class="row">
                   <div class="col-md-7">
@@ -66,6 +66,10 @@
                             <td style="padding: 0px;">Detil</td>
                             <td style="padding: 0px;">: Kegiatan Pengamanan</td>
                           </tr>
+                          <tr>
+                            <td style="padding: 0px;">Anggaran</td>
+                            <td style="padding: 0px;">: 16.000.000</td>
+                          </tr>
                         </table>
                       </div>
                       <!-- /.box-body -->
@@ -78,54 +82,86 @@
 
                 <div class="row">
                   <div class="col-md-12">
-                      <h3>Riwayat Revisi</h3>
+                      <h3>Rencana Penarikan Dana</h3>
                       <div class="box-body">
-
-                        <div class="table-responsive">
-                        <table class="table table-bordered table-striped">
-                            <thead>
-                              <tr>
-                                <th>Revisi Ke -</th>
-                                <th>No. DIPA</th>
-                                <th>Tanggal</th>
-                                <th>Volume</th>
-                                <th>Satuan</th>
-                                <th>Harga Satuan</th>
-                                <th>Jumlah</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <td>1</td>
-                                <td>SP DIPA-012.01.1.686065/2019</td>
-                                <td>1 Jan 2019</td>
-                                <td>1</td>
-                                <td>GIAT</td>
-                                <td>11.000.000</td>
-                                <td>11.000.000</td>
-                              </tr>
-                              <tr>
-                                <td>1</td>
-                                <td>SP DIPA-012.01.1.686065/2019</td>
-                                <td>1 Mar 2019</td>
-                                <td>1</td>
-                                <td>GIAT</td>
-                                <td>15.000.000</td>
-                                <td>15.000.000</td>
-                              </tr>
-                              <tr>
-                                <td>1</td>
-                                <td>SP DIPA-012.01.1.686065/2019</td>
-                                <td>1 Jul 2019</td>
-                                <td>1</td>
-                                <td>GIAT</td>
-                                <td>17.000.000</td>
-                                <td>17.000.000</td>
-                              </tr>
-                            </tbody>
-                        </table>
-                        
-                      </div>
+                        <div class="row padding-bottom-10">
+                          <div class="col-md-1">
+                            Januari
+                          </div>
+                          <div class="col-md-2">
+                            <input type="text" name="jan" class="form-control">
+                          </div>
+                          <div class="col-md-1">
+                            Februari
+                          </div>
+                          <div class="col-md-2">
+                            <input type="text" name="feb" class="form-control">
+                          </div>
+                          <div class="col-md-1">
+                            Maret
+                          </div>
+                          <div class="col-md-2">
+                            <input type="text" name="mar" class="form-control">
+                          </div>
+                          <div class="col-md-1">
+                            April
+                          </div>
+                          <div class="col-md-2">
+                            <input type="text" name="apr" class="form-control">
+                          </div>
+                        </div>
+                        <div class="row padding-bottom-10">
+                          <div class="col-md-1">
+                            Mei
+                          </div>
+                          <div class="col-md-2">
+                            <input type="text" name="mei" class="form-control">
+                          </div>
+                          <div class="col-md-1">
+                            Juni
+                          </div>
+                          <div class="col-md-2">
+                            <input type="text" name="jun" class="form-control">
+                          </div>
+                          <div class="col-md-1">
+                            Juli
+                          </div>
+                          <div class="col-md-2">
+                            <input type="text" name="jul" class="form-control">
+                          </div>
+                          <div class="col-md-1">
+                            Agustus
+                          </div>
+                          <div class="col-md-2">
+                            <input type="text" name="agu" class="form-control">
+                          </div>
+                        </div>
+                        <div class="row padding-bottom-10">
+                          <div class="col-md-1">
+                            September
+                          </div>
+                          <div class="col-md-2">
+                            <input type="text" name="sep" class="form-control">
+                          </div>
+                          <div class="col-md-1">
+                            Oktober
+                          </div>
+                          <div class="col-md-2">
+                            <input type="text" name="okt" class="form-control">
+                          </div>
+                          <div class="col-md-1">
+                            November
+                          </div>
+                          <div class="col-md-2">
+                            <input type="text" name="nov" class="form-control">
+                          </div>
+                          <div class="col-md-1">
+                            Desember
+                          </div>
+                          <div class="col-md-2">
+                            <input type="text" name="des" class="form-control">
+                          </div>
+                        </div>
                       <!-- /.box-body -->
                     </div>
                     <!-- /.box -->
