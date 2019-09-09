@@ -17,21 +17,10 @@
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-              <div class="box box-solid">
-                <div class="box-body">
-                  <div class="row">
-                  <div class="col-md-12">
-                      <div class="box-body margin-bottom-20 margin-top-10">
-                        <!-- form start -->
-                        <form class="form">
+              <form class="form">
                           <div class="box-body">
                             <div class="row">
-                              <div class="col-md-3 padding-top-25">
-                                <div class="form-group">
-                                  <a href="{{ URL('cms/edit-semua-revisi-anggaran') }}" class="btn btn-block btn-success"><i class="fa fa-list"></i> Revisi Semua Anggaran</a>
-                                </div>
-                              </div>
-                              <div class="col-md-3">
+                              <div class="col-md-2">
                                 <div class="form-group">
                                   <label for="inputEmail3">Unit Organisasi</label>
                                   <select class="form-control">
@@ -39,14 +28,36 @@
                                   </select>
                                 </div>
                               </div>
-                              <div class="col-md-3">
+                              <div class="col-md-2">
+                                <div class="form-group">
+                                  <label for="inputEmail3">Kotama</label>
+                                  <select class="form-control">
+                                      <option>--Pilih Kotama--</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="col-md-2">
+                                <div class="form-group">
+                                  <label for="inputEmail3">Satuan Kerja</label>
+                                  <select class="form-control">
+                                      <option>--Pilih Satuan Kerja--</option>
+                                  </select>                        
+                                </div>
+                              </div>
+                              <div class="col-md-2">
                                 <div class="form-group">
                                   <label for="inputEmail3">Program</label>
                                   <input type="text" class="form-control" id="inputEmail3" placeholder="Program">
                                 </div>
                               </div>
+                              <div class="col-md-2">
+                                <div class="form-group">
+                                  <label for="inputEmail3">Versi DIPA</label>
+                                  <input type="text" class="form-control" id="inputEmail3" placeholder="Versi DIPA">
+                                </div>
+                              </div>
                               <div class="col-md-1 padding-top-25">
-                                <button type="submit" class="btn btn-info btn-block"><i class="fa fa-search"></i> Cari </button>
+                                <button type="submit" class="btn btn-info btn-block"> Cari </button>
                               </div>
                               <div class="col-md-1 padding-top-25">
                                 <button type="submit" class="btn btn-info btn-block"> Reset </button>
@@ -57,16 +68,6 @@
                             
                           </div>
                         </form>
-                        
-                      </div>
-                      <!-- /.box-body -->
-                    </div>
-                    <!-- /.box -->
-                  </div>
-                  
-                </div>
-
-                </div>
 
 
                 <table class="table table-bordered table-striped table-hover">

@@ -35,13 +35,7 @@
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-              <div class="box box-solid">
-                <div class="box-body">
-                  <div class="row">
-                  <div class="col-md-12">
-                      <div class="box-body margin-bottom-20 margin-top-10">
-                        <!-- form start -->
-                        <form class="form">
+              <form class="form">
                           <div class="box-body">
                             <div class="row">
                               <div class="col-md-2">
@@ -92,18 +86,8 @@
                             
                           </div>
                         </form>
-                        
-                      </div>
-                      <!-- /.box-body -->
-                    </div>
-                    <!-- /.box -->
-                  </div>
-                  
-                </div>
 
-                </div>
-
-                <div class="padding-bottom-20">
+                <div>
                   <a href="{{ URL('cms/tni-al/uotambah-realisasi-anggaran') }}" class="btn btn-success btn-flat"><i class="fa fa-plus"></i> Revisi Program</a>
                 </div>
 

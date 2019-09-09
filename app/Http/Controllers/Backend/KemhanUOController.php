@@ -134,6 +134,20 @@ class KemhanUOController extends Controller
 
     }
 
+    public function rencana_penarikan_dana() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.anggaran.rencana-penarikan-dana";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
     /*== End Anggaran page ==*/
 
 	/*== Tahun Anggaran page ==*/

@@ -15,7 +15,7 @@
 
         <div class="box">
             <div class="box-header padding-bottom-20 text-center">
-              <h4 class="box-title">Rincian Anggaran</h4><br>
+              <h4 class="box-title">Rencana Penarikan Dana (PRD)</h4><br>
               <h3 class="box-title">@switch(Session::get('level'))
                     @case(1)
                         {{Session::get('status_user')}}
@@ -36,7 +36,6 @@
             <!-- /.box-header -->
             <div class="box-body">
               <form class="form">
-                          <div class="box-body">
                             <div class="row">
                               <div class="col-md-2">
                                 <div class="form-group">
@@ -83,13 +82,8 @@
                             </div>
                             
                             
-                            
-                          </div>
+                        
                         </form>
-
-                <div>
-                  <a href="{{ URL('cms/kemhan/uo/tambah-realisasi-anggaran') }}" class="btn btn-success btn-flat"><i class="fa fa-plus"></i> Revisi Program</a>
-                </div>
 
 
                 <div class="table-responsive">
@@ -97,11 +91,20 @@
                       <thead>
                       <tr>
                         <th class="text-center">PROGRAM/KEGIATAN/OUTPUT/SUBOUPUT<br>KOMPONEN/SUBKOMPONEN/AKUN/DETIL</th>
-                        <th class="text-center">VOLUME</th>
-                        <th class="text-center">SATUAN</th>
-                        <th class="text-center">HARGA SATUAN</th>
-                        <th class="text-center">JUMLAH</th>
-                        <th class="text-center">PILIHAN</th>
+                        <th class="text-center">Anggaran</th>
+                        <th class="text-center">Januari</th>
+                        <th class="text-center">Februari</th>
+                        <th class="text-center">Maret</th>
+                        <th class="text-center">April</th>
+                        <th class="text-center">Mei</th>
+                        <th class="text-center">Juni</th>
+                        <th class="text-center">Juli</th>
+                        <th class="text-center">Agustus</th>
+                        <th class="text-center">September</th>
+                        <th class="text-center">Oktober</th>
+                        <th class="text-center">November</th>
+                        <th class="text-center">Desember</th>
+                        <th class="text-center">Pilihan</th>
                       </tr>
                       <tr>
                         <th>(1)</th>
@@ -110,195 +113,375 @@
                         <th>(4)</th>
                         <th>(5)</th>
                         <th>(6)</th>
+                        <th>(7)</th>
+                        <th>(8)</th>
+                        <th>(9)</th>
+                        <th>(10)</th>
+                        <th>(11)</th>
+                        <th>(12)</th>
+                        <th>(13)</th>
+                        <th>(14)</th>
+                        <th>(15)</th>
                       </tr>
                       </thead>
                       <tbody>
                       <tr>
                         <td>012.22.14 - Program Dukungan Kesiapan Matra Darat</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>70.041.220.000</td>
+                        <td>32.000.000</td>
+                        <td>2.500.000</td>
+                        <td>4.500.000</td>
+                        <td>2.000.000</td>
+                        <td>3.000.000</td>
+                        <td>1.500.000</td>
+                        <td>2.000.000</td>
+                        <td>2.500.000</td>
+                        <td>3.500.000</td>
+                        <td>2.500.000</td>
+                        <td>1.500.000</td>
+                        <td>5.500.000</td>
+                        <td>2.500.000</td>
                         <td>
                           <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr>
                         <td>&nbsp;&nbsp;&nbsp;&nbsp;1444 - Penyelenggaraan Intelejen dan Pengamanan Matra Darat</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>1.933.789.000</td>
+                        <td>32.000.000</td>
+                        <td>2.500.000</td>
+                        <td>4.500.000</td>
+                        <td>2.000.000</td>
+                        <td>3.000.000</td>
+                        <td>1.500.000</td>
+                        <td>2.000.000</td>
+                        <td>2.500.000</td>
+                        <td>3.500.000</td>
+                        <td>2.500.000</td>
+                        <td>1.500.000</td>
+                        <td>5.500.000</td>
+                        <td>2.500.000</td>
                         <td>
                           <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr>
                         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1444.001 - "Intelejen dan Pengamanan Matra Darat [Baseline]"</td>
-                        <td>12.00</td>
-                        <td>Laporan</td>
-                        <td></td>
-                        <td>1.059.206.000</td>
+                        <td>32.000.000</td>
+                        <td>2.500.000</td>
+                        <td>4.500.000</td>
+                        <td>2.000.000</td>
+                        <td>3.000.000</td>
+                        <td>1.500.000</td>
+                        <td>2.000.000</td>
+                        <td>2.500.000</td>
+                        <td>3.500.000</td>
+                        <td>2.500.000</td>
+                        <td>1.500.000</td>
+                        <td>5.500.000</td>
+                        <td>2.500.000</td>
                         <td>
                           <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr>
                         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1444.001.001 - Intelejen dan Pengamanan</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>1.059.206.000</td>
+                        <td>32.000.000</td>
+                        <td>2.500.000</td>
+                        <td>4.500.000</td>
+                        <td>2.000.000</td>
+                        <td>3.000.000</td>
+                        <td>1.500.000</td>
+                        <td>2.000.000</td>
+                        <td>2.500.000</td>
+                        <td>3.500.000</td>
+                        <td>2.500.000</td>
+                        <td>1.500.000</td>
+                        <td>5.500.000</td>
+                        <td>2.500.000</td>
                         <td>
                           <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr>
                         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;003 - Dukungan Operasional Pertahanan dan Keamanan</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>66.344.000</td>
+                        <td>32.000.000</td>
+                        <td>2.500.000</td>
+                        <td>4.500.000</td>
+                        <td>2.000.000</td>
+                        <td>3.000.000</td>
+                        <td>1.500.000</td>
+                        <td>2.000.000</td>
+                        <td>2.500.000</td>
+                        <td>3.500.000</td>
+                        <td>2.500.000</td>
+                        <td>1.500.000</td>
+                        <td>5.500.000</td>
+                        <td>2.500.000</td>
                         <td>
                           <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr>
                         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B - Kegiatan Pengamanan</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>16.000.000</td>
+                        <td>32.000.000</td>
+                        <td>2.500.000</td>
+                        <td>4.500.000</td>
+                        <td>2.000.000</td>
+                        <td>3.000.000</td>
+                        <td>1.500.000</td>
+                        <td>2.000.000</td>
+                        <td>2.500.000</td>
+                        <td>3.500.000</td>
+                        <td>2.500.000</td>
+                        <td>1.500.000</td>
+                        <td>5.500.000</td>
+                        <td>2.500.000</td>
                         <td>
                           <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr>
                         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5212111 - Belanja Barang Operasional Lainnya</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>588.000</td>
+                        <td>32.000.000</td>
+                        <td>2.500.000</td>
+                        <td>4.500.000</td>
+                        <td>2.000.000</td>
+                        <td>3.000.000</td>
+                        <td>1.500.000</td>
+                        <td>2.000.000</td>
+                        <td>2.500.000</td>
+                        <td>3.500.000</td>
+                        <td>2.500.000</td>
+                        <td>1.500.000</td>
+                        <td>5.500.000</td>
+                        <td>2.500.000</td>
                         <td>
                           <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr>
                         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Kegiatan Pengamanan</a></td>
-                        <td>19.00</td>
-                        <td>GIAT</td>
-                        <td>15.000</td>
-                        <td class="progress-bar-custom progress-bar-green" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 20%">16.000.000</td>
+                        <td>32.000.000</td>
+                        <td>2.500.000</td>
+                        <td>4.500.000</td>
+                        <td>2.000.000</td>
+                        <td>3.000.000</td>
+                        <td>1.500.000</td>
+                        <td>2.000.000</td>
+                        <td>2.500.000</td>
+                        <td>3.500.000</td>
+                        <td>2.500.000</td>
+                        <td>1.500.000</td>
+                        <td>5.500.000</td>
+                        <td>2.500.000</td>
                         <td>
                           <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr>
                         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5212112 - Belanja Barang Operasional Lainnya</td>
-                        <td>28.00</td>
-                        <td></td>
-                        <td></td>
-                        <td>1.316.000</td>
+                        <td>32.000.000</td>
+                        <td>2.500.000</td>
+                        <td>4.500.000</td>
+                        <td>2.000.000</td>
+                        <td>3.000.000</td>
+                        <td>1.500.000</td>
+                        <td>2.000.000</td>
+                        <td>2.500.000</td>
+                        <td>3.500.000</td>
+                        <td>2.500.000</td>
+                        <td>1.500.000</td>
+                        <td>5.500.000</td>
+                        <td>2.500.000</td>
                         <td>
                           <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr id="anggaran-terlambat">
                         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">P4GN</a></td>
-                        <td>19.00</td>
-                        <td>GIAT</td>
-                        <td>15.000</td>
-                        <td class="progress-bar-custom progress-bar-green" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 20%">16.000.000</td>
+                        <td>32.000.000</td>
+                        <td>2.500.000</td>
+                        <td>4.500.000</td>
+                        <td>2.000.000</td>
+                        <td>3.000.000</td>
+                        <td>1.500.000</td>
+                        <td>2.000.000</td>
+                        <td>2.500.000</td>
+                        <td>3.500.000</td>
+                        <td>2.500.000</td>
+                        <td>1.500.000</td>
+                        <td>5.500.000</td>
+                        <td>2.500.000</td>
                         <td>
                           <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr>
                         <td>&nbsp;&nbsp;&nbsp;&nbsp;1451 - Pemeliharaan/Perawatan Non Alutsista</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>1.933.789.000</td>
+                        <td>32.000.000</td>
+                        <td>2.500.000</td>
+                        <td>4.500.000</td>
+                        <td>2.000.000</td>
+                        <td>3.000.000</td>
+                        <td>1.500.000</td>
+                        <td>2.000.000</td>
+                        <td>2.500.000</td>
+                        <td>3.500.000</td>
+                        <td>2.500.000</td>
+                        <td>1.500.000</td>
+                        <td>5.500.000</td>
+                        <td>2.500.000</td>
                         <td>
                           <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr>
                         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1451.001 - Materil Non Alutsista yang Terpelihara [Baseline]</td>
-                        <td>12.00</td>
-                        <td>Laporan</td>
-                        <td></td>
-                        <td>1.059.206.000</td>
+                        <td>32.000.000</td>
+                        <td>2.500.000</td>
+                        <td>4.500.000</td>
+                        <td>2.000.000</td>
+                        <td>3.000.000</td>
+                        <td>1.500.000</td>
+                        <td>2.000.000</td>
+                        <td>2.500.000</td>
+                        <td>3.500.000</td>
+                        <td>2.500.000</td>
+                        <td>1.500.000</td>
+                        <td>5.500.000</td>
+                        <td>2.500.000</td>
                         <td>
                           <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr>
                         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1451.001.004 - Pemeliharaan Alzi </td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>1.059.206.000</td>
+                        <td>32.000.000</td>
+                        <td>2.500.000</td>
+                        <td>4.500.000</td>
+                        <td>2.000.000</td>
+                        <td>3.000.000</td>
+                        <td>1.500.000</td>
+                        <td>2.000.000</td>
+                        <td>2.500.000</td>
+                        <td>3.500.000</td>
+                        <td>2.500.000</td>
+                        <td>1.500.000</td>
+                        <td>5.500.000</td>
+                        <td>2.500.000</td>
                         <td>
                           <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr>
                         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;003 - Dukungan Operasional Pertahanan dan Keamanan</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>66.344.000</td>
+                        <td>32.000.000</td>
+                        <td>2.500.000</td>
+                        <td>4.500.000</td>
+                        <td>2.000.000</td>
+                        <td>3.000.000</td>
+                        <td>1.500.000</td>
+                        <td>2.000.000</td>
+                        <td>2.500.000</td>
+                        <td>3.500.000</td>
+                        <td>2.500.000</td>
+                        <td>1.500.000</td>
+                        <td>5.500.000</td>
+                        <td>2.500.000</td>
                         <td>
                           <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr>
                         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A - Pemeliharaan Alzi</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>16.000.000</td>
+                        <td>32.000.000</td>
+                        <td>2.500.000</td>
+                        <td>4.500.000</td>
+                        <td>2.000.000</td>
+                        <td>3.000.000</td>
+                        <td>1.500.000</td>
+                        <td>2.000.000</td>
+                        <td>2.500.000</td>
+                        <td>3.500.000</td>
+                        <td>2.500.000</td>
+                        <td>1.500.000</td>
+                        <td>5.500.000</td>
+                        <td>2.500.000</td>
                         <td>
                           <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr>
                         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5212111 - Belanja Barang Operasional Lainnya</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>588.000</td>
+                        <td>32.000.000</td>
+                        <td>2.500.000</td>
+                        <td>4.500.000</td>
+                        <td>2.000.000</td>
+                        <td>3.000.000</td>
+                        <td>1.500.000</td>
+                        <td>2.000.000</td>
+                        <td>2.500.000</td>
+                        <td>3.500.000</td>
+                        <td>2.500.000</td>
+                        <td>1.500.000</td>
+                        <td>5.500.000</td>
+                        <td>2.500.000</td>
                         <td>
                           <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr>
                         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Kegiatan Pengamanan</a></td>
-                        <td>19.00</td>
-                        <td>GIAT</td>
-                        <td>15.000</td>
-                        <td class="progress-bar-custom progress-bar-green" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 20%">16.000.000</td>
+                        <td>32.000.000</td>
+                        <td>2.500.000</td>
+                        <td>4.500.000</td>
+                        <td>2.000.000</td>
+                        <td>3.000.000</td>
+                        <td>1.500.000</td>
+                        <td>2.000.000</td>
+                        <td>2.500.000</td>
+                        <td>3.500.000</td>
+                        <td>2.500.000</td>
+                        <td>1.500.000</td>
+                        <td>5.500.000</td>
+                        <td>2.500.000</td>
                         <td>
                           <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr>
                         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5212112 - Belanja Barang Operasional Lainnya</td>
-                        <td>28.00</td>
-                        <td></td>
-                        <td></td>
-                        <td>1.316.000</td>
+                        <td>32.000.000</td>
+                        <td>2.500.000</td>
+                        <td>4.500.000</td>
+                        <td>2.000.000</td>
+                        <td>3.000.000</td>
+                        <td>1.500.000</td>
+                        <td>2.000.000</td>
+                        <td>2.500.000</td>
+                        <td>3.500.000</td>
+                        <td>2.500.000</td>
+                        <td>1.500.000</td>
+                        <td>5.500.000</td>
+                        <td>2.500.000</td>
                         <td>
                           <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
                         </td>
                       </tr>
                       <tr id="anggaran-terlambat">
                         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">P4GN</a></td>
-                        <td>19.00</td>
-                        <td>GIAT</td>
-                        <td>15.000</td>
-                        <td class="progress-bar-custom progress-bar-green" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 20%">16.000.000</td>
+                        <td>32.000.000</td>
+                        <td>2.500.000</td>
+                        <td>4.500.000</td>
+                        <td>2.000.000</td>
+                        <td>3.000.000</td>
+                        <td>1.500.000</td>
+                        <td>2.000.000</td>
+                        <td>2.500.000</td>
+                        <td>3.500.000</td>
+                        <td>2.500.000</td>
+                        <td>1.500.000</td>
+                        <td>5.500.000</td>
+                        <td>2.500.000</td>
                         <td>
                           <a href="{{ URL('cms/kemhan/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
                         </td>

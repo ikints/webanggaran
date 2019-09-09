@@ -19,14 +19,14 @@
           	<div class="box box-solid">
                 <div class="box-body">
                   <div class="row">
-                  <div class="col-md-10">
+                  <div class="col-md-8">
                       <!-- form start -->
                       <form class="form-horizontal">
                         <div class="box-body">
                           <div class="form-group">
                             <label for="inputEmail3" class="col-sm-3">Revisi Ke</label>
 
-                            <div class="col-sm-3">
+                            <div class="col-sm-5">
                               <input type="text" class="form-control" id="inputEmail3" placeholder="Revisi Ke">
                             </div>
                           </div>
@@ -60,34 +60,34 @@
                           <div class="form-group">
                             <label for="inputEmail3" class="col-sm-3">No. DIPA</label>
 
-                            <div class="col-sm-3">
+                            <div class="col-sm-5">
                               <input type="text" class="form-control" id="inputEmail3" placeholder="No. DIPA">
                             </div>
                           </div>
                           <div class="form-group">
                             <label for="inputEmail3" class="col-sm-3">Tanggal</label>
 
-                            <div class="col-sm-3">
+                            <div class="col-sm-5">
                               <input type="text" class="form-control" id="inputEmail3" placeholder="Tanggal">
                             </div>
                           </div>
                           <div class="form-group">
                             <label for="inputEmail3" class="col-sm-3">Catatan</label>
 
-                            <div class="col-sm-3">
+                            <div class="col-sm-5">
                               <textarea class="form-control"></textarea>
                             </div>
                           </div>
                           <div class="form-group">
                             <label for="inputEmail3" class="col-sm-3">File DIPA</label>
 
-                            <div class="col-sm-3">
+                            <div class="col-sm-5">
                               <input type="file" class="form-control" id="inputEmail3">
                             </div>
                           </div>
                         </div>
                         <!-- /.box-body -->
-                        <div class="box-footer btn-group">
+                        <div class="box-footer btn-toolbar">
                           <button type="submit" class="btn btn-info pull-left"><i class="fa fa-save"></i> Revisi</button>
                           &nbsp;&nbsp;&nbsp;&nbsp;
                           <button type="submit" class="btn btn-warning pull-left"><i class="fa fa-close"></i> Batal</button>
