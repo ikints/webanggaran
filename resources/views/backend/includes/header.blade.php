@@ -135,6 +135,7 @@
             <!-- Menu Kemhan -->
             @if(Session::get('level') == 1)
             <li class="active"><a href="{{ URL('cms/anggaran') }}">Anggaran</a></li>
+            <li><a href="{{ URL('cms/rencana-penarikan-dana') }}">Rencana Penarikan Dana (PRD)</a></li>
             <li><a href="{{ URL('cms/revisi-anggaran') }}">Revisi Anggaran</a></li>
             <li><a href="{{ URL('cms/realisasi-anggaran') }}">Realisasi Anggaran</a></li>
             <li class="dropdown">
@@ -149,6 +150,8 @@
                 <li><a href="{{ URL('cms/form-filter-laporan-realisasi-anggaran-belanja-menurut-wilayah-satuan-kerja-tingkat-eselon-i') }}">Laporan Realisasi Anggaran Belanja Menurut Wilayah/Satuan Kerja Tingkat Eselon I</a></li>
                 <li><a href="{{ URL('cms/form-filter-laporan-realisasi-anggaran-belanja-menurut-jenis-belanja-akun-tingkat-eselon-i') }}">Laporan Realisasi Anggaran Belanja Menurut Jenis Belanja / Akun Tingkat Eselon I</a></li>
                 <li><a href="{{ URL('cms/form-filter-laporan-realisasi-anggaran-belanja-menurut-sumber-dana-program-kegiatan-tingkat-eselon-i') }}">Laporan Realisasi Anggaran Belanja Menurut Sumber Dana Program Kegiatan Tingkat Eselon I</a></li>
+                <li class="divider"></li>
+                <li><a href="{{ URL('cms/form-filter-laporan-realisasi-rpd') }}">Laporan Realisasi RPD</a></li>
                 <li class="divider"></li>
                 <li><a href="{{ URL('cms/form-filter-laporan-pelaksanaan-anggaran-belanja-pegawai') }}">Laporan Pelaksanaan Anggaran Belanja Pegawai</a></li>
                 <li><a href="{{ URL('cms/form-filter-laporan-pelaksanaan-anggaran-belanja-barang') }}">Laporan Pelaksanaan Anggaran Belanja Barang</a></li>
@@ -174,13 +177,8 @@
                 
               @switch(Session::get('username'))
                   @case('kemhan_uo')
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Anggaran <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="{{ URL('cms/kemhan/uo/anggaran') }}">Rincian Anggaran</a></li>
-                <li><a href="{{ URL('cms/kemhan/uo/rencana-penarikan-dana') }}">Rencana Penarikan Dana (PRD)</a></li>
-              </ul>
-            </li>
+            <li><a href="{{ URL('cms/kemhan/uo/anggaran') }}">Anggaran</a></li>
+            <li><a href="{{ URL('cms/kemhan/uo/rencana-penarikan-dana') }}">Rencana Penarikan Dana (PRD)</a></li>
             <li><a href="{{ URL('cms/kemhan/uo/revisi-anggaran') }}">Revisi Anggaran</a></li>
             <li><a href="{{ URL('cms/kemhan/uo/realisasi-anggaran') }}">Realisasi Anggaran</a></li>
             <li class="dropdown">
@@ -220,13 +218,8 @@
             <li><a href="{{ URL('cms/signout') }}">Logout</a></li>
                       @break
                   @case('mabes_tni_uo')
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Anggaran <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="{{ URL('cms/mabes-tni/uo/anggaran') }}">Rincian Anggaran</a></li>
-                <li><a href="{{ URL('cms/mabes-tni/uo/rencana-penarikan-dana') }}">Rencana Penarikan Dana (PRD)</a></li>
-              </ul>
-            </li>
+            <li><a href="{{ URL('cms/mabes-tni/uo/anggaran') }}">Anggaran</a></li>
+            <li><a href="{{ URL('cms/mabes-tni/uo/rencana-penarikan-dana') }}">Rencana Penarikan Dana (PRD)</a></li>
             <li><a href="{{ URL('cms/mabes-tni/uo/revisi-anggaran') }}">Revisi Anggaran</a></li>
             <li><a href="{{ URL('cms/mabes-tni/uo/realisasi-anggaran') }}">Realisasi Anggaran</a></li>
             <li class="dropdown">
@@ -266,13 +259,8 @@
             <li><a href="{{ URL('cms/signout') }}">Logout</a></li>
                       @break
                   @case('tni_ad_uo')
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Anggaran <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="{{ URL('cms/tni-ad/uo/anggaran') }}">Rincian Anggaran</a></li>
-                <li><a href="{{ URL('cms/tni-ad/uo/rencana-penarikan-dana') }}">Rencana Penarikan Dana (PRD)</a></li>
-              </ul>
-            </li>
+            <li><a href="{{ URL('cms/tni-ad/uo/anggaran') }}">Anggaran</a></li>
+            <li><a href="{{ URL('cms/tni-ad/uo/rencana-penarikan-dana') }}">Rencana Penarikan Dana (PRD)</a></li>
             <li><a href="{{ URL('cms/tni-ad/uo/revisi-anggaran') }}">Revisi Anggaran</a></li>
             <li><a href="{{ URL('cms/tni-ad/uo/realisasi-anggaran') }}">Realisasi Anggaran</a></li>
             <li class="dropdown">
@@ -312,13 +300,8 @@
             <li><a href="{{ URL('cms/signout') }}">Logout</a></li>
                       @break
                   @case('tni_au_uo')
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Anggaran <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="{{ URL('cms/tni-au/uo/anggaran') }}">Rincian Anggaran</a></li>
-                <li><a href="{{ URL('cms/tni-au/uo/rencana-penarikan-dana') }}">Rencana Penarikan Dana (PRD)</a></li>
-              </ul>
-            </li>
+            <li><a href="{{ URL('cms/tni-au/uo/anggaran') }}">Anggaran</a></li>
+            <li><a href="{{ URL('cms/tni-au/uo/rencana-penarikan-dana') }}">Rencana Penarikan Dana (PRD)</a></li>
             <li><a href="{{ URL('cms/tni-au/uo/revisi-anggaran') }}">Revisi Anggaran</a></li>
             <li><a href="{{ URL('cms/tni-au/uo/realisasi-anggaran') }}">Realisasi Anggaran</a></li>
             <li class="dropdown">
@@ -358,13 +341,8 @@
             <li><a href="{{ URL('cms/signout') }}">Logout</a></li>
                       @break
                   @case('tni_al_uo')
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Anggaran <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="{{ URL('cms/tni-al/uo/anggaran') }}">Rincian Anggaran</a></li>
-                <li><a href="{{ URL('cms/tni-al/uo/rencana-penarikan-dana') }}">Rencana Penarikan Dana (PRD)</a></li>
-              </ul>
-            </li>
+            <li><a href="{{ URL('cms/tni-al/uo/anggaran') }}">Anggaran</a></li>
+            <li><a href="{{ URL('cms/tni-al/uo/rencana-penarikan-dana') }}">Rencana Penarikan Dana (PRD)</a></li>
             <li><a href="{{ URL('cms/tni-al/uo/revisi-anggaran') }}">Revisi Anggaran</a></li>
             <li><a href="{{ URL('cms/tni-al/uo/realisasi-anggaran') }}">Realisasi Anggaran</a></li>
             <li class="dropdown">

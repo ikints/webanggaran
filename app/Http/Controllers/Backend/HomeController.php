@@ -179,6 +179,34 @@ class HomeController extends Controller
 
     }
 
+    public function rencana_penarikan_dana() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.rencana-penarikan-dana";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    public function edit_rencana_penarikan_dana() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.edit-rencana-penarikan-dana";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
     /*== Realisasi Anggaran page ==*/
     public function realisasi_anggaran() 
     {
@@ -484,6 +512,34 @@ class HomeController extends Controller
 
     // set data view
     $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.form-filter-laporan-realisasi-anggaran-belanja-menurut-sumber-dana-program-kegiatan-tingkat-eselon-i";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    public function form_filter_laporan_realisasi_rpd() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.form-filter-laporan-realisasi-rpd";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    public function laporan_realisasi_rpd() 
+    {
+
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.laporan.laporan-realisasi-rpd";
     $datapage[ 'page_title' ]   = $this->title;
     $datapage[ 'ctrl' ]         = $this->ctrl;
     $datapage[ 'title' ]        = $this->title;
