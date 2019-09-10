@@ -206,6 +206,65 @@ Route::group(['middleware' => 'ValidateUO'], function () {
 	Route::get('cms/kemhan/uo/signout', 'Backend\KemhanUOController@signout');
 
 	/* Mabes TNI */
+	///=======================================Laporan
+
+	/* ==========Laporan Perkembangan========== */
+	Route::get('cms/mabes-tni/uo/form-filter-laporan-perkembangan-pengadaan-barang-dan-jasa', 'Backend\MabesTniUOController@form_filter_laporan_perkembangan_pengadaan_barang_dan_jasa');
+	Route::post('cms/mabes-tni/uo/laporan-perkembangan-pengadaan-barang-dan-jasa', 'Backend\MabesTniUOController@laporan_perkembangan_pengadaan_barang_dan_jasa');
+	Route::get('cms/mabes-tni/uo/form-filter-laporan-perkembangan-pembangunan-dan-pengembangan-fasilitas', 'Backend\MabesTniUOController@form_filter_laporan_perkembangan_pembangunan_dan_pengembangan_fasilitas');
+	Route::post('cms/mabes-tni/uo/laporan-perkembangan-pembangunan-dan-pengembangan-fasilitas', 'Backend\MabesTniUOController@laporan_perkembangan_pembangunan_dan_pengembangan_fasilitas');
+
+	/* ==========Laporan Pelaksanaan========== */
+	Route::get('cms/mabes-tni/uo/form-filter-laporan-pelaksanaan-anggaran-belanja-pegawai', 'Backend\MabesTniUOController@form_filter_laporan_pelaksanaan_anggaran_belanja_pegawai');
+	Route::post('cms/mabes-tni/uo/laporan-pelaksanaan-anggaran-belanja-pegawai', 'Backend\MabesTniUOController@laporan_pelaksanaan_anggaran_belanja_pegawai');
+	Route::get('cms/mabes-tni/uo/form-filter-laporan-pelaksanaan-anggaran-belanja-barang', 'Backend\MabesTniUOController@form_filter_laporan_pelaksanaan_anggaran_belanja_barang');
+	Route::get('cms/mabes-tni/uo/laporan-pelaksanaan-anggaran-belanja-barang', 'Backend\MabesTniUOController@laporan_pelaksanaan_anggaran_belanja_barang');
+	Route::get('cms/mabes-tni/uo/form-filter-laporan-pelaksanaan-anggaran-belanja-modal', 'Backend\MabesTniUOController@form_filter_laporan_pelaksanaan_anggaran_belanja_modal');
+	Route::post('cms/mabes-tni/uo/laporan-pelaksanaan-anggaran-belanja-modal', 'Backend\MabesTniUOController@laporan_pelaksanaan_anggaran_belanja_modal');
+	Route::get('cms/mabes-tni/uo/form-filter-laporan-pelaksanaan-barang-dan-jasa', 'Backend\MabesTniUOController@form_filter_laporan_pelaksanaan_barang_dan_jasa');
+	Route::post('cms/mabes-tni/uo/laporan-pelaksanaan-barang-dan-jasa', 'Backend\MabesTniUOController@laporan_pelaksanaan_barang_dan_jasa');
+	Route::get('cms/mabes-tni/uo/form-filter-laporan-pelaksanaan-perkembangan-kegiatan-prioritas', 'Backend\MabesTniUOController@form_filter_laporan_pelaksanaan_perkembangan_kegiatan_prioritas');
+	Route::post('cms/mabes-tni/uo/laporan-pelaksanaan-perkembangan-kegiatan-prioritas', 'Backend\MabesTniUOController@laporan_pelaksanaan_perkembangan_kegiatan_prioritas');
+	Route::get('cms/mabes-tni/uo/form-filter-laporan-pelaksanaan-perkembangan-pembangunan-dan-fasilitas', 'Backend\MabesTniUOController@form_filter_laporan_pelaksanaan_perkembangan_pembangunan_dan_fasilitas');
+	Route::post('cms/mabes-tni/uo/laporan-pelaksanaan-perkembangan-pembangunan-dan-fasilitas', 'Backend\MabesTniUOController@laporan_pelaksanaan_perkembangan_pembangunan_dan_fasilitas');
+	Route::get('cms/mabes-tni/uo/form-filter-laporan-realisasi-pelaksanaan-anggaran-perjenis-belanja', 'Backend\MabesTniUOController@form_filter_laporan_realisasi_pelaksanaan_anggaran_perjenis_belanja');
+	Route::post('cms/mabes-tni/uo/laporan-realisasi-pelaksanaan-anggaran-perjenis-belanja', 'Backend\MabesTniUOController@laporan_realisasi_pelaksanaan_anggaran_perjenis_belanja');
+
+	/* ==========Hibah========== */
+	Route::get('cms/mabes-tni/uo/form-filter-laporan-penerimaan-hibah-dalam-negeri', 'Backend\MabesTniUOController@form_filter_laporan_penerimaan_hibah_dalam_negeri');
+	Route::post('cms/mabes-tni/uo/laporan-penerimaan-hibah-dalam-negeri', 'Backend\MabesTniUOController@laporan_penerimaan_hibah_dalam_negeri');
+
+	/* ==========Pendapatan========== */
+	Route::get('cms/mabes-tni/uo/form-filter-laporan-pendapatan-negara', 'Backend\MabesTniUOController@form_filter_laporan_pendapatan_negara');
+	Route::post('cms/mabes-tni/uo/laporan-pendapatan-negara', 'Backend\MabesTniUOController@laporan_pendapatan_negara');
+	Route::get('cms/mabes-tni/uo/form-filter-laporan-anggaran-pemeliharaan', 'Backend\MabesTniUOController@form_filter_laporan_anggaran_pemeliharaan');
+	Route::post('cms/mabes-tni/uo/laporan-anggaran-pemeliharaan', 'Backend\MabesTniUOController@laporan_anggaran_pemeliharaan');
+	Route::get('cms/mabes-tni/uo/form-filter-laporan-anggaran-alutsista', 'Backend\MabesTniUOController@form_filter_laporan_anggaran_alutsista');
+	Route::post('cms/mabes-tni/uo/laporan-anggaran-alutsista', 'Backend\MabesTniUOController@laporan_anggaran_alutsista');
+	Route::get('cms/mabes-tni/uo/form-filter-laporan-anggaran-mef', 'Backend\MabesTniUOController@form_filter_laporan_anggaran_mef');
+	Route::post('cms/mabes-tni/uo/laporan-anggaran-mef', 'Backend\MabesTniUOController@laporan_anggaran_mef');
+	Route::get('cms/mabes-tni/uo/form-filter-laporan-anggaran-perbatasan', 'Backend\MabesTniUOController@form_filter_laporan_anggaran_perbatasan');
+	Route::post('cms/mabes-tni/uo/laporan-anggaran-perbatasan', 'Backend\MabesTniUOController@laporan_anggaran_perbatasan');
+	Route::get('cms/mabes-tni/uo/form-filter-laporan-anggaran-pinjaman', 'Backend\MabesTniUOController@form_filter_laporan_anggaran_pinjaman');
+	Route::post('cms/mabes-tni/uo/laporan-anggaran-pinjaman', 'Backend\MabesTniUOController@laporan_anggaran_pinjaman');
+	Route::get('cms/mabes-tni/uo/form-filter-laporan-anggaran-prioritas', 'Backend\MabesTniUOController@form_filter_laporan_anggaran_prioritas');
+	Route::post('cms/mabes-tni/uo/laporan-anggaran-prioritas', 'Backend\MabesTniUOController@laporan_anggaran_prioritas');
+
+	Route::get('cms/mabes-tni/uo/form-filter-laporan-realisasi-anggaran', 'Backend\MabesTniUOController@form_filter_laporan_realisasi_anggaran');
+	Route::post('cms/mabes-tni/uo/laporan-realisasi-anggaran', 'Backend\MabesTniUOController@laporan_realisasi_anggaran');
+	Route::get('cms/mabes-tni/uo/form-filter-laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i-menurut-wilayah-satuan-kerja', 'Backend\MabesTniUOController@form_filter_laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i_menurut_wilayah_satuan_kerja');
+	Route::post('cms/mabes-tni/uo/laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i-menurut-wilayah-satuan-kerja', 'Backend\MabesTniUOController@laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i_menurut_wilayah_satuan_kerja');
+	Route::get('cms/mabes-tni/uo/form-filter-laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i', 'Backend\MabesTniUOController@form_filter_laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i');
+	Route::post('cms/mabes-tni/uo/laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i', 'Backend\MabesTniUOController@laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i');
+	Route::get('cms/mabes-tni/uo/form-filter-laporan-realisasi-anggaran-belanja-menurut-wilayah-satuan-kerja-tingkat-eselon-i', 'Backend\MabesTniUOController@form_filter_laporan_realisasi_anggaran_belanja_menurut_wilayah_satuan_kerja_tingkat_eselon_i');
+	Route::post('cms/mabes-tni/uo/laporan-realisasi-anggaran-belanja-menurut-wilayah-satuan-kerja-tingkat-eselon-i', 'Backend\MabesTniUOController@laporan_realisasi_anggaran_belanja_menurut_wilayah_satuan_kerja_tingkat_eselon_i');
+	Route::get('cms/mabes-tni/uo/form-filter-laporan-realisasi-anggaran-belanja-menurut-jenis-belanja-akun-tingkat-eselon-i', 'Backend\MabesTniUOController@form_filter_laporan_realisasi_anggaran_belanja_menurut_jenis_belanja_akun_tingkat_eselon_i');
+	Route::post('cms/mabes-tni/uo/laporan-realisasi-anggaran-belanja-menurut-jenis-belanja-akun-tingkat-eselon-i', 'Backend\MabesTniUOController@laporan_realisasi_anggaran_belanja_menurut_jenis_belanja_akun_tingkat_eselon_i');
+	Route::get('cms/mabes-tni/uo/form-filter-laporan-realisasi-anggaran-belanja-menurut-sumber-dana-program-kegiatan-tingkat-eselon-i', 'Backend\MabesTniUOController@form_filter_laporan_realisasi_anggaran_belanja_menurut_sumber_dana_program_kegiatan_tingkat_eselon_i');
+	Route::post('cms/mabes-tni/uo/laporan-realisasi-anggaran-belanja-menurut-sumber-dana-program-kegiatan-tingkat-eselon-i', 'Backend\MabesTniUOController@laporan_realisasi_anggaran_belanja_menurut_sumber_dana_program_kegiatan_tingkat_eselon_i');
+
+
+	//----------------------------------------------------------------------------------------
 	Route::get('cms/mabes-tni/uo/tahun-anggaran', 'Backend\MabesTniUOController@tahun_anggaran');
 	Route::get('cms/mabes-tni/uo/tahun-anggaran-baru', 'Backend\MabesTniUOController@tahun_anggaran_baru');
 	Route::get('cms/mabes-tni/uo/tambah-sumber-anggaran', 'Backend\MabesTniUOController@tambah_sumber_anggaran');
@@ -243,6 +302,64 @@ Route::group(['middleware' => 'ValidateUO'], function () {
 	Route::get('cms/mabes-tni/uo/signout', 'Backend\MabesTniUOController@signout');
 
 	/* TNI AD */
+	///=======================================Laporan
+
+	/* ==========Laporan Perkembangan========== */
+	Route::get('cms/tni-ad/uo/form-filter-laporan-perkembangan-pengadaan-barang-dan-jasa', 'Backend\TniADUOController@form_filter_laporan_perkembangan_pengadaan_barang_dan_jasa');
+	Route::post('cms/tni-ad/uo/laporan-perkembangan-pengadaan-barang-dan-jasa', 'Backend\TniADUOController@laporan_perkembangan_pengadaan_barang_dan_jasa');
+	Route::get('cms/tni-ad/uo/form-filter-laporan-perkembangan-pembangunan-dan-pengembangan-fasilitas', 'Backend\TniADUOController@form_filter_laporan_perkembangan_pembangunan_dan_pengembangan_fasilitas');
+	Route::post('cms/tni-ad/uo/laporan-perkembangan-pembangunan-dan-pengembangan-fasilitas', 'Backend\TniADUOController@laporan_perkembangan_pembangunan_dan_pengembangan_fasilitas');
+
+	/* ==========Laporan Pelaksanaan========== */
+	Route::get('cms/tni-ad/uo/form-filter-laporan-pelaksanaan-anggaran-belanja-pegawai', 'Backend\TniADUOController@form_filter_laporan_pelaksanaan_anggaran_belanja_pegawai');
+	Route::post('cms/tni-ad/uo/laporan-pelaksanaan-anggaran-belanja-pegawai', 'Backend\TniADUOController@laporan_pelaksanaan_anggaran_belanja_pegawai');
+	Route::get('cms/tni-ad/uo/form-filter-laporan-pelaksanaan-anggaran-belanja-barang', 'Backend\TniADUOController@form_filter_laporan_pelaksanaan_anggaran_belanja_barang');
+	Route::get('cms/tni-ad/uo/laporan-pelaksanaan-anggaran-belanja-barang', 'Backend\TniADUOController@laporan_pelaksanaan_anggaran_belanja_barang');
+	Route::get('cms/tni-ad/uo/form-filter-laporan-pelaksanaan-anggaran-belanja-modal', 'Backend\TniADUOController@form_filter_laporan_pelaksanaan_anggaran_belanja_modal');
+	Route::post('cms/tni-ad/uo/laporan-pelaksanaan-anggaran-belanja-modal', 'Backend\TniADUOController@laporan_pelaksanaan_anggaran_belanja_modal');
+	Route::get('cms/tni-ad/uo/form-filter-laporan-pelaksanaan-barang-dan-jasa', 'Backend\TniADUOController@form_filter_laporan_pelaksanaan_barang_dan_jasa');
+	Route::post('cms/tni-ad/uo/laporan-pelaksanaan-barang-dan-jasa', 'Backend\TniADUOController@laporan_pelaksanaan_barang_dan_jasa');
+	Route::get('cms/tni-ad/uo/form-filter-laporan-pelaksanaan-perkembangan-kegiatan-prioritas', 'Backend\TniADUOController@form_filter_laporan_pelaksanaan_perkembangan_kegiatan_prioritas');
+	Route::post('cms/tni-ad/uo/laporan-pelaksanaan-perkembangan-kegiatan-prioritas', 'Backend\TniADUOController@laporan_pelaksanaan_perkembangan_kegiatan_prioritas');
+	Route::get('cms/tni-ad/uo/form-filter-laporan-pelaksanaan-perkembangan-pembangunan-dan-fasilitas', 'Backend\TniADUOController@form_filter_laporan_pelaksanaan_perkembangan_pembangunan_dan_fasilitas');
+	Route::post('cms/tni-ad/uo/laporan-pelaksanaan-perkembangan-pembangunan-dan-fasilitas', 'Backend\TniADUOController@laporan_pelaksanaan_perkembangan_pembangunan_dan_fasilitas');
+	Route::get('cms/tni-ad/uo/form-filter-laporan-realisasi-pelaksanaan-anggaran-perjenis-belanja', 'Backend\TniADUOController@form_filter_laporan_realisasi_pelaksanaan_anggaran_perjenis_belanja');
+	Route::post('cms/tni-ad/uo/laporan-realisasi-pelaksanaan-anggaran-perjenis-belanja', 'Backend\TniADUOController@laporan_realisasi_pelaksanaan_anggaran_perjenis_belanja');
+
+	/* ==========Hibah========== */
+	Route::get('cms/tni-ad/uo/form-filter-laporan-penerimaan-hibah-dalam-negeri', 'Backend\TniADUOController@form_filter_laporan_penerimaan_hibah_dalam_negeri');
+	Route::post('cms/tni-ad/uo/laporan-penerimaan-hibah-dalam-negeri', 'Backend\TniADUOController@laporan_penerimaan_hibah_dalam_negeri');
+
+	/* ==========Pendapatan========== */
+	Route::get('cms/tni-ad/uo/form-filter-laporan-pendapatan-negara', 'Backend\TniADUOController@form_filter_laporan_pendapatan_negara');
+	Route::post('cms/tni-ad/uo/laporan-pendapatan-negara', 'Backend\TniADUOController@laporan_pendapatan_negara');
+	Route::get('cms/tni-ad/uo/form-filter-laporan-anggaran-pemeliharaan', 'Backend\TniADUOController@form_filter_laporan_anggaran_pemeliharaan');
+	Route::post('cms/tni-ad/uo/laporan-anggaran-pemeliharaan', 'Backend\TniADUOController@laporan_anggaran_pemeliharaan');
+	Route::get('cms/tni-ad/uo/form-filter-laporan-anggaran-alutsista', 'Backend\TniADUOController@form_filter_laporan_anggaran_alutsista');
+	Route::post('cms/tni-ad/uo/laporan-anggaran-alutsista', 'Backend\TniADUOController@laporan_anggaran_alutsista');
+	Route::get('cms/tni-ad/uo/form-filter-laporan-anggaran-mef', 'Backend\TniADUOController@form_filter_laporan_anggaran_mef');
+	Route::post('cms/tni-ad/uo/laporan-anggaran-mef', 'Backend\TniADUOController@laporan_anggaran_mef');
+	Route::get('cms/tni-ad/uo/form-filter-laporan-anggaran-perbatasan', 'Backend\TniADUOController@form_filter_laporan_anggaran_perbatasan');
+	Route::post('cms/tni-ad/uo/laporan-anggaran-perbatasan', 'Backend\TniADUOController@laporan_anggaran_perbatasan');
+	Route::get('cms/tni-ad/uo/form-filter-laporan-anggaran-pinjaman', 'Backend\TniADUOController@form_filter_laporan_anggaran_pinjaman');
+	Route::post('cms/tni-ad/uo/laporan-anggaran-pinjaman', 'Backend\TniADUOController@laporan_anggaran_pinjaman');
+	Route::get('cms/tni-ad/uo/form-filter-laporan-anggaran-prioritas', 'Backend\TniADUOController@form_filter_laporan_anggaran_prioritas');
+	Route::post('cms/tni-ad/uo/laporan-anggaran-prioritas', 'Backend\TniADUOController@laporan_anggaran_prioritas');
+
+	Route::get('cms/tni-ad/uo/form-filter-laporan-realisasi-anggaran', 'Backend\TniADUOController@form_filter_laporan_realisasi_anggaran');
+	Route::post('cms/tni-ad/uo/laporan-realisasi-anggaran', 'Backend\TniADUOController@laporan_realisasi_anggaran');
+	Route::get('cms/tni-ad/uo/form-filter-laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i-menurut-wilayah-satuan-kerja', 'Backend\TniADUOController@form_filter_laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i_menurut_wilayah_satuan_kerja');
+	Route::post('cms/tni-ad/uo/laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i-menurut-wilayah-satuan-kerja', 'Backend\TniADUOController@laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i_menurut_wilayah_satuan_kerja');
+	Route::get('cms/tni-ad/uo/form-filter-laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i', 'Backend\TniADUOController@form_filter_laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i');
+	Route::post('cms/tni-ad/uo/laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i', 'Backend\TniADUOController@laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i');
+	Route::get('cms/tni-ad/uo/form-filter-laporan-realisasi-anggaran-belanja-menurut-wilayah-satuan-kerja-tingkat-eselon-i', 'Backend\TniADUOController@form_filter_laporan_realisasi_anggaran_belanja_menurut_wilayah_satuan_kerja_tingkat_eselon_i');
+	Route::post('cms/tni-ad/uo/laporan-realisasi-anggaran-belanja-menurut-wilayah-satuan-kerja-tingkat-eselon-i', 'Backend\TniADUOController@laporan_realisasi_anggaran_belanja_menurut_wilayah_satuan_kerja_tingkat_eselon_i');
+	Route::get('cms/tni-ad/uo/form-filter-laporan-realisasi-anggaran-belanja-menurut-jenis-belanja-akun-tingkat-eselon-i', 'Backend\TniADUOController@form_filter_laporan_realisasi_anggaran_belanja_menurut_jenis_belanja_akun_tingkat_eselon_i');
+	Route::post('cms/tni-ad/uo/laporan-realisasi-anggaran-belanja-menurut-jenis-belanja-akun-tingkat-eselon-i', 'Backend\TniADUOController@laporan_realisasi_anggaran_belanja_menurut_jenis_belanja_akun_tingkat_eselon_i');
+	Route::get('cms/tni-ad/uo/form-filter-laporan-realisasi-anggaran-belanja-menurut-sumber-dana-program-kegiatan-tingkat-eselon-i', 'Backend\TniADUOController@form_filter_laporan_realisasi_anggaran_belanja_menurut_sumber_dana_program_kegiatan_tingkat_eselon_i');
+	Route::post('cms/tni-ad/uo/laporan-realisasi-anggaran-belanja-menurut-sumber-dana-program-kegiatan-tingkat-eselon-i', 'Backend\TniADUOController@laporan_realisasi_anggaran_belanja_menurut_sumber_dana_program_kegiatan_tingkat_eselon_i');
+
+	//------------------------------------------
 	Route::get('cms/tni-ad/uo/tahun-anggaran', 'Backend\TniADUOController@tahun_anggaran');
 	Route::get('cms/tni-ad/uo/tahun-anggaran-baru', 'Backend\TniADUOController@tahun_anggaran_baru');
 	Route::get('cms/tni-ad/uo/tambah-sumber-anggaran', 'Backend\TniADUOController@tambah_sumber_anggaran');
@@ -281,6 +398,65 @@ Route::group(['middleware' => 'ValidateUO'], function () {
 
 
 	/* TNI AU */
+	///=======================================Laporan
+
+	/* ==========Laporan Perkembangan========== */
+	Route::get('cms/tni-au/uo/form-filter-laporan-perkembangan-pengadaan-barang-dan-jasa', 'Backend\TniAUUOController@form_filter_laporan_perkembangan_pengadaan_barang_dan_jasa');
+	Route::post('cms/tni-au/uo/laporan-perkembangan-pengadaan-barang-dan-jasa', 'Backend\TniAUUOController@laporan_perkembangan_pengadaan_barang_dan_jasa');
+	Route::get('cms/tni-au/uo/form-filter-laporan-perkembangan-pembangunan-dan-pengembangan-fasilitas', 'Backend\TniAUUOController@form_filter_laporan_perkembangan_pembangunan_dan_pengembangan_fasilitas');
+	Route::post('cms/tni-au/uo/laporan-perkembangan-pembangunan-dan-pengembangan-fasilitas', 'Backend\TniAUUOController@laporan_perkembangan_pembangunan_dan_pengembangan_fasilitas');
+
+	/* ==========Laporan Pelaksanaan========== */
+	Route::get('cms/tni-au/uo/form-filter-laporan-pelaksanaan-anggaran-belanja-pegawai', 'Backend\TniAUUOController@form_filter_laporan_pelaksanaan_anggaran_belanja_pegawai');
+	Route::post('cms/tni-au/uo/laporan-pelaksanaan-anggaran-belanja-pegawai', 'Backend\TniAUUOController@laporan_pelaksanaan_anggaran_belanja_pegawai');
+	Route::get('cms/tni-au/uo/form-filter-laporan-pelaksanaan-anggaran-belanja-barang', 'Backend\TniAUUOController@form_filter_laporan_pelaksanaan_anggaran_belanja_barang');
+	Route::get('cms/tni-au/uo/laporan-pelaksanaan-anggaran-belanja-barang', 'Backend\TniAUUOController@laporan_pelaksanaan_anggaran_belanja_barang');
+	Route::get('cms/tni-au/uo/form-filter-laporan-pelaksanaan-anggaran-belanja-modal', 'Backend\TniAUUOController@form_filter_laporan_pelaksanaan_anggaran_belanja_modal');
+	Route::post('cms/tni-au/uo/laporan-pelaksanaan-anggaran-belanja-modal', 'Backend\TniAUUOController@laporan_pelaksanaan_anggaran_belanja_modal');
+	Route::get('cms/tni-au/uo/form-filter-laporan-pelaksanaan-barang-dan-jasa', 'Backend\TniAUUOController@form_filter_laporan_pelaksanaan_barang_dan_jasa');
+	Route::post('cms/tni-au/uo/laporan-pelaksanaan-barang-dan-jasa', 'Backend\TniAUUOController@laporan_pelaksanaan_barang_dan_jasa');
+	Route::get('cms/tni-au/uo/form-filter-laporan-pelaksanaan-perkembangan-kegiatan-prioritas', 'Backend\TniAUUOController@form_filter_laporan_pelaksanaan_perkembangan_kegiatan_prioritas');
+	Route::post('cms/tni-au/uo/laporan-pelaksanaan-perkembangan-kegiatan-prioritas', 'Backend\TniAUUOController@laporan_pelaksanaan_perkembangan_kegiatan_prioritas');
+	Route::get('cms/tni-au/uo/form-filter-laporan-pelaksanaan-perkembangan-pembangunan-dan-fasilitas', 'Backend\TniAUUOController@form_filter_laporan_pelaksanaan_perkembangan_pembangunan_dan_fasilitas');
+	Route::post('cms/tni-au/uo/laporan-pelaksanaan-perkembangan-pembangunan-dan-fasilitas', 'Backend\TniAUUOController@laporan_pelaksanaan_perkembangan_pembangunan_dan_fasilitas');
+	Route::get('cms/tni-au/uo/form-filter-laporan-realisasi-pelaksanaan-anggaran-perjenis-belanja', 'Backend\TniAUUOController@form_filter_laporan_realisasi_pelaksanaan_anggaran_perjenis_belanja');
+	Route::post('cms/tni-au/uo/laporan-realisasi-pelaksanaan-anggaran-perjenis-belanja', 'Backend\TniAUUOController@laporan_realisasi_pelaksanaan_anggaran_perjenis_belanja');
+
+	/* ==========Hibah========== */
+	Route::get('cms/tni-au/uo/form-filter-laporan-penerimaan-hibah-dalam-negeri', 'Backend\TniAUUOController@form_filter_laporan_penerimaan_hibah_dalam_negeri');
+	Route::post('cms/tni-au/uo/laporan-penerimaan-hibah-dalam-negeri', 'Backend\TniAUUOController@laporan_penerimaan_hibah_dalam_negeri');
+
+	/* ==========Pendapatan========== */
+	Route::get('cms/tni-au/uo/form-filter-laporan-pendapatan-negara', 'Backend\TniAUUOController@form_filter_laporan_pendapatan_negara');
+	Route::post('cms/tni-au/uo/laporan-pendapatan-negara', 'Backend\TniAUUOController@laporan_pendapatan_negara');
+	Route::get('cms/tni-au/uo/form-filter-laporan-anggaran-pemeliharaan', 'Backend\TniAUUOController@form_filter_laporan_anggaran_pemeliharaan');
+	Route::post('cms/tni-au/uo/laporan-anggaran-pemeliharaan', 'Backend\TniAUUOController@laporan_anggaran_pemeliharaan');
+	Route::get('cms/tni-au/uo/form-filter-laporan-anggaran-alutsista', 'Backend\TniAUUOController@form_filter_laporan_anggaran_alutsista');
+	Route::post('cms/tni-au/uo/laporan-anggaran-alutsista', 'Backend\TniAUUOController@laporan_anggaran_alutsista');
+	Route::get('cms/tni-au/uo/form-filter-laporan-anggaran-mef', 'Backend\TniAUUOController@form_filter_laporan_anggaran_mef');
+	Route::post('cms/tni-au/uo/laporan-anggaran-mef', 'Backend\TniAUUOController@laporan_anggaran_mef');
+	Route::get('cms/tni-au/uo/form-filter-laporan-anggaran-perbatasan', 'Backend\TniAUUOController@form_filter_laporan_anggaran_perbatasan');
+	Route::post('cms/tni-au/uo/laporan-anggaran-perbatasan', 'Backend\TniAUUOController@laporan_anggaran_perbatasan');
+	Route::get('cms/tni-au/uo/form-filter-laporan-anggaran-pinjaman', 'Backend\TniAUUOController@form_filter_laporan_anggaran_pinjaman');
+	Route::post('cms/tni-au/uo/laporan-anggaran-pinjaman', 'Backend\TniAUUOController@laporan_anggaran_pinjaman');
+	Route::get('cms/tni-au/uo/form-filter-laporan-anggaran-prioritas', 'Backend\TniAUUOController@form_filter_laporan_anggaran_prioritas');
+	Route::post('cms/tni-au/uo/laporan-anggaran-prioritas', 'Backend\TniAUUOController@laporan_anggaran_prioritas');
+
+	Route::get('cms/tni-au/uo/form-filter-laporan-realisasi-anggaran', 'Backend\TniAUUOController@form_filter_laporan_realisasi_anggaran');
+	Route::post('cms/tni-au/uo/laporan-realisasi-anggaran', 'Backend\TniAUUOController@laporan_realisasi_anggaran');
+	Route::get('cms/tni-au/uo/form-filter-laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i-menurut-wilayah-satuan-kerja', 'Backend\TniAUUOController@form_filter_laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i_menurut_wilayah_satuan_kerja');
+	Route::post('cms/tni-au/uo/laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i-menurut-wilayah-satuan-kerja', 'Backend\TniAUUOController@laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i_menurut_wilayah_satuan_kerja');
+	Route::get('cms/tni-au/uo/form-filter-laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i', 'Backend\TniAUUOController@form_filter_laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i');
+	Route::post('cms/tni-au/uo/laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i', 'Backend\TniAUUOController@laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i');
+	Route::get('cms/tni-au/uo/form-filter-laporan-realisasi-anggaran-belanja-menurut-wilayah-satuan-kerja-tingkat-eselon-i', 'Backend\TniAUUOController@form_filter_laporan_realisasi_anggaran_belanja_menurut_wilayah_satuan_kerja_tingkat_eselon_i');
+	Route::post('cms/tni-au/uo/laporan-realisasi-anggaran-belanja-menurut-wilayah-satuan-kerja-tingkat-eselon-i', 'Backend\TniAUUOController@laporan_realisasi_anggaran_belanja_menurut_wilayah_satuan_kerja_tingkat_eselon_i');
+	Route::get('cms/tni-au/uo/form-filter-laporan-realisasi-anggaran-belanja-menurut-jenis-belanja-akun-tingkat-eselon-i', 'Backend\TniAUUOController@form_filter_laporan_realisasi_anggaran_belanja_menurut_jenis_belanja_akun_tingkat_eselon_i');
+	Route::post('cms/tni-au/uo/laporan-realisasi-anggaran-belanja-menurut-jenis-belanja-akun-tingkat-eselon-i', 'Backend\TniAUUOController@laporan_realisasi_anggaran_belanja_menurut_jenis_belanja_akun_tingkat_eselon_i');
+	Route::get('cms/tni-au/uo/form-filter-laporan-realisasi-anggaran-belanja-menurut-sumber-dana-program-kegiatan-tingkat-eselon-i', 'Backend\TniAUUOController@form_filter_laporan_realisasi_anggaran_belanja_menurut_sumber_dana_program_kegiatan_tingkat_eselon_i');
+	Route::post('cms/tni-au/uo/laporan-realisasi-anggaran-belanja-menurut-sumber-dana-program-kegiatan-tingkat-eselon-i', 'Backend\TniAUUOController@laporan_realisasi_anggaran_belanja_menurut_sumber_dana_program_kegiatan_tingkat_eselon_i');
+
+
+	//----------------------
 	Route::get('cms/tni-au/uo/tahun-anggaran', 'Backend\TniAUUOController@tahun_anggaran');
 	Route::get('cms/tni-au/uo/tahun-anggaran-baru', 'Backend\TniAUUOController@tahun_anggaran_baru');
 	Route::get('cms/tni-au/uo/tambah-sumber-anggaran', 'Backend\TniAUUOController@tambah_sumber_anggaran');
@@ -318,6 +494,64 @@ Route::group(['middleware' => 'ValidateUO'], function () {
 	Route::get('cms/tni-au/uo/signout', 'Backend\TniAUUOController@signout');
 
 	/* TNI AL */
+	///=======================================Laporan
+
+	/* ==========Laporan Perkembangan========== */
+	Route::get('cms/tni-al/uo/form-filter-laporan-perkembangan-pengadaan-barang-dan-jasa', 'Backend\TniALUOController@form_filter_laporan_perkembangan_pengadaan_barang_dan_jasa');
+	Route::post('cms/tni-al/uo/laporan-perkembangan-pengadaan-barang-dan-jasa', 'Backend\TniALUOController@laporan_perkembangan_pengadaan_barang_dan_jasa');
+	Route::get('cms/tni-al/uo/form-filter-laporan-perkembangan-pembangunan-dan-pengembangan-fasilitas', 'Backend\TniALUOController@form_filter_laporan_perkembangan_pembangunan_dan_pengembangan_fasilitas');
+	Route::post('cms/tni-al/uo/laporan-perkembangan-pembangunan-dan-pengembangan-fasilitas', 'Backend\TniALUOController@laporan_perkembangan_pembangunan_dan_pengembangan_fasilitas');
+
+	/* ==========Laporan Pelaksanaan========== */
+	Route::get('cms/tni-al/uo/form-filter-laporan-pelaksanaan-anggaran-belanja-pegawai', 'Backend\TniALUOController@form_filter_laporan_pelaksanaan_anggaran_belanja_pegawai');
+	Route::post('cms/tni-al/uo/laporan-pelaksanaan-anggaran-belanja-pegawai', 'Backend\TniALUOController@laporan_pelaksanaan_anggaran_belanja_pegawai');
+	Route::get('cms/tni-al/uo/form-filter-laporan-pelaksanaan-anggaran-belanja-barang', 'Backend\TniALUOController@form_filter_laporan_pelaksanaan_anggaran_belanja_barang');
+	Route::get('cms/tni-al/uo/laporan-pelaksanaan-anggaran-belanja-barang', 'Backend\TniALUOController@laporan_pelaksanaan_anggaran_belanja_barang');
+	Route::get('cms/tni-al/uo/form-filter-laporan-pelaksanaan-anggaran-belanja-modal', 'Backend\TniALUOController@form_filter_laporan_pelaksanaan_anggaran_belanja_modal');
+	Route::post('cms/tni-al/uo/laporan-pelaksanaan-anggaran-belanja-modal', 'Backend\TniALUOController@laporan_pelaksanaan_anggaran_belanja_modal');
+	Route::get('cms/tni-al/uo/form-filter-laporan-pelaksanaan-barang-dan-jasa', 'Backend\TniALUOController@form_filter_laporan_pelaksanaan_barang_dan_jasa');
+	Route::post('cms/tni-al/uo/laporan-pelaksanaan-barang-dan-jasa', 'Backend\TniALUOController@laporan_pelaksanaan_barang_dan_jasa');
+	Route::get('cms/tni-al/uo/form-filter-laporan-pelaksanaan-perkembangan-kegiatan-prioritas', 'Backend\TniALUOController@form_filter_laporan_pelaksanaan_perkembangan_kegiatan_prioritas');
+	Route::post('cms/tni-al/uo/laporan-pelaksanaan-perkembangan-kegiatan-prioritas', 'Backend\TniALUOController@laporan_pelaksanaan_perkembangan_kegiatan_prioritas');
+	Route::get('cms/tni-al/uo/form-filter-laporan-pelaksanaan-perkembangan-pembangunan-dan-fasilitas', 'Backend\TniALUOController@form_filter_laporan_pelaksanaan_perkembangan_pembangunan_dan_fasilitas');
+	Route::post('cms/tni-al/uo/laporan-pelaksanaan-perkembangan-pembangunan-dan-fasilitas', 'Backend\TniALUOController@laporan_pelaksanaan_perkembangan_pembangunan_dan_fasilitas');
+	Route::get('cms/tni-al/uo/form-filter-laporan-realisasi-pelaksanaan-anggaran-perjenis-belanja', 'Backend\TniALUOController@form_filter_laporan_realisasi_pelaksanaan_anggaran_perjenis_belanja');
+	Route::post('cms/tni-al/uo/laporan-realisasi-pelaksanaan-anggaran-perjenis-belanja', 'Backend\TniALUOController@laporan_realisasi_pelaksanaan_anggaran_perjenis_belanja');
+
+	/* ==========Hibah========== */
+	Route::get('cms/tni-al/uo/form-filter-laporan-penerimaan-hibah-dalam-negeri', 'Backend\TniALUOController@form_filter_laporan_penerimaan_hibah_dalam_negeri');
+	Route::post('cms/tni-al/uo/laporan-penerimaan-hibah-dalam-negeri', 'Backend\TniALUOController@laporan_penerimaan_hibah_dalam_negeri');
+
+	/* ==========Pendapatan========== */
+	Route::get('cms/tni-al/uo/form-filter-laporan-pendapatan-negara', 'Backend\TniALUOController@form_filter_laporan_pendapatan_negara');
+	Route::post('cms/tni-al/uo/laporan-pendapatan-negara', 'Backend\TniALUOController@laporan_pendapatan_negara');
+	Route::get('cms/tni-al/uo/form-filter-laporan-anggaran-pemeliharaan', 'Backend\TniALUOController@form_filter_laporan_anggaran_pemeliharaan');
+	Route::post('cms/tni-al/uo/laporan-anggaran-pemeliharaan', 'Backend\TniALUOController@laporan_anggaran_pemeliharaan');
+	Route::get('cms/tni-al/uo/form-filter-laporan-anggaran-alutsista', 'Backend\TniALUOController@form_filter_laporan_anggaran_alutsista');
+	Route::post('cms/tni-al/uo/laporan-anggaran-alutsista', 'Backend\TniALUOController@laporan_anggaran_alutsista');
+	Route::get('cms/tni-al/uo/form-filter-laporan-anggaran-mef', 'Backend\TniALUOController@form_filter_laporan_anggaran_mef');
+	Route::post('cms/tni-al/uo/laporan-anggaran-mef', 'Backend\TniALUOController@laporan_anggaran_mef');
+	Route::get('cms/tni-al/uo/form-filter-laporan-anggaran-perbatasan', 'Backend\TniALUOController@form_filter_laporan_anggaran_perbatasan');
+	Route::post('cms/tni-al/uo/laporan-anggaran-perbatasan', 'Backend\TniALUOController@laporan_anggaran_perbatasan');
+	Route::get('cms/tni-al/uo/form-filter-laporan-anggaran-pinjaman', 'Backend\TniALUOController@form_filter_laporan_anggaran_pinjaman');
+	Route::post('cms/tni-al/uo/laporan-anggaran-pinjaman', 'Backend\TniALUOController@laporan_anggaran_pinjaman');
+	Route::get('cms/tni-al/uo/form-filter-laporan-anggaran-prioritas', 'Backend\TniALUOController@form_filter_laporan_anggaran_prioritas');
+	Route::post('cms/tni-al/uo/laporan-anggaran-prioritas', 'Backend\TniALUOController@laporan_anggaran_prioritas');
+
+	Route::get('cms/tni-al/uo/form-filter-laporan-realisasi-anggaran', 'Backend\TniALUOController@form_filter_laporan_realisasi_anggaran');
+	Route::post('cms/tni-al/uo/laporan-realisasi-anggaran', 'Backend\TniALUOController@laporan_realisasi_anggaran');
+	Route::get('cms/tni-al/uo/form-filter-laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i-menurut-wilayah-satuan-kerja', 'Backend\TniALUOController@form_filter_laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i_menurut_wilayah_satuan_kerja');
+	Route::post('cms/tni-al/uo/laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i-menurut-wilayah-satuan-kerja', 'Backend\TniALUOController@laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i_menurut_wilayah_satuan_kerja');
+	Route::get('cms/tni-al/uo/form-filter-laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i', 'Backend\TniALUOController@form_filter_laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i');
+	Route::post('cms/tni-al/uo/laporan-realisasi-anggaran-pendapatan-tingkat-eselon-i', 'Backend\TniALUOController@laporan_realisasi_anggaran_pendapatan_tingkat_eselon_i');
+	Route::get('cms/tni-al/uo/form-filter-laporan-realisasi-anggaran-belanja-menurut-wilayah-satuan-kerja-tingkat-eselon-i', 'Backend\TniALUOController@form_filter_laporan_realisasi_anggaran_belanja_menurut_wilayah_satuan_kerja_tingkat_eselon_i');
+	Route::post('cms/tni-al/uo/laporan-realisasi-anggaran-belanja-menurut-wilayah-satuan-kerja-tingkat-eselon-i', 'Backend\TniALUOController@laporan_realisasi_anggaran_belanja_menurut_wilayah_satuan_kerja_tingkat_eselon_i');
+	Route::get('cms/tni-al/uo/form-filter-laporan-realisasi-anggaran-belanja-menurut-jenis-belanja-akun-tingkat-eselon-i', 'Backend\TniALUOController@form_filter_laporan_realisasi_anggaran_belanja_menurut_jenis_belanja_akun_tingkat_eselon_i');
+	Route::post('cms/tni-al/uo/laporan-realisasi-anggaran-belanja-menurut-jenis-belanja-akun-tingkat-eselon-i', 'Backend\TniALUOController@laporan_realisasi_anggaran_belanja_menurut_jenis_belanja_akun_tingkat_eselon_i');
+	Route::get('cms/tni-al/uo/form-filter-laporan-realisasi-anggaran-belanja-menurut-sumber-dana-program-kegiatan-tingkat-eselon-i', 'Backend\TniALUOController@form_filter_laporan_realisasi_anggaran_belanja_menurut_sumber_dana_program_kegiatan_tingkat_eselon_i');
+	Route::post('cms/tni-al/uo/laporan-realisasi-anggaran-belanja-menurut-sumber-dana-program-kegiatan-tingkat-eselon-i', 'Backend\TniALUOController@laporan_realisasi_anggaran_belanja_menurut_sumber_dana_program_kegiatan_tingkat_eselon_i');
+	
+	//--------------------
 	Route::get('cms/tni-al/uo/tahun-anggaran', 'Backend\TniALUOController@tahun_anggaran');
 	Route::get('cms/tni-al/uo/tahun-anggaran-baru', 'Backend\TniALUOController@tahun_anggaran_baru');
 	Route::get('cms/tni-al/uo/tambah-sumber-anggaran', 'Backend\TniALUOController@tambah_sumber_anggaran');

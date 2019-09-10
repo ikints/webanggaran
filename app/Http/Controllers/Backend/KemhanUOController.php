@@ -860,16 +860,7 @@ class KemhanUOController extends Controller
 
     }
 
-    /*== Signout Action ==*/
-    public function signout(Request $request) 
-    {
-        // destroy session
-        Session::flush();
-
-        // redirect to signin form
-        return redirect('/');
-
-    }
+    
 
     /*== form_filter_laporan_anggaran_pemeliharaan ==*/
     public function form_filter_laporan_anggaran_pemeliharaan() 
@@ -1048,6 +1039,17 @@ class KemhanUOController extends Controller
 
     // load view
     return view($datapage[ 'content_view' ], $datapage);
+
+    }
+
+    /*== Signout Action ==*/
+    public function signout(Request $request) 
+    {
+        // destroy session
+        Session::flush();
+
+        // redirect to signin form
+        return redirect('/');
 
     }
 

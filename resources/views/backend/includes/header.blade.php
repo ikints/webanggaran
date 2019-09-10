@@ -400,6 +400,8 @@
                 <li><a href="{{ URL('cms/kotama/form-filter-laporan-realisasi-anggaran-belanja-menurut-jenis-belanja-akun-tingkat-eselon-i') }}">Laporan Realisasi Anggaran Belanja Menurut Jenis Belanja / Akun Tingkat Eselon I</a></li>
                 <li><a href="{{ URL('cms/kotama/form-filter-laporan-realisasi-anggaran-belanja-menurut-sumber-dana-program-kegiatan-tingkat-eselon-i') }}">Laporan Realisasi Anggaran Belanja Menurut Sumber Dana Program Kegiatan Tingkat Eselon I</a></li>
                 <li class="divider"></li>
+                <li><a href="{{ URL('cms/kotama/form-filter-laporan-realisasi-rpd') }}">Laporan Realisasi RPD</a></li>
+                <li class="divider"></li>
                 <li><a href="{{ URL('cms/kotama/form-filter-laporan-pelaksanaan-anggaran-belanja-pegawai') }}">Laporan Pelaksanaan Anggaran Belanja Pegawai</a></li>
                 <li><a href="{{ URL('cms/kotama/form-filter-laporan-pelaksanaan-anggaran-belanja-barang') }}">Laporan Pelaksanaan Anggaran Belanja Barang</a></li>
                 <li><a href="{{ URL('cms/kotama/form-filter-laporan-pelaksanaan-anggaran-belanja-modal') }}">Laporan Pelaksanaan Anggaran Belanja Modal</a></li>
@@ -442,6 +444,8 @@
                 <li><a href="{{ URL('cms/satker/form-filter-laporan-realisasi-anggaran-belanja-menurut-wilayah-satuan-kerja-tingkat-eselon-i') }}">Laporan Realisasi Anggaran Belanja Menurut Wilayah/Satuan Kerja Tingkat Eselon I</a></li>
                 <li><a href="{{ URL('cms/satker/form-filter-laporan-realisasi-anggaran-belanja-menurut-jenis-belanja-akun-tingkat-eselon-i') }}">Laporan Realisasi Anggaran Belanja Menurut Jenis Belanja / Akun Tingkat Eselon I</a></li>
                 <li><a href="{{ URL('cms/satker/form-filter-laporan-realisasi-anggaran-belanja-menurut-sumber-dana-program-kegiatan-tingkat-eselon-i') }}">Laporan Realisasi Anggaran Belanja Menurut Sumber Dana Program Kegiatan Tingkat Eselon I</a></li>
+                <li class="divider"></li>
+                <li><a href="{{ URL('cms/satker/form-filter-laporan-realisasi-rpd') }}">Laporan Realisasi RPD</a></li>
                 <li class="divider"></li>
                 <li><a href="{{ URL('cms/satker/form-filter-laporan-pelaksanaan-anggaran-belanja-pegawai') }}">Laporan Pelaksanaan Anggaran Belanja Pegawai</a></li>
                 <li><a href="{{ URL('cms/satker/form-filter-laporan-pelaksanaan-anggaran-belanja-barang') }}">Laporan Pelaksanaan Anggaran Belanja Barang</a></li>
