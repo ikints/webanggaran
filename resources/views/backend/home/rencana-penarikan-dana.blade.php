@@ -90,7 +90,7 @@
                   <table class="table table-bordered table-striped">
                       <thead>
                       <tr>
-                        <th class="text-center">PROGRAM/KEGIATAN/OUTPUT/SUBOUPUT<br>KOMPONEN/SUBKOMPONEN/AKUN/DETIL</th>
+                        <th class="text-center" width="30%">PROGRAM/KEGIATAN/OUTPUT/SUBOUPUT&nbsp;KOMPONEN/SUBKOMPONEN/AKUN/DETIL</th>
                         <th class="text-center">Anggaran</th>
                         <th class="text-center">Januari</th>
                         <th class="text-center">Februari</th>

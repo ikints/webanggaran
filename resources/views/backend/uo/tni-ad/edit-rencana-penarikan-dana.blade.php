@@ -24,7 +24,7 @@
             <!-- /.box-header -->
             <div class="box-body">
                 <div class="box box-solid">
-                  <a href="{{ URL('cms/tni-ad/uo/rencana-penarikan-dana') }}" class="btn btn-success btn-flat margin-top-50"><i class="fa fa-list"></i> Lihat Anggaran</a>
+                  <a href="{{ URL('cms/tni-ad/uo/rencana-penarikan-dana') }}" class="btn btn-success btn-flat margin-top-50"><i class="fa fa-list"></i> Lihat RPD</a>
                 <div class="box-body">
                   <div class="row">
                   <div class="col-md-7">

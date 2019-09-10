@@ -17,7 +17,7 @@
         <div class="box">
             <div class="box-header padding-bottom-10 text-right with-border panel-heading"></div>
             <div class="box-header padding-bottom-10 text-center">
-              <h4 class="box-title report-title">Laporan Realisasi Anggaran</h4><br>
+              <h4 class="box-title report-title">Laporan Realisasi RPD</h4><br>
               <h3 class="box-title report-title">{{Session::get('status_user')}}</h3><br>
               <h3 class="box-title report-title">Periode 31 Januari 2019 s/d 31 Maret 2019</h3>
             </div>
@@ -41,7 +41,7 @@
                   <table class="table table-bordered table-striped">
                       <thead>
                       <tr>
-                        <th rowspan="2" class="text-center">PROGRAM/KEGIATAN/OUTPUT/SUBOUPUT<br>KOMPONEN/SUBKOMPONEN/AKUN/DETIL</th>
+                        <th rowspan="2" class="text-center">PROGRAM/KEGIATAN/OUTPUT/SUBOUPUT&nbsp;KOMPONEN/SUBKOMPONEN/AKUN/DETIL</th>
                         <th rowspan="2" class="text-center">Anggaran</th>
                         <th colspan="2" class="text-center">Januari</th>
                         <th colspan="2" class="text-center">Februari</th>

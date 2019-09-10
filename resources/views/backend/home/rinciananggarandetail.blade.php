@@ -24,7 +24,7 @@
             <!-- /.box-header -->
             <div class="box-body">
                 <div class="box box-solid">
-                  <a href="{{ URL('cms/kemhan/uo/anggaran') }}" class="btn btn-success btn-flat margin-top-50"><i class="fa fa-list"></i> Lihat Anggaran</a>
+                  <a href="{{ URL('cms/anggaran') }}" class="btn btn-success btn-flat margin-top-50"><i class="fa fa-list"></i> Lihat Anggaran</a>
                 <div class="box-body">
                   <div class="row">
                   <div class="col-md-7">
