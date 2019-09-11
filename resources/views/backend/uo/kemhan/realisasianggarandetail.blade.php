@@ -16,7 +16,7 @@
       <section class="content">
         
         <div class="box">
-            <div class="box-header padding-bottom-50">
+            <div class="box-header padding-bottom-50 text-center">
               <h4 class="box-title">Rincian Realisasi Anggaran</h4><br>
               <h3 class="box-title">Kementerian Pertahanan Republik Indonesia</h3><br>
               <h3 class="box-title">Tahun 2019</h3>
@@ -24,25 +24,62 @@
             <!-- /.box-header -->
             <div class="box-body">
               <div class="padding-bottom-20">
-                  <a href="{{ URL('cms/kemhan/uo/realisasi-anggaran') }}" class="btn btn-xs btn-success"><i class="fa fa-list"></i> Lihat Dafar Program</a>
+                  <a href="{{ URL('cms/kemhan/uo/realisasi-anggaran') }}" class="btn btn-success btn-flat"><i class="fa fa-list"></i> Lihat Dafar Realisasi Anggaran</a>
+                  <a href="{{ URL('cms/kemhan/uo/penyerapan-realisasi-anggaran') }}" class="btn btn-success btn-flat"><i class="fa fa-plus"></i> Tambah Pencairan</a>
                 </div>
               <div class="box box-solid">
                 <div class="box-body">
                   <div class="row">
-                  <div class="col-md-4">
+                  <div class="col-md-7">
                       <div class="box-body margin-bottom-20 margin-top-10">
                         <table class="table table-border">
                           <tr>
-                            <td>Unit Organisasi</td><td>: 22 - TNI AD</td>
+                            <td style="padding: 0px;">Unit Kerja</td>
+                            <td style="padding: 0px;">: 34422 - ZIDAM III Siliwangi</td>
                           </tr>
                           <tr>
-                            <td>Kotama</td><td>: 08 - Kodam III/SILIWANGI</td>
+                            <td style="padding: 0px;">Nama Program</td>
+                            <td style="padding: 0px;">: 012.22.14 - Program Dukungan Kesiapan Matra Darat</td>
                           </tr>
                           <tr>
-                            <td>Satuan Kerja</td><td>: ZIDAM III/SLW</td>
+                            <td style="padding: 0px;">Kegiatan</td>
+                            <td style="padding: 0px;">: 1444 - Penyelenggaraan Intelejen dan Pengamanan Matra Darat</td>
                           </tr>
                           <tr>
-                            <td>Alokasi</td><td>: Rp. 28.909.920.000</td>
+                            <td style="padding: 0px;">Output</td>
+                            <td style="padding: 0px;">: 1444.001 - "Intelejen dan Pengamanan Matra Darat [Baseline]</td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 0px;">Sub Output</td>
+                            <td style="padding: 0px;">: 1444.001.001 - Intelejen dan Pengamanan</td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 0px;">Komponen</td>
+                            <td style="padding: 0px;">: 003 - Dukungan Operasional Pertahanan dan Keamanan</td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 0px;">Sub Komponen</td>
+                            <td style="padding: 0px;">: B - Kegiatan Pengamanan</td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 0px;">Akun</td>
+                            <td style="padding: 0px;">: 5212111 - Belanja Barang Operasional Lainnya</td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 0px;">Detil</td>
+                            <td style="padding: 0px;">: Kegiatan Pengamanan</td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 0px;">Jumlah Anggaran</td>
+                            <td style="padding: 0px;">: 16.000.000</td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 0px;">Total Penyerapan</td>
+                            <td style="padding: 0px;">: 9.000.000</td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 0px;">Sisa Anggaran</td>
+                            <td style="padding: 0px;">: 7.000.000</td>
                           </tr>
                         </table>
                       </div>
@@ -58,35 +95,48 @@
       			    <div class="padding-bottom-20">
                   <div class="row">
                     <div class="col-md-5"> 
-                      Riwayat Pencairan Dana
-                    </div>
-                    <div class="col-md-7">
-                      <a href="{{ URL('cms/kemhan/uo/tambah-pencairan-dana') }}" class="btn btn-xs btn-success pull-right"><i class="fa fa-plus"></i> Tambah Pencairan Dana</a>
+                      <h3>Riwayat Realisasi Anggaran</h3>
                     </div>
                   </div>
         			  	
                 </div>
-                <table id="tablelist" class="table table-bordered table-striped">
-                  <thead>
-                  <tr>
-                    <th>Tanggal</th>
-                    <th>Uraian</th>
-                    <th>Jumlah</th>
-                  </tr>
-                  </thead>
-                  <tbody>
-                  <tr>
-                    <td>18/02/2019</td>
-                    <td>Pencairan Pertama</td>
-                    <td>5.000.000</td>
-                  </tr>
-                  <tr>
-                    <td>18/02/2019</td>
-                    <td>Pencairan Kedua</td>
-                    <td>2.500.000</td>
-                  </tr>
-                </tbody>
-              </table>
+                <div class="table-responsive">
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                              <tr>
+                                <th>Tanggal</th>
+                                <th>Volume</th>
+                                <th>Satuan</th>
+                                <th>Harga Satuan</th>
+                                <th>Jumlah</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>1 Jan 2019</td>
+                                <td>1</td>
+                                <td>GIAT</td>
+                                <td>1.000.000</td>
+                                <td>1.000.000</td>
+                              </tr>
+                              <tr>
+                                <td>1 Mar 2019</td>
+                                <td>1</td>
+                                <td>GIAT</td>
+                                <td>5.000.000</td>
+                                <td>5.000.000</td>
+                              </tr>
+                              <tr>
+                                <td>1 Jul 2019</td>
+                                <td>1</td>
+                                <td>GIAT</td>
+                                <td>3.000.000</td>
+                                <td>3.000.000</td>
+                              </tr>
+                            </tbody>
+                        </table>
+                        
+                      </div>
             </div>
           <!-- /.box-body -->
         </div>

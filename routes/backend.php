@@ -42,7 +42,7 @@ Route::group(['middleware' => 'ValidateKemhan'], function () {
 	Route::post('cms/laporan-realisasi-rpd', 'Backend\HomeController@laporan_realisasi_rpd');
 	//
 	Route::get('cms/input-anggaran', 'Backend\HomeController@input_anggaran');
-	Route::get('cms/tambah-pencairan-dana', 'Backend\HomeController@tambah_pencairan_dana');
+	Route::get('cms/penyerapan-realisasi-anggaran', 'Backend\HomeController@tambah_pencairan_dana');
 
 	Route::get('cms/rencana-penarikan-dana', 'Backend\HomeController@rencana_penarikan_dana');
 	Route::get('cms/edit-rencana-penarikan-dana', 'Backend\HomeController@edit_rencana_penarikan_dana');
@@ -122,7 +122,7 @@ Route::group(['middleware' => 'ValidateUO'], function () {
 	Route::get('cms/kemhan/uo/input-anggaran', 'Backend\KemhanUOController@input_anggaran');
 	Route::get('cms/kemhan/uo/rincian-anggaran', 'Backend\KemhanUOController@anggaran');
 	Route::get('cms/kemhan/uo/rincian-anggaran-detail', 'Backend\KemhanUOController@anggaran_detail');
-	Route::get('cms/kemhan/uo/tambah-pencairan-dana', 'Backend\KemhanUOController@tambah_pencairan_dana');
+	Route::get('cms/kemhan/uo/penyerapan-realisasi-anggaran', 'Backend\KemhanUOController@tambah_pencairan_dana');
 	Route::get('cms/kemhan/uo/rencana-penarikan-dana', 'Backend\KemhanUOController@rencana_penarikan_dana');
 	Route::get('cms/kemhan/uo/edit-rencana-penarikan-dana', 'Backend\KemhanUOController@edit_rencana_penarikan_dana');
 	//
@@ -288,7 +288,7 @@ Route::group(['middleware' => 'ValidateUO'], function () {
 	Route::get('cms/mabes-tni/uo/tambah-realisasi-anggaran', 'Backend\MabesTniUOController@tambah_realisasi_anggaran');
 	Route::get('cms/mabes-tni/uo/edit-realisasi-anggaran', 'Backend\MabesTniUOController@edit_realisasi_anggaran');
 
-	Route::get('cms/mabes-tni/uo/tambah-pencairan-dana', 'Backend\MabesTniUOController@tambah_pencairan_dana');
+	Route::get('cms/mabes-tni/uo/penyerapan-realisasi-anggaran', 'Backend\MabesTniUOController@tambah_pencairan_dana');
 	//
 	Route::get('cms/mabes-tni/uo/input-anggaran', 'Backend\MabesTniUOController@input_anggaran');
 	//Laporan
@@ -385,7 +385,7 @@ Route::group(['middleware' => 'ValidateUO'], function () {
 	Route::get('cms/tni-ad/uo/tambah-realisasi-anggaran', 'Backend\TniADUOController@tambah_realisasi_anggaran');
 	Route::get('cms/tni-ad/uo/edit-realisasi-anggaran', 'Backend\TniADUOController@edit_realisasi_anggaran');
 
-	Route::get('cms/tni-ad/uo/tambah-pencairan-dana', 'Backend\TniADUOController@tambah_pencairan_dana');
+	Route::get('cms/tni-ad/uo/penyerapan-realisasi-anggaran', 'Backend\TniADUOController@tambah_pencairan_dana');
 	//
 	Route::get('cms/tni-ad/uo/input-anggaran', 'Backend\TniADUOController@input_anggaran');
 	//Laporan
@@ -484,7 +484,7 @@ Route::group(['middleware' => 'ValidateUO'], function () {
 	Route::get('cms/tni-au/uo/tambah-realisasi-anggaran', 'Backend\TniAUUOController@tambah_realisasi_anggaran');
 	Route::get('cms/tni-au/uo/edit-realisasi-anggaran', 'Backend\TniAUUOController@edit_realisasi_anggaran');
 
-	Route::get('cms/tni-au/uo/tambah-pencairan-dana', 'Backend\TniAUUOController@tambah_pencairan_dana');
+	Route::get('cms/tni-au/uo/penyerapan-realisasi-anggaran', 'Backend\TniAUUOController@tambah_pencairan_dana');
 	//
 	Route::get('cms/tni-au/uo/input-anggaran', 'Backend\TniAUUOController@input_anggaran');
 	//Laporan
@@ -581,7 +581,7 @@ Route::group(['middleware' => 'ValidateUO'], function () {
 	Route::get('cms/tni-al/uo/tambah-realisasi-anggaran', 'Backend\TniALUOController@tambah_realisasi_anggaran');
 	Route::get('cms/tni-al/uo/edit-realisasi-anggaran', 'Backend\TniALUOController@edit_realisasi_anggaran');
 
-	Route::get('cms/tni-ad/ul/tambah-pencairan-dana', 'Backend\TniALUOController@tambah_pencairan_dana');
+	Route::get('cms/tni-ad/ul/penyerapan-realisasi-anggaran', 'Backend\TniALUOController@tambah_pencairan_dana');
 	//
 	Route::get('cms/tni-al/uo/input-anggaran', 'Backend\TniALUOController@input_anggaran');
 	//Laporan
