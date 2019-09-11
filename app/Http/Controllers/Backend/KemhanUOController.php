@@ -362,7 +362,20 @@ class KemhanUOController extends Controller
     }
 
     
+    /*== Edit Realisasi Anggaran page ==*/
+    public function edit_realisasi_anggaran() 
+    {
 
+    // set data view
+    $datapage[ 'content_view' ] = "backend.$this->ctrl.edit-realisasianggaran";
+    $datapage[ 'page_title' ]   = $this->title;
+    $datapage[ 'ctrl' ]         = $this->ctrl;
+    $datapage[ 'title' ]        = $this->title;
+
+    // load view
+    return view($datapage[ 'content_view' ], $datapage);
+
+    }
     
 
     /*== Laporan Pelaksanaan ABP page ==*/

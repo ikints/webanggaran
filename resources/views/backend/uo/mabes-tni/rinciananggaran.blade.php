@@ -88,7 +88,7 @@
                         </form>
 
                 <div>
-                  <a href="{{ URL('cms/mabes-tni/uo/tambah-realisasi-anggaran') }}" class="btn btn-success btn-flat"><i class="fa fa-plus"></i> Revisi Program</a>
+                  <a href="{{ URL('cms/mabes-tni/uo/mabes-tni/uo/tambah-realisasi-anggaran') }}" class="btn btn-success btn-flat"><i class="fa fa-plus"></i> Revisi Program</a>
                 </div>
 
 
@@ -120,7 +120,7 @@
                         <td></td>
                         <td>70.041.220.000</td>
                         <td>
-                          <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/mabes-tni/uo/edit-realisasi-anggaran') }}">Edit</a> | <a href="#">Delete</a> | <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Riwayat</a>
                         </td>
                       </tr>
                       <tr>
@@ -130,7 +130,7 @@
                         <td></td>
                         <td>1.933.789.000</td>
                         <td>
-                          <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/mabes-tni/uo/edit-realisasi-anggaran') }}">Edit</a> | <a href="#">Delete</a> | <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Riwayat</a>
                         </td>
                       </tr>
                       <tr>
@@ -140,7 +140,7 @@
                         <td></td>
                         <td>1.059.206.000</td>
                         <td>
-                          <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/mabes-tni/uo/edit-realisasi-anggaran') }}">Edit</a> | <a href="#">Delete</a> | <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Riwayat</a>
                         </td>
                       </tr>
                       <tr>
@@ -150,7 +150,7 @@
                         <td></td>
                         <td>1.059.206.000</td>
                         <td>
-                          <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/mabes-tni/uo/edit-realisasi-anggaran') }}">Edit</a> | <a href="#">Delete</a> | <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Riwayat</a>
                         </td>
                       </tr>
                       <tr>
@@ -160,7 +160,7 @@
                         <td></td>
                         <td>66.344.000</td>
                         <td>
-                          <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/mabes-tni/uo/edit-realisasi-anggaran') }}">Edit</a> | <a href="#">Delete</a> | <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Riwayat</a>
                         </td>
                       </tr>
                       <tr>
@@ -170,7 +170,7 @@
                         <td></td>
                         <td>16.000.000</td>
                         <td>
-                          <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/mabes-tni/uo/edit-realisasi-anggaran') }}">Edit</a> | <a href="#">Delete</a> | <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Riwayat</a>
                         </td>
                       </tr>
                       <tr>
@@ -180,17 +180,17 @@
                         <td></td>
                         <td>588.000</td>
                         <td>
-                          <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/mabes-tni/uo/edit-realisasi-anggaran') }}">Edit</a> | <a href="#">Delete</a> | <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Riwayat</a>
                         </td>
                       </tr>
                       <tr>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Kegiatan Pengamanan</a></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="{{ URL('cms/mabes-tni/uo/mabes-tni/uo/rincian-anggaran-detail') }}">Kegiatan Pengamanan</a></td>
                         <td>19.00</td>
                         <td>GIAT</td>
                         <td>15.000</td>
                         <td class="progress-bar-custom progress-bar-green" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 20%">16.000.000</td>
                         <td>
-                          <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/mabes-tni/uo/edit-realisasi-anggaran') }}">Edit</a> | <a href="#">Delete</a> | <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Riwayat</a>
                         </td>
                       </tr>
                       <tr>
@@ -200,17 +200,17 @@
                         <td></td>
                         <td>1.316.000</td>
                         <td>
-                          <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/mabes-tni/uo/edit-realisasi-anggaran') }}">Edit</a> | <a href="#">Delete</a> | <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Riwayat</a>
                         </td>
                       </tr>
                       <tr id="anggaran-terlambat">
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">P4GN</a></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="{{ URL('cms/mabes-tni/uo/mabes-tni/uo/rincian-anggaran-detail') }}">P4GN</a></td>
                         <td>19.00</td>
                         <td>GIAT</td>
                         <td>15.000</td>
                         <td class="progress-bar-custom progress-bar-green" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 20%">16.000.000</td>
                         <td>
-                          <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/mabes-tni/uo/edit-realisasi-anggaran') }}">Edit</a> | <a href="#">Delete</a> | <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Riwayat</a>
                         </td>
                       </tr>
                       <tr>
@@ -220,7 +220,7 @@
                         <td></td>
                         <td>1.933.789.000</td>
                         <td>
-                          <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/mabes-tni/uo/edit-realisasi-anggaran') }}">Edit</a> | <a href="#">Delete</a> | <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Riwayat</a>
                         </td>
                       </tr>
                       <tr>
@@ -230,7 +230,7 @@
                         <td></td>
                         <td>1.059.206.000</td>
                         <td>
-                          <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/mabes-tni/uo/edit-realisasi-anggaran') }}">Edit</a> | <a href="#">Delete</a> | <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Riwayat</a>
                         </td>
                       </tr>
                       <tr>
@@ -240,7 +240,7 @@
                         <td></td>
                         <td>1.059.206.000</td>
                         <td>
-                          <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/mabes-tni/uo/edit-realisasi-anggaran') }}">Edit</a> | <a href="#">Delete</a> | <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Riwayat</a>
                         </td>
                       </tr>
                       <tr>
@@ -250,7 +250,7 @@
                         <td></td>
                         <td>66.344.000</td>
                         <td>
-                          <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/mabes-tni/uo/edit-realisasi-anggaran') }}">Edit</a> | <a href="#">Delete</a> | <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Riwayat</a>
                         </td>
                       </tr>
                       <tr>
@@ -260,7 +260,7 @@
                         <td></td>
                         <td>16.000.000</td>
                         <td>
-                          <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/mabes-tni/uo/edit-realisasi-anggaran') }}">Edit</a> | <a href="#">Delete</a> | <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Riwayat</a>
                         </td>
                       </tr>
                       <tr>
@@ -270,17 +270,17 @@
                         <td></td>
                         <td>588.000</td>
                         <td>
-                          <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/mabes-tni/uo/edit-realisasi-anggaran') }}">Edit</a> | <a href="#">Delete</a> | <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Riwayat</a>
                         </td>
                       </tr>
                       <tr>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Kegiatan Pengamanan</a></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="{{ URL('cms/mabes-tni/uo/mabes-tni/uo/rincian-anggaran-detail') }}">Kegiatan Pengamanan</a></td>
                         <td>19.00</td>
                         <td>GIAT</td>
                         <td>15.000</td>
                         <td class="progress-bar-custom progress-bar-green" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 20%">16.000.000</td>
                         <td>
-                          <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/mabes-tni/uo/edit-realisasi-anggaran') }}">Edit</a> | <a href="#">Delete</a> | <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Riwayat</a>
                         </td>
                       </tr>
                       <tr>
@@ -290,17 +290,17 @@
                         <td></td>
                         <td>1.316.000</td>
                         <td>
-                          <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/mabes-tni/uo/edit-realisasi-anggaran') }}">Edit</a> | <a href="#">Delete</a> | <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Riwayat</a>
                         </td>
                       </tr>
                       <tr id="anggaran-terlambat">
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">P4GN</a></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="{{ URL('cms/mabes-tni/uo/mabes-tni/uo/rincian-anggaran-detail') }}">P4GN</a></td>
                         <td>19.00</td>
                         <td>GIAT</td>
                         <td>15.000</td>
                         <td class="progress-bar-custom progress-bar-green" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 20%">16.000.000</td>
                         <td>
-                          <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Edit</a> | <a href="#">Delete</a>
+                          <a href="{{ URL('cms/mabes-tni/uo/edit-realisasi-anggaran') }}">Edit</a> | <a href="#">Delete</a> | <a href="{{ URL('cms/mabes-tni/uo/rincian-anggaran-detail') }}">Riwayat</a>
                         </td>
                       </tr>
                       

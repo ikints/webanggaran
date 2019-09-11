@@ -14,7 +14,7 @@
             <h1>Edit Anggaran</h1>
           </div>
           <div class="box-body">
-          	<a href="{{ URL('cms/anggaran') }}" class="btn btn-success btn-flat margin-top-50"><i class="fa fa-list"></i> Lihat Anggaran</a>
+          	<a href="{{ URL('cms/tni-al/uo/anggaran') }}" class="btn btn-success btn-flat margin-top-50"><i class="fa fa-list"></i> Lihat Anggaran</a>
 		    <!-- <a href="{{ URL('cms/realisasi-anggaran') }}" class="btn btn-success btn-flat margin-top-50"><i class="fa fa-list"></i> Lihat Pencairan</a> -->
           	<div class="box box-solid">
                 <div class="box-body">
