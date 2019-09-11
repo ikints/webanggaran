@@ -36,6 +36,7 @@ Route::group(['middleware' => 'ValidateKemhan'], function () {
 	Route::get('cms/realisasi-anggaran', 'Backend\HomeController@realisasi_anggaran');
 	Route::get('cms/realisasi-anggaran-detail', 'Backend\HomeController@realisasi_anggaran_detail');
 	Route::get('cms/tambah-realisasi-anggaran', 'Backend\HomeController@tambah_realisasi_anggaran');
+	Route::get('cms/edit-realisasi-anggaran', 'Backend\HomeController@edit_realisasi_anggaran');
 	//
 	Route::get('cms/form-filter-laporan-realisasi-rpd', 'Backend\HomeController@form_filter_laporan_realisasi_rpd');
 	Route::post('cms/laporan-realisasi-rpd', 'Backend\HomeController@laporan_realisasi_rpd');
